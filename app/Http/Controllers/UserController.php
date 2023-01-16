@@ -81,7 +81,11 @@ class UserController extends Controller
      */
 
      public function edit($id) {
-        /* return view('products.edit',compact('product')); */
+        $user = User::find($id);
+        $roles = Role::pluck('name','name')->all();
+        $userRole = $user->roles->pluck('name','name')->all();
+    
+        return view('users.edit',compact('user','roles','userRole'));
     }
 
     /**
@@ -93,15 +97,28 @@ class UserController extends Controller
      */
 
      public function update(Request $request, $id) {
-         /* request()->validate([
+        $this->validate($request, [
             'name' => 'required',
-            'detail' => 'required',
+            'email' => 'required|email|unique:users,email,'.$id,
+            'password' => 'same:confirm-password',
+            'roles' => 'required'
         ]);
     
-        $product->update($request->all());
+        $input = $request->all();
+        if(!empty($input['password'])){ 
+            $input['password'] = Hash::make($input['password']);
+        }else{
+            $input = Arr::except($input,array('password'));    
+        }
     
-        return redirect()->route('products.index')
-                        ->with('success','Product updated successfully'); */
+        $user = User::find($id);
+        $user->update($input);
+        DB::table('model_has_roles')->where('model_id',$id)->delete();
+    
+        $user->assignRole($request->input('roles'));
+    
+        return redirect()->route('users.index')
+                        ->with('success','User updated successfully');
     }
 
     /**
@@ -112,10 +129,9 @@ class UserController extends Controller
      */ 
 
      public function destroy($id) {
-        /* $product->delete();
-    
-        return redirect()->route('products.index')
-                        ->with('success','Product deleted successfully'); */
+        User::find($id)->delete();
+        return redirect()->route('users.index')
+                        ->with('success','User deleted successfully');
     }
 
 
