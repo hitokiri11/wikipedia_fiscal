@@ -5,51 +5,82 @@
             <div class="col-lg-4 mb-5 mb-lg-0" >
                 <ul style="list-style:none">
                     <li><h5>About</h5></li>
-                    <li>About us</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Jobs</li>
-                    <li>In Press</li>
+                    <li ><a href="" style="color:#9A9EA6;text-decoration:none" >About us</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Blog</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Careers</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Jobs</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >In Press</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <ul style="list-style:none">
                     <li><h5>Support</h5></li>
-                    <li>Online Chat</li>
-                    <li>Whatsapp</li>
-                    <li>Telegram</li>
-                    <li>Ticketing</li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Online Chat</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Whatsapp</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Telegram</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Ticketing</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <ul style="list-style:none">
                     <li><h5>FAQ</h5></li>
-                    <li>Account</li>
-                    <li>Manage Deliveries</li>
-                    <li>Orders</li>
-                    <li>Payments</li>
-                    <li>Returns</li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Account</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Manage Deliveries</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Orders</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Payments</a></li>
+                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Returns</a></li>
                 </ul>
             </div> 
-
+            <div class="col-lg-12 mb-5 mt-5 mb-lg-0"> </div>
             {{-- Botton Bar logo --}}
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <p>Botton Bar</p>
-                <p>Logo</p>
+                <p style="text-size:12px;color:#9A9EA6;">Botton Bar</p>
+                <p style="font-weight: 700;font-size: 24px;font-style: normal;color: #000000;font-family: 'Plus Jakarta Display';">Logo</p>
             </div>
             <!-- Footer Social Icons-->
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+            <div class="col-lg-4 mb-5 mb-lg-0" >
+                <a class="btn btn-outline-light btn-social mx-1" href="#!" 
+                style="
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0px;
+                            width: 48px;
+                            height: 48px;
+                            border-radius: 30px;
+                            background: rgba(23, 186, 156, 0.2);"
+
+                >
+                    <i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!" 
+                        style="
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0px;
+                            width: 48px;
+                            height: 48px;
+                            border-radius: 30px;
+                            background: rgba(23, 186, 156, 0.2);"
+
+                >
+                    <i class="fab fa-fw fa-youtube" ></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!" 
+                style="
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0px;
+                            width: 48px;
+                            height: 48px;
+                            border-radius: 30px;
+                            background: rgba(23, 186, 156, 0.2);"
+                >
+                    <i class="fab fa-fw fa-whatsapp" ></i></a>
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <p class="lead mb-0">
-                    <small>Copyright &copy; 2000 - 2022 All Rigths Reserved</small>
+                    <small style="color:#9A9EA6;">Copyright &copy; 2000 - 2022 All Rigths Reserved</small>
                 </p>
             </div>
         </div>
