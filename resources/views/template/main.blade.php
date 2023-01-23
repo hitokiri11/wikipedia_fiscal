@@ -6,7 +6,7 @@
         @include('layouts.nav')
 
         {{-- content --}}
-        <main role="main" class="container"> 
+        <main role="main" > 
             @yield('content')
         </main>
         {{-- content --}}

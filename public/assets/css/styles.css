@@ -633,12 +633,15 @@ progress {
 .container-xl,
 .container-lg,
 .container-md,
-.container-sm {
+.container-sm { 
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  /* padding-right: var(--bs-gutter-x, 0.75rem); */
+  /* padding-left: var(--bs-gutter-x, 0.75rem); */
+  /* margin-right: auto;
+  margin-left: auto; */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
 }
 
 @media (min-width: 576px) {
@@ -11517,19 +11520,19 @@ html {
   background-color: #9A9EA6;
 } 
 
-/* AGREGADO */ 
+/******************************************************* AGREGADO ****************************************************/ 
 .titulo1 {
       position: absolute;
-      width: 30%;
+      width: 35%;
       height: 15%;
-      left: 0.5%;
+      left: 0.1%;
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
       font-size: 38px;
       line-height: 51px;  
       color: #232323;
-      margin-left:8rem;
+      margin-left:7rem;
 } 
 
 .titulo2 {
@@ -11541,10 +11544,15 @@ html {
       font-size: 19px;
       line-height: 28px;
       color: #232323;
-      margin-top: 10%;
+      margin-top: 13%;
+}
+.opciones {
+  font-size: 90%;
+  width: 70%
 }
 
-.tituloNegocios {
+.tituloNegocios { 
+      margin-top: -5%;
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
@@ -11554,32 +11562,32 @@ html {
 }
 .titulo2Negocios {
       color: #232323;
-      width: 53%; 
-      margin-left: 25%; 
+      width: 60%; 
+      margin-left: 20%; 
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 300;
       font-size: 25px;
       line-height: 28px;
+      text-align:center;
 }
-.eye{
+.eye{ 
+  width: 95%;
   top: 20%;
   z-index: 1;
+  margin-left:8%;
 }
 .heaven
 {
+  width: 85%;
   position: absolute;
   top: 20%;
-  left: 13%;
+  left: 23%;
   z-index: -1;
 }
 .tituloImagen1 {
-  position: absolute;
-  width: 237px;
-  height: 32px;
-  left: 323px;
-  top: 1186px;
-  font-family: 'Poppins';
+
+  width: 60%;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -11588,6 +11596,222 @@ html {
   letter-spacing: 0.005em;
   color: #000000;
   mix-blend-mode: luminosity;
-  margin-top: 12%
+  margin-left:30%;
+ 
 } 
+.parrNegocios {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  width: 90%;
+  padding-left: 32%;
+  padding-right: 0%;
+}
+.fondoBlack { 
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  height: 22rem;
+  left: 0px;
+  top: 1422px;
+  background: #232323;
+  color: #FFF;
+} 
+.tituloEstadistica {
+  width:80%;
+  padding-left:50%;
+}
+.numEstadisticas {
+  color: #17BA9C;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 118.2%;
+  text-align: right;
+  padding-right: 40%;
+}
+.parrrafoEstadistica {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 40%;
+}
+.hrEstadisticas {
+  width:60%;
+  text-align: right;
+}
+.tituloAsesoria {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132.5%;
+    align-items: center;
+    text-align: center; 
+}
+.botonAsesoria {
+  border-radius: 40%;
+  height: 70px;
+  width:12%;
+  text-align: center;
+  margin-left:4%;
+  color: #000; 
+  border-style: dashed;
+}
+.botonAsesoria:hover {
+  border-style: dashed;
+  border-color: #fff;
+}
+.fondoReviews {
+  background: #F2F2F2;
+  margin-top: -2rem;
+} 
+.tituloReviews1 {
+  text-align: center;
+  font-weight: bold;
+}
+.tituloReviews2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.tituloReviews3 {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 43%;
+  margin-left: 28%;
+}
+.parrafoReviews {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.clienteReviews {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+}
+.calificacionesReviews {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #FA9939;
+}
+.fondoBlack2 { 
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  height: 30rem;
+  left: 0px;
+  background: #232323;
+  color: #FFF;
+} 
+.tituloFacturas {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.fondoTarjeta1 {
+  background-color: #232323;
+  border-color: #FFF;
+  width: 50%; 
+  float: right; 
+  margin-top: -4rem;
+}
+.fondoTarjeta2 {
+  background-color: #232323;
+  border-color: #FFF;
+  width: 50%; 
+  float: left; 
+  margin-top: -4rem;
+} 
+.miniCard {
+  background-color: #17BA9C;
+  width: 30%;
+  margin-left: 35%;
+}
+.eye2{ 
+  width: 80%;
+  margin-left: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+.titulo2Factura {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.titulo3Factura {
+  text-align: center;
+  margin-top: -0.6rem;
+  font-size: 0.7rem;
+} 
+.titulo4Factura {
+  text-align: center;
+  margin-top: -2rem;
+  width: 48%; 
+  margin-left: 26%;
+} 
+.tituloBienvenido {
+  text-align: center;
+  color: #17BA9C;
+  font-weight: bold;
+} 
+.imagenIntegridad {
+  width: 100%;
+} 
+.tituloIntegridad {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    width: 75%;
+}
+.botonesCheck {
+  margin-left: 1.7rem;
+  width: 0.5%;
+}
+.check {
+  margin-left:-0.5rem;
+  width: 1rem;
+}
+.opcionCheck { 
+  width: 120%;
+  font-size: 0.8rem; 
+}
+.integridadQustion {
+  margin-left: 3.5rem; 
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+.integridadBoton {
+  width:60%;
+  margin-left:1.5rem;
+  color: #000;
+}
+.barraNavegacion {
+  background-color: #27282B;
+}
 
+/* ****************************************** dudas ********************************************* */
+.tituloDudas {
+  margin-left: 15rem;
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.parrafoDudas {
+  margin-top: 0.8rem;
+  margin-left: 15rem;
+  text-align: left;
+} 
+.preguntas {
+  margin-top: 5.5rem;
+}
+/* ****************************************** contacto ********************************************* */
+.sliderImg {
+  width: 100%;
+}
