@@ -12,8 +12,8 @@
             </div>
         </div>
 
-        <div class="row  mt-4" >
-            <div class="col-md-6 col-lg-6 mb- mb-md-0">
+        <div class="row  mt-4" style="padding-left:5%;">
+            <div class="col-md-6 col-lg-6 mb- mb-md-0" >
                 <div style="position: relative; left: 0; top: 0;">
                     <img src="assets/img/home/img_1.png" class='eye' />
                     <img src="assets/img/home/img_3.png" class="heaven" />

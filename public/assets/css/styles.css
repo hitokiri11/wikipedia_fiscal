@@ -11501,7 +11501,7 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   padding-bottom: 5rem;
   background-color: #fff;
 }
@@ -11814,4 +11814,18 @@ html {
 /* ****************************************** contacto ********************************************* */
 .sliderImg {
   width: 100%;
+} 
+.fondoBlack2 { 
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  height: 30rem;
+  left: 0px;
+  background: #232323;
+  color: #FFF;
+} 
+.lista_contacto {
+  width: 50%;
+  float: right;
+  margin-top: 15%;
 }
