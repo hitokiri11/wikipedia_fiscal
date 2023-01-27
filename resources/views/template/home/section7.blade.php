@@ -1,5 +1,5 @@
 <section >
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-md-5 col-lg-5 mb- mb-md-0" >
             <img src="assets/img/home/integridad.png"  class="imagenIntegridad"/>
         </div>

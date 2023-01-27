@@ -11828,4 +11828,83 @@ html {
   width: 50%;
   float: right;
   margin-top: 15%;
+  margin-right: 15%;
+}
+
+/* ****************************************** servicios ********************************************* */
+.titulo_banner {
+  color:#fff;
+  text-align: center;
+  padding-bottom:15%;
+}
+.tabs_banner {
+  width:60%;
+  margin-left: 20%;
+}
+.tab1_long {
+  width:50%;
+  text-align: center;
+}
+.tab2_long {
+  width:50%;
+  text-align: center;
+}
+.tab_img { 
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+.list_servicios {
+  margin-top: 3%;
+  margin-left: 15%;
+  width:70%;
+}
+.tarjeta_servicio {
+  width: 70%;
+  margin-left: 15%;
+ padding-left: 2%;
+ border-color: #17BA9C;
+}
+.tabs_banner2 {
+  width:90%;
+  margin-left: 17%;
+}
+.tab1_small {
+  width:20%;
+  text-align: center;
+}
+.tab2_small {
+  width:20%;
+  text-align: center;
+}
+.tab3_small {
+  width:20%;
+  text-align: center;
+}
+.tab4_small {
+  width:20%;
+  text-align: center;
+}
+.tab_img2 { 
+  width:32%;
+  margin-left: 34%;
+  margin-bottom: 5%;
+}
+
+/* ****************************************** blog ********************************************* */
+.container_blog {
+  margin-left:30%;
+  margin-top: 5%;
+}
+.container_blog2 {
+  margin-top: 5%;
+  margin-right: 35%;
+  float: right;
+}
+.container_blog3 {
+  margin-left:20%;
+  margin-top: 5%;
+}
+.tarjetas_blog {
+  max-width: 70%;
 }

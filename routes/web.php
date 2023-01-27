@@ -28,6 +28,13 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
+Route::get('/servicios', function () {
+    return view('servicios');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
