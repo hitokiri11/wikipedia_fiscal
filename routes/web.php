@@ -34,6 +34,15 @@ Route::get('/servicios', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/equipo', function () {
+    return view('equipo');
+});
+Route::get('/cliente', function () {
+    return view('cliente');
+});
+Route::get('/liberconsultas', function () {
+    return view('liberconsultas');
+});
 
 Auth::routes();
 
