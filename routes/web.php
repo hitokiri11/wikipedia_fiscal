@@ -19,15 +19,12 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return view('principal');
 });
-
 Route::get('/dudas', function () {
     return view('dudas');
 }); 
-
 Route::get('/contacto', function () {
     return view('contacto');
 });
-
 Route::get('/servicios', function () {
     return view('servicios');
 });
@@ -40,9 +37,22 @@ Route::get('/equipo', function () {
 Route::get('/cliente', function () {
     return view('cliente');
 });
-Route::get('/liberconsultas', function () {
+Route::view('liberconsultas','liberconsultas')->middleware('auth');
+/* Route::get('/liberconsultas', function () {
     return view('liberconsultas');
-});
+}); */
+Route::post('login_client', function() { 
+
+    $credentials = request()->only('email', 'password');
+    dd(Auth::attempt($credentials));
+
+    if(Auth::attempt($credentials)) { 
+        dd('aqui');
+        request()->session()->regenerate(); 
+        return view('liberconsultas');
+    }
+    dd('o aqui');
+})->middleware('guest');
 
 Auth::routes();
 

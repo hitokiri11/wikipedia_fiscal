@@ -3,15 +3,16 @@
 <section class="page-section log_cliente"  id="cliente" >
     <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5"  >
         <div class="card prop_card ">
-            <form>
+            <form method="POST" action="{{url('login_client')}}">
+                @csrf
                 <div class="form-outline mb-3">
                         <label class="form-label" for="email">E-Mail</label>
-                        <input type="email" id="email" class="form-control rounded-pill fondo_button" />
+                        <input type="email" id="email" name="email" class="form-control rounded-pill fondo_button" />
                 </div>
                 <div class="form-outline mb-2">
                     <label class="form-label" for="password">Contraseña</label>
                     <div class="input-group ">
-                        <input type="password" id="password" class="form-control fondo_button redondeo_izq altura_input" /> 
+                        <input type="password" id="password" name="password"  class="form-control fondo_button redondeo_izq altura_input" /> 
                         <div class="input-group-text redondeo_der altura_input">
                             <button id="show_password" class="btn" type="button" onclick="mostrarPass();" > 
                                 <span class="fa fa-eye-slash icon "></span> 
@@ -28,7 +29,7 @@
                             <label class="form-check-label" for="recordar"> Recordarme </label>
                       </div>
                 </div>
-                <button  type="button" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">Iniciar Sesión</button>
+                <button  type="submit" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">Iniciar Sesión</button>
 
             </form>
         </div>
