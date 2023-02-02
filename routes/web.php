@@ -36,12 +36,12 @@ Route::get('/equipo', function () {
 });
 Route::get('/cliente', function () {
     return view('cliente');
-});
-Route::view('liberconsultas','liberconsultas')->middleware('auth');
+})->name('cliente');
+/* Route::view('liberconsultas','liberconsultas')->middleware('auth'); */
 /* Route::get('/liberconsultas', function () {
     return view('liberconsultas');
 }); */
-Route::post('login_client', function() { 
+/* Route::post('login_client', function() { 
 
     $credentials = request()->only('email', 'password');
     dd(Auth::attempt($credentials));
@@ -52,13 +52,19 @@ Route::post('login_client', function() {
         return view('liberconsultas');
     }
     dd('o aqui');
-})->middleware('guest');
+})->middleware('guest'); */
 
 Auth::routes();
+Route::get('/cliente',[LoginController::class,'showClientLoginForm'])->name('cliente_view');
+Route::post('/cliente',[LoginController::class, 'cliente'])->name('cliente');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::group(['middleware' => ['auth']], function() {
+Route::group(['middleware' => ['auth']], function() { 
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
-});
+}); 
+
+Route::get('/liberconsultas', function() {
+    return view('liberconsultas');
+})->middleware('auth:cliente');

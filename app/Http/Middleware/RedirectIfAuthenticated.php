@@ -21,12 +21,17 @@ class RedirectIfAuthenticated
     {
         $guards = empty($guards) ? [null] : $guards;
 
-        foreach ($guards as $guard) {
+        foreach ($guards as $guard) { 
+           /*  dd(Auth::guard($guard)); */
+            if($guard == 'cliente' && Auth::guard($guard)->check()) {
+                return redirect('/liberconsultas');
+            }
+           /*  dd('------------------------------'); */
             if (Auth::guard($guard)->check()) {
                 return redirect(RouteServiceProvider::HOME);
             }
         }
-
+       /*  dd('stop'); */
         return $next($request);
     }
 }

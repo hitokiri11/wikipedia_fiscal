@@ -3,8 +3,14 @@
 <section class="page-section log_cliente"  id="cliente" >
     <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5"  >
         <div class="card prop_card ">
-            <form method="POST" action="{{url('login_client')}}">
-                @csrf
+        @isset($route)
+            <form method="POST" action="{{ $route }}" > 
+        @else 
+            <form method="POST" action="{{ route('login') }}" > 
+        @endisset
+            <form>
+                @csrf 
+                <input type="hidden" name="cliente" id="cliente" value="true" />
                 <div class="form-outline mb-3">
                         <label class="form-label" for="email">E-Mail</label>
                         <input type="email" id="email" name="email" class="form-control rounded-pill fondo_button" />
@@ -29,7 +35,7 @@
                             <label class="form-check-label" for="recordar"> Recordarme </label>
                       </div>
                 </div>
-                <button  type="submit" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">Iniciar Sesión</button>
+                <button  type="submit" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">{{ __('Login') }}Iniciar Sesión</button>
 
             </form>
         </div>

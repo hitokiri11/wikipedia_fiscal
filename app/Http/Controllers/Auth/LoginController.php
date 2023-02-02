@@ -36,5 +36,23 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+        $this->middleware('guest:cliente')->except('logout');
+    } 
+
+    public function showClientLoginForm() {
+        return view('auth.cliente', ['url' => route('cliente.login-view'), 'title' => 'Cliente']);
+    }
+
+    public function cliente(Request $request) {
+        $this->validate($request, [
+            'email'     => 'required|email',
+            'password'  => 'required|min:6'
+        ]);
+
+        if(\Auth::guard('cliente')->attempt($request->only(['email','password']), $request->get('remember'))) {
+            return redirect()->intended('/liberconsultas');
+        } 
+
+        return back()->withInput($request->only('email','remember'));
     }
 }

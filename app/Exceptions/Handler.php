@@ -38,4 +38,17 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    protected function unauthenticated($request, AuthenticationException $exception) {
+        if($request->expectsJson()) {
+            return response()->json(['message' => 'Unauthenticated.'], 401);
+        } 
+
+        if($request->is('cliente') || $request->is('cliente/*')) {
+            return redirect()->guest('/liberconsultas');
+        } 
+
+        return redirect()->guest(route('login'));
+
+    }
 }
