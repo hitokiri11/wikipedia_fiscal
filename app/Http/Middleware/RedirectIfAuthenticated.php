@@ -19,19 +19,20 @@ class RedirectIfAuthenticated
      */
     public function handle(Request $request, Closure $next, ...$guards)
     {
+        Auth::logout();
         $guards = empty($guards) ? [null] : $guards;
-
-        foreach ($guards as $guard) { 
-           /*  dd(Auth::guard($guard)); */
-            if($guard == 'cliente' && Auth::guard($guard)->check()) {
+       /*  dd($guards); */
+        foreach ($guards as $guard) {  
+           
+            if ($guard == "cliente" && Auth::guard($guard)->check()) {
                 return redirect('/liberconsultas');
             }
-           /*  dd('------------------------------'); */
-            if (Auth::guard($guard)->check()) {
+
+            if (Auth::guard($guard)->check()) { 
                 return redirect(RouteServiceProvider::HOME);
             }
         }
-       /*  dd('stop'); */
+       
         return $next($request);
     }
 }

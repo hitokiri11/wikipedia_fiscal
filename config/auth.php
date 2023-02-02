@@ -68,7 +68,7 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-        'cliente' => [
+        'users_clients' => [
             'driver' => 'eloquent',
             'model' => App\Models\UserClient::class,
         ],
@@ -100,7 +100,7 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
-        'cliente' => [
+        'users_clients' => [
             'provider' => 'cliente',
             'table' => 'password_resets',
             'expire' => 60,

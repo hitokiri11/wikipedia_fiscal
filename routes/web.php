@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
-
+use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,9 +34,9 @@ Route::get('/blog', function () {
 Route::get('/equipo', function () {
     return view('equipo');
 });
-Route::get('/cliente', function () {
+/* Route::get('/cliente', function () {
     return view('cliente');
-})->name('cliente');
+})->name('cliente'); */
 /* Route::view('liberconsultas','liberconsultas')->middleware('auth'); */
 /* Route::get('/liberconsultas', function () {
     return view('liberconsultas');
@@ -52,19 +52,21 @@ Route::get('/cliente', function () {
         return view('liberconsultas');
     }
     dd('o aqui');
-})->middleware('guest'); */
+})->middleware('guest'); */ 
 
 Auth::routes();
-Route::get('/cliente',[LoginController::class,'showClientLoginForm'])->name('cliente_view');
-Route::post('/cliente',[LoginController::class, 'cliente'])->name('cliente');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/cliente',[LoginController::class,'showClienteLoginForm'])->name('cliente');
+Route::post('/cliente',[LoginController::class,'clienteLogin'])->name('cliente');
 
-Route::group(['middleware' => ['auth']], function() { 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); 
+
+Route::get('/liberconsultas',function(){ 
+    return view('liberconsultas');
+})->middleware('auth:cliente');
+
+Route::group(['middleware' => ['auth:cliente']], function() { 
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
 }); 
 
-Route::get('/liberconsultas', function() {
-    return view('liberconsultas');
-})->middleware('auth:cliente');

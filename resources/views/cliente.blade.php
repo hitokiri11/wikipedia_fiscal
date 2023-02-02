@@ -3,12 +3,9 @@
 <section class="page-section log_cliente"  id="cliente" >
     <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5"  >
         <div class="card prop_card ">
-        @isset($route)
-            <form method="POST" action="{{ $route }}" > 
-        @else 
-            <form method="POST" action="{{ route('login') }}" > 
-        @endisset
-            <form>
+
+            <form method="POST" action="{{ route('cliente') }}">
+       
                 @csrf 
                 <input type="hidden" name="cliente" id="cliente" value="true" />
                 <div class="form-outline mb-3">

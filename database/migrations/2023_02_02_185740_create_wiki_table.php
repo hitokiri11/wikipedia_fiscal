@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersClientsTable extends Migration
+class CreateWikiTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateUsersClientsTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_clients', function (Blueprint $table) {
+        Schema::create('wiki', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('password');
+            $table->string('titulo');
+            $table->text('descripcion');
+            $table->string('video');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateUsersClientsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users_clients');
+        Schema::dropIfExists('wiki');
     }
 }
