@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg barraNavegacion fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand" href="#page-top"></a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary rounded" style="color: #8C8C8C;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -16,10 +16,17 @@
             </ul>
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-0 mx-lg-1" >
-                    <button type="button" class="btn btn-primary rounded-pill" style="width:110%">
-                        <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">Agenda una llamada</label>
+                    <button type="button" class="btn btn-primary rounded-pill boton_llamada" >
+                        <label class="fs-6 boton_llamada_label" >Agenda una llamada</label>
                     </button>
                 </li>
+                @if(Auth::guard('cliente')->check())
+                    <li class="nav-item mx-0 mx-lg-1" >
+                        <a href="/logout" type="button" class="btn btn-danger rounded-pill boton_llamada" >
+                            <label class="fs-6 boton_llamada_label" >Cerrar Sesión</label>
+                        </a>
+                    </li>
+                @endif
             </ul>
         </div>
     </div>

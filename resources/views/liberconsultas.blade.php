@@ -19,7 +19,7 @@
     </div>
 
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5"  >
-        <video class="prop_video" autoplay loop muted>
+        <video class="prop_video"  controls >
             <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
         </video>
     </div>

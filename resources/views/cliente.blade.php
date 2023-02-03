@@ -32,7 +32,7 @@
                             <label class="form-check-label" for="recordar"> Recordarme </label>
                       </div>
                 </div>
-                <button  type="submit" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">{{ __('Login') }}Iniciar Sesión</button>
+                <button  type="submit" class="btn btn-primary btn-block mb-8 mt-5 rounded-pill">Iniciar Sesión</button>
 
             </form>
         </div>

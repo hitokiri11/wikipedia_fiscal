@@ -59,14 +59,41 @@ Auth::routes();
 Route::get('/cliente',[LoginController::class,'showClienteLoginForm'])->name('cliente');
 Route::post('/cliente',[LoginController::class,'clienteLogin'])->name('cliente');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); 
 
-Route::get('/liberconsultas',function(){ 
+
+/* Route::get('/liberconsultas',function(){ 
     return view('liberconsultas');
-})->middleware('auth:cliente');
+})->middleware('auth:cliente'); */
 
 Route::group(['middleware' => ['auth:cliente']], function() { 
-    Route::resource('roles', RoleController::class);
-    Route::resource('users', UserController::class);
+   /*  Route::resource('roles', RoleController::class);
+    Route::resource('users', UserController::class); */
+    Route::get('/liberconsultas',function(){ 
+        return view('liberconsultas');
+    });
 }); 
 
+Route::group(['middleware' => ['auth:web']], function() { 
+    Route::resource('roles', RoleController::class);
+    Route::resource('users', UserController::class);
+
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); 
+
+    Route::get('/admin/clientes', function () {
+        return view('admin.clientes');
+    });
+
+    Route::get('/admin/bots', function () {
+        return view('admin.bots');
+    });
+
+    Route::get('/admin/sugerencias', function () {
+        return view('admin.sugerencias');
+    });
+
+    Route::get('/admin/usuarios', function () {
+        return view('admin.usuarios');
+    });
+}); 
+
+Route::get('/logout',[LoginController::class,'logout']);

@@ -11521,6 +11521,16 @@ html {
 } 
 
 /******************************************************* AGREGADO ****************************************************/ 
+.boton_llamada {
+  width:100%;
+}
+.boton_llamada_label {
+  padding-top:2%;
+  padding-bottom:2%;
+  font-weight: bold;
+  font-size: small;
+  
+}
 .titulo1 {
       position: absolute;
       width: 35%;
