@@ -3,22 +3,43 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Wiki;
 use App\Models\UserClient;
+use App\Http\Controllers\Session;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
-class UserClientController extends Controller
+class LiberfyConsultasController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        /* $hubspot = \HubSpot\Factory::createWithDeveloperApiKey('developer-apikey'); */ 
-        $data_user_clients = UserClient::get();
+    public function index(Request $request)
+    { 
+        $id_user = \Auth::id(); 
+        $res = null;
+        $flag= false;
 
-        return view('admin.clientes', compact(['data_user_clients']));
-      
+        try {
+            $data_user = UserClient::where('id',$id_user)->first();
+            if($data_user->status == false) {
+                $data_user->status = true;
+                $data_user->save();
+            }
+            if($request->search) {
+                $consulta = $request->consulta;
+                $res = Wiki::where('titulo','ilike','%'.$consulta.'%')->get();
+                $flag = true;
+                
+            } 
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+
+        
+        
+        return view( 'liberconsultas',compact(['res','flag']) );
     }
 
     /**

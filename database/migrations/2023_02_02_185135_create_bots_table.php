@@ -17,7 +17,7 @@ class CreateBotsTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->text('descripcion');
-            $table->string('datos_bot');
+            $table->text('datos_bot');
             $table->string('video');
             $table->timestamps();
         });

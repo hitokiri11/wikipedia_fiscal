@@ -14,5 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" /> 
+    <script src="{{asset('assets/js/scripts.js')}}"></script>
     
 </head>

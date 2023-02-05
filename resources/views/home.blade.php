@@ -25,7 +25,7 @@
                     <h3 class="card-title"><strong>Usuarios Activos</strong></h3>
                 </div>
                 <div class="card-body">
-                    contenido
+                    Cantidad: <strong>{{$cont_client_act}}</strong>
                 </div>
             </div> 
         </div>
@@ -34,8 +34,16 @@
                 <div class="card-header text-center">
                     <h3 class="card-title text-center"><strong>Últimos Registros</strong></h3>
                 </div>
-                <div class="card-body">
-                    contenido
+                <div class="card-body"> 
+                    <ul>
+                        @forelse($ult_registros as $k => $v)
+                            <li>
+                                {{$v->name}} -- {{$v->email}}
+                            </li>
+                        @empty
+                            <p>No hay cliente activos....</p>
+                        @endforelse
+                    </ul>
                 </div>
             </div>
         </div>

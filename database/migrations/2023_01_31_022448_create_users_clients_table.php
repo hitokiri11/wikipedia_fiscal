@@ -18,6 +18,7 @@ class CreateUsersClientsTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->boolean('status')->default(false);
             $table->timestamps();
         });
     }

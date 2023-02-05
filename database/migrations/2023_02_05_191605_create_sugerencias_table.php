@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateWikiTable extends Migration
+class CreateSugerenciasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreateWikiTable extends Migration
      */
     public function up()
     {
-        Schema::create('wiki', function (Blueprint $table) {
+        Schema::create('sugerencias', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo');
-            $table->text('descripcion');
-            $table->string('video');
-            $table->integer('visto')->default(0);
+            $table->string('sugerencia');
+            $table->foreignId('user_client_id')->index();
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreateWikiTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('wiki');
+        Schema::dropIfExists('sugerencias');
     }
 }

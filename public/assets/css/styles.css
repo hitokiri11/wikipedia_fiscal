@@ -11999,7 +11999,7 @@ html {
 
 /* ****************************************** Liberconsultas ********************************************* */
 .conten_liberconsultas {
-  padding-left: 25%;
+  padding-left: 28%;
 }
 .titulo_libercosultas {
   text-align: justify;
@@ -12015,6 +12015,5 @@ html {
   background-color: #17BA9C;
 }
 .prop_video {
-  width: 45rem;
-  margin-left: 18%;
+  width: 16rem;
 }

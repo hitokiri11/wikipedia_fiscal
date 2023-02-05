@@ -354,6 +354,11 @@ return [
             'icon' => 'fas fa-fw fa-robot',
         ],
         [
+            'text' => 'WIKI',
+            'url'  => 'admin/wiki',
+            'icon' => 'fas fa-fw fa-book',
+        ],
+        [
             'text' => 'SUGERENCIAS',
             'url'  => 'admin/sugerencias',
             'icon' => 'fas fa-fw fa-envelope',

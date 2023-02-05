@@ -97,13 +97,13 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
-            'expire' => 1,
+            'expire' => 5,
             'throttle' => 60,
         ],
         'users_clients' => [
             'provider' => 'cliente',
             'table' => 'password_resets',
-            'expire' => 1,
+            'expire' => 5,
             'throttle' => 60,
         ]
     ],
