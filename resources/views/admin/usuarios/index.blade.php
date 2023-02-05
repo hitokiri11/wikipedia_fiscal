@@ -50,7 +50,11 @@
                             </tr>
                         @empty
                             <tr>
-                                <th scope="row" class="text-center" colspan="6" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
                             </tr>
                         @endforelse
                     </tbody>

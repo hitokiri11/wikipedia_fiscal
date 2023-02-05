@@ -32,7 +32,10 @@
                         </tr>       
                     @empty
                         <tr>
-                            <th scope="row" class="text-center" >En estos momentos no hay clientes para mostrar</th>
+                            <th scope="row" class="text-center" colspan="4">En estos momentos no hay clientes para mostrar</th>
+                            <th scope="row" class="text-center" colspan="4"></th>
+                            <th scope="row" class="text-center" colspan="4"></th>
+                            <th scope="row" class="text-center" colspan="4"></th>
                         </tr>
                     @endforelse
                 </tbody>

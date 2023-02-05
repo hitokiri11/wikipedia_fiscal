@@ -57,6 +57,11 @@
                         @empty
                             <tr>
                                 <th scope="row" class="text-center" colspan="6" >En estos momentos no hay bots para mostrar</th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
                             </tr>
                         @endforelse
                     </tbody>
