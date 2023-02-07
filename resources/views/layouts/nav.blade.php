@@ -21,9 +21,10 @@
                     </button>
                 </li>
                 @if(Auth::guard('cliente')->check())
-                    <li class="nav-item mx-0 mx-lg-1" >
-                        <a href="/logout" type="button" class="btn btn-danger rounded-pill boton_llamada" >
-                            <label class="fs-6 boton_llamada_label" >Cerrar Sesión</label>
+                    <li class="nav-item mx-0 mx-lg-1 mt-1" >
+                        <a href="/logout" type="button" class="btn btn-danger rounded-pill " title="Cerrar Sesión">
+                            <i  class="fa fa-fw fa-power-off" ></i>
+                            
                         </a>
                     </li>
                 @endif

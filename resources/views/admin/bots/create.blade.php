@@ -12,7 +12,7 @@
                 <div class="card-header">
                     <h5><stron>Nuevo Bot</stron></h5>
                 </div> 
-                <form method="post" action="{{route('liberconsulta.search')}}"> 
+                <form method="post" action="{{route('bot.store')}}"> 
                 @csrf 
                     <div class="card-body">
                     

@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\BotsController;
 use App\Http\Controllers\WikiController;
 use App\Http\Controllers\LiberfyConsultasController;
+use App\Http\Controllers\SugerenciasController;
 use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
@@ -100,11 +101,12 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::get('/admin/wiki/edit/{id}', [App\Http\Controllers\WikiController::class, 'edit'])->name('wiki.edit'); 
     Route::put('/admin/wiki/update/{id}', [App\Http\Controllers\WikiController::class, 'update'])->name('wiki.update'); 
 
+    Route::get('/admin/sugerencias', [App\Http\Controllers\SugerenciasController::class, 'index'])->name('sugerencias.index');
 
-    Route::get('/admin/sugerencias', function () {
+    /* Route::get('/admin/sugerencias', function () {
         return view('admin.sugerencias');
     });
-
+ */
     /* Route::get('/admin/usuarios', function () {
         return view('admin.usuarios');
     }); */

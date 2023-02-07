@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Bot;
 use App\Http\Controllers\Session;
+use Carbon\Carbon;
 
 class BotsController extends Controller
 {
@@ -60,6 +61,7 @@ class BotsController extends Controller
                     $data_bot->descripcion  = $request->descripcion;
                     $data_bot->datos_bot    = $request->etiqueta;
                     $data_bot->video        = $request->video;
+                    $data_bot->created_at   = Carbon::now();
                     $data_bot->save(); 
 
                 } catch (\Throwable $e) {

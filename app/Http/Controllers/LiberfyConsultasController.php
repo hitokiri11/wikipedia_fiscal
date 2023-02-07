@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Wiki;
 use App\Models\UserClient;
+use App\Models\Sugerencias;
 use App\Http\Controllers\Session;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Carbon\Carbon;
 
 class LiberfyConsultasController extends Controller
 {
@@ -59,8 +61,30 @@ class LiberfyConsultasController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
+    { 
+        $request->validate([
+            'sugerencia'    => 'required',
+        ],
+    
+            $message = 
+            [
+                    'required'  =>'El campo es requerido'
+            ]
+        );
+       
+        try {
+            $data_sugerencia = new Sugerencias();
+            $data_sugerencia->sugerencia        = $request->sugerencia;
+            $data_sugerencia->user_client_id    = \Auth::id();
+            $data_sugerencia->created_at        = Carbon::now();
+            $data_sugerencia->save();
+        } catch (\Throwable $e) {
+            \Session::flash('error','Se ha producido un error, por favor intente más tarde');
+            return redirect()->to('/liberconsultas');
+        }
+
+        \Session::flash('success','Se ha registrado la sugerencia de forma exitosa');
+        return redirect()->to('/liberconsultas');
     }
 
     /**

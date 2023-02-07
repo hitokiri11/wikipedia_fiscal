@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Wiki;
 use App\Http\Controllers\Session;
+use Carbon\Carbon;
 
 class WikiController extends Controller
 {
@@ -57,6 +58,7 @@ class WikiController extends Controller
             $data_wiki->titulo       = $request->titulo;
             $data_wiki->descripcion  = $request->descripcion;
             $data_wiki->video        = $request->video;
+            $data_wiki->created_at   = Carbon::now();
             $data_wiki->save(); 
 
         } catch (\Throwable $e) {
