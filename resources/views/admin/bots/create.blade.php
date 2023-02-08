@@ -12,7 +12,7 @@
                 <div class="card-header">
                     <h5><stron>Nuevo Bot</stron></h5>
                 </div> 
-                <form method="post" action="{{route('bot.store')}}"> 
+                <form method="post" action="{{route('bot.store')}}" enctype="multipart/form-data" > 
                 @csrf 
                     <div class="card-body">
                     
@@ -39,7 +39,18 @@
                         </div>
                         <div class="mb-3">
                             <label for="video" class="form-label">Video</label>
-                            <input type="text" class="form-control" id="video" name="video" placeholder="Vídeo" value="{{ old('video') }}" >
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="video" name="video" value="{{ old('video') }}">
+                                    <label for="video" class="custom-file-label"></label>
+                                </div>
+                            </div>
+                            
+                        
+                            <!-- <label for="video" class="form-label">Video</label>
+                            <input class="form-control" type="file" id="video" name="video"> -->
+                            
+                            <!-- <input type="text" class="form-control" id="video" name="video" placeholder="Vídeo" value="{{ old('video') }}" > -->
                             @error('video')
                                 <p class="error-message">{{ $message }}</p>
                             @enderror

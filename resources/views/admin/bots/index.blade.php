@@ -21,10 +21,23 @@
                 </div>  
         @endif
 
+            <div class="row"> 
+                <div class="col-md-10 col-lg-10">
+                        <caption><h5><stron>Bots</stron></h5></caption> 
+                </div>
+                
+                <div class="col-md-2 col-lg-2">
+                    <div class="row">
+                        <a type="button" class="btn btn-success" href="{{url('/admin/bots/create')}}">
+                            <i  class="fas fa-robot" ></i>
+                            Nuevo Bot
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-            <caption><h5><stron>Bots</stron></h5></caption> 
-
-            <table class="table caption-top mt-4" id="tabla">
+            <br><br><br>
+            <table class="table caption-top mt-5" id="tabla" >
                     <thead>
                             <tr>
                                 <th scope="col" class="text-center">#</th>
@@ -68,12 +81,6 @@
             </table> 
             
      
-        </div>
-        <div class="row">
-            <a type="button" class="btn btn-success" href="{{url('/admin/bots/create')}}">
-                <i  class="fas fa-robot" ></i>
-                Nuevo Bot
-            </a>
         </div>
         
     </div> 

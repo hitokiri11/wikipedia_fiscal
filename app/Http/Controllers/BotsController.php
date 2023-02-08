@@ -18,7 +18,8 @@ class BotsController extends Controller
     { 
         $data_bots = Bot::orderBy('id','DESC')->get();
 
-        return view('admin.bots.index', compact(['data_bots']));
+        return view('admin.bots.index', compact(
+            ['data_bots']));
     }
 
     /**
@@ -38,12 +39,13 @@ class BotsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    { 
+    {               
+       
                 $request->validate([
                     'titulo'        => 'required|max:255|min:10',
                     'descripcion'   => 'required',
                     'etiqueta'      => 'required',
-                    'video'         => 'required|max:255|min:10'
+                    'video'         => 'required|mimes:mp4'
                 ],
             
                     $message = 
@@ -54,13 +56,17 @@ class BotsController extends Controller
                         ]
                 );
 
+                $file = $request->file('video');
+                $file_name = time().'-'.$file->getClientOriginalName();
+                $file->move('upload',$file_name);
+                
                 try { 
-                    
+                   
                     $data_bot = new Bot();
                     $data_bot->titulo       = $request->titulo;
                     $data_bot->descripcion  = $request->descripcion;
                     $data_bot->datos_bot    = $request->etiqueta;
-                    $data_bot->video        = $request->video;
+                    $data_bot->video        = $file_name;
                     $data_bot->created_at   = Carbon::now();
                     $data_bot->save(); 
 
@@ -109,7 +115,7 @@ class BotsController extends Controller
                 'titulo'        => 'required|max:255|min:10',
                 'descripcion'   => 'required',
                 'etiqueta'      => 'required',
-                'video'         => 'required|max:255|min:10'
+                'video'         => 'required|mimes:mp4'
             ],
         
                 $message = 
