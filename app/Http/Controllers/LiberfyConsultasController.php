@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Wiki;
+use App\Models\Bot;
 use App\Models\UserClient;
 use App\Models\Sugerencias;
 use App\Http\Controllers\Session;
@@ -31,7 +31,10 @@ class LiberfyConsultasController extends Controller
             }
             if($request->search) {
                 $consulta = $request->consulta;
-                $res = Wiki::where('titulo','ilike','%'.$consulta.'%')->get();
+                $res = Bot::where('titulo','ilike','%'.$consulta.'%')
+                        ->orWhere('descripcion','ilike','%'.$consulta.'%')
+                        ->orWhere('datos_bot','ilike','%'.$consulta.'%')
+                        ->get();
                 $flag = true;
                 
             } 
@@ -68,7 +71,7 @@ class LiberfyConsultasController extends Controller
     
             $message = 
             [
-                    'required'  =>'El campo es requerido'
+                    'required'  =>'El campo sugerencia es requerido'
             ]
         );
        

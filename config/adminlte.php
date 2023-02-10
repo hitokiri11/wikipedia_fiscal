@@ -354,8 +354,8 @@ return [
             'icon' => 'fas fa-fw fa-robot',
         ],
         [
-            'text' => 'WIKI',
-            'url'  => 'admin/wiki',
+            'text' => 'BLOG',
+            'url'  => 'admin/admin_blogs',
             'icon' => 'fas fa-fw fa-book',
         ],
         [
