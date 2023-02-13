@@ -33,9 +33,7 @@ Route::get('/contacto', function () {
 Route::get('/servicios', function () {
     return view('servicios');
 });
-Route::get('/blog', function () {
-    return view('blog');
-});
+
 Route::get('/equipo', function () {
     return view('equipo');
 });
@@ -58,6 +56,12 @@ Route::get('/equipo', function () {
     }
     dd('o aqui');
 })->middleware('guest'); */ 
+
+/* Route::get('/blog', function () {
+    return view('blog');
+}); */
+Route::get('/blog', [App\Http\Controllers\BlogConrtoller::class, 'index_blog'])->name('blogs_index'); 
+Route::get('/blog/show/{id}', [App\Http\Controllers\BlogConrtoller::class, 'show'])->name('blogs_show'); 
 
 Auth::routes();
 
@@ -93,6 +97,7 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::post('/admin/bots/store', [App\Http\Controllers\BotsController::class, 'store'])->name('bot.store'); 
     Route::get('/admin/bots/edit/{id}', [App\Http\Controllers\BotsController::class, 'edit'])->name('bot.edit'); 
     Route::put('/admin/bots/update/{id}', [App\Http\Controllers\BotsController::class, 'update'])->name('bot.update'); 
+    Route::get('/admin/bots/delete/{id}', [App\Http\Controllers\BotsController::class, 'destroy'])->name('bot.delete'); 
 
     Route::get('/admin/usuarios', [App\Http\Controllers\UserController::class, 'index'])->name('users');
 
@@ -106,6 +111,10 @@ Route::group(['middleware' => ['auth:web']], function() {
 
     Route::get('/admin/admin_blogs', [App\Http\Controllers\BlogConrtoller::class, 'index'])->name('blogs'); 
     Route::get('/admin/admin_blogs/create', [App\Http\Controllers\BlogConrtoller::class, 'create'])->name('blogs.create'); 
+    Route::post('/admin/admin_blogs/store', [App\Http\Controllers\BlogConrtoller::class, 'store'])->name('blogs.store'); 
+    Route::get('/admin/admin_blogs/edit/{id}', [App\Http\Controllers\BlogConrtoller::class, 'edit'])->name('blogs.edit'); 
+    Route::put('/admin/admin_blogs/update/{id}', [App\Http\Controllers\BlogConrtoller::class, 'update'])->name('blogs.update'); 
+    Route::get('/admin/admin_blogs/delete/{id}', [App\Http\Controllers\BlogConrtoller::class, 'destroy'])->name('blogs.delete');
     /* Route::get('/admin/sugerencias', function () {
         return view('admin.sugerencias');
     });

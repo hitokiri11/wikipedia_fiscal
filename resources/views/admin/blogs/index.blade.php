@@ -41,7 +41,7 @@
                         <tr>
                             <th scope="col" class="text-center">#</th>
                             <th scope="col" class="text-center">Titulo</th>
-                            <th scope="col" class="text-center">Contenido</th>
+                          {{--   <th scope="col" class="text-center">Contenido</th> --}}
                             <th scope="col" class="text-center">Usuario</th>
                             <th scope="col" class="text-center">Fecha</th>
                             <th scope="col" class="text-center">Acción</th>
@@ -52,7 +52,7 @@
                             <tr>
                                 <th scope="row" class="text-center" >{{++$k}}</th>
                                 <td>{{$v->titulo}}</td>
-                                <td>{{$v->contenido}}</td>
+                              {{--   <td>{{$v->contenido}}</td> --}}
                                 <td>{{$v->name}}</td>
                                 <td>{{$v->created_at}}</td>
                                 <td class="text-center">
@@ -60,8 +60,12 @@
                                         <i  class="fas fa-eye" ></i>
                                     </a>
                                     &nbsp;
-                                    <a type="button"  href="/admin/blogs/edit/{{$v->id}}" >
+                                    <a type="button"  href="/admin/admin_blogs/edit/{{$v->id}}" >
                                         <i  class="fas fa-pen" ></i>
+                                    </a>
+                                    &nbsp;
+                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                        <i  class="fas fa-trash" ></i>
                                     </a>
                                 </td>
                             </tr>   
@@ -97,16 +101,16 @@
                                     <th>Titulo:</th>
                                     <th id="titulo_blog" class="text-right"></th>
                                 </tr>
-                                <tr>
+                                {{-- <tr>
                                     <th>Descripción:</th>
                                     <th id="contenido_blog" class="text-right"></th>
-                                </tr> 
+                                </tr>  --}}
                                 <tr>
-                                    <th>Etiquetas:</th>
+                                    <th>Usuario:</th>
                                     <th id="usuario_blog" class="text-right"></th>
                                 </tr> 
                                 <tr>
-                                    <th>Video:</th>
+                                    <th>Fecha:</th>
                                     <th id="fecha_blog" class="text-right"></th>
                                 </tr>
 
@@ -119,6 +123,27 @@
             </div>
         </div>
     </div>
+
+     <!-- Modal eliminar-->
+     <div class="modal fade" id="modal_eliminar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminat Blog</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Está seguro de eliminar el bot? 
+            </div>
+            <input type="hidden" name="id_eliminar" id="id_eliminar" />
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger" onclick="eliminar()">Eliminar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
 </div>
 @endsection
 
@@ -149,11 +174,26 @@
     }); 
 
     const  data_modal = (data) => {
+        let fecha = data.created_at.split('T')
+        console.log(fecha[0])
+        fecha = fecha[0].split('-')
+        fecha = fecha[2]+'/'+fecha[1]+'/'+fecha[0]
+
         $('#titulo_blog').text(data.titulo)
-        $('#contenido_blog').text(data.contenido)
         $('#usuario_blog').text(data.name)
-        $('#fecha_blog').text(data.created_at)
+        $('#fecha_blog').text(fecha)
     }
+
+    const data_modal_eliminar = (id) => {
+        $('#id_eliminar').val(id)
+    }
+
+    const eliminar = () => {
+        let id  = $('#id_eliminar').val();
+        let url = `/admin/admin_blogs/delete/${id}`
+        window.location = url;
+    }
+
 </script>
 
 @endpush 

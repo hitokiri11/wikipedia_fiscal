@@ -19,6 +19,7 @@ class CreateBotsTable extends Migration
             $table->text('descripcion');
             $table->text('datos_bot');
             $table->string('video');
+            $table->foreignId('user_id')->index();
             $table->timestamps();
         });
     }

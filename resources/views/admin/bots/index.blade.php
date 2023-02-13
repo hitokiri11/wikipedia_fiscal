@@ -28,7 +28,7 @@
                 
                 <div class="col-md-2 col-lg-2">
                     <div class="row">
-                        <a type="button" class="btn btn-success" href="{{url('/admin/blogs/create')}}">
+                        <a type="button" class="btn btn-success" href="{{url('/admin/bots/create')}}">
                             <i  class="fas fa-robot" ></i>
                             Nuevo Bot
                         </a>
@@ -64,7 +64,11 @@
                                     <a type="button"  href="/admin/bots/edit/{{$v->id}}" >
                                         <i  class="fas fa-pen" ></i>
                                     </a>
-
+                                    &nbsp;
+                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                        <i  class="fas fa-trash" ></i>
+                                    </a>
+                                   
                                 </td>
                             </tr>
                         @empty
@@ -123,6 +127,27 @@
         </div>
     </div>
 
+    <!-- Modal eliminar-->
+    <div class="modal fade" id="modal_eliminar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminat Bot</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Está seguro de eliminar el bot? 
+            </div>
+            <input type="hidden" name="id_eliminar" id="id_eliminar" />
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger" onclick="eliminar()">Eliminar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+  
+
 </div>
 @push('css')
 <link href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -155,7 +180,18 @@
         $('#descripcion_bot').text(data.descripcion)
         $('#etiqueta_bot').text(data.datos_bot)
         $('#video_bot').text(data.video)
+    } 
+
+    const data_modal_eliminar = (id) => {
+        $('#id_eliminar').val(id)
     }
+
+    const eliminar = () => {
+        let id  = $('#id_eliminar').val();
+        let url = `/admin/bots/delete/${id}`
+        window.location = url;
+    }
+
 </script>
 @endpush
 @endsection

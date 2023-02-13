@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Bot;
 use App\Http\Controllers\Session;
 use Carbon\Carbon;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class BotsController extends Controller
 {
@@ -67,6 +68,7 @@ class BotsController extends Controller
                     $data_bot->descripcion  = $request->descripcion;
                     $data_bot->datos_bot    = $request->etiqueta;
                     $data_bot->video        = $file_name;
+                    $data_bot->user_id     = \Auth::id();
                     $data_bot->created_at   = Carbon::now();
                     $data_bot->save(); 
 
@@ -128,11 +130,16 @@ class BotsController extends Controller
 
             $data_bot = Bot::where('id',$id)->first(); 
 
+            $file = $request->file('video');
+            $file_name = time().'-'.$file->getClientOriginalName();
+            $file->move('upload',$file_name);
+
             try {
                 $data_bot->titulo       = $request->titulo;
                 $data_bot->descripcion  = $request->descripcion;
                 $data_bot->datos_bot    = $request->etiqueta;
-                $data_bot->video        = $request->video;
+                $data_bot->video        = $file_name;
+                $data_bot->user_id      = \Auth::id();
                 $data_bot->save(); 
 
             } catch (\Throwable $th) {
@@ -153,6 +160,21 @@ class BotsController extends Controller
      */
     public function destroy($id)
     {
-        //
+    
+        try { 
+
+            if($data_bot = Bot::where('id',$id)->delete()) {
+                \Session::flash('success','Se ha eliminado el bot de forma exitosa');
+                return redirect()->to('/admin/bots');
+            } else {
+                \Session::flash('error','Se ha producido un error, por favor intente más tarde');
+                return redirect()->to('/admin/bots');
+            }
+            
+        } catch (\Throwable $e) {
+            \Session::flash('error','Se ha producido un error, por favor intente más tarde');
+            return redirect()->to('/admin/bots');
+        }
+       
     }
 }

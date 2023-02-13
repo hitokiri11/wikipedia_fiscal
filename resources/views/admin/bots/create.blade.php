@@ -41,11 +41,20 @@
                             <label for="video" class="form-label">Video</label>
                             <div class="input-group">
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="video" name="video" value="{{ old('video') }}">
+                                    <input 
+                                        type="file" 
+                                        class="custom-file-input" 
+                                        id="video" 
+                                        name="video" 
+                                        value="{{ old('video') }}" 
+                                        onChange="onLoadImage(event.target.files)" 
+                                        
+                                    >
                                     <label for="video" class="custom-file-label"></label>
+                                    
                                 </div>
                             </div>
-                            
+                            <span id="imgName"></span>
                         
                             <!-- <label for="video" class="form-label">Video</label>
                             <input class="form-control" type="file" id="video" name="video"> -->
@@ -65,10 +74,10 @@
                                 Nuevo Bot
                             </button>
                             &nbsp;
-                            <a type="reset" class="btn btn-danger" >
+                            <button type="reset" class="btn btn-danger" >
                                 <i  class="fas fa-trash" ></i>
                                 Limpiar
-                            </a>
+                            </button>
                         </div>
                     </div> 
                 </form>
@@ -85,5 +94,17 @@
         color: red;
     }
 </style>
+@endpush
+@push('js')
+<script>
+    function onLoadImage(files){
+        console.log(files)
+        if (files && files[0]) {
+        document
+            .getElementById('imgName')
+            .innerHTML = files[0].name
+        }
+    }
+</script>
 @endpush
 @endsection

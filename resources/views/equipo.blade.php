@@ -1,10 +1,10 @@
 @extends('template.main')
 @section('content')
 @push('css-plugins')
-<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
+{{-- <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" /> --}}
 @endpush
 @push('style')
-.container {
+{{-- .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -99,7 +99,7 @@
   #featureContainer .float-end{
     padding-top: 10px;
   }
-
+ --}}
 
 @endpush
 
@@ -127,7 +127,7 @@
             <div class="row mx-auto my-auto justify-content-center">
             <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
 
-                <!-- Add Slides To The Carousel -->
+           
                 <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-12">
@@ -137,7 +137,7 @@
                         <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
                         <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
                         </div>
-                    {{--  <div class="card-img-overlays">Slide 1</div> --}}
+              
                     </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                         <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
                         <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
                         </div>
-                    {{--  <div class="card-img-overlays">Slide 2</div> --}}
+               
                     </div>
                     </div>
                 </div>
@@ -162,14 +162,14 @@
                             <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
                             <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
                         </div>
-                    {{--  <div class="card-img-overlays">Slide 3</div> --}}
+               
                     </div>
                     </div>
                 </div>
             
                 </div>
                 <br>
-                <!-- Carousel Controls. OPTIONAL -->
+
                 <div class="float-end pe-md-4">
 
                     <a class="btn btn-primary rounded-circle indicator"  href="#featureCarousel" role="button" data-bs-slide="prev" >
