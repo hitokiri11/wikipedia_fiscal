@@ -100,6 +100,11 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::get('/admin/bots/delete/{id}', [App\Http\Controllers\BotsController::class, 'destroy'])->name('bot.delete'); 
 
     Route::get('/admin/usuarios', [App\Http\Controllers\UserController::class, 'index'])->name('users');
+    Route::get('/admin/usuarios/create', [App\Http\Controllers\UserController::class, 'create'])->name('users.create'); 
+    Route::post('/admin/usuarios/store', [App\Http\Controllers\UserController::class, 'store'])->name('users.store'); 
+    Route::get('/admin/usuarios/edit/{id}', [App\Http\Controllers\UserController::class, 'edit'])->name('users.edit'); 
+    Route::put('/admin/usuarios/update/{id}', [App\Http\Controllers\UserController::class, 'update'])->name('users.update');
+    Route::get('/admin/usuarios/delete/{id}', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete'); 
 
     Route::get('/admin/wiki', [App\Http\Controllers\WikiController::class, 'index'])->name('wiki'); 
     Route::get('/admin/wiki/create', [App\Http\Controllers\WikiController::class, 'create'])->name('wiki.create'); 
