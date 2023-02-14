@@ -84,7 +84,7 @@
 @endpush
 
 <script src="{{ asset('ckeditor5/ckeditor.js') }}"></script>
-{{-- <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script> --}}
+<!-- <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script> -->
 <script>
     
     ClassicEditor

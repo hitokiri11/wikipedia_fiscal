@@ -9,7 +9,14 @@ use Carbon\Carbon;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class BotsController extends Controller
-{
+{ 
+
+    function __construct() {
+        $this->middleware('permission:bot-list|bot-create|bot-edit|bot-delete', ['only' => ['index','store']]);
+        $this->middleware('permission:bot-create', ['only' => ['create','store']]);
+        $this->middleware('permission:bot-edit', ['only' => ['edit','update']]);
+        $this->middleware('permission:bot-delete', ['only' => ['destroy']]);
+    } 
     /**
      * Display a listing of the resource.
      *

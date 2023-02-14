@@ -44,9 +44,9 @@
                                     <small class="text-muted">
                                         <strong>Autor:  {{$v->name}}</strong>
                                     </small>
+                                    <br>
+                                    <h5>{{$v->titulo}}</h5>
                                 </p>
-                                
-                                <h6 class="card-title">{{$v->titulo}}</h6>
                                 <p class="card-text">
                                     <small class="text-muted">
                                         @php 

@@ -71,12 +71,12 @@
                             </tr>   
                         @empty
                             <tr>
-                                <th scope="row" class="text-center" colspan="6" >En estos momentos no hay bots para mostrar</th>
-                                <th scope="row" class="text-center" colspan="6" ></th>
-                                <th scope="row" class="text-center" colspan="6" ></th>
-                                <th scope="row" class="text-center" colspan="6" ></th>
-                                <th scope="row" class="text-center" colspan="6" ></th>
-                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay bots para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" ></th>
+                                <th scope="row" class="text-center" colspan="5" ></th>
+                                <th scope="row" class="text-center" colspan="5" ></th>
+                                <th scope="row" class="text-center" colspan="5" ></th>
+                               <!--  <th scope="row" class="text-center" colspan="6" ></th> -->
                             </tr>
                         @endforelse
                     </tbody>
@@ -125,19 +125,21 @@
     </div>
 
      <!-- Modal eliminar-->
-     <div class="modal fade" id="modal_eliminar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal fade" id="modal_eliminar" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminat Blog</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
             </div>
             <div class="modal-body">
                 ¿Está seguro de eliminar el bot? 
             </div>
             <input type="hidden" name="id_eliminar" id="id_eliminar" />
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             <button type="button" class="btn btn-danger" onclick="eliminar()">Eliminar</button>
             </div>
         </div>

@@ -30,6 +30,7 @@
                                 <th scope="col" class="text-center">#</th>
                                 <th scope="col" class="text-center">Nombre</th>
                                 <th scope="col" class="text-center">Email</th>
+                                <th scope="col" class="text-center">Rol</th>
                                 <th scope="col" class="text-center">Estatus</th> 
                                 <th scope="col" class="text-center">Acción</th>
                             </tr>
@@ -40,21 +41,36 @@
                                 <th scope="row" class="text-center" >{{++$k}}</th>
                                 <td>{{$v->name}}</td>
                                 <td>{{$v->email}}</td>
+                                <td>
+                                    @if(!empty($v->getRoleNames()))
+                                        @foreach($v->getRoleNames() as $rolName)
+                                            <h5><span class="badge badge-primary">{{$rolName}}</span></h5>
+                                        @endforeach
+                                    @endif
+                                </td>
                                 <td>{{$v->status == true ? 'Activo' : 'Inactivo'}}</td>
                                 <td class="text-center">
                                     <a type="button"  data-toggle="modal" data-target="#detalle_usuario" onclick="data_modal({{$v}})">
                                         <i  class="fas fa-eye" ></i>
                                     </a>
-
+                                    &nbsp;
+                                    <a type="button"  href="/admin/usuarios/edit/{{$v->id}}" >
+                                        <i  class="fas fa-pen" ></i>
+                                    </a>
+                                    &nbsp;
+                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                        <i  class="fas fa-trash" ></i>
+                                    </a>
                                 </td>
                             </tr>
                         @empty
                             <tr>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="6" >En estos momentos no hay usuarios para mostrar</th>
+                                <th scope="row" class="text-center" colspan="6"></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
+                                <th scope="row" class="text-center" colspan="6" ></th>
                             </tr>
                         @endforelse
                     </tbody>
@@ -98,6 +114,28 @@
                 </div>
             </div>
         </div>
+    </div> 
+
+     <!-- Modal eliminar-->
+     <div class="modal fade" id="modal_eliminar" tabindex="-1" role="dialog"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminat Usuario</h1>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                ¿Está seguro de eliminar el usuario? 
+            </div>
+            <input type="hidden" name="id_eliminar" id="id_eliminar" />
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger" onclick="eliminar()">Eliminar</button>
+            </div>
+        </div>
+        </div>
     </div>
 
 </div>
@@ -134,6 +172,16 @@
         $('#nombre_usuarios').text(data.name)
         $('#email_usuario').text(data.email)
         $('#estatus_usuario').text(estatus)
+    } 
+
+    const data_modal_eliminar = (id) => {
+        $('#id_eliminar').val(id)
+    }
+
+    const eliminar = () => {
+        let id  = $('#id_eliminar').val();
+        let url = `/admin/usuarios/delete/${id}`
+        window.location = url;
     }
 </script>
 @endpush

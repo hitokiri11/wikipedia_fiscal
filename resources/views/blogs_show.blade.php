@@ -5,11 +5,17 @@
             <div class="row col-md-2 col-lg-2"></div>
             <div class="row col-md-8 col-lg-8  " >
                 <div class="p-5 ">
-                    <div class="text-center">
-                        <img src="{{asset('upload_img_blog/'.$blog->img)}}" class="rounded mx-auto d-block" alt="...">
+                    <div class="text-center"> 
                         <h3 class="mt-3">{{$blog->titulo}}</h3>
+                        <img 
+                            src="{{asset('upload_img_blog/'.$blog->img)}}"
+                            class="rounded mx-auto d-block"  
+                            alt="..." 
+                            style="width: 70%;"
+                        >
+                        
                     </div>
-                    <div class="text-justify mt-5">
+                    <div class="text-justify mt-5 col-md-12 col-lg-12">
                         {!! $blog->contenido !!}
                     </div>
                 </div>
