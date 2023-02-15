@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 use DB;
+use App\Http\Controllers\Session;
 
 class RoleController extends Controller
 {
@@ -32,7 +33,7 @@ class RoleController extends Controller
     public function index(Request $request)
     {
         $roles = Role::orderBy('id','DESC')->paginate(5);
-        return view('roles.index',compact('roles'))
+        return view('admin.roles.index',compact('roles'))
             ->with('i', ($request->input('page', 1) - 1) * 5);
     }
 
@@ -44,7 +45,7 @@ class RoleController extends Controller
     public function create()
     {
         $permission = Permission::get();
-        return view('roles.create',compact('permission'));
+        return view('admin.roles.create',compact('permission'));
     }
 
     /**
@@ -97,7 +98,7 @@ class RoleController extends Controller
             ->pluck('role_has_permissions.permission_id','role_has_permissions.permission_id')
             ->all(); 
 
-            return view('roles.edit',compact('role','permission','rolePermissions'));
+            return view('admin.roles.edit',compact('role','permission','rolePermissions'));
     }
 
     /**
@@ -132,8 +133,23 @@ class RoleController extends Controller
      */
     public function destroy($id)
     {
-        DB::table("roles")->where('id',$id)->delete();
+       /*  DB::table("roles")->where('id',$id)->delete();
         return redirect()->route('roles.index')
-                        ->with('success','Rol eliminado de forma exitosa');
+                        ->with('success','Rol eliminado de forma exitosa'); */ 
+
+        try { 
+
+            if($data_blog = Role::where('id',$id)->delete()) {
+                \Session::flash('success','Se ha eliminado el rol de forma exitosa');
+                return redirect()->to('/admin/roles');
+            } else {
+                \Session::flash('error','Se ha producido un error, por favor intente más tarde');
+                return redirect()->to('/admin/roles');
+            }
+            
+        } catch (\Throwable $e) {
+            \Session::flash('error','Se ha producido un error, por favor intente más tarde');
+            return redirect()->to('/admin/roles');
+        }
     }
 }

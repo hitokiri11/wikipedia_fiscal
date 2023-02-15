@@ -104,13 +104,13 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::post('/admin/usuarios/store', [App\Http\Controllers\UserController::class, 'store'])->name('users.store'); 
     Route::get('/admin/usuarios/edit/{id}', [App\Http\Controllers\UserController::class, 'edit'])->name('users.edit'); 
     Route::put('/admin/usuarios/update/{id}', [App\Http\Controllers\UserController::class, 'update'])->name('users.update');
-    Route::get('/admin/usuarios/delete/{id}', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete'); 
+    Route::delete('/admin/usuarios/delete', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete'); 
 
-    Route::get('/admin/wiki', [App\Http\Controllers\WikiController::class, 'index'])->name('wiki'); 
+    /* Route::get('/admin/wiki', [App\Http\Controllers\WikiController::class, 'index'])->name('wiki'); 
     Route::get('/admin/wiki/create', [App\Http\Controllers\WikiController::class, 'create'])->name('wiki.create'); 
     Route::post('/admin/wiki/store', [App\Http\Controllers\WikiController::class, 'store'])->name('wiki.store'); 
     Route::get('/admin/wiki/edit/{id}', [App\Http\Controllers\WikiController::class, 'edit'])->name('wiki.edit'); 
-    Route::put('/admin/wiki/update/{id}', [App\Http\Controllers\WikiController::class, 'update'])->name('wiki.update'); 
+    Route::put('/admin/wiki/update/{id}', [App\Http\Controllers\WikiController::class, 'update'])->name('wiki.update');  */
 
     Route::get('/admin/sugerencias', [App\Http\Controllers\SugerenciasController::class, 'index'])->name('sugerencias.index');
 
@@ -119,7 +119,14 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::post('/admin/admin_blogs/store', [App\Http\Controllers\BlogConrtoller::class, 'store'])->name('blogs.store'); 
     Route::get('/admin/admin_blogs/edit/{id}', [App\Http\Controllers\BlogConrtoller::class, 'edit'])->name('blogs.edit'); 
     Route::put('/admin/admin_blogs/update/{id}', [App\Http\Controllers\BlogConrtoller::class, 'update'])->name('blogs.update'); 
-    Route::get('/admin/admin_blogs/delete/{id}', [App\Http\Controllers\BlogConrtoller::class, 'destroy'])->name('blogs.delete');
+    Route::delete('/admin/admin_blogs/delete/{id}', [App\Http\Controllers\BlogConrtoller::class, 'destroy'])->name('blogs.delete'); 
+
+    Route::get('/admin/roles', [App\Http\Controllers\RoleController::class, 'index'])->name('roles'); 
+    Route::get('/admin/roles/create', [App\Http\Controllers\RoleController::class, 'create'])->name('roles.create'); 
+    Route::post('/admin/roles/store', [App\Http\Controllers\RoleController::class, 'store'])->name('roles.store');
+    Route::get('/admin/roles/edit/{id}', [App\Http\Controllers\RoleController::class, 'edit'])->name('roles.edit'); 
+    Route::put('/admin/roles/update/{id}', [App\Http\Controllers\RoleController::class, 'update'])->name('roles.update');
+    Route::get('/admin/roles/delete/{id}', [App\Http\Controllers\RoleController::class, 'destroy'])->name('roles.delete'); 
     /* Route::get('/admin/sugerencias', function () {
         return view('admin.sugerencias');
     });

@@ -31,7 +31,12 @@ class SeederTablaPermisos extends Seeder
             'bot-list',
             'bot-create',
             'bot-edit',
-            'bot-delete'
+            'bot-delete',
+            //tabla usuarios
+            'users-list',
+            'users-create',
+            'users-edit',
+            'users-delete'
         ];
 
         foreach($permisos as $permiso) {

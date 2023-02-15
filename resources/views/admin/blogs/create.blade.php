@@ -88,9 +88,6 @@
         .create( document.querySelector( '#contenido' ),{
             ckfinder: {
                 uploadUrl: '{{ route('blogs.store').'?_token='.csrf_token() }}'
-            },
-            image: {
-                toolbar: [ 'toggleImageCaption', 'imageTextAlternative' ]
             }
         } )
         .then( editor => {

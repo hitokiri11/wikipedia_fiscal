@@ -368,6 +368,11 @@ return [
             'url'  => 'admin/usuarios',
             'icon' => 'fas fa-fw fa-users',
         ],
+        [
+            'text' => 'ROLES',
+            'url'  => 'admin/roles',
+            'icon' => 'fas fa-fw fa-user-shield',
+        ],
 
         /* [
             'text'    => 'multilevel',

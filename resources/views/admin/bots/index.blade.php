@@ -28,10 +28,12 @@
                 
                 <div class="col-md-2 col-lg-2">
                     <div class="row">
+                        @can('bot-create')
                         <a type="button" class="btn btn-success" href="{{url('/admin/bots/create')}}">
                             <i  class="fas fa-robot" ></i>
                             Nuevo Bot
                         </a>
+                        @endcan
                     </div>
                 </div>
             </div>
@@ -57,17 +59,24 @@
                                 <td>{{$v->datos_bot}}</td>
                                 <td>{{$v->video}}</td> 
                                 <td class="text-center">
-                                    <a type="button"  data-toggle="modal" data-target="#detalle_bot" onclick="data_modal({{$v}})">
+                                    <a type="button"  data-toggle="modal" data-target="#detalle_bot" onclick="data_modal({{$v}})" class="btn btn-light" >
                                         <i  class="fas fa-eye" ></i>
                                     </a>
-                                    &nbsp;
-                                    <a type="button"  href="/admin/bots/edit/{{$v->id}}" >
+                                    @can('bot-edit')
+                                    <a type="button"  href="/admin/bots/edit/{{$v->id}}" class="btn btn-light">
                                         <i  class="fas fa-pen" ></i>
                                     </a>
-                                    &nbsp;
-                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                    @endcan
+                                    @can('bot-delete') 
+                                        {!! Form::open(['method' => 'DELETE', 'route' => ['bot.delete',$v->id], 'style'=>'display:inline']) !!}
+                                            <button type="submit"  class="btn btn-light">
+                                                <i class="fas fa-trash" ></i>
+                                            </button>
+                                        {!! Form::close() !!}
+                                    @endcan
+                                    {{-- <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
                                         <i  class="fas fa-trash" ></i>
-                                    </a>
+                                    </a> --}}
                                    
                                 </td>
                             </tr>

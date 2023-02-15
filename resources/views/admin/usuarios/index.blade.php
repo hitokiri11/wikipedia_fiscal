@@ -21,9 +21,21 @@
                 </div>  
         @endif
 
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <caption><h5><stron>Usuarios</stron></h5></caption> 
+            </div>
 
-            <caption><h5><stron>Usuarios</stron></h5></caption> 
-
+            <div class="col-md-2 col-lg-2">
+                 <div class="row">
+                    <a type="button" class="btn btn-success" href="{{url('/admin/usuarios/create')}}">
+                        <i  class="fas fa-user" ></i>
+                        Nuevo Usuario
+                    </a>
+                 </div>
+            </div>
+        </div>
+        <br><br><br>
             <table class="table caption-top mt-4" id="tabla">
                     <thead>
                             <tr>
@@ -44,23 +56,27 @@
                                 <td>
                                     @if(!empty($v->getRoleNames()))
                                         @foreach($v->getRoleNames() as $rolName)
-                                            <h5><span class="badge badge-primary">{{$rolName}}</span></h5>
+                                            <h5><span class="badge badge-primary">{{$rolName}}</span></h5> 
                                         @endforeach
                                     @endif
                                 </td>
                                 <td>{{$v->status == true ? 'Activo' : 'Inactivo'}}</td>
                                 <td class="text-center">
-                                    <a type="button"  data-toggle="modal" data-target="#detalle_usuario" onclick="data_modal({{$v}})">
+                                    <a type="button"  data-toggle="modal" data-target="#detalle_usuario" onclick="data_modal({{$v}})" class="btn btn-light" >
                                         <i  class="fas fa-eye" ></i>
                                     </a>
-                                    &nbsp;
-                                    <a type="button"  href="/admin/usuarios/edit/{{$v->id}}" >
+                                    <a type="button"  href="/admin/usuarios/edit/{{$v->id}}" class="btn btn-light">
                                         <i  class="fas fa-pen" ></i>
                                     </a>
-                                    &nbsp;
-                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                    {!! Form::open(['method' => 'DELETE', 'route' => ['users.delete',$v->id], 'style'=>'display:inline']) !!}
+                                        <a type="submit"  class="btn btn-light" >
+                                            <i   i  class="fas fa-trash" ></i>
+                                        </a>
+                                    {!! Form::close() !!} 
+                              
+                                    {{-- <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
                                         <i  class="fas fa-trash" ></i>
-                                    </a>
+                                    </a> --}}
                                 </td>
                             </tr>
                         @empty
@@ -118,6 +134,7 @@
 
      <!-- Modal eliminar-->
      <div class="modal fade" id="modal_eliminar" tabindex="-1" role="dialog"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+        
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -178,11 +195,23 @@
         $('#id_eliminar').val(id)
     }
 
-    const eliminar = () => {
+    /* const eliminar = () => {
         let id  = $('#id_eliminar').val();
-        let url = `/admin/usuarios/delete/${id}`
-        window.location = url;
-    }
+
+        $.ajax({
+            method: "POST",
+            url: "{{ url('admin/usuarios/delete') }}",
+            dataType : 'json',
+            data: {id:id, '_token': $('input[name=_token]').val()},
+            success: function (response) {
+                console.log(response)
+            },
+            error: function (request, status, error) {
+        		
+      		}
+        })
+
+    } */
 </script>
 @endpush
 

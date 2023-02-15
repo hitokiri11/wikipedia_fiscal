@@ -33,7 +33,8 @@ class UserController extends Controller
 
      public function create() {
         $roles = Role::pluck('name','name')->all();
-        return view('users.create',compact('roles'));
+        return view('admin.usuarios.create',compact('roles'));
+        /* return view('users.create',compact('roles')); */
     }
 
     /**
@@ -85,7 +86,8 @@ class UserController extends Controller
         $roles = Role::pluck('name','name')->all();
         $userRole = $user->roles->pluck('name','name')->all();
     
-        return view('users.edit',compact('user','roles','userRole'));
+        return view('admin.usuarios.edit',compact('user','roles','userRole'));
+        /* return view('users.edit',compact('user','roles','userRole')); */
     }
 
     /**
@@ -128,7 +130,8 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */ 
 
-     public function destroy($id) {
+     public function destroy(Request $request) { 
+        $id = $request->id;
         User::find($id)->delete();
         return redirect()->route('users.index')
                         ->with('success','Usuario eliminado de forma exitosa');

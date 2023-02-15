@@ -27,10 +27,12 @@
 
                     <div class="col-md-2 col-lg-2">
                          <div class="row">
+                            @can('blog-create')
                             <a type="button" class="btn btn-success" href="{{url('/admin/admin_blogs/create')}}">
                                 <i  class="fas fa-blog" ></i>
                                 Nuevo Blog
                             </a>
+                            @endcan
                          </div>
                     </div>
                 </div>
@@ -56,22 +58,29 @@
                                 <td>{{$v->name}}</td>
                                 <td>{{$v->created_at}}</td>
                                 <td class="text-center">
-                                    <a type="button"  data-toggle="modal" data-target="#detalle_blog" onclick="data_modal({{$v}})">
+                                    <a type="button"  data-toggle="modal" data-target="#detalle_blog" onclick="data_modal({{$v}})" class="btn btn-light">
                                         <i  class="fas fa-eye" ></i>
                                     </a>
-                                    &nbsp;
-                                    <a type="button"  href="/admin/admin_blogs/edit/{{$v->id}}" >
-                                        <i  class="fas fa-pen" ></i>
-                                    </a>
-                                    &nbsp;
-                                    <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
-                                        <i  class="fas fa-trash" ></i>
-                                    </a>
+                                    @can('blog-edit')
+                                        <a type="button"  href="/admin/admin_blogs/edit/{{$v->id}}" class="btn btn-light" >
+                                            <i  class="fas fa-pen" ></i>
+                                        </a>
+                                    @endcan
+                                    @can('blog-delete') 
+                                        {!! Form::open(['method' => 'DELETE', 'route' => ['blogs.delete',$v->id], 'style'=>'display:inline']) !!}
+                                            <button type="submit" class="btn btn-light" >
+                                                <i   i  class="fas fa-trash" ></i>
+                                            </button>
+                                        {!! Form::close() !!}
+                                        {{-- <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
+                                            <i  class="fas fa-trash" ></i>
+                                        </a> --}}
+                                    @endcan
                                 </td>
                             </tr>   
                         @empty
                             <tr>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay bots para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay blogs para mostrar</th>
                                 <th scope="row" class="text-center" colspan="5" ></th>
                                 <th scope="row" class="text-center" colspan="5" ></th>
                                 <th scope="row" class="text-center" colspan="5" ></th>

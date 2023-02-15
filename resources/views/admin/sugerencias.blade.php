@@ -38,7 +38,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay bots para mostrar</th>
+                                <th scope="row" class="text-center" colspan="5" >En estos momentos no hay sugerencias para mostrar</th>
                                 <th scope="row" class="text-center" colspan="5" ></th>
                                 <th scope="row" class="text-center" colspan="5" ></th>
                                 <th scope="row" class="text-center" colspan="5" ></th>

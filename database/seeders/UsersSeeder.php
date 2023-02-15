@@ -16,11 +16,27 @@ class UsersSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name'          => 'Yorvin Valencia',
-            'email'         => 'yorvin@gmail.com',
-            'password'      => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
-            'status'        => false,
-            'created_at'    => Carbon::now(),
+            [    
+                'name'          => 'Yorvin Valencia',
+                'email'         => 'yorvin@gmail.com',
+                'password'      => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
+                'status'        => false,
+                'created_at'    => Carbon::now(),
+            ],
+            [
+                'name'          => 'Analista',
+                'email'         => 'analista@gmail.com',
+                'password'      => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
+                'status'        => false,
+                'created_at'    => Carbon::now(),
+            ],
+            [
+                'name'          => 'Administrador',
+                'email'         => 'admin@gmail.com',
+                'password'      => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
+                'status'        => false,
+                'created_at'    => Carbon::now(),
+            ]
         ]);
     }
 }

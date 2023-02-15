@@ -27,7 +27,15 @@ class BlogConrtoller extends Controller
     
     public function index()
     {
-        $blogs = Blog::join('users','users.id','blogs.user_id')->orderBy('blogs.created_at','DESC')->get();
+        $blogs = Blog::select(
+            'blogs.id',
+            'blogs.titulo',
+            'users.name',
+            'blogs.created_at'
+        )
+        ->join('users','users.id','blogs.user_id')
+        ->orderBy('blogs.created_at','DESC')
+        ->get();
         
         return view('admin.blogs.index', compact(
             ['blogs']));
@@ -220,7 +228,6 @@ class BlogConrtoller extends Controller
     public function destroy($id)
     {
         try { 
-
             if($data_blog = Blog::where('id',$id)->delete()) {
                 \Session::flash('success','Se ha eliminado el blog de forma exitosa');
                 return redirect()->to('/admin/admin_blogs');
@@ -230,6 +237,7 @@ class BlogConrtoller extends Controller
             }
             
         } catch (\Throwable $e) {
+            dd($e);
             \Session::flash('error','Se ha producido un error, por favor intente más tarde');
             return redirect()->to('/admin/admin_blogs');
         }
