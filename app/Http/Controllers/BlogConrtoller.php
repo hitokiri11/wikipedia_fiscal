@@ -12,12 +12,12 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 class BlogConrtoller extends Controller
 {
 
-    function __construct() {
+   function __construct() {
         $this->middleware('permission:blog-list|blog-create|blog-edit|blog-delete', ['only' => ['index','store']]);
         $this->middleware('permission:blog-create', ['only' => ['create','store']]);
         $this->middleware('permission:blog-edit', ['only' => ['edit','update']]);
         $this->middleware('permission:blog-delete', ['only' => ['destroy']]);
-   } 
+   }  
 
     /**
      * Display a listing of the resource.

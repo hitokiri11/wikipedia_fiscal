@@ -30,26 +30,28 @@
                                                 <div class="card mb-1" >
                                                     <div class="row g-0">
                                                         <div class="col-md-4">                                                   
-                                                                <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" >
-                                                                    allowfullscreen>
-                                                                </iframe>  
+                                                                <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
+                                                                </iframe>
                                                             </a>                                  
                                                         </div>
                                                         <div class="col-md-8 ">
                                                                 <div class="card-body">
                                                                     <h5 class="card-title">{{$v->titulo}}</h5>
                                                                     <p class="card-text">{{$v->descripcion}}</p>
-                                                                    <a href="#" onClick="modal_video()" >Ver</a>
+                                                                    <button class="btn btn-primary btn-xs float-end" data-bs-toggle="modal" data-bs-target="#modal_video"  onclick="modal_video('{{$v->video}}')">
+                                                                        Ver
+                                                                    </button>
                                                                 </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
                                             </div>
                                     </td>
                                 </tr>
                             @endforeach
                         </table>
-
+                        
                 @else
                     
                    
@@ -93,10 +95,25 @@
                                     </div>
                                 </div>
                              </form>
-                        </div> 
-                       
+                        </div>   
                 @endif
             @endif
+        </div>
+
+
+        <div class="modal fade" id="modal_video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="justify-content-center mt-3 col-12">
+                                <div id="ver_video" class="col-md-12 col-lg-12 justify-content-center"></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
         </div>
         
     </div>
@@ -127,11 +144,16 @@
     </div>
 </section>
 
-@endsection
-@push('js')
 <script type="text/javascript"> 
-    function modal_video() {
-        console.log('aqui')
+    const modal_video = (video) => { 
+        let html = `
+            <div class="ratio ratio-16x9">
+                <video  class="prop_video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
+                </video >
+            </div>
+        `;
+        document.getElementById('ver_video').innerHTML = html;
     }
 </script>
-@endpush
+
+@endsection

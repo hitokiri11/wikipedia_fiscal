@@ -28,10 +28,12 @@
 
             <div class="col-md-2 col-lg-2">
                  <div class="row">
+                    @can('users-create')
                     <a type="button" class="btn btn-success" href="{{url('/admin/usuarios/create')}}">
                         <i  class="fas fa-user" ></i>
                         Nuevo Usuario
                     </a>
+                    @endcan
                  </div>
             </div>
         </div>
@@ -65,14 +67,18 @@
                                     <a type="button"  data-toggle="modal" data-target="#detalle_usuario" onclick="data_modal({{$v}})" class="btn btn-light" >
                                         <i  class="fas fa-eye" ></i>
                                     </a>
-                                    <a type="button"  href="/admin/usuarios/edit/{{$v->id}}" class="btn btn-light">
-                                        <i  class="fas fa-pen" ></i>
-                                    </a>
-                                    {!! Form::open(['method' => 'DELETE', 'route' => ['users.delete',$v->id], 'style'=>'display:inline']) !!}
-                                        <a type="submit"  class="btn btn-light" >
-                                            <i   i  class="fas fa-trash" ></i>
+                                    @can('users-edit')
+                                        <a type="button"  href="/admin/usuarios/edit/{{$v->id}}" class="btn btn-light">
+                                            <i  class="fas fa-pen" ></i>
                                         </a>
-                                    {!! Form::close() !!} 
+                                    @endcan
+                                    @can('users-delete')
+                                        {!! Form::open(['method' => 'DELETE', 'route' => ['users.delete',$v->id], 'style'=>'display:inline']) !!}
+                                            <a type="submit"  class="btn btn-light" >
+                                                <i   i  class="fas fa-trash" ></i>
+                                            </a>
+                                        {!! Form::close() !!} 
+                                    @endcan
                               
                                     {{-- <a type="button" data-toggle="modal" data-target="#modal_eliminar"  onclick="data_modal_eliminar({{$v->id}})" >
                                         <i  class="fas fa-trash" ></i>

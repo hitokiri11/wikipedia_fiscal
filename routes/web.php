@@ -91,6 +91,7 @@ Route::group(['middleware' => ['auth:web']], function() {
 
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); 
     Route::get('/admin/clientes', [App\Http\Controllers\UserClientController::class, 'index'])->name('clientes'); 
+    Route::get('/admin/clientes/sincronizar', [App\Http\Controllers\UserClientController::class, 'sincronizar'])->name('clientes.sincronizar'); 
 
     Route::get('/admin/bots', [App\Http\Controllers\BotsController::class, 'index'])->name('bots'); 
     Route::get('/admin/bots/create', [App\Http\Controllers\BotsController::class, 'create'])->name('bot.create'); 

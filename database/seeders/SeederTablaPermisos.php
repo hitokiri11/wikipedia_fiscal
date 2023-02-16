@@ -36,7 +36,9 @@ class SeederTablaPermisos extends Seeder
             'users-list',
             'users-create',
             'users-edit',
-            'users-delete'
+            'users-delete',
+            //tabla users_clientes
+            'users_clientes-sincronizar'
         ];
 
         foreach($permisos as $permiso) {

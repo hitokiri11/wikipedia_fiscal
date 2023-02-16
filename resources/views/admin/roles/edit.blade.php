@@ -25,10 +25,10 @@
                         <div class="mb-3">
                             <label for="" class="form-label">Permisos para el Rol</label>
                             <br>
-                            @foreach($permission as $k => $v)
+                            @foreach($permission as $value)
                                 <label>
-                                    {{ Form::checkbox('permission[]',$v->id, array($v->id, $rolePermissions) ? true: false, array('class' => 'name')) }}
-                                    {{ $v->name }}
+                                {{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions) ? true : false, array('class' => 'name')) }}
+                                {{ $value->name }}
                                 </label>
                                 <br>
                             @endforeach

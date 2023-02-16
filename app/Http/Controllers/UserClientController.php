@@ -4,9 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\UserClient;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
 
 class UserClientController extends Controller
 {
+
+    function __construct() {
+        $this->middleware('permission:users_client-sincronizar', ['only' => ['sincronizar']]);
+   }  
     /**
      * Display a listing of the resource.
      *
@@ -19,6 +25,20 @@ class UserClientController extends Controller
 
         return view('admin.clientes', compact(['data_user_clients']));
       
+    }
+
+    public function sincronizar()  {
+        dd('aqui');
+       /*  $arr = [];
+        $post_json = json_encode($arr); */
+        $endpoint = 'https://api.hubapi.com/contacts/v1/contact?hapikey=' . env('HUBSPOT_API_KEY');
+        $client = new Client();
+        $res = $client->request('POST', $endpoint, [
+            'body' => $post_json
+        ]);
+        return view('admin.clientes', compact(['res']));
+
+       /*  return "Contact Created!"; */
     }
 
     /**

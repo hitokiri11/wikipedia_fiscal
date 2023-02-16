@@ -6,7 +6,25 @@
 <div class="container">
     <div class="row ">
         <div class="table-responsive mt-5" >
-        <caption><h5><stron>Clientes</stron></h5></caption>
+        
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <caption><h5><stron>Clientes</stron></h5></caption> 
+            </div>
+
+            <div class="col-md-2 col-lg-2">
+                    <div class="row">
+                    @can('blog-create')
+                    <a type="button" class="btn btn-success" href="{{url('/admin/clientes/sincronizar')}}">
+                        <i  class="fas fa-signal" ></i>
+                       Sincronizar
+                    </a>
+                    @endcan
+                    </div>
+            </div>
+        </div>
+        <br><br><br>
+
             <table class="table caption-top mt-4" id="tabla">
                 
                 <thead>
