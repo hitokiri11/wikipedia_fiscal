@@ -14,7 +14,7 @@
 
             <div class="col-md-2 col-lg-2">
                     <div class="row">
-                    @can('blog-create')
+                    @can('users_client-sincronizar')
                     <a type="button" class="btn btn-success" href="{{url('/admin/clientes/sincronizar')}}">
                         <i  class="fas fa-signal" ></i>
                        Sincronizar
