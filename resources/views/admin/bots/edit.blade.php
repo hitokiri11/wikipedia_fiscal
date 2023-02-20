@@ -12,7 +12,7 @@
                 <div class="card-header">
                     <h5><stron>Editar Bot</stron></h5>
                 </div> 
-                <form method="post" action="{{route('bot.update', $data_edit_bot->id)}}"> 
+                <form method="post" action="{{route('bot.update', $data_edit_bot->id)}}" enctype="multipart/form-data"> 
                 @method('PUT')
                 @csrf 
                     <div class="card-body">
@@ -40,14 +40,29 @@
                         </div>
                         <div class="mb-3">
                             <label for="video" class="form-label">Video</label>
-                            <input type="text" class="form-control" id="video" name="video" placeholder="Vídeo" value="{{ $data_edit_bot->video }}" >
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input 
+                                        type="file" 
+                                        class="custom-file-input" 
+                                        id="video" 
+                                        name="video" 
+                                        value="{{ $data_edit_bot->video }}" 
+                                        onChange="onLoadImage(event.target.files)" 
+                                        
+                                    >
+                                    <label for="video" class="custom-file-label"></label>
+
+                            {{-- <input type="text" class="form-control" id="video" name="video" placeholder="Vídeo" value="{{ $data_edit_bot->video }}" > --}}
+                                   
+                                </div>
+                            </div> 
+                            <span id="imgName"></span>
                             @error('video')
                                 <p class="error-message">{{ $message }}</p>
                             @enderror
                         </div>
-                    
-                    </div> 
-
+                    </div>
                     <div class="card-footer ">
                         <div class="row float-right">
                             <button type="submit" class="btn btn-success" >
@@ -75,5 +90,17 @@
         color: red;
     }
 </style>
+@endpush
+@push('js')
+<script>
+    function onLoadImage(files){
+        console.log(files)
+        if (files && files[0]) {
+        document
+            .getElementById('imgName')
+            .innerHTML = files[0].name
+        }
+    }
+</script>
 @endpush
 @endsection

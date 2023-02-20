@@ -11,14 +11,19 @@
     <div class="card row col-md-12 col-lg-12">
         <div class="row mt-5">
 
-                    <div class="col-md-3 col-sm-3 col-lg-3">
+                    <div class="col-md-3 col-sm-4 col-lg-4">
                         <div class="card bg-info  mb-3" >
                             <div class="card-header text-center">
                                 <h3 class="card-title"><strong>Videos Top 3</strong></h3>
                             </div>
                             <div class="card-body">
                             <p class="card-text">
-                                contenido
+                                @forelse($top3_video as $k => $v)
+                                    {{$v->titulo}}: <strong>{{$v->visto}}</strong>
+                                @empty
+                                    <strong>Aún no se han visualizado videos</strong>
+                                @endforelse
+                                
                             </p>
                             </div>
                         </div>
@@ -35,7 +40,7 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-md-6 col-sm-6 col-lg-">
+                    <div class="col-md-5 col-sm-5 col-lg-5">
                         <div class="card bg-warning mb-3" >
                             <div class="card-header text-center">
                                 <h3 class="card-title text-center"><strong>Últimos Registros</strong></h3>

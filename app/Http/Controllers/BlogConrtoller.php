@@ -237,7 +237,6 @@ class BlogConrtoller extends Controller
             }
             
         } catch (\Throwable $e) {
-            dd($e);
             \Session::flash('error','Se ha producido un error, por favor intente más tarde');
             return redirect()->to('/admin/admin_blogs');
         }

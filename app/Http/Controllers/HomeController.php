@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Models\User;
 use App\Models\UserClient;
 use Illuminate\Support\Carbon;
+use App\Models\Bot;
 
 
 class HomeController extends Controller
@@ -29,12 +30,13 @@ class HomeController extends Controller
     public function index()
     { 
         $id_user = \Auth::id(); 
-        $data_user_clients = UserClient::where('status',true)->get(); 
-        $cont_client_act = count($data_user_clients);
-        $mes_corriente = Carbon::now();
-        $mes_corriente = $mes_corriente->format('m');
-        $ult_registros = UserClient::whereMonth('created_at',$mes_corriente)->get();
-       
+        $data_user_clients  = UserClient::where('status',true)->get(); 
+        $cont_client_act    = count($data_user_clients);
+        $mes_corriente      = Carbon::now();
+        $mes_corriente      = $mes_corriente->format('m');
+        $ult_registros      = UserClient::whereMonth('created_at',$mes_corriente)->get();
+        $top3_video         = Bot::orderBy('visto','DESC')->limit(3)->get();
+        
         try {
             $data_user = User::where('id',$id_user)->first();
             if($data_user->status == false) {
@@ -44,6 +46,6 @@ class HomeController extends Controller
         } catch (\Throwable $e) {
             //throw $th;
         }
-        return view('home',compact(['cont_client_act','ult_registros']));
+        return view('home',compact(['cont_client_act','ult_registros','top3_video']));
     }
 }

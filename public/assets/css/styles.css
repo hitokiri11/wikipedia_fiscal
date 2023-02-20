@@ -12002,15 +12002,14 @@ html {
   margin-left: 0%;
 }
 .titulo_libercosultas {
-  text-align: justify;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
-  margin-left: 40%;
 }
 .caja_busqueda {
   width: 30%;
-  margin-left:31%;
+  margin-left:35%;
 }
 .caja_boton {
   background-color: #17BA9C;
@@ -12019,7 +12018,7 @@ html {
   width: 16rem;
 }
 .no_result_search {
-  margin-left: 9rem;
+  /* margin-left: 9rem; */
 }
 .panel_video {
   margin-left:20%;

@@ -3,7 +3,7 @@
 <section class="page-section"  id="liberconsultas" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 conten_liberconsultas"  >
         <p class="titulo_libercosultas">
-            Liberconsultas
+            Wikifiscal
         </p>
         <form method="get" action="{{route('liberconsultas')}}"> 
             <input type="hidden" name="search" id="search" value="true" />
@@ -22,26 +22,45 @@
             <div id="res" class="d-flex  col-md-12 col-lg-12 mb- mb-md-0 mt-5 ">
             @if($flag == true)
                 @if(count($res) > 0) 
-                        <table class="col-md-8 col-lg-8 panel_video" >
+                        <table class="col-md-9 col-lg-9 panel_video" >
                             @foreach($res as $k => $v)
                                 <tr>
                                     <td>
-                                        <div class="row justify-content-center mt-2 col-md-10 col-lg-10">
+                                        <div class="row  mt-2 col-md-10 col-lg-10">
                                                 <div class="card mb-1" >
-                                                    <div class="row g-0">
-                                                        <div class="col-md-4">                                                   
-                                                                <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
-                                                                </iframe>
-                                                            </a>                                  
+                                                    <div class="row ">
+                                                        <div class="col-md-4 col-lg-4">  
+                                                            <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
+                                                            </iframe>          
+                                                            
+                                                            
                                                         </div>
-                                                        <div class="col-md-8 ">
-                                                                <div class="card-body">
-                                                                    <h5 class="card-title">{{$v->titulo}}</h5>
-                                                                    <p class="card-text">{{$v->descripcion}}</p>
-                                                                    <button class="btn btn-primary btn-xs float-end" data-bs-toggle="modal" data-bs-target="#modal_video"  onclick="modal_video('{{$v->video}}')">
-                                                                        Ver
-                                                                    </button>
+                                                        <div class="col-md-8 col-lg-8 ">
+                                                            <div class="p-1">
+                                                                <div class="row float-start">
+                                                                        <a 
+                                                                        class="btn btn-link text-decoration-none" 
+                                                                        data-bs-toggle="modal" 
+                                                                        data-bs-target="#modal_video" 
+                                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}')">
+                                                                            <h5 >{{$v->titulo}}</h5>
+                                                                        </a>
                                                                 </div>
+                                                                <br>
+                                                                <div class="row float-start">
+                                                                    <p class="text-justify ">
+                                                                        {{ substr($v->descripcion,0,185) }}
+                                                                        <a 
+                                                                            class="btn btn-link " 
+                                                                            data-bs-toggle="modal" 
+                                                                            data-bs-target="#modal_video" 
+                                                                            onclick="modal_video('{{$v->video}}','{{$v->id}}')">
+                                                                            ...
+                                                                        </a>
+                                                                    </p>
+                                                                    
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -55,14 +74,15 @@
                 @else
                     
                    
-                        <div class="row col-6">
+                        <div class="row col-12 text-center">
                             <p class="no_result_search" >
                                 <strong>:( No encontramos resultados de tu búsqueda</strong>
+                                <br>
                                 <button class="btn btn-primary btn-xs" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                                    <i class="fas fa-comment fa-xs"></i>
+                                    <i class="fas fa-comment fa-xs"></i> 
+                                    &nbsp; 
+                                    Hacer Sugerencia
                                 </button>
-
-                            
                             </p>
                         </div>
                     
@@ -145,15 +165,25 @@
 </section>
 
 <script type="text/javascript"> 
-    const modal_video = (video) => { 
+    const modal_video = (video,id) => { 
+        
         let html = `
             <div class="ratio ratio-16x9">
                 <video  class="prop_video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
                 </video >
             </div>
         `;
-        document.getElementById('ver_video').innerHTML = html;
+        
+        fetch('/liberconsultas/acum_view/'+id)
+        .then(function(response) { 
+            document.getElementById('ver_video').innerHTML = html;
+        })
+        .then(function(json) {
+            console.log(json)
+        });
+
     }
+
 </script>
 
 @endsection

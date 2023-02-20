@@ -55,7 +55,11 @@
                             <tr>
                                 <th scope="row" class="text-center" >{{++$k}}</th>
                                 <td>{{$v->titulo}}</td>
-                                <td>{{$v->descripcion}}</td>
+                                <td>
+                                    <p class="text-justify">
+                                    {{ substr($v->descripcion,0,100)." ..." }}
+                                    </p>
+                                </td>
                                 <td>{{$v->datos_bot}}</td>
                                 <td>{{$v->video}}</td> 
                                 <td class="text-center">
@@ -115,7 +119,11 @@
                                 </tr>
                                 <tr>
                                     <th>Descripción:</th>
-                                    <th id="descripcion_bot" class="text-right"></th>
+                                    <th >
+                                        <p id="descripcion_bot" class="text-justify">
+
+                                        </p>
+                                    </th>
                                 </tr> 
                                 <tr>
                                     <th>Etiquetas:</th>
@@ -186,9 +194,13 @@
     });
     
 
-    const  data_modal = (data) => {
+    const  data_modal = (data) => { 
+        let descripcion = data.descripcion
+        descripcion = descripcion.substring(0,100)
+        descripcion = `${descripcion} ...`
+
         $('#titulo_bot').text(data.titulo)
-        $('#descripcion_bot').text(data.descripcion)
+        $('#descripcion_bot').text(descripcion)
         $('#etiqueta_bot').text(data.datos_bot)
         $('#video_bot').text(data.video)
     } 

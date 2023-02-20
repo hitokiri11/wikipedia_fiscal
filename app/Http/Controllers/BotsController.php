@@ -149,7 +149,7 @@ class BotsController extends Controller
                 $data_bot->user_id      = \Auth::id();
                 $data_bot->save(); 
 
-            } catch (\Throwable $th) {
+            } catch (\Throwable $e) {
                 \Session::flash('error','Se ha producido un error, por favor intente más tarde');
                 return redirect()->to('/admin/bots');
             } 
@@ -167,18 +167,17 @@ class BotsController extends Controller
      */
     public function destroy($id)
     {
-    
         try { 
-
-            if($data_bot = Bot::where('id',$id)->delete()) {
+            if($data_bot = Bot::where('id',$id)->delete()) { 
                 \Session::flash('success','Se ha eliminado el bot de forma exitosa');
                 return redirect()->to('/admin/bots');
-            } else {
+            } else { 
                 \Session::flash('error','Se ha producido un error, por favor intente más tarde');
                 return redirect()->to('/admin/bots');
             }
             
-        } catch (\Throwable $e) {
+        } catch (\Throwable $e) { 
+            dd($e);
             \Session::flash('error','Se ha producido un error, por favor intente más tarde');
             return redirect()->to('/admin/bots');
         }

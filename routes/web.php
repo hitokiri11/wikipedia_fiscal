@@ -78,6 +78,7 @@ Route::group(['middleware' => ['auth:cliente']], function() {
 
     Route::get('/liberconsultas', [App\Http\Controllers\LiberfyConsultasController::class, 'index'])->name('liberconsultas'); 
     Route::post('/sugerencias/store', [App\Http\Controllers\LiberfyConsultasController::class, 'store'])->name('sugerencia');
+    Route::get('/liberconsultas/acum_view/{id}', [App\Http\Controllers\LiberfyConsultasController::class, 'acum_view']); 
    /*  Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class); */
    /*  Route::get('/liberconsultas',function(){ 
@@ -98,14 +99,14 @@ Route::group(['middleware' => ['auth:web']], function() {
     Route::post('/admin/bots/store', [App\Http\Controllers\BotsController::class, 'store'])->name('bot.store'); 
     Route::get('/admin/bots/edit/{id}', [App\Http\Controllers\BotsController::class, 'edit'])->name('bot.edit'); 
     Route::put('/admin/bots/update/{id}', [App\Http\Controllers\BotsController::class, 'update'])->name('bot.update'); 
-    Route::get('/admin/bots/delete/{id}', [App\Http\Controllers\BotsController::class, 'destroy'])->name('bot.delete'); 
+    Route::delete('/admin/bots/delete/{id}', [App\Http\Controllers\BotsController::class, 'destroy'])->name('bot.delete'); 
 
     Route::get('/admin/usuarios', [App\Http\Controllers\UserController::class, 'index'])->name('users');
     Route::get('/admin/usuarios/create', [App\Http\Controllers\UserController::class, 'create'])->name('users.create'); 
     Route::post('/admin/usuarios/store', [App\Http\Controllers\UserController::class, 'store'])->name('users.store'); 
     Route::get('/admin/usuarios/edit/{id}', [App\Http\Controllers\UserController::class, 'edit'])->name('users.edit'); 
     Route::put('/admin/usuarios/update/{id}', [App\Http\Controllers\UserController::class, 'update'])->name('users.update');
-    Route::delete('/admin/usuarios/delete', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete'); 
+    Route::delete('/admin/usuarios/delete/{id}', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete'); 
 
     /* Route::get('/admin/wiki', [App\Http\Controllers\WikiController::class, 'index'])->name('wiki'); 
     Route::get('/admin/wiki/create', [App\Http\Controllers\WikiController::class, 'create'])->name('wiki.create'); 

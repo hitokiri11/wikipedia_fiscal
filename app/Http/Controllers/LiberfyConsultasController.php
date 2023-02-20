@@ -90,6 +90,20 @@ class LiberfyConsultasController extends Controller
         return redirect()->to('/liberconsultas');
     }
 
+
+    public function acum_view($id) { 
+        try {
+            $data_blog = Bot::where('id',$id)->first();
+            $data_blog->visto = ($data_blog->visto + 1);
+            $data_blog->save();
+
+            return response()->json(['res' => true]);
+
+        } catch (\Throwable $e) {
+            return response()->json(['res' => false]);
+        }
+    }
+    
     /**
      * Display the specified resource.
      *

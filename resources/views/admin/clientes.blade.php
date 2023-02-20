@@ -12,7 +12,7 @@
                 <caption><h5><stron>Clientes</stron></h5></caption> 
             </div>
 
-            <div class="col-md-2 col-lg-2">
+            {{-- <div class="col-md-2 col-lg-2">
                     <div class="row">
                     @can('users_client-sincronizar')
                     <a type="button" class="btn btn-success" href="{{url('/admin/clientes/sincronizar')}}">
@@ -21,7 +21,7 @@
                     </a>
                     @endcan
                     </div>
-            </div>
+            </div> --}}
         </div>
         <br><br><br>
 

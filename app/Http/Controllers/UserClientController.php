@@ -27,18 +27,30 @@ class UserClientController extends Controller
       
     }
 
-    public function sincronizar()  {
-        dd('aqui');
-       /*  $arr = [];
-        $post_json = json_encode($arr); */
-        $endpoint = 'https://api.hubapi.com/contacts/v1/contact?hapikey=' . env('HUBSPOT_API_KEY');
-        $client = new Client();
-        $res = $client->request('POST', $endpoint, [
-            'body' => $post_json
-        ]);
-        return view('admin.clientes', compact(['res']));
+    static public function sincronizar()  {
 
-       /*  return "Contact Created!"; */
+        try {
+             /* $data_clientes = UserClient::all();
+                $data_clientes->delete(); COMENTADO TEMPORALMENTE*/ 
+
+                $endpoint = 'https://api.hubapi.com/crm/v3/objects/contacts?hapikey=' . env('HUBSPOT_API_KEY');
+                $client = new Client();
+                $res = $client->request('GET', $endpoint); 
+
+                /* foreach($res as $k => $v) {
+                    $new_user_client = new UserClient();
+                    $new_user_client->name      = $v->name;
+                    $new_user_client->email     = $v->email;
+                    $new_user_client->password  = '123456789';
+                    $new_user_client->save();
+                } */
+                /* COMENTADO TEMPORALMENTE */ 
+                return 'Se ha ejecutado la sincronización hacia el api de hubspot';
+
+        } catch (\Throwable $e) {
+            return 'Ha ocurrido el siguiente error al tratar de sincronizar con el api de hubspot: '.$e;
+        }
+
     }
 
     /**
