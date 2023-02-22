@@ -1,8 +1,7 @@
 <section class="page-section" id="asesoria">
         <div class="tituloAsesoria">
             <label>
-                Nuestra tecnología te hace más eficiente y <br>
-                nuestra asesoría te permite entenderlo todo
+                Mira... ¡así de fácil!
             </label>
         </div> 
         <div class="mt-5 align-items: center;">
@@ -30,10 +29,10 @@
         </div>
         <div class="mt-5" >
             <div >
-                <ul class="navbar-nav " style="align-items: center;">
+                <ul class="navbar-nav mb-5" >
                     <li class="nav-item mx-0 mx-lg-1" >
-                        <button type="button" class="btn btn-primary rounded-pill" style="width:150%;color:#000;">
-                            <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">Agenda una llamada</label>
+                        <button type="button" class="btn btn-primary rounded-pill boton_section_4">
+                            <label class="fs-6" >Agenda una llamada</label>
                         </button>
                     </li>
                 </ul>

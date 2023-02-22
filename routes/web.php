@@ -67,7 +67,7 @@ Auth::routes();
 
 Route::get('/cliente',[LoginController::class,'showClienteLoginForm'])->name('cliente');
 Route::post('/cliente',[LoginController::class,'clienteLogin'])->name('cliente');
-
+Route::post('/liberconsultas/changePassword', [App\Http\Controllers\LiberfyConsultasController::class, 'changePassword'])->name('change_password');
 
 
 /* Route::get('/liberconsultas',function(){ 
@@ -79,6 +79,7 @@ Route::group(['middleware' => ['auth:cliente']], function() {
     Route::get('/liberconsultas', [App\Http\Controllers\LiberfyConsultasController::class, 'index'])->name('liberconsultas'); 
     Route::post('/sugerencias/store', [App\Http\Controllers\LiberfyConsultasController::class, 'store'])->name('sugerencia');
     Route::get('/liberconsultas/acum_view/{id}', [App\Http\Controllers\LiberfyConsultasController::class, 'acum_view']); 
+    
    /*  Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class); */
    /*  Route::get('/liberconsultas',function(){ 

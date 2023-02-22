@@ -30,20 +30,18 @@ class UserClientController extends Controller
     static public function sincronizar()  {
 
         try {
-             /* $data_clientes = UserClient::all();
-                $data_clientes->delete(); COMENTADO TEMPORALMENTE*/ 
+                $data_clientes = UserClient::all();
 
                 $endpoint = 'https://api.hubapi.com/crm/v3/objects/contacts?hapikey=' . env('HUBSPOT_API_KEY');
                 $client = new Client();
                 $res = $client->request('GET', $endpoint); 
 
-                /* foreach($res as $k => $v) {
-                    $new_user_client = new UserClient();
-                    $new_user_client->name      = $v->name;
-                    $new_user_client->email     = $v->email;
-                    $new_user_client->password  = '123456789';
-                    $new_user_client->save();
-                } */
+                /* Se itera res y se busca el email en base de datos local, si el email no esta se agrega con su has de clave del 1 al 9,
+                 */
+
+                 /* Luego se itera el objeto data_clientes para buscar email que no esten en res, los que no esten se guardan en un arreglo
+                 junto a su id, luego se itera este arreglo para eelimina esos correos de la base de datos */
+                
                 /* COMENTADO TEMPORALMENTE */ 
                 return 'Se ha ejecutado la sincronización hacia el api de hubspot';
 

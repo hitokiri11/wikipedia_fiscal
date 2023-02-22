@@ -4,9 +4,10 @@
         <div class="row  mt-5">
             <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5">
                 <label class="titulo1">
-                        Libérate de la gestión 
-                        fiscal, laboral y contable 
-                        con solo un clic.
+                    ¿Te imaginas liberarte 
+                    de la gestión fiscal, 
+                    laboral y contable con 
+                    un solo clic?
                 </label> 
                 <label class="titulo2 " >
                     <p>Somos la mano derecha del emprendedor del siglo XXI</p> 
@@ -40,7 +41,7 @@
                     
                     <div class="row mt-0">
                         <div class="col-md-6 col-lg-6" >
-                            <button type="button" class="btn btn-primary rounded-pill mt-2" style="width:100%;">
+                            <button type="button" class="btn btn-primary rounded-pill mt-2 boton_llamada" >
                                 <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;">Agenda una llamada</label>
                             </button>
                         </div>
@@ -48,7 +49,7 @@
                 </label>
             </div>
             <div class="col-md-6 col-lg-6  mb-md-0 mt-5">
-                <img src="assets/img/home/rectangle4791.png" class="figure-img  rounded " alt="..." width="98%">
+                <img src="assets/img/home/rectangle4791.png" class="figure-img  rounded " alt="..." >
             </div>
         </div>
 

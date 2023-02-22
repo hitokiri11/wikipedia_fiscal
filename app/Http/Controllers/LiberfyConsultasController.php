@@ -8,6 +8,7 @@ use App\Models\UserClient;
 use App\Models\Sugerencias;
 use App\Http\Controllers\Session;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Hash;
 use Carbon\Carbon;
 
 class LiberfyConsultasController extends Controller
@@ -18,13 +19,13 @@ class LiberfyConsultasController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(Request $request)
-    { 
+    {  
         $id_user = \Auth::id(); 
         $res = null;
         $flag= false;
-
+        $data_user = UserClient::where('id',$id_user)->first();
         try {
-            $data_user = UserClient::where('id',$id_user)->first();
+            
             if($data_user->status == false) {
                 $data_user->status = true;
                 $data_user->save();
@@ -42,8 +43,6 @@ class LiberfyConsultasController extends Controller
             //throw $th;
         }
 
-        
-        
         return view( 'liberconsultas',compact(['res','flag']) );
     }
 
@@ -102,6 +101,22 @@ class LiberfyConsultasController extends Controller
         } catch (\Throwable $e) {
             return response()->json(['res' => false]);
         }
+    } 
+
+    public function changePassword(Request $request) {
+    
+        $id = $request->id;
+        $data_cliente = UserClient::where('id',$id)->first();
+        try {   
+            $data_cliente->cliente_confirmado = true; 
+            $data_cliente->password = Hash::make($request->password);
+            $data_cliente->save();
+        } catch (\Throwable $e) {
+            \Session::flash('error','Ha ocurrido un error, por favor intente más tarde');
+            return redirect()->to('/cliente');
+        } 
+        \Session::flash('primary','La contraseña se ha cambiado de forma exitosa');
+        return redirect()->to('/cliente');
     }
     
     /**

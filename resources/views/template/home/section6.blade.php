@@ -2,10 +2,10 @@
     <div class="fondoBlack2 row" >
         <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
             <p class="tituloFacturas">
-                ¿Cuántos se tardan en realizar el proceso contable?
+                ¿Cómo te ahorra tiempo Liberfy?
             </p>
         </div>
-        <div class="col-md-6 col-lg-6 mb- mb-md-0 " >
+        <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5" >
             <div class="card fondoTarjeta1" >
                 <div class="card-body"> 
                     <div class="card miniCard">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-lg-6 mb- mb-md-0 " >
+        <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5" >
             <div class="card fondoTarjeta2" >
                 <div class="card-body">
                     <div class="card miniCard">
@@ -31,10 +31,11 @@
                         </div>
                     </div>
                     <p class="titulo2Factura"> 
-                        En Liberfy
+                        Con Liberfy
                     </p>
                     <p class="titulo3Factura">
-                        200 facturas en 15 minutos
+                        200 facturas en 15 minutos <br>
+                        El resto del tiempo te lo dedicamos a ti
                     </p>
                 </div>
             </div>
@@ -46,7 +47,7 @@
                 los servicios lo dedicamos a asesorar a nuestros clientes.
             </p>
             <p class="tituloBienvenido">
-                ¡Bienvenidos a la 3° Revolución Contable!
+                Empieza tu revolución ahora
             </p>
         </div>
     </div>

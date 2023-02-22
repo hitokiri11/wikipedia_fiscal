@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use App\Models\UserClient;
+use App\Http\Controllers\Session;
 
 class LoginController extends Controller
 {
@@ -47,16 +49,28 @@ class LoginController extends Controller
 
     public function clienteLogin(Request $request)
     {
-        $this->validate($request, [
-            'email'   => 'required|email',
-            'password' => 'required|min:6'
-        ]);
+            $email = $request->email;
+            $data_user = UserClient::where('email',$email)->first();
+            if(!$data_user){
+                \Session::flash('error','El cliente no existe');
+                return redirect()->to('/cliente');
+            } 
 
-        if (\Auth::guard('cliente')->attempt($request->only(['email','password']), $request->get('remember'))){
-            return redirect()->intended('/liberconsultas');
-        }
+            if($data_user->cliente_confirmado == false) { 
+                $id = $data_user->id;
+                return view( 'change_password', compact(['id']));
+            }
+            
+            $this->validate($request, [
+                'email'   => 'required|email',
+                'password' => 'required|min:6'
+            ]);
 
-        return back()->withInput($request->only('email', 'remember'));
+            if (\Auth::guard('cliente')->attempt($request->only(['email','password']), $request->get('remember'))) { 
+                return redirect()->intended('/liberconsultas');
+            }
+
+            return back()->withInput($request->only('email', 'remember'));
     }
 
 

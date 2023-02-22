@@ -1,22 +1,22 @@
-<section class="page-section fondoReviews" id="reviews">
+<section class="fondoReviews" id="reviews">
         <div class="row">
-            <div class="col-md-12 col-lg-12 mb- mb-md-0" >
+            <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
                 <p class="tituloReviews1">
                     ELLOS LO SABEN
                 </p>
                 <p class="tituloReviews2">
-                    Visita nuestras Google reviews
+                    Google reviews
                 </p>
                 <p class="tituloReviews3">
-                    La contabilidad y la fiscalidad ya no serán ninguna 
-                    de tus preocupaciones
+                    {{-- La contabilidad y la fiscalidad ya no serán ninguna 
+                    de tus preocupaciones --}}
                 </p>
             </div>
         </div>
 
-        <div class="row ">
-            <div class="col-md-2 col-lg-2 mb- mb-md-0 mt-1"  ></div>
-            <div class="col-md-3 col-lg-3 mb- mb-md-0 mt-1"  >
+        <div class="row p-4">
+            {{-- <div class="col-md-1 col-lg-1 mb- mb-md-0 mt-1"  ></div> --}}
+            <div class="col-md-4 col-lg-4"  >
                 <div class="card" >
                     <div class="card-body"> 
                         <div class="calificacionesReviews">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 mb- mb-md-0 mt-1"  >
+            <div class="col-md-4 col-lg-4 mb- mb-md-0 mt-1"  >
                 <div class="card" >
                     <div class="card-body">
                         <div class="calificacionesReviews">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 mb- mb-md-0 mt-1"  >
+            <div class="col-md-4 col-lg-4 mb- mb-md-0 mt-1"  >
                 <div class="card" >
                     <div class="card-body"> 
                         <div class="calificacionesReviews">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 col-lg-2 mb- mb-md-0 mt-1"  ></div>
+            {{-- <div class="col-md-1 col-lg-1 mb- mb-md-0 mt-1"  ></div> --}}
         </div>
     </div>
 </section>

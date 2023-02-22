@@ -16,11 +16,12 @@ class UsersClientsSeeder extends Seeder
     public function run()
     {
         DB::table('user_clients')->insert([
-            'name'          => 'Carlos Amaro',
-            'email'         => 'carlos@gmail.com',
-            'password'      => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
-            'status'        => false,
-            'created_at'    => Carbon::now(),
+            'name'                  => 'Carlos Amaro',
+            'email'                 => 'carlos@gmail.com',
+            'password'              => '$2y$10$9JJmIAWJzOpJBeMTJy7lB.bjnSZaZSxVHiXWTyWTeo1LKTZszC5c6',
+            'status'                => false,
+            'cliente_confirmado'    => false,
+            'created_at'            => Carbon::now(),
         ]);
     }
 }

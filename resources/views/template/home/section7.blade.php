@@ -1,20 +1,20 @@
 <section >
     <div class="row mb-5">
         <div class="col-md-5 col-lg-5 mb- mb-md-0" >
-            <img src="assets/img/home/integridad.png"  class="imagenIntegridad"/>
+            <img  src="assets/img/home/integridad.png"   class="imagenIntegridad"/>
+            <img  src="assets/img/home/integridad2.png"  class="imagenIntegridad2"  />
+           {{--  src="assets/img/home/integridad.png" --}}
         </div>
-        <div class="col-md-7 col-lg-7 mb- mb-md-0" >
+        <div class="col-md-7 col-lg-7 mb- mb-md-0 mt-5" >
             <p class="tituloIntegridad">
                 La integridad y el compromiso 
                 definen nuestra manera de trabajar
             </p>
             <div class="row">
-                <div class="col-md-1 col-lg-1">
-                    <a class="btn btn-primary rounded-circle botonesCheck" >
-                        <label class="fs-6" >
-                            <i class="fa-sharp fa-solid fa-check check" ></i>
-                        </label>
-                    </a>
+                <div class="col-md-1 col-lg-1 check_integridad">
+                    <label class="fs-6 " >
+                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
+                    </label>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -24,12 +24,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1 col-lg-1">
-                    <a class="btn btn-primary rounded-circle botonesCheck" >
-                        <label class="fs-6" >
-                            <i class="fa-sharp fa-solid fa-check check" ></i>
-                        </label>
-                    </a>
+                <div class="col-md-1 col-lg-1 check_integridad">
+                    <label class="fs-6" >
+                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
+                    </label>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -40,12 +38,10 @@
             </div>
 
             <div class="row">
-                <div class="col-md-1 col-lg-1">
-                    <a class="btn btn-primary rounded-circle botonesCheck" >
-                        <label class="fs-6" >
-                            <i class="fa-sharp fa-solid fa-check check" ></i>
-                        </label>
-                    </a>
+                <div class="col-md-1 col-lg-1 check_integridad">
+                    <label class="fs-6" >
+                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
+                    </label>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -66,9 +62,11 @@
                         <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;">Agenda una llamada</label>
                     </button>
                 </div>
+                
             </div>
 
         </div>
 
     </div>
+    <hr class="divisor2 center-content-justify">   
 </section>

@@ -19,6 +19,7 @@ class CreateUsersClientsTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->boolean('status')->default(false);
+            $table->boolean('cliente_confirmado')->default(false);
             $table->timestamps();
         });
     }
