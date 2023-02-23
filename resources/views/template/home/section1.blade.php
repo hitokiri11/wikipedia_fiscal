@@ -49,7 +49,7 @@
                 </label>
             </div>
             <div class="col-md-6 col-lg-6  mb-md-0 mt-5">
-                <img src="assets/img/home/rectangle4791.png" class="figure-img  rounded " alt="..." >
+                <img src="assets/img/home/rectangle4791.png" class="figure-img" alt="..." >
             </div>
         </div>
 
