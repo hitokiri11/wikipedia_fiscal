@@ -632,7 +632,7 @@ progress {
 @media (max-width: 1480px){
   .figure-img {
     margin-top: 3%;
-    margin-left: -80px;
+    margin-left: 20px;
   }
 }
 @media (max-width: 992px){
@@ -4216,6 +4216,7 @@ textarea.form-control-lg {
   }
   .boton_llamada {
     margin-left: 0px;
+
   }
 }
 @media (min-width: 768px) {
@@ -11578,6 +11579,10 @@ html {
 @media (min-width: 992px) {
   .boton_llamada {
     margin-left: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 279px;
+
   }
 }
 @media (min-width: 768px) {
@@ -11628,6 +11633,8 @@ html {
 @media (max-width: 1480px) {
   .titulo1 {
     margin-left:8rem;
+    top:-75px;
+    width: 400px;
   }
 }
 
@@ -11681,7 +11688,8 @@ html {
 }
 @media (max-width: 1480px) {
   .titulo2 {
-    margin-top: 11%;
+    top: 1px;
+    width: 600px;
   }
 }
 @media (max-width: 992px){
@@ -11741,6 +11749,12 @@ html {
       margin-left: 5%;
       text-transform: capitalize;
 }
+@media (min-width: 993px) {
+  .tituloNegocios {
+    margin-top: 5%;
+  }
+}
+
 @media (max-width: 992px) {
   .tituloNegocios {
     margin-top: 5%;
@@ -12218,15 +12232,21 @@ html {
 }
 @media (max-width: 1480px){
   .boton_section_4 {
-    top:2100px;
-    left: 580px;
+    margin-top:100px;
+    margin-left: 200px;
   }
 }
 
+@media (min-width: 992px) {
+  .boton_section_4 {
+    margin-top:-90px;
+    margin-left: 75px;
+  }
+}
 @media (max-width: 992px) {
   .boton_section_4 {
     top:2100px;
-    left: 365px;
+    margin-left: 75px;
   }
 }
 @media (min-width: 841px) {
@@ -12555,8 +12575,18 @@ html {
 .nav-list {
   margin-left: 50%;
 }
+@media (min-width: 992px){
+    .nav-list {
+        margin-left: 1%;
+    }
+}
 .list-menu {
   margin-right: 10%;
+}
+@media (min-width: 992px){
+  .list-menu {
+      margin-left: -10%;
+  }
 }
 @media (max-width: 840px) {
   .logo_liberfy_footer {
