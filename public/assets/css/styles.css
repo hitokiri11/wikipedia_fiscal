@@ -620,11 +620,19 @@ progress {
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
-  width: 98%;
+  width: 80%;
+}
+@media (min-width: 1481px){
+  .figure-img { 
+    margin-top: 3%;
+    margin-left: -80px;
+    width: 80%;
+  }
 }
 @media (max-width: 1480px){
   .figure-img {
-    margin-left: -100px;
+    margin-top: 3%;
+    margin-left: -80px;
   }
 }
 @media (max-width: 992px){
@@ -11556,15 +11564,16 @@ html {
 
 /******************************************************* AGREGADO ****************************************************/ 
 .boton_llamada {
-  width:190px;
+  width: 279px;
   height: 48px;
-  font-family: 'Plus Jakarta Display';
+/*   font-family: 'Plus Jakarta Display'; */
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
   margin-left: 65px;
+  border-radius: 30px;
 }
 @media (min-width: 992px) {
   .boton_llamada {
@@ -11611,7 +11620,11 @@ html {
       color: #232323;
       margin-left:6rem;
 } 
-
+@media (min-width: 1481px) {
+  .titulo1 {
+    margin-left:8rem;
+  }
+}
 @media (max-width: 1480px) {
   .titulo1 {
     margin-left:8rem;
@@ -11625,6 +11638,11 @@ html {
     line-height: 1;
     margin-top: 195px;
     left: -4%;
+  }
+}
+@media (min-width: 841px) {
+  .titulo1 {
+    margin-top: 27%;
   }
 }
 @media (max-width: 840px) {
@@ -11655,6 +11673,12 @@ html {
       color: #232323;
       margin-top: 15%;
 } 
+
+@media (min-width: 1480px) {
+  .titulo2 {
+    margin-top: 11%;
+  }
+}
 @media (max-width: 1480px) {
   .titulo2 {
     margin-top: 11%;
@@ -11667,6 +11691,12 @@ html {
     line-height: 1;
     margin-top: 35%;
     left: 10%;
+  }
+}
+@media (min-width: 841px){
+  .titulo2 {
+    margin-top: 43%;
+    left: 12%;
   }
 }
 @media (max-width: 840px){
@@ -12180,6 +12210,12 @@ html {
   border-radius: 30px;
 
 }
+@media (min-width: 1481px){
+  .boton_section_4 {
+      top:2060px;
+      left: 610px;
+  }
+}
 @media (max-width: 1480px){
   .boton_section_4 {
     top:2100px;
@@ -12191,6 +12227,12 @@ html {
   .boton_section_4 {
     top:2100px;
     left: 365px;
+  }
+}
+@media (min-width: 841px) {
+  .boton_section_4 {
+    top:2090px;
+    left: 298px;
   }
 }
 @media (max-width: 840px) {
@@ -12303,6 +12345,11 @@ html {
   float: right; 
   margin-top: -4rem;
 }
+@media (min-width: 841px) {
+  .fondoTarjeta1 {
+      height: 265px;
+  }
+}
 @media (max-width: 840px) {
   .fondoTarjeta1 {
     height: 245px;
@@ -12330,6 +12377,11 @@ html {
   float: left; 
   margin-top: -4rem;
 } 
+@media (min-width: 841px) {
+  .fondoTarjeta2 {
+      height: 265px;
+  }
+}
 @media (max-width: 840px) {
   .fondoTarjeta2 {
     height: 245px;
@@ -12399,6 +12451,14 @@ html {
 .imagenIntegridad2 { 
   display: none;
 }
+
+@media (min-width: 841px) {
+  .imagenIntegridad { 
+      height: 10px;
+      margin-top: -1%;
+  }
+}
+
 @media (max-width: 840px) {
   .imagenIntegridad { 
     width: 100%;
@@ -12486,11 +12546,17 @@ html {
 
 .logo_liberfy {
   height: 40px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 .logo_liberfy_footer {
   height: 40px;
   margin-left: 10px;
+}
+.nav-list {
+  margin-left: 50%;
+}
+.list-menu {
+  margin-right: 10%;
 }
 @media (max-width: 840px) {
   .logo_liberfy_footer {
@@ -12734,13 +12800,19 @@ html {
 
 /* ******FOOTER**** */
 @media (min-width: 841px) {
+  .bottom_bar {
+      display: block;
+  }
+  .section_social {
+      margin-top:10%
+  }
+}
+
+@media (min-width: 841px) {
   .list_footer {
     display: none;
   }
-  .bottom_bar {
-    display: none;
-    margin-top: -200%;
-  }
+  
 }
 @media (max-width: 840px) {
   .list_footer {

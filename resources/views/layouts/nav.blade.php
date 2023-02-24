@@ -6,7 +6,7 @@
             Menu
             <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive"> 
+        <div class="collapse navbar-collapse list-menu" id="navbarResponsive"> 
             <ul class="navbar-nav ms-auto" >
                 <li class="nav-item mx-0 mx-lg-1" ><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/equipo" style="color: #8C8C8C;" >Equipo</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/servicios" style="color: #8C8C8C;" >Servicios</a></li>
@@ -15,8 +15,8 @@
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/dudas" style="color: #8C8C8C;" >¿Dudas?</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/cliente" style="color: #8C8C8C;" >Área Cliente</a></li>
                 <li class="nav-item mx-0 mx-lg-1" >
-                    <button type="button" class="btn btn-primary rounded-pill boton_llamada" >
-                        <label class="fs-6 boton_llamada_label" >Agenda una llamada</label>
+                    <button type="button" class="btn btn-primary rounded-pill boton_llamada nav-list" >
+                        <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;" >Agenda una llamada</label>
                     </button>
                 </li>
                 @if(Auth::guard('cliente')->check())
