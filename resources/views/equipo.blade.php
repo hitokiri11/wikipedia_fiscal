@@ -122,50 +122,50 @@
     </div>
 
 {{-- SLIDE DE IMAGENES --}}
-   <div class="align_img">
+   <div class="align_img ">
         <div class="container my-3 mt-5 " id="featureContainer">
-            <div class="row mx-auto my-auto justify-content-center">
-            <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="row mx-auto my-auto justify-content-center ">
+            <div id="featureCarousel" class="carousel slide " data-bs-ride="carousel">
 
            
-                <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-img">
-                        <img src="assets/img/team/img1.png" class="img-fluid col-md-3 width_img">
-                        <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
-                        <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
-                        </div>
-              
-                    </div>
-                    </div>
-                </div>
+                <div class="carousel-inner " role="listbox">
+                  <div class="carousel-item active ">
+                      <div class="col-md-12 col-lg-12 col-xl-12">
+                      <div class="card ">
+                          <div class="card-img">
+                          <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          </div>
+                
+                      </div>
+                      </div>
+                  </div>
 
-                <div class="carousel-item">
-                    <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-img">
-                        <img src="assets/img/team/img1.png" class="img-fluid col-md-3 width_img">
-                        <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
-                        <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
-                        </div>
-               
-                    </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="assets/img/team/img1.png" class="img-fluid col-md-3 width_img">
-                            <img src="assets/img/team/img2.png" class="img-fluid col-md-3 width_img">
-                            <img src="assets/img/team/img3.png" class="img-fluid col-md-3 width_img">
-                        </div>
-               
-                    </div>
-                    </div>
-                </div>
+                  <div class="carousel-item">
+                      <div class="col-md-12 col-lg-12 col-xl-12">
+                      <div class="card">
+                          <div class="card-img">
+                          <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          </div>
+                
+                      </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="col-md-12 col-lg-12 col-xl-12">
+                      <div class="card">
+                          <div class="card-img">
+                              <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                              <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                              <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                          </div>
+                
+                      </div>
+                      </div>
+                  </div>
             
                 </div>
                 <br>
@@ -212,28 +212,27 @@
 </div>
 
 <div class="row col-md-12 col-lg-12 mb- mb-md-0 fondoBlack3 "  >
-    <div class="col-md-4 col-lg-2" style="text-align: right">
-        <h6>Los Fundadores</h6>
+    <div class="col-md-4 col-lg-2" class="fundadores"  >
+        <h6>Los fundadores</h6>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores" >
         <p>
-            Miguel Sierra, César Rivero y José Llanos son <br> 
-            tres empresarios que comparten una visión <br>
-            similar sobre los negocios.
-            <br><br>
-            El buen trabajo en conjunto y la identificación <br>
-            de oportunidades que es otra de las virtudes <br>
-            de este tridente empresarial, dió origen a <br>
-            Liberfy una idea enfocada en liberar a los
+            Miguel Sierra, César Rivero y José Llanos<br> 
+            conforman un tridente empresarial que <br>
+            comparten una visión similar sobre los <br>
+            negoscios, así como una facilidad innata para <br>
+            crear soluciones comerciales estratégicas.
         </p>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores2">
         <p>
-            empresarios de las gestiones fiscales, <br>
-            contables y laborales, pero sobre todo a <br>
-            optimizar las cargas tributarias para <br>
-            resguardar la rentabilidad y legitimmidad <br>
-            de las operaciones.
+            Liberfy es una empresa creada de la <br>
+            propia necesidad de contar con una <br>
+            asesoría que atendiera a los <br>
+            emprendedores disruptivos y les <br>
+            permitiera optiminar las cargas <br>
+            tributarias, resguardando la rentabilidad <br>
+            y legitimidad de sus operaciones.
         </p>
     </div>
 </div>

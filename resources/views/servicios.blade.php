@@ -3,10 +3,10 @@
 <section class="page-section"  id="servicios" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
         <div>
-            <img src="assets/img/servicios/servicios.jfif"   class="img-fluid d-block w-100" alt="..."> 
-            <div class="carousel-caption d-none d-md-block titulo_banner" >
+            <img src="assets/img/servicios/servicios.jfif"   class="img-fluid d-block banner_servicio" alt="..."> 
+            <div class=" titulo_banner" >
                 <h1>Autónomos y pymes</h1>
-                <h1 style="color:#17BA9C;">100% protegidos</h1>
+                <h1 style="color:#17BA9C;font-style: italic;">100% protegidos</h1>
             </div>
         </div>
     </div>
