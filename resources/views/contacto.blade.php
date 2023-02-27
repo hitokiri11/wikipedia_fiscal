@@ -4,7 +4,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 @endpush
-<section class="page-section"  id="contacto" >
+<section class="page-section seccion_contacto"  id="contacto" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
 
           <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -16,21 +16,21 @@
 
               <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
-                          <img src="assets/img/contactos/images.jpg" class="d-block w-100 h-50" alt="...">
-                          <div class="carousel-caption d-none d-md-block" style="color:#fff;text-align: left;" >
-                              <h4>Nuestras Oficinas</h4>
+                          <img src="assets/img/contactos/images.jpg" class=" banner_contacto" alt="...">
+                          <div >
+                              <h4 class="texto_carrusel">Nuestras Oficinas</h4>
                           </div>
                       </div>
                       <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/img/contactos/images2.png" class="d-block w-100 h-50" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-align-left" style="color:#fff;text-align: left;" >
-                                  <h4>Nuestras Oficinas</h4>
+                            <img src="assets/img/contactos/images2.png" class=" banner_contacto" alt="...">
+                            <div   >
+                                  <h4 class="texto_carrusel">Nuestras Oficinas</h4>
                             </div>
                       </div>
                       <div class="carousel-item">
-                            <img src="assets/img/contactos/images3.png" class="d-block w-100 h-50" alt="...">
-                            <div class="carousel-caption d-none d-md-block" style="color:#fff;text-align: left;">
-                                  <h4>Nuestras Oficinas</h4>
+                            <img src="assets/img/contactos/images3.png" class=" banner_contacto" alt="...">
+                            <div>
+                                  <h4 class="texto_carrusel">Nuestras Oficinas</h4>
                             </div>
                       </div>
                 </div>
@@ -65,10 +65,9 @@
         <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5">
              
                     <div class="mapouter">
-                            <div class="gmap_canvas">
+                            <div class="gmap_canvas mapa_contacto">
                                     <iframe 
-                                          width="600" 
-                                          height="400" 
+                                          class="frame_mapa"
                                           id="gmap_canvas" 
                                           src="https://maps.google.com/maps?q=C.%20Fuente%20Cisnero,%2037,%2028922%20Alcorc%C3%B3n,%20Madrid&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                                           frameborder="0" 

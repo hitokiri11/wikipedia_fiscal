@@ -1,6 +1,6 @@
 <section >
-    <div class="fondoBlack2 row" >
-        <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
+    <div class="fondoBlack-tarjetas row" >
+        <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-4" >
             <p class="tituloFacturas">
                 ¿Cómo te ahorra tiempo Liberfy?
             </p>

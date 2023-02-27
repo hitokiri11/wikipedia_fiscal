@@ -21,8 +21,8 @@
                             </a>
                             ¿Es posible llevar mi gestión contable y fiscal online?
                         </p>
-                        <div class="collapse" id="collapse1">
-                            <div class="card card-body">
+                        <div class="collapse mb-2" id="collapse1">
+                            <div class="card card-body texto-card-dudas">
                               Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                             </div>
                         </div>
@@ -32,8 +32,8 @@
                             </a>
                             ¿Como me comunico con mi asesor fiscal?
                         </p>
-                        <div class="collapse" id="collapse2">
-                            <div class="card card-body">
+                        <div class="collapse mb-2" id="collapse2">
+                            <div class="card card-body texto-card-dudas">
                               aqui
                             </div>
                         </div>
@@ -44,8 +44,8 @@
                             </a>
                             ¿Existe compromiso de permanencia?
                         </p>
-                        <div class="collapse" id="collapse3">
-                            <div class="card card-body">
+                        <div class="collapse mb-2" id="collapse3">
+                            <div class="card card-body texto-card-dudas">
                               aqui 2
                             </div>
                         </div>
@@ -56,8 +56,8 @@
                             </a>
                             ¿Por qué elegir Liberfy?
                         </p>
-                        <div class="collapse" id="collapse4">
-                            <div class="card card-body">
+                        <div class="collapse mb-2" id="collapse4">
+                            <div class="card card-body texto-card-dudas">
                               aqui 3
                             </div>
                         </div>
@@ -68,9 +68,28 @@
                             </a>
                             ¿Para quién es Liberfy?
                         </p>
-                        <div class="collapse" id="collapse5">
-                            <div class="card card-body">
-                              aqui 4
+                        <div class="collapse mb-2" id="collapse5">
+                            <div class="card card-body texto-card-dudas">
+                              <p>
+                                Somos aliados del emprendedor moderno
+                              </p>
+                              <p>
+                                Nos especializamos en dos modelos de negocios disruptivos que las gestorías 
+                                tradicionales no pueden atender por la falta de conocimiento de cómo funcionan 
+                                estos negocios del siglo XXI.
+                              </p>
+                              <p>
+                                Estos modelos son:
+                              </p>
+                              <p>
+                                <strong>Negocios digitales:</strong> infoproductos, E-commerce, Amazon, Shopify, todos los
+                                negocios que se desarrollan de forma online, incluidos influencers o eGamers.
+                              </p>
+                              <p>
+                                <strong>Negocios inmobiliarios:</strong> inmobiliarias, inversores, emprendedores 
+                                especializados en alquiler turísticos, Rent to Rent, Flipping House e inversiones 
+                                tradicionales.
+                              </p>
                             </div>
                         </div>
 

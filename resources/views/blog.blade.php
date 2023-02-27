@@ -3,7 +3,7 @@
 <section class="page-section"  id="blog" >
     <div class="col-md-12 col-lg-12 mb- mb-md- " >
         <div class="padre ">
-            <img src="assets/img/servicios/servicios.jfif" style="height: 10rem"  class="img-fluid w-100" alt="..."> 
+            <img src="assets/img/servicios/servicios.jfif"  class="img-fluid banner_blog" alt="..."> 
             <div style="float: left;">
                 <h1 class="card-title ">Blog</h1>
             </div>

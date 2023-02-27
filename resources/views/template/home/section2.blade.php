@@ -8,7 +8,7 @@
         <div class="row"> 
             <div class="col-md-12 col-lg-12 mb- mb-md-0">
                 <p class="titulo2Negocios mt-3">
-                    Para ti que necesitas un experto en fiscalidad <br>
+                    Para ti que necesitas un experto en fiscalidad
                     que entienda los nuevos modelos de negocio.
                 </p>
             </div>

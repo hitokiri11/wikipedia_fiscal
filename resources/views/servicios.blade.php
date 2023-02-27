@@ -75,7 +75,7 @@
         <h4>Tu trabajo será supervisar y dar el consentimiento.</h4>
     </div>
 
-    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
+    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 " >
         <div class="card tarjeta_servicio">
             <div class="card-body">
                     <label class="mb-2">
@@ -113,7 +113,7 @@
           </div>
     </div>
 
-    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" style="text-align: center">
+    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 adicional_servico" style="text-align: center">
         <h6>Adicionalmente podrás ir sumando servicios de forma puntual</h6>
     </div>
 
@@ -121,28 +121,28 @@
         <div class="container">
             <ul class="nav nav-tabs tabs_banner2">
 
-                <li class="nav-item tab1_small">
+                <li class="nav-item tab_small">
                     <a class="nav-link active" href="#laboral" id="lab" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong style="font-size: 0.8rem;">Área Laboral</strong>
+                        <strong class="strong_tab2">Área Laboral</strong>
                     </a>
                 </li>
-                <li class="nav-item tab2_small">
+                <li class="nav-item tab_small">
                     <a class="nav-link" href="#legal" id="leg" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong style="font-size: 0.8rem;">Área Legal</strong>
+                        <strong class="strong_tab2">Área Legal</strong>
                     </a>
                 </li>
-                <li class="nav-item tab3_small">
+                <li class="nav-item tab_small">
                     <a class="nav-link" href="#propiedad" id="prop" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong style="font-size: 0.8rem;">Propiedad Intelectual</strong>
+                        <strong class="strong_tab2">Propiedad Intelectual</strong>
                     </a>
                 </li>
-                <li class="nav-item tab4_small">
+                <li class="nav-item tab_small">
                     <a class="nav-link" href="#desarrollo" id="des" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong style="font-size: 0.8rem;">Desarrollo Contractual</strong>
+                        <strong s class="strong_tab2">Desarrollo Contractual</strong>
                     </a>
                 </li>
 

@@ -5,7 +5,7 @@
         <form method="post" action="{{route('change_password')}}" name="form_change_password">
                 @csrf 
                 <input type="hidden" name="id" id="id" value="{{$id}}" />
-                <div class="container_blog3"> 
+                <div class="container_password"> 
                     <div class="card mb-3 p-2 tarjetas_blog" > 
 
                         <div class="col-md-12 col-lg-12 justify-content-center">
