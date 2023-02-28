@@ -41,7 +41,7 @@
                     
                     <div class="row mt-0">
                         <div class="col-md-6 col-lg-6" >
-                            <button type="button" class="btn btn-primary rounded-pill mt-2 boton_llamada" >
+                            <button type="button" class="btn btn-primary rounded-pill mt-2 boton_llamada_" >
                                 <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;">Agenda una llamada</label>
                             </button>
                         </div>

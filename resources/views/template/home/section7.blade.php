@@ -68,5 +68,5 @@
         </div>
 
     </div>
-    <hr class="divisor2 center-content-justify">   
+    <!-- <hr class="divisor2 center-content-justify">   --> 
 </section>
