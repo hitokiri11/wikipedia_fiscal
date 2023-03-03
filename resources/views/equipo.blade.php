@@ -106,18 +106,24 @@
 <section class="page-section"  id="equipo" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 titulosEquipos"  >
         <p class="tituloPrincipal">
-            Liberfy se creó por la necesidad de contar con una gestoría <br>    
-            que <strong>sí entendiera nuestros modelos de negocio.</strong>
+            <b>Liberfy</b>, una gestoría<br>
+            que <b>sí te entiende</b>
         </p>
-        <p class="parrafoEquipo">
-            Somos el aliado de los autónomos, los emprendedores digitales y los expertos inmobiliarios del siglo<br>
-            XXI que necesitan delegar los trámites contables, así como la fiscalidad de sus empresas.
+        <br>
+        <p class="parrafoEquipo" >
+            <b>Nuesto equipo</b> es el aliado que 
+            necesitas para delegar 
+            los trámites contables y la fiscalidad de 
+            tu empresa.
             <br><br>
-            Fusionamos lo mejor de la tecnología y la gestoría, para que tengas el control de los números de tu <br>
-            compañía de manera simple y en tiempo real.
+            Fucionamos tecnología con atención 
+            personalizada para que tengas 
+            el control de los números, de manera 
+            simple y en tiempo real.
             <br><br>
-            <em><strong>Con nuestra aplicación podrás ver en un mismo tablero:</strong></em> ingresos, gastos e impuestos, <br>
-            de forma clara y transparente.
+            <b style="font-style: italic">En nuestra aplicación podrás ver en un mismo tablero:</b><br>
+            tus ingresos, egresos e impuestos
+
         </p>
     </div>
 
@@ -242,15 +248,15 @@
         El grupo Empresarial
     </p>
     <p>
-        Liberfy forma parte de un grupo compuesto por cuatro empresas y cada una de ellas desarrolla con <br>
+        Liberfy forma parte de un grupo compuesto por cuatro empresas y cada una de ellas desarrolla con 
         éxito uno o varios de los modelos de negocio para los que fueron creados nuestros servicios.
         <br><br>
-        En el sector del alquiler tenemos <b>Renta Ya</b> que gestiona más de 300 inquilinos aplicando el Rent to Rent <br>
-        y el E-Rent, mmientras que si hablamos de Flipping House tenemos a <b>Viflip</b> una solución inmobiliaria <br>
+        En el sector del alquiler tenemos <b>RentaYa</b> que gestiona más de 300 inquilinos aplicando el Rent to Rent 
+        y el E-Rent, mmientras que si hablamos de Flipping House tenemos a <b>Viflip</b> una solución inmobiliaria 
         que se acerca a las 70 operaciones.
         <br><br>
-        Otra de las empresas del grupo es <b>Inversores Inteligentes</b>, la Escuela de Negocios del sector <br>
-        inmobiliario más grande de habla hispana, con 11.000 alumnos, en 21 países y más de 80.000 horas de <br> 
+        Otra de las empresas del grupo es <b>Inversores Inteligentes</b>, la Escuela de Negocios del sector 
+        inmobiliario más grande de habla hispana, con 11.000 alumnos, en 21 países y más de 80.000 horas de 
         formación impartidas.
     </p>
 </div>

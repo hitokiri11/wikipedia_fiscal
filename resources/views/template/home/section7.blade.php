@@ -11,10 +11,12 @@
                 definen nuestra manera de trabajar
             </p>
             <div class="row">
-                <div class="col-md-1 col-lg-1 check_integridad">
-                    <label class="fs-6 " >
-                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
-                    </label>
+                <div class="col-md-1 col-lg-1 check_integridad" >
+                    <a class="">
+                        <label class="fs-6 " >
+                            <i class="far fa-check-circle fa-lg" ></i>
+                        </label>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -25,9 +27,11 @@
             </div>
             <div class="row">
                 <div class="col-md-1 col-lg-1 check_integridad">
-                    <label class="fs-6" >
-                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
-                    </label>
+                    <a class="">
+                        <label class="fs-6" >
+                            <i class="far fa-check-circle fa-lg" ></i>
+                        </label>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -39,9 +43,11 @@
 
             <div class="row">
                 <div class="col-md-1 col-lg-1 check_integridad">
-                    <label class="fs-6" >
-                        <i class="fa-sharp fa-solid fa-check check btn btn-primary btn-sm rounded-circle" ></i>
-                    </label>
+                    <a class="">
+                        <label class="fs-6" >
+                            <i class="far fa-check-circle fa-lg" ></i>
+                        </label>
+                    </a>
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="opcionCheck">
@@ -68,5 +74,5 @@
         </div>
 
     </div>
-    <!-- <hr class="divisor2 center-content-justify">   --> 
+    <hr class="divisor2 center-content-justify">   
 </section>

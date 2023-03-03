@@ -10,12 +10,13 @@
                     un solo clic?
                 </label> 
                 <label class="titulo2 " >
-                    <p>Somos la mano derecha del emprendedor del siglo XXI</p> 
-                    <div class="row">
+                    <p class="titulo2_1">Somos la mano derecha del emprendedor del siglo XXI</p> 
+                    <p class="titulo2_2">Somos la mano derecha del emprendedor del siglo XXI</p> 
+                    <div class="row checkeos">
                         <div class="col-md-1 col-lg-1">
-                            <a class="btn btn-primary rounded-circle" >
+                            <a class="circuloCheck" >
                                 <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="fa-sharp fa-solid fa-check"></i>
+                                    <i class="far fa-check-circle"></i>
                                 </label>
                             </a>
                         </div>
@@ -27,9 +28,9 @@
 
                     <div class="row">
                         <div class="col-md-1 col-lg-1">
-                            <a  class="btn btn-primary rounded-circle" >
+                            <a  class="circuloCheck" >
                                 <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="fa-sharp fa-solid fa-check"></i>
+                                    <i class="far fa-check-circle"></i>
                                 </label>
                             </a>
                         </div>

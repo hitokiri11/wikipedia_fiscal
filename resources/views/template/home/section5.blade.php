@@ -7,10 +7,10 @@
                 <p class="tituloReviews2">
                     Google reviews
                 </p>
-                <p class="tituloReviews3">
+               <!--  <p class="tituloReviews3">
                     {{-- La contabilidad y la fiscalidad ya no serán ninguna 
                     de tus preocupaciones --}}
-                </p>
+                </p> -->
             </div>
         </div>
 

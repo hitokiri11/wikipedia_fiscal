@@ -1,26 +1,22 @@
 <footer class="footer text-center" >
     <div class="container">
-        <div class="row ">
+        <div class="row covert-list">
             <!-- Footer Location-->
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer" >
                 <ul style="list-style:none">
-                    <li><h5>About</h5></li>
-                    <li ><a href="" style="color:#9A9EA6;text-decoration:none" >About us</a></li>
-                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Blog</a></li>
-                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Careers</a></li>
-                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >Jobs</a></li>
-                    <li><a href="" style="color:#9A9EA6;text-decoration:none" >In Press</a></li>
+                    <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy_footer2"/>
                 </ul>
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer">
-                <ul style="list-style:none">
-                    <li><h5>Support</h5></li>
+                <p style="list-style:none">Contacto</p>
+                <!-- <ul style="list-style:none">
+                    <li>Contacto</li>
                     <li><a href="" style="color:#9A9EA6;text-decoration:none" >Online Chat</a></li>
                     <li><a href="" style="color:#9A9EA6;text-decoration:none" >Whatsapp</a></li>
                     <li><a href="" style="color:#9A9EA6;text-decoration:none" >Telegram</a></li>
                     <li><a href="" style="color:#9A9EA6;text-decoration:none" >Ticketing</a></li>
-                </ul>
+                </ul> -->
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer">
@@ -36,7 +32,7 @@
             <div class="col-lg-12 mb-5 mt-5 mb-lg-0"> </div>
             {{-- Botton Bar logo --}}
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <p class="bottom_bar" style="text-size:12px;color:#9A9EA6;">Botton Bar</p>
+               <!--  <p class="bottom_bar" style="text-size:12px;color:#9A9EA6;">Botton Bar</p> -->
                 <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy_footer"/></a>
             </div>
             <!-- Footer Social Icons-->
@@ -80,7 +76,7 @@
             <!-- Footer About Text-->
             <div class="col-lg-4 mb-5 mb-lg-0 section_copy">
                 <p class="lead mb-0">
-                    <small style="color:#9A9EA6;">Copyright &copy; 2000 - 2022 All Rigths Reserved</small>
+                    <small style="color:#9A9EA6;"> &copy; 2000 - 2022, All Rigths Reserved</small>
                 </p>
             </div>
         </div>

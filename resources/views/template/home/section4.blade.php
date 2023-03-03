@@ -12,18 +12,18 @@
                 Conoce a tu gestor
             </button> 
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Sube facturas <br>
+                Sube facturas 
                 en la app
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Completa la <br>
+                Completa la 
                 información
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
                 Gestión Liberfy
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Encuentra tus <br>
+                Encuentra tus 
                 resultados
             </button>
         </div>

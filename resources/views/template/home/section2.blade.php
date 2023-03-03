@@ -4,7 +4,7 @@
     <div class="container">
         <hr class="divisor center-content-justify">    
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-capitalize tituloNegocios">¿Para Quién Es Liberfy?</h2>
+        <h2 class="page-section-heading text-center  tituloNegocios">¿Para quién es Liberfy?</h2>
         <div class="row"> 
             <div class="col-md-12 col-lg-12 mb- mb-md-0">
                 <p class="titulo2Negocios mt-3">
