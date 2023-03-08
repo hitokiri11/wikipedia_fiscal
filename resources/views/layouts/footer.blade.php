@@ -6,8 +6,8 @@
                 <ul style="list-style:none">
                     <li>
                          <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy_footer2"/>
-                         <a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-xs socials-2" ></i></a>
-                         <a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-xs socials-3" ></i></a>
+                         <a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-sm socials-2" ></i></a>
+                         <a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-sm socials-3" ></i></a>
                     </li>
                 </ul>
                 <!-- <a><i class="fab fa-facebook-f"></i></a> -->

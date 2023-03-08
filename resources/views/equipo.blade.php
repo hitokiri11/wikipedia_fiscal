@@ -223,21 +223,21 @@
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores" >
         <p>
-            Miguel Sierra, César Rivero y José Llanos<br> 
-            conforman un tridente empresarial que <br>
-            comparten una visión similar sobre los <br>
-            negoscios, así como una facilidad innata para <br>
+            Miguel Sierra, César Rivero y José Llanos  
+            conforman un tridente empresarial que 
+            comparten una visión similar sobre los 
+            negoscios, así como una facilidad innata para 
             crear soluciones comerciales estratégicas.
         </p>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores2">
         <p>
-            Liberfy es una empresa creada de la <br>
-            propia necesidad de contar con una <br>
-            asesoría que atendiera a los <br>
-            emprendedores disruptivos y les <br>
-            permitiera optiminar las cargas <br>
-            tributarias, resguardando la rentabilidad <br>
+            Liberfy es una empresa creada de la 
+            propia necesidad de contar con una 
+            asesoría que atendiera a los 
+            emprendedores disruptivos y les 
+            permitiera optiminar las cargas 
+            tributarias, resguardando la rentabilidad 
             y legitimidad de sus operaciones.
         </p>
     </div>
@@ -260,6 +260,8 @@
         formación impartidas.
     </p>
 </div>
+
+<hr class="divisor-team" >
 
 </section>
 @push('script')
