@@ -619,7 +619,7 @@ progress {
 
 @media (min-width: 320px) {
   .figure-img { 
-    margin-top: -340%;
+    margin-top: -360%;
     width: 90%;
     height: 150px;
     margin-left: 6%;
@@ -11574,15 +11574,16 @@ html {
 @media (min-width: 320px){
   .boton_llamada {
     width: 279px;
-    height: 48px;
+    height: 38px;
   /*   font-family: 'Plus Jakarta Display'; */
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 1px;
     border-radius: 30px;
+    margin-bottom: 2%;
   }
 }
 @media (min-width: 768px) {
@@ -11614,11 +11615,14 @@ html {
     border-radius: 30px;
     margin-top: 4%;
   }
+  .close_sesion {
+    padding-top: 1%;
+  }
 }
 @media (min-width: 1440px) {
   .boton_llamada {
     position: absolute;
-    width: 260px;
+    width: 240px;
     height: 48px;
   /*   font-family: 'Plus Jakarta Display'; */
     font-style: normal;
@@ -11626,9 +11630,21 @@ html {
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-    left: 67%;
+    left: 62%;
     border-radius: 30px;
     margin-top: 0.5%;
+  }
+  .close_sesion { 
+    position: absolute;
+    padding-top: 0.5%;
+    left: 80%;
+  }
+}
+@media (min-width: 1920px) {
+  .close_sesion { 
+    position: absolute;
+    padding-top: 0.5%;
+    left: 76%;
   }
 }
 
@@ -11809,7 +11825,7 @@ html {
       align-items: center;
       text-transform: uppercase;
       color: #17BA9C;
-      top: -45%;
+      top: -50%;
       width: 93%;
   } 
   .titulo2_2 {
@@ -11829,7 +11845,7 @@ html {
       align-items: center;
       text-transform: uppercase;
       color: #17BA9C;
-      top: -45%;
+      top: -50%;
       width: 97%;
   } 
   .titulo2_2 {
@@ -11877,7 +11893,7 @@ html {
 
 @media (min-width: 320px) {
   .checkeos {
-    margin-top: 95%;
+    margin-top: 105%;
   }
 }
 @media (min-width: 375px) {
@@ -13362,7 +13378,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    height: 300px;
+    height: 370px;
     left: 0px;
     background: #232323;
     color: #FFF;
@@ -13375,11 +13391,24 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    height: 300px;
+    height: 380px;
     left: 0px;
     background: #232323;
     color: #FFF;
     width: 101.2%;
+    margin-top: 0%;
+  } 
+}
+@media (min-width: 1920px) {
+  .fondoBlack2 { 
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    height: 400px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    width: 100.6%;
     margin-top: 0%;
   } 
 }
@@ -13778,7 +13807,7 @@ html {
     font-size: 34px;
     line-height: 40px;
     font-weight: bold;
-    margin-left: -4%;
+    margin-left: 1%;
     width: 98%;
     text-align: left;
   }
@@ -14008,13 +14037,22 @@ html {
 
 .barraNavegacion {
   background-color: #27282B;
+  width: 100%;
   height: 72px;
   font-family:'Plus Jakarta Display';
   font-size: 14px;
   line-height: 18.12px;
 }
-
-
+@media(min-width: 1461px) {
+  .barraNavegacion {
+    background-color: #27282B;
+    width: 100%;
+    height: 72px;
+    font-family:'Plus Jakarta Display';
+    font-size: 14px;
+    line-height: 18.12px;
+  }
+}
 @media(min-width: 320px) {
   .logo_liberfy {
     width: 70%;
@@ -14041,8 +14079,8 @@ html {
 }
 @media(min-width: 1920px) {
   .logo_liberfy {
-    width: 200px;
-    height: 40px;
+    width: 210px;
+    height: 50px;
     margin-left: 65%;
   }
 }
@@ -14128,9 +14166,16 @@ html {
     background-color: #27282B;
     padding-right: 2%;
     padding-left: 6%;
+    height: 440px;
   }
   .boton_llamada_menu {
     left: -68%;
+  }
+}
+@media (min-width: 1024px) {
+  .list-menu {
+    display: none;
+    height: 0px;
   }
 }
 @media (min-width: 992px){
@@ -14154,7 +14199,7 @@ html {
 }
 @media (min-width: 1440px) {
   .list-menu {
-    margin-left: 16%;
+    margin-left: 12%;
     font-size: 14px;
 
   }
@@ -14188,8 +14233,19 @@ html {
     margin-top: 2rem;
     font-weight: bold;
     font-size: 1.5rem;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 18%;
+  }
+}
+@media (min-width: 1920px) {
+  .tituloDudas {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
     text-align: right;
     margin-right: 15%;
+    margin-left: 22%;
   }
 }
 
@@ -14216,11 +14272,27 @@ html {
     width: 50%;
   } 
 }
+@media (min-width: 1920px) {
+  .parrafoDudas {
+    margin-top: 0.8rem;
+    margin-left: 85%;
+    text-align: left;
+    width: 50%;
+  } 
+}
 
 @media (min-width: 320px) {
   .preguntas {
     margin-top: 2rem;
     margin-left: 2%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1920px) {
+  .preguntas {
+    margin-top: 2rem;
+    margin-left: 40%;
     font-size: 14px;
     font-weight: bold;
   }
@@ -14271,6 +14343,19 @@ html {
     text-align: justify;
     font-size: 0.8rem;
     width: 70%;
+    padding: 1rem;
+  }
+  strong {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1920px) {
+  .texto-card-dudas {
+    margin-left: 0%;
+    text-align: justify;
+    font-size: 0.8rem;
+    width: 100%;
     padding: 1rem;
   }
   strong {
@@ -14397,7 +14482,7 @@ html {
   .lista_contacto {
     width: 70%;
     float: right;
-    margin-top: 20%;
+    margin-top: -10%;
     margin-right: 20%;
   }
 }
@@ -14405,19 +14490,26 @@ html {
   .lista_contacto {
     width: 80%;
     float: right;
-    margin-top: 10%;
+    margin-top: -5%;
     margin-right: 10%;
   }
 }
 @media (min-width: 1440px) {
   .lista_contacto {
-    width: 40%;
+    width: 60%;
     float: right;
-    margin-top: 10%;
+    margin-top: -10%;
     margin-right: 5%;
   }
 }
-
+@media (min-width: 1920px) {
+  .lista_contacto {
+    width: 60%;
+    float: right;
+    margin-top: -15%;
+    margin-right: 5%;
+  }
+}
 @media (min-width: 320px) {
   .mapa_contacto {
     width: 100px;
@@ -14439,7 +14531,7 @@ html {
     width: 100%;
     height: 100%;
     margin-left: -45%;
-    margin-top: -3%;
+    margin-top: -13%;
   }
 }
 @media (min-width: 1024px) {
@@ -14447,7 +14539,7 @@ html {
     width: 100%;
     height: 100%;
     margin-left: -25%;
-    margin-top: -3%;
+    margin-top: -14%;
   }
 }
 @media (min-width: 1440px) {
@@ -14455,7 +14547,15 @@ html {
     width: 100%;
     height: 100%;
     margin-left: -15%;
-    margin-top: -3%;
+    margin-top: -26%;
+  }
+}
+@media (min-width: 1920px) {
+  .mapa_contacto {
+    width: 100%;
+    height: 100%;
+    margin-left: -15%;
+    margin-top: -32%;
   }
 }
 
@@ -14597,7 +14697,7 @@ html {
     text-align: center;
     position: absolute;
     margin-top:0%;
-    left: 35%;
+    left: 40%;
   }
   h1 {
     font-size: 32px;
@@ -14939,22 +15039,24 @@ html {
     height: 160px;
   }
 }
-@media (min-width: 1024px) {
-  .img_blog_show {
-    width: 100%;
-    height: 180px;
-  }
-}
+
 @media (min-width: 1024px) {
   .img_blog_show {
     width: 100%;
     height: 200px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .img_blog_show {
-    width: 80%;
+    width: 70%;
     height: 210px;
+    margin-left: 10%;
+  }
+}
+@media (min-width: 1920px) {
+  .img_blog_show {
+    width: 60%;
+    height: 250px;
     margin-left: 10%;
   }
 }
@@ -14990,26 +15092,42 @@ html {
 @media (min-width: 768px) {
   .blog_contenido {
     text-align: justify;
+    margin-left: -3%;
   }
   img {
     width: 100%;
     height: 160px;
+    margin-left: 3%;
   }
 }
+
 @media (min-width: 1024px) {
   .blog_contenido {
     text-align: justify;
+    width: 80%;
+    margin-left: 6%;
   }
   img {
     width: 100%;
     height: 210px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .blog_contenido {
     text-align: justify;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 12%;
+  }
+  img {
+    width: 100%;
+    height: 210px;
+  }
+}
+@media (min-width: 1920px) {
+  .blog_contenido {
+    text-align: justify;
+    width: 60%;
+    margin-left: 18%;
   }
   img {
     width: 100%;
@@ -15258,6 +15376,12 @@ html {
     font-family: 'arial';
   }
 }
+@media (min-width: 1024px) {
+  .fundadores {
+    text-align: right;
+    font-family: 'arial';
+  }
+}
 @media (min-width: 1920px) {
   .fundadores {
     text-align: right;
@@ -15333,16 +15457,31 @@ html {
   
   }
 }
+@media (min-width: 1440px) {
+  .fondoBlack3{
+    margin-top: -12%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16%;
+    height: 26rem;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 17%;
+  
+  }
+}
 @media (min-width: 1920px) {
   .fondoBlack3{
     margin-top: -12%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20%;
+    padding-left: 14%;
     height: 26rem;
     background: #232323;
     color: #FFF;
     padding-top: 12%;
+    margin-left: 5%;
   
   }
 }
@@ -15385,12 +15524,14 @@ html {
     text-align: justify;
     width: 30%;
     margin-left: 5%;
+    margin-top: 0%;
   }
 }
 @media (min-width: 1440px) {
   .parrafo_fundadores {
     font-size: 0.7rem;
     text-align: justify;
+    margin-left: -0%;
   }
 }
 @media (min-width: 1920px) {
@@ -15398,7 +15539,7 @@ html {
     font-size: 0.7rem;
     text-align: justify;
     margin-left: -7%;
-    margin-top: -1%;
+    margin-top: 0%;
   }
 }
 
@@ -15441,6 +15582,7 @@ html {
     font-size: 0.7rem;
     text-align: justify;
     width: 30%;
+    margin-top: 0%;
   }
 }
 
@@ -15456,7 +15598,7 @@ html {
     margin-left: 1rem;
     font-size: 0.7rem;
     text-align: justify;
-    margin-top: -1%;
+    margin-top: 0%;
   }
 }
 .titulo_empresarial {
@@ -15502,15 +15644,16 @@ html {
   .text_empresarial {
     width:60%;
     text-align: justify;
-    margin-left: 3%;
+    margin-left: 5%;
   }
 }
 
 /* ****************************************** login cliente ********************************************* */
 @media (min-width: 320px) {
   .log_cliente {
-    margin-left: 5%;
-    width: 100%;
+    width: 85%;
+    height: 70%;
+    margin-left: 3%;
   }
 }
 @media (min-width: 768px) {
@@ -15692,6 +15835,12 @@ html {
     width: 70%; 
   }
 }
+@media (min-width: 1920px) {
+  .panel_video {
+    margin-left:22.5%;
+    width: 55%; 
+  }
+}
 @media (min-width: 768px) {
   .no_result_search {
     margin-left: -6%;
@@ -15722,7 +15871,7 @@ html {
   .section_social {
     position: absolute;
     margin-top:35%;
-    left: -11%;
+    left: -8%;
   }
   .section_copy {
     margin-left: 3%;
@@ -15746,7 +15895,7 @@ html {
   .section_social {
     position: absolute;
     margin-top:28%;
-    left: -18%;
+    left: -10%;
   }
   .section_copy {
     margin-left: 0%;
@@ -15770,7 +15919,7 @@ html {
   .section_social {
     position: absolute;
     margin-top:30%;
-    left: -14%;
+    left: -10%;
   }
   .section_copy {
     margin-left: 0%;
@@ -15814,7 +15963,7 @@ html {
     display: block;
     height: 8%;
     width: 12%;
-    left:8%;
+    left:5%;
     margin-top: 8%;
   }
   .socials-2 {
@@ -15896,7 +16045,7 @@ html {
     display: block;
     height: 8%;
     width: 12%;
-    left:8%;
+    left:4%;
     margin-top: 8%;
   }
   .contacto {
@@ -15991,6 +16140,14 @@ html {
    width: 478%;
     margin-left: -223%;
   }
+  .logo_liberfy_footer2 {
+    position: absolute;
+    display: block;
+    height: 8%;
+    width: 12%;
+    left:2.5%;
+    margin-top: 8%;
+  }
 }
 @media (min-width:1920px) { 
   .list_footer {
@@ -16026,7 +16183,7 @@ html {
     display: block;
     height: 8%;
     width: 12%;
-    left:12%;
+    left:6%;
     margin-top: 8%;
   }
   .socials-2 {

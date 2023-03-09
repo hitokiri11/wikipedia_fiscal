@@ -29,7 +29,7 @@
             <div class="col-md-2 col-lg-2">
                  <div class="row">
                     @can('users-create')
-                    <a type="button" class="btn btn-success" href="{{url('/admin/usuarios/create')}}">
+                    <a type="button" class="btn bg-teal" href="{{url('/admin/usuarios/create')}}">
                         <i  class="fas fa-user" ></i>
                         Nuevo Usuario
                     </a>

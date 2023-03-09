@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg barraNavegacion fixed-top" id="mainNav">
     <div class="container">
-        <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy"/></a>
+        <a href="/"><img src="{{asset('assets/img/LOGO.svg')}}"  class="logo_liberfy"/></a>
         <a class="navbar-brand" href="#page-top"></a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary rounded boton_nenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -20,7 +20,7 @@
                     </button>
                 </li>
                 @if(Auth::guard('cliente')->check())
-                <li class="nav-item mx-0 mx-lg-1 mt-1" >
+                <li class="nav-item mx-0 mx-lg-1 mt-1 close_sesion" >
                     <a href="/logout" type="button" class="btn btn-danger rounded-pill " title="Cerrar Sesión">
                         <i  class="fa fa-fw fa-power-off" ></i>
                         

@@ -28,7 +28,7 @@
                     <div class="col-md-2 col-lg-2">
                          <div class="row">
                             @can('blog-create')
-                            <a type="button" class="btn btn-success" href="{{url('/admin/admin_blogs/create')}}">
+                            <a type="button" class="btn bg-teal" href="{{url('/admin/admin_blogs/create')}}">
                                 <i  class="fas fa-blog" ></i>
                                 Nuevo Blog
                             </a>

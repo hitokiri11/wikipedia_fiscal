@@ -29,7 +29,7 @@
                 <div class="col-md-2 col-lg-2">
                     <div class="row">
                         @can('bot-create')
-                        <a type="button" class="btn btn-success" href="{{url('/admin/bots/create')}}">
+                        <a type="button" class="btn bg-teal"  href="{{url('/admin/bots/create')}}">
                             <i  class="fas fa-robot" ></i>
                             Nuevo Bot
                         </a>

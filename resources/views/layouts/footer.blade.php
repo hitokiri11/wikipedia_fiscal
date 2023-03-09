@@ -5,7 +5,7 @@
             <div class="col-lg-4 mb-5 mb-lg-0 " > 
                 <ul style="list-style:none">
                     <li>
-                         <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy_footer2"/>
+                         <a href="/"><img src="{{asset('assets/img/LOGO2.svg')}}"  class="logo_liberfy_footer2"/>
                          <a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-sm socials-2" ></i></a>
                          <a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-sm socials-3" ></i></a>
                     </li>
@@ -37,7 +37,7 @@
             {{-- Botton Bar logo --}}
             <div class="col-lg-4 mb-5 mb-lg-0">
                <!--  <p class="bottom_bar" style="text-size:12px;color:#9A9EA6;">Botton Bar</p> -->
-                <a href="/"><img src="{{asset('assets/img/home/logo_l.jpg')}}"  class="logo_liberfy_footer"/></a>
+                <a href="/"><img src="{{asset('assets/img/LOGO2.svg')}}"  class="logo_liberfy_footer"/></a>
             </div>
             <!-- Footer Social Icons-->
             <div class="col-lg-4 mb-5 mb-lg-0 section_social" >

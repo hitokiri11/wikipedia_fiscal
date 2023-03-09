@@ -56,7 +56,7 @@
 
                         <div class="card-footer ">
                             <div class="row float-right">
-                                <button type="submit" class="btn btn-success" >
+                                <button type="submit" class="btn bg-teal" >
                                     <i  class="fas fa-blog" ></i>
                                     Editar
                                 </button>
