@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\UserClient;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
 
 class UserClientController extends Controller
 {
@@ -28,22 +29,69 @@ class UserClientController extends Controller
     }
 
     static public function sincronizar()  {
-
+        
         try {
                 $data_clientes = UserClient::all();
 
-                $endpoint = 'https://api.hubapi.com/crm/v3/objects/contacts?hapikey=' . env('HUBSPOT_API_KEY');
-                $client = new Client();
-                $res = $client->request('GET', $endpoint); 
+                $response = Http::withHeaders([ 
+                    'Accept'=> '*/*', 
+                    'User-Agent'=> 'Thunder Client (https://www.thunderclient.com)', 
+                    'Authorization'=> 'Bearer '.env('HUBSPOT_API_KEY'), 
+                ]) 
+                ->get('https://api.hubapi.com/crm/v3/objects/contacts'); 
 
-                /* Se itera res y se busca el email en base de datos local, si el email no esta se agrega con su has de clave del 1 al 9,
+                $clientes = json_decode($response->body());
+              
+                 /* 
+                    Luego se itera el objeto data_clientes para buscar email que no esten en res, los que no 
+                    esten se guardan en un arreglo junto a su id, luego se itera este arreglo para eelimina esos 
+                    correos de la base de datos.
                  */
+                $clientes_eliminar = [];
+                
+                foreach($data_clientes as $k => $v) { 
+                    $flag_eliminar = false;
+                    foreach($clientes->results as $i => $r) { 
+                        if(isset($r->properties->email)) { 
+                            if($v->email != $r->properties->email) {
+                                $flag_eliminar = true;
+                            } else {
+                                $flag_eliminar = false;
+                                break;
+                            }
+                        }
+                    } 
+               
+                    if($flag_eliminar == true) {
+                        array_push($clientes_eliminar, $v->id);
+                    }
+                }
 
-                 /* Luego se itera el objeto data_clientes para buscar email que no esten en res, los que no esten se guardan en un arreglo
-                 junto a su id, luego se itera este arreglo para eelimina esos correos de la base de datos */
+                foreach($clientes_eliminar as $v) {
+                    UserClient::where('id',$v)->delete();
+                }
+             
+                /*  
+                    Se itera res y se busca el email en base de datos local, si el email no esta se agrega con su 
+                    has de clave del 1 al 9.
+                 */
+                $count_insert = 0;
+                foreach($clientes->results as $k => $v) { 
+                    if(isset($v->properties->email)) {
+                        $data_cliente = UserClient::where('email',$v->properties->email)->first();
+                        if(!$data_cliente) {
+                            $new_cliente = new UserClient();
+                            $new_cliente->name      = $v->properties->firstname.' '.$v->properties->lastname;
+                            $new_cliente->email     = $v->properties->email;
+                            $new_cliente->password  = '$2y$10$9N0yQL8svdnfBaLP35kNROlZ9LrB5eDJSnvkIl0PnOcW1x.ZpldqW';
+                            $new_cliente->save();
+                            $count_insert++;
+                        }
+                    } 
+                }
                 
                 /* COMENTADO TEMPORALMENTE */ 
-                return 'Se ha ejecutado la sincronización hacia el api de hubspot';
+                return 'Se ha ejecutado la sincronización hacia el api de hubspot, se registraron '.$count_insert.' nuevos clientes y eliminaron '.count($clientes_eliminar).' clientes';
 
         } catch (\Throwable $e) {
             return 'Ha ocurrido el siguiente error al tratar de sincronizar con el api de hubspot: '.$e;

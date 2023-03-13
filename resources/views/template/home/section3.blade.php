@@ -1,10 +1,10 @@
 
-<section  >
-            <div class="fondoBlack row mt-2"> 
+<section  class="fondoBlack seccion320">
+            <div class=" row mt-2"> 
                 <div class="row fondo_oscuro">
                         <div class="col-md-4 col-lg-4 mb- mb-md-0 mt-5" >
                             <label class="tituloEstadistica">
-                                Conoce LBERFY
+                                Conoce LIBERFY
                             </label>
                         </div>
                         <div class="col-md-4 col-lg-4 mb- mb-md-0 mt-5" >

@@ -1,4 +1,4 @@
-<section class="fondoReviews2" >
+<section class="seccion320 fondoReviews2" >
     <div class="row mb-5">
         <div class="col-md-5 col-lg-5 mb- mb-md-0" >
             <img  src="assets/img/home/integridad.png"   class="imagenIntegridad"/>
@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-md-7 col-lg-7 mt-2">
                     <button type="button" class="btn btn-primary rounded-pill mt-2 integridadBoton" >
-                        <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;">Agenda una llamada</label>
+                        <label class="texto-boton-integridad">Agenda una llamada</label>
                     </button>
                 </div>
                 

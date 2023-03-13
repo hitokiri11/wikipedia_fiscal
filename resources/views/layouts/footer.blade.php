@@ -1,4 +1,4 @@
-<footer class="footer text-center" >
+<footer class="footer text-center seccion320" >
     <div class="container">
         <div class="row covert-list">
             <!-- Footer Location-->
@@ -14,7 +14,7 @@
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer columna1">
-                <ul style="list-style:none">
+                <ul style="list-style:none;">
                     <li class="contacto" style="margin-left: 8%;"><a>Contacto</a></li>
                     <li style="text-align:left"><a class="texto-footer" style="margin-left: 8%;"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;contacto@liberfy.com</a></li>
                     <li style="text-align:left"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;(414) 867 - 5892</a></li>

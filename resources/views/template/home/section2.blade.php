@@ -1,5 +1,5 @@
 <!-- About Section-->
-<section class="page-section " id="negocios"> 
+<section class="page-section seccion320" id="negocios"> 
     
     <div class="container">
         <hr class="divisor center-content-justify">    
@@ -7,7 +7,7 @@
         <h2 class="page-section-heading text-center  tituloNegocios">¿Para quién es Liberfy?</h2>
         <div class="row"> 
             <div class="col-md-12 col-lg-12 mb- mb-md-0">
-                <p class="titulo2Negocios mt-3">
+                <p class="titulo2Negocios mt-1">
                     Para ti que necesitas un experto en fiscalidad
                     que entienda los nuevos modelos de negocio.
                 </p>
@@ -18,6 +18,7 @@
             <div class="col-md-6 col-lg-6 mb- mb-md-0" >
                 <div style="position: relative; left: 0; top: 0;">
                     <img src="assets/img/home/img_1.png" class='eye' />
+                    <img src="assets/img/home/img_3.png" class="heaven1" />
                     <img src="assets/img/home/img_3.png" class="heaven" />
                 </div>
             </div>
@@ -25,6 +26,7 @@
             <div class="col-md-6 col-lg-6 mb- mb-md-0 section_img2" >
                 <div style="position: relative; left: 0; top: 0;">
                     <img src="assets/img/home/img_2.png" class='eye'   />
+                    <img src="assets/img/home/img_3.png" class="heaven2" />
                     <img src="assets/img/home/img_3.png" class="heaven" />
                 </div>
             </div>

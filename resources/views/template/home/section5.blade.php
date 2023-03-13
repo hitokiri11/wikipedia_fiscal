@@ -1,4 +1,4 @@
-<section class="fondoReviews" id="reviews">
+<section class="fondoReviews seccion320" id="reviews">
         <div class="row">
             <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
                 <p class="tituloReviews1">
@@ -14,9 +14,9 @@
             </div>
         </div>
 
-        <div class="row p-4">
+        <div class="row p-3">
             {{-- <div class="col-md-1 col-lg-1 mb- mb-md-0 mt-1"  ></div> --}}
-            <div class="col-md-4 col-lg-4"  >
+            <div class="col-md-4 col-lg-4 "  >
                 <div class="card" >
                     <div class="card-body"> 
                         <div class="calificacionesReviews">
@@ -90,5 +90,5 @@
             </div>
             {{-- <div class="col-md-1 col-lg-1 mb- mb-md-0 mt-1"  ></div> --}}
         </div>
-    </div>
+</div>
 </section>

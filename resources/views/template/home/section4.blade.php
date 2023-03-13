@@ -1,4 +1,5 @@
-<section class="page-section" id="asesoria">
+<section class="page-section seccion320" id="asesoria">
+    <div class="area_asesoria">
         <div class="tituloAsesoria">
             <label>
                 Mira... ¡así de fácil!
@@ -29,7 +30,7 @@
         </div>
         <div class="mt-5" >
             <div >
-                <ul class="navbar-nav mb-5" >
+                <ul class="navbar-nav mb-1" >
                     <li class="nav-item mx-0 mx-lg-1" >
                         <button type="button" class="btn btn-primary rounded-pill boton_section_4">
                             <label class="fs-6" >Agenda una llamada</label>
@@ -38,4 +39,5 @@
                 </ul>
             </div>
         </div>
+    </div>
 </section>

@@ -13,10 +13,11 @@
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/blog" style="color: #8C8C8C;" >Blog</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/contacto" style="color: #8C8C8C;" >Contacto</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/dudas" style="color: #8C8C8C;" >¿Dudas?</a></li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/cliente" style="color: #8C8C8C;" >Área Cliente</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/cliente" style="color: #8C8C8C;width:118px;" >Área Cliente</a></li>
                 <li class="nav-item mx-0 mx-lg-1" >
-                    <button type="button" class="btn btn-primary rounded-pill boton_llamada  nav-list" >
-                        <label class="fs-6" style="padding-top:1%;padding-bottom:1%;font-weight: bold;" >Agenda una llamada</label>
+               <!--  nav-list -->
+                    <button type="button" class="btn btn-primary rounded-pill boton_llamada" >
+                        <label class="texto-boton-llamada_menu" >Agenda una llamada</label>
                     </button>
                 </li>
                 @if(Auth::guard('cliente')->check())

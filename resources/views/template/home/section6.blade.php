@@ -1,5 +1,5 @@
-<section >
-    <div class="fondoBlack-tarjetas row" >
+<section class="seccion320 fondoBlack-tarjetas">
+    <div class=" row" >
         <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-4" >
             <p class="tituloFacturas">
                 ¿Cómo te ahorra tiempo Liberfy?
@@ -43,8 +43,8 @@
 
         <div class="col-md-12 col-lg-12 mb- mb-md-0 " >
             <p class="titulo4Factura">
-                El 90% del tiempo ahorrado en procesos contables gracias a la automatización de 
-                los servicios lo dedicamos a asesorar a nuestros clientes.
+                El 90% del tiempo ahorrado gracias a la automatización, 
+                lo dedicamos a asesorar a nuestros clientes.
             </p>
             <p class="tituloBienvenido">
                 Empieza tu revolución ahora
