@@ -3,10 +3,11 @@
 <section class="page-section"  id="servicios" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
         <div>
-            <img src="assets/img/servicios/servicios.jfif"   class="img-fluid d-block banner_servicio" alt="..."> 
-            <div class=" titulo_banner" >
-                <h1>Autónomos y pymes</h1>
-                <h1 style="color:#17BA9C;font-style: italic;">100% protegidos</h1>
+            <img src="assets/img/servicios/banner_servicios.png"   class="img-fluid d-block banner_servicio" alt="..."> 
+            <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid d-block responsive_servicio" alt="..."> 
+            <div >
+                <h1 class=" titulo_banner">Autónomos y pymes</h1>
+                <h1 class="protegidos" style="font-style: italic;font-weight: bold;" >100% protegidos</h1>
             </div>
         </div>
     </div>

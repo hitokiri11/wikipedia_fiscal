@@ -214,12 +214,26 @@
             <div class="card-img-overlays" style="text-align: center"><strong>José Llanos</strong></div>
         </div>
     </div>
+</div>
 
+<div class="row">
+    <div class="card dimension_card2">
+          <img src="assets/img/team/card1.png" class="dimension_img" >
+          <div class="card-img-overlays" style="text-align: center"><strong>Miguel Sierra</strong></div>
+    </div>
+    <div class="card dimension_card2">
+            <img src="assets/img/team/card2.png" class="dimension_img" >
+            <div class="card-img-overlays" style="text-align: center"><strong>César Rivero</strong></div>
+    </div>
+    <div class="card dimension_card2">
+            <img src="assets/img/team/card3.png" class="dimension_img" >
+            <div class="card-img-overlays" style="text-align: center"><strong>José Llanos</strong></div>
+    </div>
 </div>
 
 <div class="row col-md-12 col-lg-12 mb- mb-md-0 fondoBlack3 "  >
-    <div class="col-md-4 col-lg-2" class="fundadores"  >
-        <h6>Los fundadores</h6>
+    <div class="col-md-4 col-lg-2"   >
+        <h6 class="fundadores">Los fundadores</h6>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores" >
         <p>
@@ -247,7 +261,7 @@
     <p class="titulo_empresarial mt-4">
         El grupo Empresarial
     </p>
-    <p>
+    <p class="parrafo_empresarial">
         Liberfy forma parte de un grupo compuesto por cuatro empresas y cada una de ellas desarrolla con 
         éxito uno o varios de los modelos de negocio para los que fueron creados nuestros servicios.
         <br><br>

@@ -17284,9 +17284,14 @@ html {
 /* ****************************************** servicios ********************************************* */ 
 @media (min-width: 320px) {
   .banner_servicio {
-    width: 100%;
-    height: 95px;
-    margin-top: -8%;
+    display: none;
+  }
+  .responsive_servicio { 
+    display: block;
+    width: 320px;
+    height: 210;
+    margin-top: -26%;
+    margin-left: 6px;
   }
 }
 @media (min-width: 375px) {
@@ -17327,15 +17332,28 @@ html {
 
 
 @media (min-width: 320px) {
-  .titulo_banner {
+  .titulo_banner { 
     color:#fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
     text-align: center;
     position: absolute;
-    top: 23%;
-    left: 30%;
+    top: 180px;
+    left: 14%;
   }
-  h1 {
-    font-size: 12px;
+  .protegidos {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    color:#17BA9C;
+    top: 210px;
+    left: 14%;
+   
   }
 }
 @media (min-width: 375px) {
@@ -17851,13 +17869,13 @@ html {
 .titulosEquipos {
   text-align: center;
 }
-/* .tituloPrincipal {
-  font-size: 2rem;
-  width: 700;
-} */ 
+
 @media (min-width: 320px) {
   .tituloPrincipal {
-    font-size: 1.4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
     width: 300;
     text-align: left;
     padding-left: 8%;
@@ -17865,28 +17883,120 @@ html {
 }
 @media (min-width: 375px) {
   .tituloPrincipal {
-    font-size: 1.4rem;
-    width: 300;
-    padding-left: 6%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    width: 320px;
+    text-align: left;
+    padding-left: 8%;
   }
 }
+@media (min-width: 415px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 400px;
+    text-align: left;
+    padding-left: 8%;
+  }
+}
+
+@media (min-width: 425px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 400px;
+    text-align: left;
+    padding-left: 8%;
+  }
+}
+@media (min-width: 576px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 480px;
+    text-align: left;
+    padding-left: 8%;
+  }
+}
+
 @media (min-width: 768px) {
   .tituloPrincipal {
-    font-size: 1.8rem;
-    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 660px;
     text-align: center;
-    margin-left: -5%;
+    padding-left: 110px;
+  }
+}
+@media (min-width: 992px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 660px;
+    text-align: center;
+    padding-left: 240px;
   }
 }
 @media (min-width: 1024px) {
   .tituloPrincipal {
-    font-size: 2rem;
-    width: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 660px;
+    text-align: center;
+    padding-left: 280px;
   }
 }
+@media (min-width: 1200px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 690px;
+    text-align: center;
+    padding-left: 370px;
+  }
+}
+@media (min-width: 1440px) {
+  .tituloPrincipal {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 890px;
+    text-align: center;
+    padding-left: 430px;
+  }
+}
+
 @media (min-width: 320px) {
   .parrafoEquipo {
-    font-size: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
     margin-left: 8%;
     margin-right: 4px;
     text-align: left;
@@ -17895,89 +18005,245 @@ html {
 }
 @media (min-width: 375px) {
   .parrafoEquipo {
-    font-size: 0.7rem;
-    margin-left: 6%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 8%;
     margin-right: 4px;
-    margin-top: -5%;
     text-align: left;
-    font-size: 14px;
+    width: 80%;
   }
 }
+@media (min-width: 415px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    width: 80%;
+  }
+}
+
 @media (min-width: 425px) {
   .parrafoEquipo {
-    font-size: 0.7rem;
-    margin-left: 6%;
-    margin-right: 3px;
-    text-align: justify;
-    font-size: 14px;
-    width: 90%;
-  }
-}
-@media (min-width: 768px) {
-  .parrafoEquipo {
-    font-size: 0.9rem;
-    text-align: center;
-    margin-left: 23%;
-    margin-right: 3px;
-    font-size: 14px;
-    width: 50%;
-    margin-top: -4%;
-  }
-}
-@media (min-width: 1024px) {
-  .parrafoEquipo {
-    font-size: 1.2rem;
-    margin-top: -2%;
-  }
-}
-@media (min-width: 1920px) {
-  .parrafoEquipo {
-    font-size: 1.4rem;
-    margin-top: -1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
     width: 80%;
-    margin-left: 5%;
   }
 }
-/* .width_img {
-  width: 26.7rem;
-  height: 16rem;
-} */
+@media (min-width: 576px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 8%;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 40px;
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 160px;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+    width: 65%;
+  }
+}
+@media (min-width: 992px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+    width: 65%;
+  }
+}
+@media (min-width: 1024px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+    width: 65%;
+  }
+}
+@media (min-width: 1200px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 320px;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+    width: 42%;
+  }
+}
+@media (min-width: 1440px) {
+  .parrafoEquipo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-right: 4px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+    width: 45%;
+  }
+}
+
+@media (min-width: 576px) {
+  .width_img {
+    width: 400px;
+    height: 340px;
+  }
+}
 @media (min-width: 768px) {
   .width_img {
-    width: 14.3rem;
-    height: 10rem;
+    width: 202px;
+    height: 180px;
+  }
+}
+@media (min-width: 992px) {
+  .width_img {
+    width: 295px;
+    height: 200px;
+    margin-left: 10px;
   }
 }
 @media (min-width: 1024px) {
   .width_img {
-    width: 19.3rem;
-    height: 14rem;
+    width: 295px;
+    height: 200px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .width_img {
+    width: 350px;
+    height: 280px;
+    margin-left: 14px;
   }
 }
 @media (min-width: 1440px) {
   .width_img {
-    width: 26.7rem;
-    height: 16rem;
+    width: 410px;
+    height: 340px;
+    margin-left: 14px;
   }
 }
 
-@media (min-width: 230px){
+@media (min-width: 320px){
   .align_img {
-    margin-left: 2%;
+    margin-left: 4%;
   }   
 }
-@media (min-width: 1920px){
+@media (min-width: 320px){
   .align_img {
-    margin-left: 12%;
+    margin-left: 4%;
   }   
 }
-/* .dimension_img {
-  width:18rem;
-} */
+@media (min-width: 576px){
+  .align_img {
+    margin-left: 15%;
+    margin-right: 10%;
+  }   
+}
+@media (min-width: 768px){
+  .align_img {
+    margin-left: 20px;
+    width: 760px;
+  }   
+}
+@media (min-width: 992px){
+  .align_img {
+    margin-left: 20px;
+    width: 980px;
+  }   
+}
+@media (min-width: 1024px){
+  .align_img {
+    margin-left: 20px;
+    width: 1012px;
+  }   
+}
+@media (min-width: 1200px){
+  .align_img {
+    margin-left: 30px;
+    width: 1180px;
+  }   
+}
+@media (min-width: 1440px){
+  .align_img {
+    margin-left: 60px;
+    width: 1380px;
+  }   
+}
+
 @media (min-width: 320px) {
   .dimension_img {
     width: 100%;
     height: 100%;
+  }
+}
+@media (min-width: 375px) {
+  .dimension_img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 415px) {
+  .dimension_img {
+    width: 369px;
+    height: 356px;
+  }
+}
+@media (min-width: 768px) {
+  .dimension_img {
+    width: 170px;
+    height: 180px;
+    margin-left: -3px;
+  }
+}
+@media (min-width: 992px) {
+  .dimension_img {
+    width: 220px;
+    height: 220px;
+    margin-left: -3px;
   }
 }
 @media (min-width: 1024px) {
@@ -17985,346 +18251,825 @@ html {
     width:14rem;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .dimension_img {
-    width:18rem;
+    width: 290px;
+    height: 270px;
   }
 }
-/* .dimension_card {
-  width:18.3rem;
-} */
+@media (min-width: 1440px) {
+  .dimension_img {
+    width: 369px;
+    height: 358px;
+  }
+}
+
+
 @media (min-width: 320px) {
+  .dimension_card2 {
+    display: none;
+  }
   .dimension_card {
-    width: 80%;
+    width: 100%;
+  }
+  .aling_card {
+    margin-left: 0%;
+    gap: 1rem;
+   }
+  .divisor-team {
+    width:80%;
+    margin-top: 12%;
+    margin-bottom: -8%;
+  }
+}
+@media (min-width: 375px) {
+  .dimension_card2 {
+    display: none;
+  }
+  .dimension_card {
+    width: 100%;
+  }
+  .aling_card {
+    margin-left: 0%;
+    gap: 1rem;
   }
   .divisor-team {
     width:80%;
-    margin-left:12%;
     margin-top: 12%;
-    margin-bottom: -16%;
+    margin-bottom: -8%;
+  }
+}
+@media (min-width: 415px) {
+  .dimension_card2 {
+    display: none;
+  }
+  .aling_card {
+    margin-left: 17px;
+    gap: 1rem;
+   }
+  .dimension_card {
+    width: 97%;
+  }
+  .divisor-team {
+    width:80%;
+    margin-top: 12%;
+    margin-bottom: -8%;
   }
 }
 
- 
-@media (min-width: 1024px) {
+@media (min-width: 425px) { 
+  .dimension_card2 {
+    display: none;
+  }
   .dimension_card {
-    width:14.3rem;
+    width: 97%;
+  }
+  .aling_card {
+    margin-left: 17px;
+    gap: 1rem;
+   }
+  .divisor-team {
+    width:80%;
+    margin-top: 12%;
+    margin-bottom: -8%;
   }
 }
-@media (min-width: 1440px) {
-  .dimension_card {
-    width:18.3rem;
+
+@media (min-width: 576px) {
+  .aling_card2 {
+    display: none;
   }
-}
-/* .aling_card {
- margin-left: -14%;
- padding-left:20rem;
-} */
-@media (min-width: 320px) {
   .aling_card {
-    margin-left: 20%;
-    /* gap: 1rem; */
-   }
-}
-@media (min-width: 375px) {
-  .aling_card {
-    margin-left: 14%;
-   }
-}
-@media (min-width: 425px) {
-  .aling_card {
-    margin-left: 15%;
-   }
-}
-@media (min-width: 768px) {
-  .aling_card {
-    width: 100%;
-    margin-left: 3%;
-    padding-left: -15rem;
+    margin-left: 100px;
+    margin-right: 65px;
    }
    .divisor-team {
-    display: none;
-   }
+    width:80%;
+    margin-bottom: -8px;
+  }
 }
+
+@media (min-width: 768px) { 
+  .aling_card {
+    display: none;
+  }
+  .dimension_card2 {
+    display: block;
+    width:190px;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  .divisor-team {
+    display: none;
+  }
+}
+@media (min-width: 992px) { 
+  .aling_card {
+    display: none;
+  }
+  .dimension_card2 {
+    display: block;
+    width:240px;
+    margin-left: 70px;
+    margin-top: 50px;
+  
+  }
+  .divisor-team {
+    display: none;
+  }
+}
+ 
 @media (min-width: 1024px) {
   .aling_card {
-    margin-left: -10%;
-    padding-left:15rem;
-   }
+    display: none;
+  }
+  .dimension_card2 {
+    display: block;
+    width:240px;
+    margin-left: 70px;
+    margin-top: 50px;
+  
+  }
+  .divisor-team {
+    display: none;
+  }
 }
+
+@media (min-width: 1200px) {
+  .aling_card {
+    display: none;
+  }
+  .dimension_card2 {
+    display: block;
+    width:310px;
+    margin-left: 70px;
+    margin-top: 50px;
+  
+  }
+  .divisor-team {
+    display: none;
+  }
+}
+
 @media (min-width: 1440px) {
   .aling_card {
-    margin-left: -14%;
-    padding-left:20rem;
-   }
+    display: none;
+  }
+  .dimension_card2 {
+    display: block;
+    width:390px;
+    margin-left: 130px;
+    margin-top: 70px;
+    margin-right: -120px;
+  }
+  .divisor-team {
+    display: none;
+  }
 }
-@media (min-width: 1920px) {
-  .aling_card {
-      margin-left: -14%;
-      padding-left:30%;
-      padding-bottom: 5%;
-   }
+
+@media (min-width: 320px) {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: left;
+  }
 }
 
 @media (min-width: 375px) {
-  .fundadores {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
     text-align: left;
-    font-family: 'arial';
+  }
+}
+@media (min-width: 415px) {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
   }
 }
 @media (min-width: 425px) {
-  .fundadores {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 38px;
     text-align: left;
-    font-family: 'arial';
   }
 }
 @media (min-width: 768px) {
-  .fundadores {
-    text-align: right;
-    font-family: 'arial';
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -100px;
+  }
+}
+@media (min-width: 992px) {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -100px;
+    width: 270px;
+    margin-left: 14px;
   }
 }
 @media (min-width: 1024px) {
-  .fundadores {
-    text-align: right;
-    font-family: 'arial';
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -100px;
+    width: 270px;
+    margin-left: 14px;
   }
 }
-@media (min-width: 1920px) {
-  .fundadores {
-    text-align: right;
-    font-family: 'arial';
+@media (min-width: 1200px) {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -70px;
+    width: 270px;
+    margin-left: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .fundadores { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: -10px;
+    width: 270px;
+    margin-left: 134px;
   }
 }
 
 @media (min-width: 320px) {
   .fondoBlack3{ 
-    margin-top: -16%;
+    margin-top: -56%;
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height: 26rem;
+    height: 620px;
     left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 17%;
+    padding-top: 220px;
   }
 }
 @media (min-width: 375px) {
+  .fondoBlack3{ 
+    margin-top: -56%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    height: 620px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 240px;
+  }
+}
+@media (min-width: 415px) {
+  .fondoBlack3{ 
+    margin-top: -56%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    height: 840px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 270px;
+  }
+}
+
+@media (min-width: 425px) {
+  .fondoBlack3{ 
+    margin-top: -56%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    height: 840px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 270px;
+  }
+}
+@media (min-width: 576px) {
+  .fondoBlack3{ 
+    margin-top: -36%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    height: 840px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 270px;
+  }
+}
+@media (min-width: 768px) {
   .fondoBlack3{ 
     margin-top: -14%;
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height: 26rem;
+    height: 440px;
     left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 17%;
+    padding-top: 270px;
+    width: 788px;
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 992px) {
   .fondoBlack3{ 
-    margin-top: -12%;
+    margin-top: -14%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 4%;
-    height: 26rem;
+    padding-left: 5%;
+    height: 480px;
     left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 17%;
+    padding-top: 270px;
+    width: 1012px;
   }
 }
-@media (min-width: 768px) {
-  .fondoBlack3{ 
-    margin-top: -12%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 12%;
-    height: 26rem;
-    left: 0px;
-    background: #232323;
-    color: #FFF;
-    padding-top: 17%;
-  }
-}
-
 @media (min-width: 1024px) {
-  .fondoBlack3{
-    margin-top: -12%;
+  .fondoBlack3{ 
+    margin-top: -14%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10%;
-    height: 26rem;
+    padding-left: 5%;
+    height: 500px;
     left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 17%;
-  
+    padding-top: 270px;
+    width: 1044px;
+  }
+}
+@media (min-width: 1200px) {
+  .fondoBlack3{ 
+    margin-top: -14%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    height: 550px;
+    left: 0px;
+    background: #232323;
+    color: #FFF;
+    padding-top: 270px;
+    width: 1220px;
   }
 }
 @media (min-width: 1440px) {
-  .fondoBlack3{
-    margin-top: -12%;
+  .fondoBlack3{ 
+    margin-top: -14%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 16%;
-    height: 26rem;
+    padding-left: 5%;
+    height: 550px;
     left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 17%;
-  
+    padding-top: 270px;
+    width: 1460px;
   }
 }
-@media (min-width: 1920px) {
-  .fondoBlack3{
-    margin-top: -12%;
+@media (min-width: 1495px) {
+  .fondoBlack3{ 
+    margin-top: -14%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 14%;
-    height: 26rem;
+    padding-left: 5%;
+    height: 550px;
+    left: 0px;
     background: #232323;
     color: #FFF;
-    padding-top: 12%;
-    margin-left: 5%;
-  
+    padding-top: 270px;
+    width: 1490px;
   }
 }
 
 @media (min-width: 320px) {
   .parrafo_fundadores {
-    font-size: 0.7rem;
-    text-align: justify;
-    margin-top: -15%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
     width: 90%;
   }
 }
 @media (min-width: 375px) {
   .parrafo_fundadores {
-    font-size: 0.9rem;
-    text-align: justify;
-    margin-top: -3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 5px;
     width: 90%;
   }
 }
+@media (min-width: 415px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 90%;
+  }
+}
+
 @media (min-width: 425px) {
   .parrafo_fundadores {
-    font-size: 0.9rem;
-    text-align: justify;
-    margin-top: -3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 5px;
     width: 90%;
   }
 }
 @media (min-width: 768px) {
   .parrafo_fundadores {
-    font-size: 0.7rem;
-    text-align: justify;
-    width: 33%;
-    margin-left: -10%;
-  }
-}
-@media (min-width: 1024px) {
-  .parrafo_fundadores {
-    font-size: 0.7rem;
-    text-align: justify;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 5px;
     width: 30%;
-    margin-left: 5%;
-    margin-top: 0%;
+    margin-left: -60px;
+    margin-top: -90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: -95px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 30%;
+    margin-left: 90px;
+    margin-top: -95px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 30%;
+    margin-left: 120px;
+    margin-top: -65px;
   }
 }
 @media (min-width: 1440px) {
   .parrafo_fundadores {
-    font-size: 0.7rem;
-    text-align: justify;
-    margin-left: -0%;
-  }
-}
-@media (min-width: 1920px) {
-  .parrafo_fundadores {
-    font-size: 0.7rem;
-    text-align: justify;
-    margin-left: -7%;
-    margin-top: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 371px;
+    margin-left: 160px;
+    margin-top: -5px;
   }
 }
 
+
 @media (min-width: 320px) {
   .parrafo_fundadores2 {
-    font-size: 0.7rem;
-    text-align: justify;
-    margin-top: -20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
     width: 90%;
   }
 }
 @media (min-width: 375px) {
   .parrafo_fundadores2 {
-    font-size: 0.9rem;
-    text-align: justify;
-    margin-top: -1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 90%;
+  }
+}
+@media (min-width: 415px) {
+  .parrafo_fundadores2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
     width: 90%;
   }
 }
 @media (min-width: 425px) {
   .parrafo_fundadores2 {
-    font-size: 0.9rem;
-    text-align: justify;
-    margin-top: -1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
     width: 90%;
   }
 }
 @media (min-width: 768px) {
   .parrafo_fundadores2 {
-    margin-left: -1%;
-    font-size: 0.7rem;
-    text-align: justify;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: -225px;
+    margin-left: 440px;
     width: 35%;
-    margin-top: -3%;
+  }
+}
+@media (min-width: 992px) {
+  .parrafo_fundadores2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -275px;
+    margin-left: 560px;
+    width: 35%;
   }
 }
 @media (min-width: 1024px) {
   .parrafo_fundadores2 {
-    margin-left: 1rem;
-    font-size: 0.7rem;
-    text-align: justify;
-    width: 30%;
-    margin-top: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -285px;
+    margin-left: 590px;
+    width: 35%;
+  }
+}
+@media (min-width: 1200px) {
+  .parrafo_fundadores2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -274px;
+    margin-left: 700px;
+    width: 35%;
   }
 }
 
 @media (min-width: 1440px) {
   .parrafo_fundadores2 {
-    margin-left: 1rem;
-    font-size: 0.7rem;
-    text-align: justify;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -228px;
+    margin-left: 790px;
+    width: 333px;
   }
 }
-@media (min-width: 1920px) {
-  .parrafo_fundadores2 {
-    margin-left: 1rem;
-    font-size: 0.7rem;
-    text-align: justify;
-    margin-top: 0%;
+
+@media (min-width: 320px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
   }
 }
-.titulo_empresarial {
-  font-weight: bold;
-  font-size: 1.4rem;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+
+@media (min-width: 375px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
-.parrafo_empresarial {
-  text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
+
+@media (min-width: 415px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
+
+@media (min-width: 425px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 820px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 930px;
+  }
+}
+@media (min-width: 1440px) {
+  .titulo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: left;
+  }
+  .parrafo_empresarial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 990px;
+  }
+}
+
 @media (min-width: 320px) {
   .text_empresarial {
     padding-left:10%;
   }
 }
 @media (min-width: 375px) {
+  .text_empresarial {
+    padding-left:7%;
+  }
+}
+@media (min-width: 415px) {
   .text_empresarial {
     padding-left:7%;
   }
