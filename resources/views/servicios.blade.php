@@ -7,7 +7,7 @@
             <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid d-block responsive_servicio" alt="..."> 
             <div >
                 <h1 class=" titulo_banner">Autónomos y pymes</h1>
-                <h1 class="protegidos" style="font-style: italic;font-weight: bold;" >100% protegidos</h1>
+                <h1 class="protegidos" style="font-style:italic;font-weight: bold;" >100% protegidos</h1>
             </div>
         </div>
     </div>
@@ -18,13 +18,13 @@
               <li class="nav-item tab1_long">
                 <a class="nav-link active" href="#tab1" id="login-tab" data-bs-toggle="tab">
                     <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img" alt="..."> 
-                    <h6>Área Contable</h6>
+                    <h6 class="titulo_tab">Área Contable</h6>
                 </a>
               </li>
               <li class="nav-item tab2_long"">
                 <a class="nav-link" href="#tab2" id="register-tab" data-bs-toggle="tab">
                     <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img" alt="..."> 
-                    <h6>Área Fiscal</h6>
+                    <h6 class="titulo_tab">Área Fiscal</h6>
                 </a>
               </li>
             </ul>
@@ -32,6 +32,7 @@
             <div class="tab-content">
               <div id="tab1" class="tab-pane active">
                     <div class="list_servicios">
+                            <h6 class="titulo_tab_inter">Área Contable</h6>
                             <ul>
                                 <li>
                                     Nos encargamos de la contabilidad de autónomos y sociedades para que no pierdas tiempo y tengas las 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg barraNavegacion fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg barraNavegacion fixed-top" style="align-items: center;position: relative;margin:auto;" id="mainNav">
     <div class="container">
         <a href="/"><img src="{{asset('assets/img/LOGO.svg')}}"  class="logo_liberfy"/></a>
         <a class="navbar-brand" href="#page-top"></a>

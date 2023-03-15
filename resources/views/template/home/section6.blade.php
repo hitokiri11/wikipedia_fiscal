@@ -8,11 +8,11 @@
         <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5" >
             <div class="card fondoTarjeta1" >
                 <div class="card-body"> 
-                    <div class="card miniCard">
+                   <!--  <div class="card miniCard"> -->
                         <div class="card-body">
-                            <img src="assets/img/home/email_vector.png" class='eye2'   />
+                            <img src="assets/img/home/email_.png" class='eye2'   />
                         </div>
-                    </div>
+                    <!-- </div> -->
                     <p class="titulo2Factura">
                         Asesoría normal
                     </p> 
@@ -25,11 +25,11 @@
         <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5" >
             <div class="card fondoTarjeta2" >
                 <div class="card-body">
-                    <div class="card miniCard">
+                    <!-- <div class="card miniCard"> -->
                         <div class="card-body">
-                            <img src="assets/img/home/email_vector.png" class='eye2'   />
+                            <img src="assets/img/home/email_.png" class='eye2'   />
                         </div>
-                    </div>
+                    <!-- </div> -->
                     <p class="titulo2Factura"> 
                         Con Liberfy
                     </p>

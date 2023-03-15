@@ -9,7 +9,7 @@
                     laboral y contable con 
                     un solo clic?
                 </label> 
-                <label class="titulo2 " >
+                <label >
                     <p class="titulo2_1">Somos la mano derecha del emprendedor del siglo XXI</p> 
                     <p class="titulo2_2">Somos la mano derecha del emprendedor del siglo XXI</p> 
                     <div class="row checkeos">

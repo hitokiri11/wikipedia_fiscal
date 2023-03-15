@@ -14,7 +14,7 @@
                 <div class="col-md-1 col-lg-1 check_integridad" >
                     <a class="">
                         <label class="fs-6 " >
-                            <i class="far fa-check-circle fa-lg" ></i>
+                            <i class="fa fa-check-circle fa-lg" ></i>
                         </label>
                     </a>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="col-md-1 col-lg-1 check_integridad">
                     <a class="">
                         <label class="fs-6" >
-                            <i class="far fa-check-circle fa-lg" ></i>
+                            <i class="fa fa-check-circle fa-lg" ></i>
                         </label>
                     </a>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="col-md-1 col-lg-1 check_integridad">
                     <a class="">
                         <label class="fs-6" >
-                            <i class="far fa-check-circle fa-lg" ></i>
+                            <i class="fa fa-check-circle fa-lg" ></i>
                         </label>
                     </a>
                 </div>
