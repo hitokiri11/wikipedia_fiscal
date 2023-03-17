@@ -16,20 +16,20 @@
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer columna1">
                 <ul style="list-style:none;">
                     <li class="contacto" style="margin-left: 8%;"><a>Contacto</a></li>
-                    <li style="text-align:left"><a class="texto-footer" style="margin-left: 8%;"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;contacto@liberfy.com</a></li>
-                    <li style="text-align:left"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;(414) 867 - 5892</a></li>
-                    <li style="text-align:left"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;794 Mcallister St</a></li>
-                    <li style="text-align:left"><a class="texto-footer" style="margin-left: 18%;">San Francisco, 94102</a></li>
+                    <li style="text-align:left; height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;contacto@liberfy.com</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;(414) 867 - 5892</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;794 Mcallister St</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 18%;">San Francisco, 94102</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0 list_footer columna2">
                 <ul style="list-style:none ">
-                    <li class="texto-footer" ><a><i class="fa fa-copyright fa-xs"></i>&nbsp;&nbsp;2023 Liberfy</a></li>
-                    <li style="text-align:left"><a class="texto-footer" >Todos los derechos reservados.</a></li>
-                    <li style="text-align:left"><a class="texto-footer" >Políticas de Cookies</a></li>
-                    <li style="text-align:left"><a class="texto-footer" >Políticas de Privacidad</a></li>
-                    <li style="text-align:left"><a class="texto-footer" >Aviso Legal</a></li>
+                    <li class="texto-footer"  style="text-align:left; ;height: 30px"><a><i class="fa fa-copyright fa-xs"></i>&nbsp;&nbsp;2023 Liberfy</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" >Todos los derechos reservados.</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" >Políticas de Cookies</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" >Políticas de Privacidad</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" >Aviso Legal</a></li>
                 </ul>
             </div> 
             <div class="col-lg-12 mb-5 mt-5 mb-lg-0"> </div>

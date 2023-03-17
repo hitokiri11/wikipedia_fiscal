@@ -42,6 +42,7 @@
                     de todos los estilos.
                 </p>
             </div>
+      
             <div class="col-md-6 col-lg-6 mb- mb-md-0" >
                 <p class="tituloImagen2" > 
                     Negocios inmobiliarios

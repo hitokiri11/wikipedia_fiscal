@@ -5,7 +5,7 @@
                 Mira... ¡así de fácil!
             </label>
         </div> 
-        <div class="mt-5 align-items: center;">
+        <div class="mt-5 stack_botones">
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
                 Inscribete
             </button>

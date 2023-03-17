@@ -16,7 +16,7 @@
                         <div class="col-md-1 col-lg-1">
                             <a class="circuloCheck" >
                                 <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="far fa-check-circle"></i>
+                                    <i class="fa fa-check-circle fa-lg"></i>
                                 </label>
                             </a>
                         </div>
@@ -30,7 +30,7 @@
                         <div class="col-md-1 col-lg-1">
                             <a  class="circuloCheck" >
                                 <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="far fa-check-circle"></i>
+                                    <i class="fa fa-check-circle fa-lg"></i>
                                 </label>
                             </a>
                         </div>
