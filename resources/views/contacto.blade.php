@@ -7,8 +7,8 @@
 <section class="page-section seccion_contacto"  id="contacto" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
         <div>
-            <img src="assets/img/servicios/banner_servicios.png"   class="img-fluid  banner_servicio" alt="..."> 
-            <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid  responsive_servicio" alt="..."> 
+            <img src="assets/img/servicios/banner_contacto.png"   class="img-fluid  banner_servicio" alt="..."> 
+            <img src="assets/img/servicios/responsive_contacto.png"   class="img-fluid  responsive_servicio" alt="..."> 
             <div >
                 <h1 style="font-family: 'Poppins';
     font-style: normal;
