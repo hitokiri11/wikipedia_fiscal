@@ -5,7 +5,8 @@
                     ELLOS LO SABEN
                 </p>
                 <p class="tituloReviews2">
-                    Google reviews
+                Visita nuestras Google Review
+
                 </p>
                <!--  <p class="tituloReviews3">
                     {{-- La contabilidad y la fiscalidad ya no serán ninguna 
@@ -26,12 +27,7 @@
                             <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         </div>
                         <p class="parrafoReviews"> 
-                            "Se nota que saben muy bien las leyes y 
-                            más para empresas que somos online. En 
-                            mi antigua gestoría, había muchas cosas 
-                            que no sabían y nosotros terminamos 
-                            explicándole a ellos, en fin. Muy recordable 
-                            ahorras dinero y dolores de cabeza."
+                            "Se nota que saben muy bien las leyes y más para empresas que somos online. En mi antigua gestoría, había muchas cosas que no sabían y nosotros terminamos explicándole a ellos, en fin . Muy recordable ahorras dinero y dolores de cabeza."
                         </p>
                         <p class="clienteReviews">
                             Mathias.
@@ -50,12 +46,7 @@
                             <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         </div>
                     <p class="parrafoReviews">
-                            "Liberfy no es solo una gestoría, es el sitio 
-                            donde cuidan al emprendedor porque 
-                            saben perfectamente lo que necesita. Te 
-                            ayudan no solo con cuentas de tu empresa 
-                            si no también con los márgenes y cómo 
-                            poder mejorarlos."
+                            "Liberfy no es solo una gestoría, es el sitio donde cuidan al emprendedor porque saben perfectamente lo que necesita. Te ayudan no solo con cuentas de tu empresa si no también con los márgenes y cómo poder mejorarlos."
                     </p>
                     <p class="clienteReviews">
                             Javier.
@@ -74,12 +65,7 @@
                             <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         </div>
                         <p class="parrafoReviews">
-                            "Soy vendedor de Amazon y bendito el día 
-                            en el que decidí dar el paso de cambiarme 
-                            de mi gestoría tradicional a Liberfy. Lo único 
-                            "malo" de cambiarme fue darme cuenta 
-                            de la cantidad de dinero que perdí por 
-                            culpa de mmis antiguos gestores."
+                            "Soy vendedor de Amazon y bendito el día en el que decidí dar el paso de cambiarme de mi gestoría tradicional a Liberfy. Lo único “malo” de cambiarme fue darme cuenta de la cantidad de dinero que perdí por culpa de mis antiguos gestores."
                         </p>
                         <p class="clienteReviews">
                             Adrián.

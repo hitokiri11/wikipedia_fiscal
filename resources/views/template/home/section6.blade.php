@@ -2,7 +2,7 @@
     <div class=" row" >
         <div class="col-md-12 col-lg-12 mb- mb-md-0 " >
             <p class="tituloFacturas">
-                ¿Cómo te ahorra tiempo Liberfy?
+            ¿Cuánto se tarda en realizar el proceso contable?
             </p>
         </div>
         <div class="col-md-6 col-lg-6 mb- mb-md-0 " >
@@ -47,7 +47,7 @@
                 lo dedicamos a asesorar a nuestros clientes.
             </p>
             <p class="tituloBienvenido">
-                Empieza tu revolución ahora
+            ¡Bienvenido a la 3ª Revolución Contable!
             </p>
         </div>
     </div>

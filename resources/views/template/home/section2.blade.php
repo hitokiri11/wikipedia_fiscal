@@ -8,8 +8,7 @@
         <div class="row"> 
             <div class="col-md-12 col-lg-12 mb- mb-md-0">
                 <p class="titulo2Negocios mt-1">
-                    Para ti que necesitas un experto en fiscalidad
-                    que entienda los nuevos modelos de negocio.
+                Para ti que necesitas un experto en fiscalidad que entienda los nuevos modelos de negocio
                 </p>
             </div>
         </div>
@@ -37,9 +36,7 @@
                     Negocios digitales
                 </p>
                 <p class="parrNegocios1">
-                    Infoproductores, dueños de E-commerce,
-                    Influencer, eGamers y creadores de contenido 
-                    de todos los estilos.
+                Infoproductores, dueños de Ecommerce, Influencer, eGamers y creadores de contenido de todos los estilos.
                 </p>
             </div>
       
@@ -48,9 +45,7 @@
                     Negocios inmobiliarios
                 </p> 
                 <p class="parrNegocios2">
-                    Inmobiliarias, inversores tradicionales,
-                    emprendedores especializados en alquiler turístico 
-                    o residencial, Rent to Rent y Flipping House.
+                Inmobiliarias, inversores tradicionales, emprendedores especializados en alquiler turístico o residencial, Rent to Rent y Flipping House.
                 </p>
             </div>
         </div>
