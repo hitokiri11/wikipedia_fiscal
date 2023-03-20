@@ -106,12 +106,12 @@
 <section class="page-section"  id="equipo" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 titulosEquipos"  >
         <p class="tituloPrincipal">
-            <b>Liberfy</b>, una gestoría<br>
-            que <b>sí te entiende</b>
+            <b class="negritas">Liberfy</b>, una gestoría <br>
+            que <b class="negritas">sí te entiende</b>
         </p>
         <br>
         <p class="parrafoEquipo" >
-            <b>Nuesto equipo</b> es el aliado que 
+            <b class="negritas2">Nuesto equipo</b> es el aliado que 
             necesitas para delegar 
             los trámites contables y la fiscalidad de 
             tu empresa.
@@ -121,14 +121,69 @@
             el control de los números, de manera 
             simple y en tiempo real.
             <br><br>
-            <b style="font-style: italic">En nuestra aplicación podrás ver en un mismo tablero:</b><br>
-            tus ingresos, egresos e impuestos
+            <b style="font-style: italic,font-weight:bold;">En nuestra aplicación podrás ver en un mismo tablero:</b><br>
+            <i>tus ingresos, egresos e impuestos</i>
 
         </p>
     </div>
 
 {{-- SLIDE DE IMAGENES --}}
-   <div class="align_img ">
+  <div class="align_img_1 ">
+    <div class="container my-3 mt-5 " id="featureContainer">
+         <div class="row mx-auto my-auto justify-content-center ">
+              <div id="featureCarousel" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner " role="listbox">
+                          <div class="carousel-item active ">
+                                <div class="col-md-12 col-lg-12 col-xl-12">
+                                    <div class="card ">
+                                        <div class="card-img">
+                                              <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                        </div>
+                                    </div>
+                                </div>
+                          </div>
+
+                          <div class="carousel-item">
+                              <div class="col-md-12 col-lg-12 col-xl-12">
+                                  <div class="card ">
+                                      <div class="card-img">
+                                            <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                          <div class="carousel-item">
+                              <div class="col-md-12 col-lg-12 col-xl-12">
+                                  <div class="card ">
+                                      <div class="card-img">
+                                          <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+
+                    <br>
+
+                    <div class="float-end pe-md-4">
+
+                          <a class="btn btn-primary rounded-circle indicator"  href="#featureCarousel" role="button" data-bs-slide="prev" >
+                              <i class="fa-sharp fa-solid fa-arrow-left" ></i>
+                          </a>
+                          <a class="btn btn-primary rounded-circle w-au indicator"  href="#featureCarousel" role="button" data-bs-slide="next" >
+                              <i class="fa-sharp fa-solid fa-arrow-right" ></i>
+                          </a>
+
+                    </div>
+
+              </div>
+         </div>
+    </div>
+  </div>
+
+   <div class="align_img">
         <div class="container my-3 mt-5 " id="featureContainer">
             <div class="row mx-auto my-auto justify-content-center ">
             <div id="featureCarousel" class="carousel slide " data-bs-ride="carousel">
@@ -193,7 +248,15 @@
     </div>
 {{-- SLIDE DE IMAGENES --}} 
 
-<div class="row col-md-12 col-lg-12 mb- mb-md-0 mt-5 aling_card"  >
+<div class="row col-md-12 col-lg-12 mb- mb-md-0 mt-5 aling_card"  > 
+
+    <div class="col-md-4 col-lg-4">
+        <div class="card dimension_card">
+            <img src="assets/img/team/card3.png" class="dimension_img" >
+            <div class="card-img-overlays" style="text-align: center"><strong>José Llanos</strong></div>
+        </div>
+    </div>
+
     <div class="col-md-4 col-lg-4">
         <div class="card dimension_card">
             <img src="assets/img/team/card1.png" class="dimension_img" >
@@ -208,12 +271,7 @@
         </div>
     </div>
 
-    <div class="col-md-4 col-lg-4">
-        <div class="card dimension_card">
-            <img src="assets/img/team/card3.png" class="dimension_img" >
-            <div class="card-img-overlays" style="text-align: center"><strong>José Llanos</strong></div>
-        </div>
-    </div>
+    
 </div>
 
 <div class="row">
@@ -257,7 +315,7 @@
     </div>
 </div>
 
-<div class="row col-md-12 col-lg-12 mb- mb-md-0 mt-5 text_empresarial" >
+<div class="row col-md-12 col-lg-12 mb- mb-md-0  text_empresarial" >
     <p class="titulo_empresarial mt-4">
         El grupo Empresarial
     </p>

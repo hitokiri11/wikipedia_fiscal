@@ -3,7 +3,8 @@
 <section class="page-section"  id="blog" >
     <div class="col-md-12 col-lg-12 mb- mb-md- " >
         <div class="padre ">
-            <img src="assets/img/servicios/servicios.jfif"  class="img-fluid banner_blog" alt="..."> 
+            <img src="assets/img/blog/banner_responsive_blog.png"  class="img-fluid banner_responsive_blog" alt="..."> 
+            <img src="assets/img/blog/banner_blog.png"  class="img-fluid banner_blog" alt="...">
             <div style="float: left;">
                 <h1 class="card-title ">Blog</h1>
             </div>
@@ -41,13 +42,13 @@
                                         
                                     </small>
                                     &nbsp;&nbsp;&nbsp;&nbsp;
-                                    <small class="text-muted">
+                                    <!-- <small class="text-muted">
                                         <strong>Autor:  {{$v->name}}</strong>
-                                    </small>
+                                    </small> -->
                                     <br>
-                                    <h5>{{$v->titulo}}</h5>
+                                    <h5><a href="/blog/show/{{$v->id}}" style="text-decoration: none;" class="titulo_blog">{{$v->titulo}}</a></h5>
                                 </p>
-                                <p class="card-text">
+                                <p class="card-text cont_blog">
                                     <small class="text-muted">
                                         @php 
                                             $contenido =    explode('<p>',$v->contenido);
@@ -57,12 +58,12 @@
                                         @endphp
                                         {{  $contenido  }}&nbsp;&nbsp;...
                                         <br>
-                                        <a href="/blog/show/{{$v->id}}">Leer más</a>
+                                        <!-- <a href="/blog/show/{{$v->id}}">Leer más</a> -->
                                     </small></p>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <img src="{{asset('upload_img_blog/'.$v->img)}}" class="img-thumbnail rounded-start" alt="...">
+                                <img src="{{asset('upload_img_blog/'.$v->img)}}" class="img-thumbnail rounded-start img_blog" alt="...">
                             </div>
                         </div>
                     </div>

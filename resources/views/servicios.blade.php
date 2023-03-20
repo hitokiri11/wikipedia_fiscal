@@ -3,8 +3,8 @@
 <section class="page-section"  id="servicios" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
         <div>
-            <img src="assets/img/servicios/banner_servicios.png"   class="img-fluid d-block banner_servicio" alt="..."> 
-            <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid d-block responsive_servicio" alt="..."> 
+            <img src="assets/img/servicios/banner_servicios.png"   class="img-fluid  banner_servicio" alt="..."> 
+            <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid  responsive_servicio" alt="..."> 
             <div >
                 <h1 class=" titulo_banner">Autónomos y pymes</h1>
                 <h1 class="protegidos" style="font-style:italic;font-weight: bold;" >100% protegidos</h1>
@@ -74,7 +74,7 @@
     </div>
 
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" style="text-align: center">
-        <h4>Tu trabajo será supervisar y dar el consentimiento.</h4>
+        <h4 class="tu_trbajo">Tu trabajo será supervisar y dar el consentimiento.</h4>
     </div>
 
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 " >
@@ -82,7 +82,7 @@
             <div class="card-body">
                     <label class="mb-2">
                         <h4 >
-                            <em style="color:#17BA9C;"> Suscripción Mensual</em> a Liberfy incluye:
+                            <em style="color:#17BA9C;"> Suscripción Mensual</em> a <small>Liberfy</small>:
                         </h4>
                     </label>
                     <ul>
@@ -144,7 +144,7 @@
                 <li class="nav-item tab_small">
                     <a class="nav-link" href="#desarrollo" id="des" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong s class="strong_tab2">Desarrollo Contractual</strong>
+                        <strong  class="strong_tab2">Desarrollo Contractual</strong>
                     </a>
                 </li>
 
