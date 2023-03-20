@@ -4,7 +4,7 @@
     <div class="container">
         <hr class="divisor center-content-justify">    
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center  tituloNegocios">¿Para quién es Liberfy?</h2>
+        <p class="tituloNegocios">¿Para quién es Liberfy?</p>
         <div class="row"> 
             <div class="col-md-12 col-lg-12 mb- mb-md-0">
                 <p class="titulo2Negocios mt-1">
@@ -37,7 +37,7 @@
                     Negocios digitales
                 </p>
                 <p class="parrNegocios1">
-                    Infoproductores, dueños de Ecommerce,
+                    Infoproductores, dueños de E-commerce,
                     Influencer, eGamers y creadores de contenido 
                     de todos los estilos.
                 </p>

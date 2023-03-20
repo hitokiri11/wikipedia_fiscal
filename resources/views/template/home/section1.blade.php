@@ -14,31 +14,31 @@
                     <p class="titulo2_2">Somos la mano derecha del emprendedor del siglo XXI</p> 
                     <div class="row checkeos">
                         <div class="col-md-1 col-lg-1">
-                            <a class="circuloCheck" >
-                                <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="fa fa-check-circle fa-lg"></i>
+                            <a class="circuloCheck  " >
+                                <label>
+                                    <i class="fa fa-check-circle fa-lg checkDark"></i>
+                                    <i class="far fa-check-circle fa-lg checkClear"></i>
                                 </label>
                             </a>
                         </div>
                         <div class="col-md-5 col-lg-5 opciones" >
                             Tenemos la fusión perfecta entre tecnología y 
                             atención personalizada   
-                        </div>                     
-                    </div>
-
-                    <div class="row">
+                        </div>  
                         <div class="col-md-1 col-lg-1">
                             <a  class="circuloCheck" >
-                                <label class="fs-6" style="padding-top:5%;padding-bottom:5%;font-weight: bold;">
-                                    <i class="fa fa-check-circle fa-lg"></i>
+                                <label >
+                                    <i class="fa fa-check-circle fa-lg checkDark"></i>
+                                    <i class="far fa-check-circle fa-lg checkClear"></i>
                                 </label>
                             </a>
                         </div>
                         <div class="col-md-5 col-lg-5 opciones" >
-                            Conoces la solución a cada uno de tus problemas 
+                            Conocemos la solución a cada uno de tus problemas 
                             fiscales, contables y laborales
-                        </div>
+                        </div>                  
                     </div>
+
                     <div class="espacio"></div>
                     <div class="row mt-0">
                         <div class="col-md-6 col-lg-6" >

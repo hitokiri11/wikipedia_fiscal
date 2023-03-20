@@ -19,7 +19,7 @@
                     <li style="text-align:left; height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;contacto@liberfy.com</a></li>
                     <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;(414) 867 - 5892</a></li>
                     <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 8%;"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;794 Mcallister St</a></li>
-                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 18%;">San Francisco, 94102</a></li>
+                    <li style="text-align:left; ;height: 30px"><a class="texto-footer" style="margin-left: 8%;">San Francisco, 94102</a></li>
                 </ul>
             </div>
 
@@ -79,7 +79,7 @@
             </div>
             <!-- Footer About Text-->
            
-            <div class="col-lg-4 mb-5 mb-lg-0 ">
+            <div class="col-lg-4 mb-lg-0 ">
                 <hr class="divisor3">
                 <p class="section_copy2">
                     Copyright &copy; 2023
