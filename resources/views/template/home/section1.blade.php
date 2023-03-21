@@ -4,14 +4,13 @@
         <div class="row  mt-5">
             <div class="col-md-4 col-lg-4 mb- mb-md-0 mt-5">
                 <label class="titulo1">
-                    ¿Te imaginas liberarte 
-                    de la gestión fiscal, 
-                    laboral y contable con 
-                    un solo clic?
+                Libérate de la gestión fiscal, laboral y contable con un solo clic
                 </label> 
                 <label >
-                    <p class="titulo2_1">Somos la mano derecha del emprendedor del siglo XXI</p> 
-                    <p class="titulo2_2">Somos la mano derecha del emprendedor del siglo XXI</p> 
+                    <p class="titulo2_1">Somos la mano derecha del emprendedor del siglo XXI
+</p> 
+                    <p class="titulo2_2">Somos la mano derecha del emprendedor del siglo XXI
+</p> 
                     <div class="row checkeos">
                         <div class="col-md-1 col-lg-1">
                             <a class="circuloCheck  " >
@@ -22,8 +21,7 @@
                             </a>
                         </div>
                         <div class="col-md-5 col-lg-5 opciones" >
-                            Tenemos la fusión perfecta entre tecnología y 
-                            atención personalizada   
+                        Tenemos la fusión perfecta entre tecnología y atención personalizada   
                         </div>  
                         <div class="col-md-1 col-lg-1">
                             <a  class="circuloCheck" >
@@ -34,8 +32,7 @@
                             </a>
                         </div>
                         <div class="col-md-5 col-lg-5 opciones" >
-                            Conocemos la solución a cada uno de tus problemas 
-                            fiscales, contables y laborales
+                        Conocemos la solución a cada uno de tus problemas fiscales, contables y laborales
                         </div>                  
                     </div>
 

@@ -4,7 +4,7 @@
                 <div class="row fondo_oscuro">
                         <div class="col-md-4 col-lg-4 mb- mb-md-0 " >
                             <label class="tituloEstadistica">
-                                Conoce LIBERFY
+                            Conoce LIBERFY de un vistazo
                             </label>
                         </div>
 
@@ -14,7 +14,7 @@
                                         +25
                                     </div>
                                     <p class="parrrafoEstadistica">
-                                        profesionales
+                                        profesionales en el equipo
                                         <hr class="hrEstadisticas">
                                     </p>
                                     <div class="numEstadisticas">
@@ -42,7 +42,7 @@
                                         <hr class="hrEstadisticas">
                                     </p>
                                     <div class="numEstadisticas">
-                                        +5M €
+                                        +5.000.000€
                                     </div>
                                     <p class="parrrafoEstadistica">
                                         ahorrados en impuestos
@@ -70,7 +70,7 @@
                                             <hr class="hrEstadisticas">
                                         </p>
                                         <div class="numEstadisticas">
-                                            +5M €
+                                            +5.000.000€
                                         </div>
                                             <p class="parrrafoEstadistica">
                                                 ahorrados en impuestos
@@ -84,7 +84,7 @@
                                                 +25
                                             </div>
                                             <p class="parrrafoEstadistica2">
-                                                profesionales
+                                            profesionales en el equipo
                                                 <hr class="hrEstadisticas2">
                                             </p>
                                             <div class="numEstadisticas2">

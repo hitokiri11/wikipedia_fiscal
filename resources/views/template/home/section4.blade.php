@@ -1,8 +1,10 @@
 <section class="page-section seccion320" id="asesoria">
     <div class="area_asesoria">
         <div class="tituloAsesoria">
+        <!--div class="col-md-12 col-lg-12"-->
+
             <label>
-                Mira... ¡así de fácil!
+            La tecnología te hace más eficiente y con nuestra asesoría lo entiendes todo
             </label>
         </div> 
         <div class="mt-5 stack_botones">
@@ -13,19 +15,16 @@
                 Conoce a tu gestor
             </button> 
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Sube facturas 
-                en la app
+            Sube tus facturas en la App
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Completa la 
-                información
+            Completa la información
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Gestión Liberfy
+            Gestión Liberfy
             </button>
             <button type="button" class="btn btn-outline-primary botonAsesoria" >
-                Encuentra tus 
-                resultados
+            Encuentra tus resultados
             </button>
         </div>
         <div class="mt-5" >

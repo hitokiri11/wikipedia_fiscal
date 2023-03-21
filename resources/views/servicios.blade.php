@@ -35,37 +35,55 @@
                             <h6 class="titulo_tab_inter">Área Contable</h6>
                             <ul>
                                 <li>
-                                    Nos encargamos de la contabilidad de autónomos y sociedades para que no pierdas tiempo y tengas las 
-                                    cuentas claras.
+                                Nos encargamos de la contabilidad de autónomos y sociedades para que no pierdas tiempo y tengas las cuentas claras.
                                 </li>
                                 <li>
-                                    Elaboramos y legalizamos tus libros contables.
+                                Elaboramos y legalizamos tus libros contables.
                                 </li>
                                 <li>
-                                    Presentamos por ti las cuentas anuales de tu negocio en el Registro Mercantil.
+                                Presentamos por ti las cuentas anuales de tu negocio en el Registro Mercantil.
                                 </li>
                                 <li>
-                                    Emitimos los balances, los diarios y las cuentas de resultados.
+                                Emitimos los balances, los diarios y las cuentas de resultados.
                                 </li>
                                 <li>
-                                    Confeccionamos cuadros de amortización.
+                                Confeccionamos cuadros de amortización.
                                 </li>
                                 <li>
-                                    Hacemos un seguimiento trimestral de balances y cuentas contables.
+                                Hacemos un seguimiento trimestral de balances y cuentas contables. 
                                 </li>
                                 <li>
-                                    Llevamos el libro registro de IVA soportado y repercutido y el libro de registro de bienes de inversión.
+                                Llevamos el libro registro de IVA soportado y repercutido y el libro de registro de bienes de inversión. 
                                 </li>
                             </ul>
                      </div>
               </div>
               <div id="tab2" class="tab-pane fade"> 
                     <div class="list_servicios">
-                        <ul>
-                            <li>
-                                En espera por información.
-                            </li>
-                        </ul>
+                            <h6 class="titulo_tab_inter">Área Fiscal</h6>
+                            <ul>
+                                <li>
+                                Realizamos la declaración de la renta y gestionamos las ayudas. 
+                                </li>
+                                <li>
+                                En tan solo 48 horas te damos de alta como autónomo.
+                                </li>
+                                <li>
+                                Empleamos tecnología y profesionalismo para poner en orden tu facturación.
+                                </li>
+                                <li>
+                                Presentamos y confeccionamos los modelos trimestrales y anuales más empleados.
+                                </li>
+                                <li>
+                                Contestamos a requerimientos de la Agencia Tributaria.
+                                </li>
+                                <li>
+                                Gestionamos las variaciones censales 036/ 037. 
+                                </li>
+                                <li>
+                                Hacemos tus declaraciones mensuales trimestrales y anuales.  
+                                </li>
+                            </ul>
                     </div>
                     
               </div>
@@ -87,28 +105,28 @@
                     </label>
                     <ul>
                         <li>
-                            Consultorías estrátegicas ilimitadas enfocadas en tu negocio.
+                        Consultorías estratégicas ilimitadas enfocadas en tu negocio.
                         </li>
                         <li>
-                            Atención personalizada y directa con tu gestor.
+                        Atención personalizada y directa con tu gestor.
                         </li>
                         <li>
-                            Sistema prioritario de emergencias por teléfono.
+                        Sistema prioritario de emergencias por teléfono.
                         </li>
                         <li>
-                            Soluciones a tiempo para problemas de cualquier tipo.
+                        Soluciones a tiempo para problemas de cualquier tipo.
                         </li>
                         <li>
-                            Creación y presentación de modelos impositivos.
+                        Creación y presentación de modelos impositivos.
                         </li>
                         <li>
-                            Contabilidad.
+                        Contabilidad.
                         </li>
                         <li>
-                            Control de ingresos y gastos.
+                        Control de ingresos y gastos.
                         </li>
                         <li>
-                            Contestaciones y recursos de la Agencia Tributaria.
+                        Contestaciones y recursos de la Agencia Tributaria. 
                         </li>
                     </ul>
             </div>
@@ -116,7 +134,7 @@
     </div>
 
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 adicional_servico" style="text-align: center">
-        <h6>Adicionalmente podrás ir sumando servicios de forma puntual</h6>
+        <h6>Adicionalmente podrás ir sumando servicios de forma puntual </h6>
     </div>
 
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5" >
@@ -130,15 +148,15 @@
                     </a>
                 </li>
                 <li class="nav-item tab_small">
-                    <a class="nav-link" href="#legal" id="leg" data-bs-toggle="tab">
-                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
-                        <strong class="strong_tab2">Área Legal</strong>
-                    </a>
-                </li>
-                <li class="nav-item tab_small">
                     <a class="nav-link" href="#propiedad" id="prop" data-bs-toggle="tab">
                         <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
                         <strong class="strong_tab2">Propiedad Intelectual</strong>
+                    </a>
+                </li>
+                <li class="nav-item tab_small">
+                    <a class="nav-link" href="#legal" id="leg" data-bs-toggle="tab">
+                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
+                        <strong class="strong_tab2">Área Legal</strong>
                     </a>
                 </li>
                 <li class="nav-item tab_small">
@@ -154,16 +172,16 @@
                     <div class="list_servicios">
                         <ul>
                             <li>
-                                Realizamos altas y bajas en la Seguridad Social.
+                            Altas y bajas en la Seguridad Social.
                             </li>
                             <li>
-                                Nos encargamos de los contratos y las nóminas.
+                            Contratos y nóminas. 
                             </li>
                             <li>
-                                Te ayudamos con la Ley de Prevención de Riesgos Laborales.
+                            Prevención de Riesgos Laborales.
                             </li>
                             <li>
-                                Presentamos los Seguros Sociales.
+                            Presentamos los Seguros Sociales.
                             </li>
                         </ul>
                     </div>
@@ -172,7 +190,16 @@
                     <div class="list_servicios">
                         <ul>
                             <li>
-                                En espera por información.
+                            Nos encargamos de que tu negocio cumpla hasta la última coma de la legalidad.
+                            </li>
+                            <li>
+                            Te asesoramos ante cualquier duda, problema o situación incierta. 
+                            </li>
+                            <li>
+                            Somos expertos en la Ley de Protección de Datos y de Blanqueo de Capitales. 
+                            </li>
+                            <li>
+                            Servicio de consultoría.
                             </li>
                         </ul>
                     </div>
@@ -181,7 +208,10 @@
                     <div class="list_servicios">
                         <ul>
                             <li>
-                                En espera por información.
+                            Ponemos a salvo el corazón de tu empresa (tu marca) para que nadie robe lo que es tuyo. 
+                            </li>
+                            <li>
+                            Registramos y aseguramos tus creaciones y marcas comerciales. 
                             </li>
                         </ul>
                     </div>
@@ -190,7 +220,10 @@
                     <div class="list_servicios">
                         <ul>
                             <li>
-                                En espera por información.
+                            Área Mercantil: te ayudamos con todos los contratos que necesites.  
+                            </li>
+                            <li>
+                            Constitución de sociedades: déjanos orientarte y llevar a cabo estos trámites por ti.
                             </li>
                         </ul>
                     </div>

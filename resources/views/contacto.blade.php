@@ -6,83 +6,76 @@
 @endpush
 <section class="page-section seccion_contacto"  id="contacto" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
-
-          <div id="carouselExampleDark" class="carousel carousel-dark slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-
-              <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                          <img src="assets/img/contactos/images.jpg" class=" banner_contacto" alt="...">
-                          <div >
-                              <h4 class="texto_carrusel">Nuestras Oficinas</h4>
-                          </div>
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                            <img src="assets/img/contactos/images2.png" class=" banner_contacto" alt="...">
-                            <div   >
-                                  <h4 class="texto_carrusel">Nuestras Oficinas</h4>
-                            </div>
-                      </div>
-                      <div class="carousel-item">
-                            <img src="assets/img/contactos/images3.png" class=" banner_contacto" alt="...">
-                            <div>
-                                  <h4 class="texto_carrusel">Nuestras Oficinas</h4>
-                            </div>
-                      </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                </button>
+        <div>
+            <img src="assets/img/servicios/banner_contacto.png"   class="img-fluid  banner_servicio" alt="..."> 
+            <img src="assets/img/servicios/responsive_contacto.png"   class="img-fluid  responsive_servicio" alt="..."> 
+            <div >
+                <h1 style="font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 10px;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 18%;
+    left: 10%;">Nuestras oficinas</h1>
             </div>
-
-    </div> 
-    <div class="fondoBlack2 row">
-        <div class="col-md-6 col-lg-6 mb- mb-md-0">
-              <div class="lista_contacto" >
-                    <ul>
-                      <li>
-                        C. Fuente Cisnero, 37, 28922 Alcorcón, Madrid
-                      </li>
-                      <li style="margin-top: 3%;">
-                          Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong>
-                      </li>
-                      <li style="margin-top: 3%;">
-                        Agenda <a href="#">aquí una llamada</a> con uno de nuestros asesores especializados
-                      </li>
-                    </ul>
-              </div>
         </div>
-
-        <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5">
-             
-                    <div class="mapouter">
-                            <div class="gmap_canvas mapa_contacto">
-                                    <iframe 
-                                          class="frame_mapa"
-                                          id="gmap_canvas" 
-                                          src="https://maps.google.com/maps?q=C.%20Fuente%20Cisnero,%2037,%2028922%20Alcorc%C3%B3n,%20Madrid&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-                                          frameborder="0" 
-                                          scrolling="no" 
-                                          marginheight="0" 
-                                          marginwidth="0">
-                                      </iframe>
-                                      <!-- <a href="https://123movies-to.org">123movies</a> -->
-                                      <br>
-                                      <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-                                      <a href="https://www.embedgooglemap.net"></a>
-                                      <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-                              </div>
-                        </div>
+    </div>
+    <div class="fondoBlack2 row">
+      <div class="col-md-6 col-lg-6 mb- mb-md-0">
+                  
+            <div class="lista_contacto" >
+            <p>
+                  En Liberfy tenemos las soluciones que estás buscando
+                  </p>
+            <div class="row mt-0">
+                  <div class="col-md-6 col-lg-3 offset-lg-0" >
+                        <button type="button" class="btn btn-primary rounded-pill mt-2 boton_llamada_" >
+                              <label class="texto-boton-llamada">Agenda una llamada</label>
+                        </button>
                   </div>
+            </div>
+            <br>
+
+            <ul>
+                  <li style="margin-top: 3%;">
+                        Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong>
+                  </li>
+                  <li style="margin-top: 3%;">
+                  Llámanos: <strong style="color:#17BA9C;">+34 627 32 25 41</strong>
+                  </li>
+                  <li style="margin-top: 3%;">
+                  Síguenos <a href="#">aquí una llamada</a> con uno de nuestros asesores especializados
+                  </li>
+            </ul>
+            </div>
+      </div>
+
+      <div class="col-md-6 col-lg-6 mb- mb-md-0 mt-5">
+      
+            <div class="mapouter">
+                  <!--div class="gmap_canvas mapa_contacto"-->
+                  <div class="gmap_canvas" style="margin-top: -160px">
+                        <!--iframe 
+                              class="frame_mapa"
+                              id="gmap_canvas" 
+                              src="https://maps.google.com/maps?q=C.%20Fuente%20Cisnero,%2037,%2028922%20Alcorc%C3%B3n,%20Madrid&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                              frameborder="0" 
+                              scrolling="no" 
+                              marginheight="0" 
+                              marginwidth="0">
+                              </iframe>
+                              <br>
+                              <style>.mapouter{position:relative;text-align:right;height:500px;width:800px;}</style>
+                              <a href="https://www.embedgooglemap.net"></a>
+                              <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}</style-->
+
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+            </div>
+      </div>
       
     </div> 
 

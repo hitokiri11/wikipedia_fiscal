@@ -111,17 +111,11 @@
         </p>
         <br>
         <p class="parrafoEquipo" >
-            <b class="negritas2">Nuesto equipo</b> es el aliado que 
-            necesitas para delegar 
-            los trámites contables y la fiscalidad de 
-            tu empresa.
+            <b class="negritas2">Nuestro equipo es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
             <br><br>
-            Fucionamos tecnología con atención 
-            personalizada para que tengas 
-            el control de los números, de manera 
-            simple y en tiempo real.
+            Fusionamos tecnología y atención personalizada, para que tengas el control de los números de manera simple y en tiempo real.
             <br><br>
-            <b style="font-style: italic,font-weight:bold;">En nuestra aplicación podrás ver en un mismo tablero:</b><br>
+            <b style="font-style: italic,font-weight:bold;">Con nuestra aplicación podrás ver en un mismo tablero:</b><br>
             <i>tus ingresos, egresos e impuestos</i>
 
         </p>
@@ -248,6 +242,14 @@
     </div>
 {{-- SLIDE DE IMAGENES --}} 
 
+<div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 titulosEquipos"  >
+        <p class="parrafoEquipo" >
+            <b class="negritas2">Nuestro equipo es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
+            <br><br>
+
+        </p>
+    </div>
+
 <div class="row col-md-12 col-lg-12 mb- mb-md-0 mt-5 aling_card"  > 
 
     <div class="col-md-4 col-lg-4">
@@ -291,26 +293,16 @@
 
 <div class="row col-md-12 col-lg-12 mb- mb-md-0 fondoBlack3 "  >
     <div class="col-md-4 col-lg-2"   >
-        <h6 class="fundadores">Los fundadores</h6>
+        <h6 class="fundadores">Fundadores</h6>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores" >
         <p>
-            Miguel Sierra, César Rivero y José Llanos  
-            conforman un tridente empresarial que 
-            comparten una visión similar sobre los 
-            negoscios, así como una facilidad innata para 
-            crear soluciones comerciales estratégicas.
+        Miguel Sierra, César Rivero y José Llanos conforman un tridente empresarial que comparten una visión similar sobre los negocios, así como una facilidad innata para crear soluciones comerciales estratégicas.
         </p>
     </div>
     <div class="col-md-3 col-lg-3 parrafo_fundadores2">
         <p>
-            Liberfy es una empresa creada de la 
-            propia necesidad de contar con una 
-            asesoría que atendiera a los 
-            emprendedores disruptivos y les 
-            permitiera optiminar las cargas 
-            tributarias, resguardando la rentabilidad 
-            y legitimidad de sus operaciones.
+        Liberfy es una empresa creada para liberar a los emprendedores disruptivos de las gestiones fiscales, contables o laborales, pero sobre todo para optimizar las cargas tributarias, resguardando la rentabilidad y legitimidad de las operaciones.
         </p>
     </div>
 </div>
