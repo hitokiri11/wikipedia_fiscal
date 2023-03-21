@@ -178,7 +178,7 @@
   </div>
 
    <div class="align_img">
-        <div class="container my-3 mt-5 " id="featureContainer">
+        <div class="container mt-5 " id="featureContainer">
             <div class="row mx-auto my-auto justify-content-center ">
             <div id="featureCarousel" class="carousel slide " data-bs-ride="carousel">
 

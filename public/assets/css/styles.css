@@ -87,13 +87,13 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  max-width: 1495px;
+  max-width: auto;
   position: relative;
   margin: auto;
   align-items: center;
 }
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   .body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -410,7 +410,7 @@ body {
     margin: auto;
     align-items: center;
   }
-}
+} */
 
 hr {
   margin: 1rem 0;
@@ -12152,7 +12152,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height: 135vh;
+    height: auto;
     left: 0px;
     background: #232323;
     color: #FFF;
@@ -12166,7 +12166,7 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -12%;
+    margin-top: 0%;
     width: 90%;
   }
 }
@@ -12176,13 +12176,13 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -14%;
+    margin-top: 6%;
     width: 90%;
   }
 }
 @media (min-width: 320px) {
   .text_empresarial {
-    padding-left:10%;
+    padding-left:5%;
   }
 }
 @media (min-width: 320px) {
@@ -12238,7 +12238,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height:75vh;
+    height:auto;
     left: 0px;
     background: #232323;
     color: #FFF;
@@ -12261,7 +12261,7 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -20%;
+    margin-top: -8%;
     width: 90%;
   }
 }
@@ -12272,13 +12272,67 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -10%;
+    margin-top: 4%;
     width: 90%;
   }
 }
 
 
 /*******************************TEAM******************************************** */
+
+
+@media (min-width: 320px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:70%;
+    margin-top: 20%;
+    margin-left: -1%;
+  }
+  .info_contacto {
+    margin-top: 10%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+  .tab_peg {
+    display: none;
+  }
+  .tab_grande {
+    display: block;
+  }
+}
 
 
 
@@ -12360,7 +12414,7 @@ html {
       align-items: center;
       text-transform: uppercase;
       color: #17BA9C;
-      margin-top: -42vh;
+      margin-top: -45vh;
       width: 90%;
   } 
   .titulo2_2 {
@@ -13169,7 +13223,7 @@ html {
 
 @media (min-width: 320px) {
   .tabs_banner2 {
-    width:90%;
+    width:100%;
     margin-left: 10%;
   }
 }
@@ -13302,7 +13356,58 @@ html {
 
 
 
-/* 360 px */
+/* 360 px */ 
+
+@media (min-width: 360px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:80%;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  .info_contacto {
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 5%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
+
 @media (min-width: 360px) {
   .banner_servicio {
     display: none;
@@ -13590,6 +13695,53 @@ html {
 
 
 /* 375 px */ 
+
+@media (min-width: 375px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:80%;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  .info_contacto {
+    margin-top: 10%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
 
 @media (min-width: 375px) {
   .card-title {
@@ -14193,6 +14345,7 @@ html {
     font-weight: 600;
     font-size: 27px;
     text-align: left;
+    margin-top: 5%;
   }
 }
 @media (min-width: 375px) {
@@ -14201,7 +14354,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height: 106vh;
+    height: auto;
     left: 0px;
     background: #232323;
     color: #FFF;
@@ -14214,7 +14367,7 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -16%;
+    margin-top: -0%;
     width: 90%;
   }
 }
@@ -14285,6 +14438,54 @@ html {
 
 
 /* 390 px */
+@media (min-width: 390px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:90%;
+    margin-top: 25%;
+    margin-left: 10%;
+  }
+  .info_contacto {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
 @media (min-width: 390px) {
   .titulo_banner {
      font-family: 'Poppins';
@@ -14329,7 +14530,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
-    height: 78vh;
+    height: auto;
     left: 0px;
     background: #232323;
     color: #FFF;
@@ -14353,7 +14554,7 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -14%;
+    margin-top: 0%;
     width: 90%;
   }
 }
@@ -14364,7 +14565,7 @@ html {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-top: -10%;
+    margin-top: 4%;
     width: 90%;
   }
 }
@@ -14548,6 +14749,55 @@ html {
 }
 
 /* 412 px */
+
+@media (min-width: 412px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:90%;
+    margin-top: 25%;
+    margin-left: 10%;
+  }
+  .info_contacto {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
 @media (min-width: 412px) {
   .text_empresarial {
     padding-left:7%;
@@ -14752,6 +15002,14 @@ html {
     width: 100%;
     height: 417px;
     margin-left: -4.3%;
+  }
+}
+
+@media (min-width: 412px) {
+  .tituloAsesoria {
+    margin-left: 4%;
+    margin-bottom: -6%;
+    width: 90%;
   }
 }
 
@@ -15444,7 +15702,18 @@ html {
   }
 }
 
-
+@media (min-width: 425px) {
+  .tituloFacturas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 118.5%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 
 @media (min-width: 425px) {
   .barraNavegacion {
@@ -15638,7 +15907,7 @@ html {
 
 @media (min-width: 425px) {
   .tituloAsesoria {
-    margin-left: 10px;
+    margin-left: 5%;
     margin-bottom: -6%;
   }
 }
@@ -15695,7 +15964,7 @@ html {
   .fondoReviews {
     background: #F2F2F2;
     width: 100%;
-    height: 220vh;
+    height: 265vh;
     margin-top: 20%;
   }
 }
@@ -15707,6 +15976,7 @@ html {
     color: #FFF;
     width: 100%;
     margin-top: 0%;
+    height: 210vh;
   }
 }
 
@@ -15717,7 +15987,7 @@ html {
       width: 90%; 
       height: 220px;
       left: 5%;
-      margin-top: -3rem;
+      margin-top: -7%;
   } 
 }
 
@@ -16108,7 +16378,7 @@ html {
 
 @media (min-width: 425px) {
   .figure-img { 
-    margin-top: -230vh;
+    margin-top: -275vh;
     width: 375px;
     height: 222px;
     margin-left: 4%;
@@ -16122,7 +16392,56 @@ html {
 
 
 
-/* 540px */ 
+/* 540px */  
+@media (min-width: 540px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -30%;
+    margin-left: 7%;
+  }
+  .contacto_banner_responsive {
+    display: block;
+    margin-top: -22%;
+    width: 100%;
+    height: 271px;
+  }
+  .contacto_banner {
+    display: none;
+  }
+  .mapouter2 {
+    display: none;
+  }
+  .mapouter1 {
+    width:414px;
+    height: 271px;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+  .info_contacto {
+    margin-top: -16%;
+    margin-left: 20%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
 @media (min-width: 540px) {
   .card-title {
     margin-left: -10%;
@@ -16435,6 +16754,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
+    height: 140vh;
   }
 }
 
@@ -16522,7 +16842,7 @@ html {
 }
 @media (min-width: 540px) {
   .tituloIntegridad {
-    width: 90%;
+    width: 95%;
     height: 160px;
     font-family: 'Poppins';
     font-style: normal;
@@ -17059,6 +17379,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
+    height: auto;
   }
 }
 
@@ -17317,6 +17638,60 @@ html {
 
 
 /*  768 px*/
+
+@media (min-width: 768px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  .contacto_banner_responsive {
+    display: none;
+  }
+  .contacto_banner {
+    display: block;
+    width: 100%;
+    height: 271px;
+    margin-left: 0%;
+    margin-top: -10%;
+  }
+  .mapouter2 {
+    display: block;
+    width:414px;
+    height: 271px;
+    margin-top: 15%;
+    margin-left: -12%;
+   
+  }
+  .mapouter1 {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 12%;
+    margin-left: 2%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
 
 @media (min-width: 768px) {
   .banner_responsive_blog{
@@ -17600,7 +17975,7 @@ html {
     letter-spacing: 0.005em;
     color: #000000;
     mix-blend-mode: luminosity;
-    margin-left: 33%;
+    margin-left: 31%;
     margin-top: -5%;
   }
 }
@@ -17627,7 +18002,7 @@ html {
     text-align: center;
     color: #000000;
     width: 87%;
-    margin-left: 25%;
+    margin-left: 20%;
     mix-blend-mode: luminosity;
     margin-bottom: -10%;
     margin-top: 2%;
@@ -17641,7 +18016,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    height: 40vh;
+    height: 36vh;
     margin-top: -10vh;
     background: #232323;
     color: #FFF;
@@ -17683,14 +18058,14 @@ html {
   }
   .numEstadisticas {
     color: #17BA9C;
-    width: 40%;
+    width: 60%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 118.2%;
     text-align: right;
-    margin-left: 10%;
+    margin-left: -10%;
     margin-top: 1%;
   }
   .numEstadisticas2 {
@@ -17732,7 +18107,7 @@ html {
 @media (min-width: 768px) {
   .tituloAsesoria {
     margin-left: 35%;
-    width: 217px;
+    width: 50%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -17741,6 +18116,7 @@ html {
     line-height: 132.5%;
     text-align: center;
     margin-top: -9%;
+    margin-left: 23%;
   }
 }
 
@@ -17763,7 +18139,7 @@ html {
     border: 2px dashed #000000;
     line-height: 15px;
     font-size: 12px;
-    margin-top: 2%;
+    margin-top: 12%;
   }
   .botonAsesoria:hover {
     border-style: dashed;
@@ -17792,6 +18168,7 @@ html {
   .tam_card {
     width: 700px;
     margin-left: 30px;
+    margin-top: -5%;
   }
 }
 @media (min-width: 768px) {
@@ -17799,7 +18176,7 @@ html {
     background: #F2F2F2;
     width: 100%;
     height: 65vh;
-    margin-top: 14%;
+    margin-top: 20%;
   }
 }
 
@@ -17825,7 +18202,8 @@ html {
     font-size: 2rem;
     margin-bottom: 6%;
     font-weight: 700;
-    margin-left: -1%;
+    margin-left: 25%;
+    width: 48%;
   }
 }
 
@@ -17863,6 +18241,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
+    height: 75vh;
   }
 }
 
@@ -18076,7 +18455,7 @@ html {
 @media (min-width: 768px) {
   .barraNavegacion {
     background-color: #27282B;
-    width: 100%;
+    min-width: auto;
     height: 72px;
   }  
 }
@@ -18301,7 +18680,7 @@ html {
 
 @media (min-width: 768px) {
   .width_img {
-    width: 208px;
+    width: 205px;
     height: 180px;
   }
 }
@@ -18309,8 +18688,9 @@ html {
 @media (min-width: 768px){
   .align_img {
     display: block;
-    margin-left: 1%;
-    width: 94%;
+    /* margin-left: 1%; */
+    width: 100%;
+    margin: auto;
   }   
   .align_img_1 {
     display: none;
@@ -18585,7 +18965,36 @@ html {
 }
 
 
-/* 820 px */
+/* 820 px */ 
+
+@media (min-width: 820px){
+  .align_img {
+    display: block;
+    /* margin-left: 1%; */
+    width: 100%;
+    margin: auto;
+  }   
+  .align_img_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 820px) {
+  .tituloEstadistica {
+    width:90%;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    margin-left: -20%;
+    vertical-align: top;
+    margin-top: -10vh;
+  }
+}
+
 @media (min-width: 820px) {
   .titulo2 {
     position: absolute;
@@ -18635,14 +19044,14 @@ html {
   }
   .numEstadisticas {
     color: #17BA9C;
-    width: 40%;
+    width: 60%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 118.2%;
     text-align: right;
-    margin-left: 10%;
+    margin-left: -10%;
     margin-top: 1%;
   }
   .numEstadisticas2 {
@@ -18678,7 +19087,7 @@ html {
     border: 2px dashed #000000;
     line-height: 15px;
     font-size: 12px;
-    margin-top: 2%;
+    margin-top: 11%;
   }
   .botonAsesoria:hover {
     border-style: dashed;
@@ -18714,7 +19123,7 @@ html {
     background: #F2F2F2;
     width: 100%;
     height: 58vh;
-    margin-top: 14%;
+    margin-top: 20%;
   }
 }
 
@@ -18814,7 +19223,62 @@ html {
 
 
 
-/*912 px */
+/*912 px */ 
+
+
+@media (min-width: 912px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  .contacto_banner_responsive {
+    display: none;
+  }
+  .contacto_banner {
+    display: block;
+    width: 100%;
+    height: 271px;
+    margin-left: 0%;
+    margin-top: -10%;
+  }
+  .mapouter2 {
+    display: block;
+    width: 80%;
+    height: 352px;
+    margin-top: 15%;
+    margin-left: -12%;
+   
+  }
+  .mapouter1 {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 12%;
+    margin-left: 2%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
 @media (min-width: 912px) {
   .banner_blog {
     display: block;
@@ -19183,7 +19647,7 @@ html {
 
 @media (min-width: 912px) {
   .tituloEstadistica {
-    width:90%;
+    width:80%;
     height: 75px;
     font-family: 'Poppins';
     font-style: normal;
@@ -19191,7 +19655,7 @@ html {
     font-size: 18px;
     line-height: 110%;
     text-align: center;
-    margin-left: 8%;
+    margin-left: 0%;
     vertical-align: top;
     margin-top: -10vh;
   }
@@ -19207,14 +19671,14 @@ html {
   }
   .numEstadisticas {
     color: #17BA9C;
-    width: 40%;
+    width: 60%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 118.2%;
     text-align: right;
-    margin-left: 10%;
+    margin-left: -10%;
     margin-top: 1%;
   }
   .numEstadisticas2 {
@@ -19244,7 +19708,7 @@ html {
 @media (min-width: 912px) {
   .tituloAsesoria {
 
-    width: 217px;
+    width: 45%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -19253,6 +19717,7 @@ html {
     line-height: 132.5%;
     text-align: center;
     margin-top: -4%;
+    margin-left: 25%;
   }
 }
 @media (min-width: 912px) {
@@ -19274,7 +19739,7 @@ html {
     border: 2px dashed #000000;
     line-height: 15px;
     font-size: 12px;
-    margin-top: 7%;
+    margin-top: 10%;
   }
   .botonAsesoria:hover {
     border-style: dashed;
@@ -19303,14 +19768,15 @@ html {
   .tam_card {
     width: 90%;
     margin-left: 3.5%;
+    margin-top: -1%;
   }
 }
 @media (min-width: 912px) {
   .fondoReviews {
     background: #F2F2F2;
     width: 100%;
-    height: 42vh;
-    margin-top: 20%;
+    height: 45vh;
+    margin-top: 25%;
   }
 }
 @media (min-width: 912px) {
@@ -19334,7 +19800,6 @@ html {
     font-size: 2rem;
     margin-bottom: 2%;
     font-weight: 700;
-    margin-left: -1%;
     margin-top: -2%;
   }
 }
@@ -19469,7 +19934,71 @@ html {
 
 /* 912 px */
 
-/* 992 px */
+/* 992 px */ 
+
+@media (min-width: 992px) {
+  .list_servicios {
+    margin-left: 8%;
+  }
+  .tabs_banner2 {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 992px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  .contacto_banner_responsive {
+    display: none;
+  }
+  .contacto_banner {
+    display: block;
+    width: 100%;
+    height: 271px;
+    margin-left: 0%;
+    margin-top: -10%;
+  }
+  .mapouter2 {
+    display: block;
+    width: 80%;
+    height: 352px;
+    margin-top: 15%;
+    margin-left: 22%;
+   
+  }
+  .mapouter1 {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 12%;
+    margin-left: 15%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
+
 @media (min-width: 992px) {
   .banner_blog {
     display: block;
@@ -19501,18 +20030,18 @@ html {
   .tabs_banner {
     margin-left: 10%;
   }
-  .tabs_banner2 {
+  /* .tabs_banner2 {
     margin-left: 2%;
-  }
+  } */
   .titulo_tab {
     margin-left: -22%;
   }
   .strong_tab2 {
     margin-left: -21%;
   }
-  .list_servicios {
+  /* .list_servicios {
     margin-left: 5%;
-  }
+  } */
 }
 
 @media (min-width: 992px) { 
@@ -19598,13 +20127,13 @@ html {
 @media (min-width: 992px) {
   .tituloNegocios { 
       font-family: 'Poppins';
-      margin-top: -20vh;
+      margin-top: -15vh;
       font-style: normal;
       font-weight: 600;
       font-size: 32px;
       line-height: 33px;
       color: #232323;
-      margin-left: 35%;
+      margin-left: 30%;
       width: 409px;
       text-align: center;
       margin-bottom: -5%;
@@ -19632,7 +20161,7 @@ html {
       font-family: 'Poppins';
       color: #232323;
       width: 42%; 
-      margin-left: 35.6%; 
+      margin-left: 30%; 
       font-style: normal;
       font-weight: 300;
       font-size: 17px;
@@ -19710,7 +20239,7 @@ html {
     letter-spacing: 0.005em;
     color: #000000;
     mix-blend-mode: luminosity;
-    margin-left:25%;
+    margin-left:28%;
     margin-top: -2%;
   }
 }
@@ -19750,7 +20279,7 @@ html {
 @media (min-width: 992px) {
   .fondoBlack { 
     width: 100%;
-    height: 55vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -19764,7 +20293,7 @@ html {
 
 @media (min-width: 992px) {
   .tituloEstadistica {
-    width:284px;
+    width:90%;
     height: 75px;
     font-family: 'Poppins';
     font-style: normal;
@@ -19779,23 +20308,23 @@ html {
 
 @media (min-width: 992px) {
   .panel1 {
-    margin-top: -31vh;
+    margin-top: -20vh;
     margin-left: 28vw;
   }
   .panel2 {
     margin-left: 72vw;
-    margin-top: -51vh;
+    margin-top: -29vh;
   }
   .numEstadisticas {
     color: #17BA9C;
-    width: 40%;
+    width: 60%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 118.2%;
     text-align: right;
-    margin-left: 10%;
+    margin-left: -10%;
     margin-top: 1%;
   }
   .numEstadisticas2 {
@@ -19839,7 +20368,7 @@ html {
 
 @media (min-width: 992px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 60%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -19848,6 +20377,7 @@ html {
     line-height: 132.5%;
     text-align: center;
     margin-top: -4%;
+    margin-left: 18%;
   }
 }
 
@@ -19892,15 +20422,16 @@ html {
     padding: 0px 38px; 
     width: 279px;
     height: 48px;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top:20vw;
     background: #17BA9C;
     border-radius: 30px;
   
   }
   .tam_card {
-    width: 900px;
+    width: 90%;
     margin-left: 4%;
+    margin-bottom: 4%;
   }
 }
 
@@ -19908,7 +20439,7 @@ html {
   .fondoReviews {
     background: #F2F2F2;
     width: 100%;
-    height: 95vh;
+    height:auto;
     margin-top: 20%;
   }
 }
@@ -19920,7 +20451,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
-    height: 175vh;
+    height: 110vh;
   }
 }
 
@@ -20389,6 +20920,15 @@ html {
 
 /* 1024 px */
 
+@media (min-width: 1024px) {
+  .list_servicios {
+    margin-left: 9%;
+  }
+  .tabs_banner2 {
+    margin-left: 5%;
+  }
+}
+
 @media (min-width: 1024px) { 
   .boton_llamada {
     width: 160px;
@@ -20713,7 +21253,7 @@ html {
 
 @media (min-width: 1024px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 50%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -20721,7 +21261,7 @@ html {
     font-size: 24px;
     line-height: 132.5%;
     margin-top: -4%;
-    margin-left: 40%;
+    margin-left: 25%;
   }
 }
 
@@ -20773,7 +21313,7 @@ html {
   
   }
   .tam_card {
-    width: 950px;
+    width: 90%;
     margin-left: 4%;
   }
 }
@@ -21128,7 +21668,7 @@ html {
     font-weight: 300;
     font-size: 16px;
     line-height: 31px;
-    margin-top: -275px;
+    margin-top: -270px;
     margin-left: 560px;
     width: 35%;
   }
@@ -21262,7 +21802,15 @@ html {
 }
 
 
-/* 1200 px */
+/* 1200 px */ 
+@media (min-width: 1200px) {
+  .list_servicios {
+    margin-left: 9%;
+  }
+  .tabs_banner2 {
+    margin-left: 5%;
+  }
+}
 
 @media (min-width: 1200px) { 
   .boton_llamada {
@@ -21348,7 +21896,7 @@ html {
 @media (min-width: 1200px) {
   .tituloNegocios { 
       font-family: 'Poppins';
-      margin-top: -20vh;
+      margin-top: -28vh;
       font-style: normal;
       font-weight: 600;
       font-size: 32px;
@@ -21500,7 +22048,7 @@ html {
 @media (min-width: 1200px) {
   .fondoBlack { 
     width: 100%;
-    height: 60vh;
+    height:auto;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -21514,7 +22062,7 @@ html {
 
 @media (min-width: 1200px) {
   .tituloEstadistica {
-    width:284px;
+    width:40vw;
     height: 75px;
     font-family: 'Poppins';
     font-style: normal;
@@ -21522,19 +22070,19 @@ html {
     font-size: 22px;
     line-height: 118.2%;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: -50%;
   }
 }
 
 @media (min-width: 1200px) {
   .panel1 {
-    margin-top: -32vh;
+    margin-top: -42vh;
     margin-left: 28vw;
   }
   .panel2 {
     margin-left: 58vw;
-    margin-top: -46vh;
+    margin-top: -58vh;
   }
   .numEstadisticas {
     color: #17BA9C;
@@ -21589,7 +22137,7 @@ html {
 
 @media (min-width: 1200px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 45%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -21597,7 +22145,7 @@ html {
     font-size: 24px;
     line-height: 132.5%;
     margin-top: -4%;
-    margin-left: 41%;
+    margin-left: 27%;
   }
 }
 
@@ -21648,7 +22196,7 @@ html {
     border-radius: 30px;
   }
   .tam_card {
-    width: 1050px;
+    width: 90%;
     margin-left: 5%;
   }
 }
@@ -21657,7 +22205,7 @@ html {
   .fondoReviews {
     background: #F2F2F2;
     width: 100%;
-    height: 95vh;
+    height:100vh;
     margin-top: 20%;
   }
 }
@@ -21669,7 +22217,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
-    height: 160vh;
+    height: 200vh;
   }
 }
 
@@ -22003,7 +22551,7 @@ html {
     font-weight: 300;
     font-size: 16px;
     line-height: 31px;
-    margin-top: -7vh;
+    margin-top: -7.5vh;
     margin-left: 1vw;
     width: 35%;
   }
@@ -22137,7 +22685,107 @@ html {
 }
 
 
-/* 1280 px */
+/* 1280 px */ 
+@media (min-width: 1280px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 30%;
+    margin-left: 10vw;
+    margin-top: -7.5vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  .parrafo_fundadores2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -7.5vh;
+    margin-left: 1vw;
+    width: 35%;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .list_servicios {
+    margin-left: 9%;
+  }
+}
+ 
+
+@media (min-width: 1280px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  .contacto_banner_responsive {
+    display: none;
+  }
+  .contacto_banner {
+    display: block;
+    width: 100%;
+    height: 271px;
+    margin-left: 0%;
+    margin-top: -10%;
+  }
+  .mapouter2 {
+    display: block;
+    width: 80%;
+    height: 352px;
+    margin-top: 15%;
+    margin-left: 22%;
+   
+  }
+  .mapouter1 {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 12%;
+    margin-left: 15%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1280px){
+  .tituloReviews2 { 
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-weight: 700;
+    margin-top: -2%;
+  }
+}
 @media (min-width:1280px) {
   .titulo_banner {
     margin-left: 20%;
@@ -22479,7 +23127,7 @@ html {
 }
 @media (min-width: 1280px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 50%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -22487,7 +23135,7 @@ html {
     font-size: 24px;
     line-height: 132.5%;
     margin-top: -2%;
-    margin-left: 41%;
+    margin-left: 25%;
   }
 }
 @media (min-width: 1280px) {
@@ -22557,7 +23205,7 @@ html {
       flex-wrap: wrap;
       color: #FFF;
       width: 100%;
-      height: 132vh;
+      height: 137vh;
     }
   }
 
@@ -22718,6 +23366,66 @@ html {
 
 
 /* 1440 */
+@media (min-width: 1440px) {
+  .list_servicios {
+    margin-left: 9%;
+  }
+}
+
+@media (min-width: 1440px) { 
+  .fondoBlacContacto {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    color: #FFF;
+  }
+  .nuestras_oficinas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  .contacto_banner_responsive {
+    display: none;
+  }
+  .contacto_banner {
+    display: block;
+    width: 100%;
+    height: 271px;
+    margin-left: 0%;
+    margin-top: -10%;
+  }
+  .mapouter2 {
+    display: block;
+    width: 80%;
+    height: 352px;
+    margin-top: 15%;
+    margin-left: 22%;
+   
+  }
+  .mapouter1 {
+    display: none;
+  }
+  .info_contacto {
+    margin-top: 12%;
+    margin-left: 15%;
+  }
+  .lista_contatos {
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .titulo_contacto {
+    display: none;
+  }
+}
+
+
 @media (min-width: 1440px) {
   .container_blog {
     margin-left:12%;
@@ -22982,7 +23690,7 @@ html {
 @media (min-width: 1440px) {
   .fondoBlack { 
     min-width: 100%;
-    height: 30vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -22997,7 +23705,7 @@ html {
 
 @media (min-width: 1440px) {
   .tituloEstadistica {
-    width:80%;
+    width:100%;
     height: 75px;
     font-family: 'Poppins';
     font-style: normal;
@@ -23005,7 +23713,7 @@ html {
     font-size: 22px;
     line-height: 118.2%;
     text-align: center;
-    margin-left: 37%;
+    margin-left: 17%;
   }
 }
 
@@ -23016,7 +23724,7 @@ html {
   }
   .panel2 {
     margin-left: 62vw;
-    margin-top: -66vh;
+    margin-top: -65vh;
   }
   .numEstadisticas {
     color: #17BA9C;
@@ -23070,7 +23778,7 @@ html {
 
 @media (min-width: 1440px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 45%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -23078,7 +23786,7 @@ html {
     font-size: 24px;
     line-height: 132.5%;
     margin-top: -20px;
-    margin-left: 42%;
+    margin-left: 25%;
   }
 }
 
@@ -23086,7 +23794,7 @@ html {
   .area_asesoria {
     display: block;
     min-width: 100%;
-    height: 25vh;
+    height: auto;
   }
   .botonAsesoria {
     font-family: 'Poppins';
@@ -23125,13 +23833,13 @@ html {
     width: 279px;
     height: 48px;
     margin-left: 38%;
-    margin-top: 52vh;
+    margin-top: 56vh;
     background: #17BA9C;
     border-radius: 30px;
   
   }
   .tam_card {
-    width: 1300px;
+    width: 90%;
     margin-left: 5%;
   }
 }
@@ -23141,7 +23849,7 @@ html {
     background: #F2F2F2;
     width: 100%;
     height: 98vh;
-    margin-top: 20vh;
+    margin-top: 40vh;
   }
 }
 
@@ -23178,7 +23886,7 @@ html {
     flex-wrap: wrap;
     color: #FFF;
     width: 100%;
-    height: 204vh;
+    height: 210vh;
   }
 }
 
@@ -23831,7 +24539,7 @@ html {
     font-weight: 300;
     font-size: 16px;
     line-height: 31px;
-    margin-top: -228px;
+    margin-top: -248px;
     margin-left: 790px;
     width: 333px;
   }
@@ -23923,7 +24631,41 @@ html {
 
 
 
-/* 1495 px */
+/* 1495 px */ 
+
+@media (min-width: 1495px) {
+  .parrafo_fundadores {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 5px;
+    width: 371px;
+    margin-left: 160px;
+    margin-top: -5px;
+  }
+}
+
+
+@media (min-width: 1495px) {
+  .parrafo_fundadores2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: -247px;
+    margin-left: 790px;
+    width: 333px;
+  }
+}
+
+@media (min-width: 1495px) {
+  .list_servicios {
+    margin-left: 9%;
+  }
+}
 @media (min-width: 1495px) {
   .container_blog {
     margin-left:12%;
@@ -24131,7 +24873,7 @@ html {
   
   .section_img2 {
     margin-top: -27.2%;
-    margin-left: 48%;
+    margin-left: 50%;
   }
 }
 
@@ -24204,7 +24946,7 @@ html {
 @media (min-width: 1495px) {
   .fondoBlack { 
     min-width: 100%;
-    height: 30vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -24219,7 +24961,7 @@ html {
 
 @media (min-width: 1495px) {
   .tituloEstadistica {
-    width:80%;
+    width:100%;
     height: 75px;
     font-family: 'Poppins';
     font-style: normal;
@@ -24227,7 +24969,7 @@ html {
     font-size: 22px;
     line-height: 118.2%;
     text-align: center;
-    margin-left: 37%;
+    margin-left: 07%;
   }
 }
 
@@ -24292,7 +25034,7 @@ html {
 
 @media (min-width: 1495px) {
   .tituloAsesoria {
-    width: 217px;
+    width: 45%;
     height: 32px;
     font-family: 'Poppins';
     font-style: normal;
@@ -24300,7 +25042,7 @@ html {
     font-size: 24px;
     line-height: 132.5%;
     margin-top: -20px;
-    margin-left: 42%;
+    margin-left: 26%;
   }
 }
 
@@ -24308,7 +25050,7 @@ html {
   .area_asesoria {
     display: block;
     min-width: 100%;
-    height: 25vh;
+    height: auto;
   }
   .botonAsesoria {
     font-family: 'Poppins';
@@ -24362,8 +25104,8 @@ html {
   .fondoReviews {
     background: #F2F2F2;
     width: 100%;
-    height: 78vh;
-    margin-top: 10vh;
+    height: 68vh;
+    margin-top: 30vh;
   }
 }
 
@@ -24610,9 +25352,9 @@ html {
 @media (min-width: 1495px) {
   .list-menu {
     height: 0px;
-    width: 1200px;
+    width: 1400px;
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 14%;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
