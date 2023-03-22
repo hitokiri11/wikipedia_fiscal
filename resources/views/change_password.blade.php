@@ -6,7 +6,7 @@
                 @csrf 
                 <input type="hidden" name="id" id="id" value="{{$id}}" />
                 <div class="container_password"> 
-                    <div class="card mb-3 p-2 tarjetas_blog" > 
+                    <div class="card mb-3 p-2 prop_card tarjetas_blog" > 
 
                         <div class="col-md-12 col-lg-12 justify-content-center">
                             <div class="alert alert-danger " role="alert" id="password_requerido" style="display:none;">
@@ -17,7 +17,7 @@
                             </div>
                         </div>
 
-                        <div class="card-header text-center">
+                        <div class=" text-center">
                             <h5>Cambio de Password</h5>
                         </div>
                         <div class="card-body">
@@ -25,11 +25,11 @@
                                 <label for="password" class="form-label">Contraseña</label>
                                 <input 
                                     type="password" 
-                                    class="form-control" 
+                                    class="form-control rounded-pill fondo_button" 
                                     id="password" 
-                                    name="password" p
-                                    laceholder="Contraseña" v
-                                    alue="{{ old('password') }}" 
+                                    name="password" 
+                                    placeholder="Contraseña" 
+                                    value="{{ old('password') }}" 
                                 />
                                 @error('password')
                                     <p class="error-message">{{ $message }}</p>
@@ -39,7 +39,7 @@
                                 <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
                                 <input 
                                     type="password" 
-                                    class="form-control" 
+                                    class="form-control rounded-pill fondo_button" 
                                     id="confirm-password" 
                                     name="confirm-password" 
                                     placeholder="Confirmar Contraseña" 
@@ -50,19 +50,19 @@
                                 @enderror
                             </div>
                         </div>
-                        <div class="card-footer">
+                      <!--   <div class="card-footer"> -->
                             <div class="row float-right">
-                                <button type="button" class="btn btn-primary" onclick="changePassword()">
+                                <button type="button" class="btn btn-primary btn-block rounded-pill" onclick="changePassword()">
                                     <i  class="fas fa-save" ></i>
                                     Guardar
                                 </button>
                                 &nbsp;
-                                <button type="button" class="btn btn-danger" onclick="cancelar()">
+                                <button type="button" class="btn btn-danger btn-block rounded-pill" onclick="cancelar()">
                                     <i  class="fas fa-xmark" ></i>
                                     Cancelar
                                 </button>
                             </div>
-                        </div>
+                       <!--  </div> -->
                     </div>
                 </div>
         </form>

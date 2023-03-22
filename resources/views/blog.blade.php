@@ -49,8 +49,13 @@
                                     <h5><a href="/blog/show/{{$v->id}}" style="text-decoration: none;" class="titulo_blog">{{$v->titulo}}</a></h5>
                                 </p>
                                 <p class="card-text cont_blog">
+                                    
                                     <small class="text-muted">
                                         @php 
+                                            
+                                            $v->contenido = str_replace('<strong>','',$v->contenido); 
+                                            $v->contenido = str_replace('</strong>','',$v->contenido); 
+                                            
                                             $contenido =    explode('<p>',$v->contenido);
                                             $contenido =    explode('</p>',$contenido[1]);
                                             $contenido =    $contenido[0];

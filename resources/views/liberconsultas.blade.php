@@ -9,7 +9,7 @@
             <input type="hidden" name="search" id="search" value="true" />
             <div class="form-outline mb-3 ">
                 <div class="input-group caja_busqueda ">
-                        <input type="text" id="consulta" name="consulta" class="form-control  fondo_button redondeo_izq  justify-content-center" />
+                        <input type="text" id="consulta" name="consulta" class="form-control  fondo_button redondeo_izq justify-content-center" style="padding-left: 4%;"/>
 
                         <button id="search" class="btn btn-primary redondeo_izq redondeo_der" type="submit" > 
                             Buscar
@@ -25,14 +25,15 @@
                         <table class="col-md-9 col-lg-9 panel_video" >
                             @foreach($res as $k => $v)
                                 <tr>
-                                    <td>
+                                    <td >
                                         <div class="row  mt-2 col-md-10 col-lg-10">
-                                                <div class="card mb-1" >
+                                                <div class="card " >
                                                     <div class="row ">
                                                         <div class="col-md-4 col-lg-4">  
-                                                            <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
-                                                            </iframe>          
-                                                            
+                                                             <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
+                                                            </iframe>         
+                                                           <!--  <video  class="prop_video" src="{{asset('upload')}}/{{$v->video}}"   controls>
+                                                            </video > -->
                                                             
                                                         </div>
                                                         <div class="col-md-8 col-lg-8 ">
@@ -42,7 +43,7 @@
                                                                         class="btn btn-link text-decoration-none" 
                                                                         data-bs-toggle="modal" 
                                                                         data-bs-target="#modal_video" 
-                                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}')">
+                                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
                                                                             <h5 >{{$v->titulo}}</h5>
                                                                         </a>
                                                                 </div>
@@ -54,7 +55,7 @@
                                                                             class="btn btn-link " 
                                                                             data-bs-toggle="modal" 
                                                                             data-bs-target="#modal_video" 
-                                                                            onclick="modal_video('{{$v->video}}','{{$v->id}}')">
+                                                                            onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
                                                                             ...
                                                                         </a>
                                                                     </p>
@@ -105,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"  >Cerrar</button>
                                            <!--  <button type="button" class="btn btn-primary">Save changes</button> -->
                                             <button type="submit" class="btn btn-primary btn-block" >
                                                 <i  class="fas fa-pencil" ></i>
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="pauseVid()" >Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -165,12 +166,17 @@
 </section>
 
 <script type="text/javascript"> 
-    const modal_video = (video,id) => { 
+    const modal_video = (video,id,titulo, descripcion) => { 
         
         let html = `
             <div class="ratio ratio-16x9">
-                <video  class="prop_video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
+                <label style="font-size:16px;font-weight: bold; margin-bottom: 5%;">${titulo}</label>
+                <video  class="prop_video" id="video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
                 </video >
+                
+            </div>
+            <div style="text-align:justify;font-size:16px;margin-top:1%;font-weight: bold;">
+            ${descripcion}
             </div>
         `;
         
@@ -182,6 +188,10 @@
             console.log(json)
         });
 
+    }
+
+    function pauseVid() { 
+        video.pause(); 
     }
 
 </script>

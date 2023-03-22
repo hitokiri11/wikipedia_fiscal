@@ -23,7 +23,7 @@
                         </p>
                         <hr>
                         <div class="collapse mb-2" id="collapse4"> <!--class=" texto-card-dudas"--> 
-                            <div style="border-left: 1px solid black;">
+                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
                               <p>
                               No creamos liberfy para vender servicios. Creamos Liberfy por la cantidad de problemas que nuestros negocios vivieron a causa de las gestorías.
                               </p>
@@ -60,7 +60,7 @@
                         </p>
                         <hr>
                         <div class="collapse mb-2" id="collapse5">
-                            <div style="border-left: 1px solid black;">
+                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
                               <p>
                               Somos el aliado del emprendedor joven.
                               </p>
@@ -88,7 +88,7 @@
                         </p>
                         <hr>
                         <div class="collapse mb-2" id="collapse1">
-                            <div style="border-left: 1px solid black;">
+                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
                             
                                 <p>
                                 No solo es posible. Sino que es REAL.
@@ -115,7 +115,7 @@
                         </p>
                         <hr>
                         <div class="collapse mb-2" id="collapse2">
-                            <div style="border-left: 1px solid black;">
+                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
                             <p>
                             Tú eliges la vía que mejor se adapte a tus necesidades, tanto por whatsapp como por correo electrónico. 
                               </p>
@@ -139,7 +139,7 @@
                         </p>
                         <hr>
                         <div class="collapse mb-2" id="collapse3">
-                            <div style="border-left: 1px solid black;">
+                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
                             <p>
                             El único compromiso que existe es el nuestro para darte la solución a cualquier problema contable y fiscal que surja. 
                               </p>

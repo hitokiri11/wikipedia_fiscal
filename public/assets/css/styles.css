@@ -12343,7 +12343,14 @@ html {
   }
 }
 
-@media (min-width: 320px){
+
+@media (min-width: 320px) {
+  .container_password {
+    margin: auto;
+  }
+}
+
+@media (min-width: 320px){ 
 
   .seccion320 {
     width: 320px;
@@ -12488,7 +12495,7 @@ html {
   .divisor2 { 
     display: block;
     width: 60%;
-    margin-left: 22%;
+    margin-left: 20%;
   }
 }
 
@@ -13030,7 +13037,7 @@ html {
   .logo_liberfy_footer {
     width: 30%;
     height: 30px;
-    margin-left: -40%;
+    margin-left: -38%;
     margin-top: -80%;
   }
   .logo_liberfy_footer2 {
@@ -13292,6 +13299,7 @@ html {
     font-family: 'arial';
     font-weight: bold;
     font-size: 1.4rem;
+    margin: auto;
   }
 }
 
@@ -13302,12 +13310,7 @@ html {
   }
 }
 
-@media (min-width: 320px) {
-  .container_password {
-    min-width: 100%;
-    margin-left: 18%;
-  }
-}
+
 
 @media (min-width: 320px) {
   .prop_video {
@@ -13325,10 +13328,10 @@ html {
   .section_social {
     position: absolute;
     margin-top:35%;
-    left: -8%;
+    left: -4%;
   }
   .section_copy {
-    margin-left: 16%;
+    margin-left: 20%;
     margin-top: -10%;
     font-family: 'Plus Jakarta Display';
     font-style: normal;
@@ -13357,6 +13360,36 @@ html {
 
 
 /* 360 px */ 
+
+@media (min-width: 360px) {
+  .divisor2 { 
+    display: block;
+    width: 60%;
+    margin-left: 26%;
+  }
+  .logo_liberfy_footer {
+    width: 30%;
+    height: 30px;
+    margin-left: -24%;
+    margin-top: -80%;
+  }
+  .section_social {
+    position: absolute;
+    margin-top:35%;
+    left: -4%;
+  }
+  .section_copy {
+    margin-left: 26%;
+    margin-top: -10%;
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+}
+
 
 @media (min-width: 360px) { 
   .fondoBlacContacto {
@@ -13694,7 +13727,15 @@ html {
 
 
 
-/* 375 px */ 
+/* 375 px */  
+@media (min-width: 375px) {
+  .logo_liberfy_footer {
+    width: 30%;
+    height: 30px;
+    margin-left: -46%;
+    margin-top: -80%;
+  }
+}
 
 @media (min-width: 375px) { 
   .fondoBlacContacto {
@@ -14412,7 +14453,7 @@ html {
   }
   .section_copy {
     margin-left: 18%;
-    margin-top: 0%;
+    margin-top: -10%;
     text-align: left;
     font-family: 'Plus Jakarta Display';
     font-style: normal;
@@ -14438,6 +14479,24 @@ html {
 
 
 /* 390 px */
+
+@media (min-width: 390px) {
+  .divisor2 { 
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 390px) {
+  .integridadBoton {
+    width: 279px;
+    height: 48px;
+    margin-left:9%;
+    color: #FFF;
+  }
+}
+
 @media (min-width: 390px) { 
   .fondoBlacContacto {
     width: 100%;
@@ -14748,7 +14807,48 @@ html {
   } 
 }
 
-/* 412 px */
+/* 412 px */  
+@media (min-width: 412px) {
+  .logo_liberfy_footer {
+    width: 30%;
+    height: 30px;
+    margin-left: -38%;
+    margin-top: -80%;
+  }
+  .section_social {
+    position: absolute;
+    margin-top:22%;
+    left: -8%;
+  }
+  .section_copy {
+    margin-left: 22%;
+    margin-top: -14%;
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 412px) {
+  .divisor2 { 
+    display: block;
+    width: 60%;
+    margin-left: 22%;
+  }
+}
+
+
+@media (min-width: 412px) {
+  .integridadBoton {
+    width: 279px;
+    height: 48px;
+    margin-left:10%;
+    color: #FFF;
+  }
+}
 
 @media (min-width: 412px) { 
   .fondoBlacContacto {
@@ -15013,7 +15113,16 @@ html {
   }
 }
 
-/* 414 px */
+/* 414 px */ 
+@media (min-width: 412px) {
+  .integridadBoton {
+    width: 279px;
+    height: 48px;
+    margin-left:12%;
+    color: #FFF;
+  }
+}
+
 @media (min-width: 414px) {
   .opciones {
     margin-left: 8%;
@@ -15822,7 +15931,7 @@ html {
     width: 210.5px;
     height: 0px;
     margin-left: 25%;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
 }
 @media (min-width: 425px) {
@@ -16109,7 +16218,7 @@ html {
   .integridadBoton {
     width: 80%;
     height: 48px;
-    margin-left:8%;
+    margin-left:10%;
     color: #FFF;
   }
 }
@@ -16125,7 +16234,7 @@ html {
   .logo_liberfy_footer {
     width: 25%;
     height: 30px;
-    margin-left: -40%;
+    margin-left: -30%;
     margin-top: -80%;
   }
   .logo_liberfy_footer2 {
@@ -16362,10 +16471,10 @@ html {
   .section_social {
     position: absolute;
     margin-top:20%;
-    left: -10%;
+    left: -5%;
   }
   .section_copy {
-    margin-left: 20%;
+    margin-left: 26%;
     margin-top: -14%;
   }
   .columna1 {
@@ -16393,6 +16502,22 @@ html {
 
 
 /* 540px */  
+@media (min-width: 540px) {
+  .container_password {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (min-width: 540px) {
+  .logo_liberfy_footer {
+    width: 25%;
+    height: 30px;
+    margin-left: -26%;
+    margin-top: -80%;
+  }
+}
+
 @media (min-width: 540px) { 
   .fondoBlacContacto {
     width: 100%;
@@ -16891,10 +17016,10 @@ html {
   }
   .section_social {
     margin-top:8%;
-    left: -12%;
+    left: -6%;
   }
   .section_copy {
-    margin-left: 22%;
+    margin-left: 28%;
     margin-top: -20%;
   }
   .columna1 {
@@ -17005,6 +17130,15 @@ html {
 
 
 /* 576 px */ 
+
+@media (min-width: 576px) {
+  .logo_liberfy_footer {
+    width: 25%;
+    height: 30px;
+    margin-left: -22%;
+    margin-top: -90%;
+  }
+}
 
 @media (min-width: 576px) {
   .adicional_servico {
@@ -17156,7 +17290,7 @@ html {
     width: 210.5px;
     height: 0px;
     margin-left: 30%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
   }
 }
 
@@ -17595,13 +17729,12 @@ html {
     display: none;
   }
   .section_social {
-    position: absolute;
-    margin-top:10%;
-    left: -14%;
+    margin-top:8%;
+    left: -6%;
   }
   .section_copy {
-    margin-left: 22%;
-    margin-top: -14%;
+    margin-left: 32%;
+    margin-top: -16%;
   }
   .columna1 {
     display: none;
@@ -17639,6 +17772,21 @@ html {
 
 /*  768 px*/
 
+@media (min-width: 768px) {
+  .container_password {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media (min-width:768px) {
+  .mapa {
+    margin-left: 10%;
+    width: 240px;
+    margin-top: 16%;
+  }
+}
+
 @media (min-width: 768px) { 
   .fondoBlacContacto {
     width: 100%;
@@ -17669,10 +17817,6 @@ html {
   }
   .mapouter2 {
     display: block;
-    width:414px;
-    height: 271px;
-    margin-top: 15%;
-    margin-left: -12%;
    
   }
   .mapouter1 {
@@ -19266,7 +19410,7 @@ html {
     display: none;
   }
   .info_contacto {
-    margin-top: 12%;
+    margin-top: 24%;
     margin-left: 2%;
   }
   .lista_contatos {
@@ -19276,6 +19420,12 @@ html {
   }
   .titulo_contacto {
     display: none;
+  }
+  .mapa {
+    width: 340px;
+    height: 240px;
+    margin-top: 2%;
+    margin-left: 10%;
   }
 }
 
@@ -19937,6 +20087,18 @@ html {
 /* 992 px */ 
 
 @media (min-width: 992px) {
+  .caja_busqueda {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (min-width: 992px ){
+  .mapa {
+    margin-left: -10%;
+  }
+}
+
+@media (min-width: 992px) {
   .list_servicios {
     margin-left: 8%;
   }
@@ -19985,7 +20147,7 @@ html {
     display: none;
   }
   .info_contacto {
-    margin-top: 12%;
+    margin-top: 22%;
     margin-left: 15%;
   }
   .lista_contatos {
@@ -20053,7 +20215,8 @@ html {
     margin-top: 1%;
   }
   .close_sesion {
-    padding-top: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 35;
   }
   .texto-boton-llamada_menu {
     height: 27px;
@@ -20918,7 +21081,13 @@ html {
   }
 }
 
-/* 1024 px */
+/* 1024 px */ 
+@media (min-width: 1024px) {
+  .container_password {
+    margin: auto;
+    width: 50%;
+  }
+}
 
 @media (min-width: 1024px) {
   .list_servicios {
@@ -20938,7 +21107,7 @@ html {
     margin-top: 1%;
   }
   .close_sesion {
-    padding-top: 1%;
+    padding-bottom: 1%;
   }
   .texto-boton-llamada_menu {
     height: 27px;
@@ -21802,7 +21971,13 @@ html {
 }
 
 
-/* 1200 px */ 
+/* 1200 px */  
+@media (min-width: 1200px) {
+  .mapa {
+    width: 420px;
+  }
+}
+
 @media (min-width: 1200px) {
   .list_servicios {
     margin-left: 9%;
@@ -21822,7 +21997,10 @@ html {
     margin-left: 26%;
   }
   .close_sesion {
-    padding-top: 1%;
+      position: absolute;
+      padding-bottom: 1%;
+      left: 87%;
+
   }
   .texto-boton-llamada_menu {
     height: 27px;
@@ -22686,6 +22864,15 @@ html {
 
 
 /* 1280 px */ 
+@media (min-width: 1280px) { 
+  .close_sesion {
+      position: absolute;
+      padding-bottom: 1%;
+      left: 90%;
+
+  }
+}
+
 @media (min-width: 1280px) {
   .parrafo_fundadores {
     font-family: 'Poppins';
@@ -22772,8 +22959,10 @@ html {
   .titulo_contacto {
     display: none;
   }
+  .info_contacto {
+    margin-top: 24%;
+  }
 }
-
 
 @media (min-width: 1280px){
   .tituloReviews2 { 
@@ -23366,6 +23555,14 @@ html {
 
 
 /* 1440 */
+
+@media (min-width: 1440px) {
+  .container_password {
+    margin: auto;
+    width: 40%;
+  }
+}
+
 @media (min-width: 1440px) {
   .list_servicios {
     margin-left: 9%;
@@ -23412,7 +23609,7 @@ html {
     display: none;
   }
   .info_contacto {
-    margin-top: 12%;
+    margin-top: 24%;
     margin-left: 15%;
   }
   .lista_contatos {
@@ -23468,7 +23665,9 @@ html {
     margin-left: 120px;
   }
   .close_sesion {
-    padding-top: 1%;
+    position: absolute;
+    padding-top: 0.3%;
+    left: 89%;
   }
   .texto-boton-llamada_menu {
     width: 130px;
@@ -23481,11 +23680,6 @@ html {
     align-items: center;
     text-align: center;
     margin-left: 1px;
-  }
-  .close_sesion { 
-    position: absolute;
-    padding-top: 0.5%;
-    left: 80%;
   }
 }
 
@@ -24594,8 +24788,7 @@ html {
 
 @media (min-width: 1440px) {
   .container_password {
-    min-width: 5%;
-    margin-left: 23%;
+    margin: auto;
   }
 }
 
@@ -24608,8 +24801,8 @@ html {
 
 @media (min-width:1440px) {
   .prop_video {
-    width: 18rem;
-    padding-top: 3%;
+    width: 60%;
+    padding-bottom: -20%;
   }
   h5 {
     margin-left: 4%;
@@ -24632,6 +24825,12 @@ html {
 
 
 /* 1495 px */ 
+
+@media (min-width: 1495px) {
+  .container_password {
+    margin: auto;
+  }
+}
 
 @media (min-width: 1495px) {
   .parrafo_fundadores {
@@ -24706,9 +24905,6 @@ html {
     margin-top: 1%;
     margin-left: 120px;
   }
-  .close_sesion {
-    padding-top: 1%;
-  }
   .texto-boton-llamada_menu {
     width: 130px;
     height: 16px;
@@ -24723,8 +24919,8 @@ html {
   }
   .close_sesion { 
     position: absolute;
-    padding-top: 0.5%;
-    left: 80%;
+    padding-top: 0.3%;
+    left: 89%;
   }
 }
 
