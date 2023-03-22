@@ -3,8 +3,8 @@
 <section class="page-section"  id="servicios" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0" >
         <div>
-            <img src="assets/img/servicios/banner_servicios.png"   class="img-fluid  banner_servicio" alt="..."> 
-            <img src="assets/img/servicios/responsive_servicios.png"   class="img-fluid  responsive_servicio" alt="..."> 
+            <img src="{{asset('assets/img/servicios/banner_servicios.png')}}"   class="img-fluid  banner_servicio" alt="..."> 
+            <img src="{{asset('assets/img/servicios/responsive_servicios.png')}}"   class="img-fluid  responsive_servicio" alt="..."> 
             <div >
                 <h1 class=" titulo_banner">Autónomos y pymes</h1>
                 <h1 class="protegidos" style="font-style:italic;font-weight: bold;" >100% protegidos</h1>
@@ -17,13 +17,13 @@
             <ul class="nav nav-tabs tabs_banner">
               <li class="nav-item tab1_long">
                 <a class="nav-link active" href="#tab1" id="login-tab" data-bs-toggle="tab">
-                    <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img" alt="..."> 
+                    <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img" alt="..."> 
                     <h6 class="titulo_tab">Área Contable</h6>
                 </a>
               </li>
               <li class="nav-item tab2_long"">
                 <a class="nav-link" href="#tab2" id="register-tab" data-bs-toggle="tab">
-                    <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img" alt="..."> 
+                    <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img" alt="..."> 
                     <h6 class="titulo_tab">Área Fiscal</h6>
                 </a>
               </li>
@@ -143,25 +143,25 @@
 
                 <li class="nav-item tab_small">
                     <a class="nav-link active" href="#laboral" id="lab" data-bs-toggle="tab">
-                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
                         <strong class="strong_tab2">Área Laboral</strong>
                     </a>
                 </li>
                 <li class="nav-item tab_small">
                     <a class="nav-link" href="#propiedad" id="prop" data-bs-toggle="tab">
-                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
                         <strong class="strong_tab2">Propiedad Intelectual</strong>
                     </a>
                 </li>
                 <li class="nav-item tab_small">
                     <a class="nav-link" href="#legal" id="leg" data-bs-toggle="tab">
-                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
                         <strong class="strong_tab2">Área Legal</strong>
                     </a>
                 </li>
                 <li class="nav-item tab_small">
                     <a class="nav-link" href="#desarrollo" id="des" data-bs-toggle="tab">
-                        <img src="assets/img/servicios/email.png"   class="img-fluid d-block tab_img2" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
                         <strong  class="strong_tab2">Desarrollo Contractual</strong>
                     </a>
                 </li>
