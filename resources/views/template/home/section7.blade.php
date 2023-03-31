@@ -1,73 +1,46 @@
-<section class="seccion320 fondoReviews2" >
-    <div class="row mb-5">
-        <div class="col-md-5 col-lg-5" >
-            <img  src="assets/img/home/integridad.png"   class="imagenIntegridad"/>
-            <img  src="assets/img/home/integridad2.png"  class="imagenIntegridad2"  />
-           {{--  src="assets/img/home/integridad.png" --}}
+<section>
+    <div class="fondoReview2">
+        <img  src="assets/img/home/integridad2.png"   class="imagenIntegridad"/>
+
+        <div class="contenedor_img7">
+            <img  src="assets/img/home/integridad.png"   class="imagenIntegridad2"/> 
         </div>
-        <div class="col-md-7 col-lg-7 mb- mb-md-0 mt-5" >
-            <p class="tituloIntegridad">
-            La integridad y el compromiso definen nuestra manera de trabajar.
-            </p>
-            <div class="row">
-                <div class="col-md-1 col-lg-1 check_integridad" >
-                    <a class="">
-                        <label class="fs-6 " >
-                            <i class="fa fa-check-circle fa-lg check_integ_dark" ></i>
-                            <i class="far fa-check-circle fa-lg check_integ" ></i>
-                        </label>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <p class="opcionCheck">
-                    Somos una gestoría de la nueva era y nuestro impacto medioambiental es muy bajo. 
-                    </p>
-                </div>
+            
+        <div class="item_vertical">
+            <div class="titulo_integridad">
+                La integridad y el compromiso definen nuestra manera de trabajar.
+            </div> 
+            <div class="check_inte">
+                <i class="far fa-check-circle fa-lg checkClear"></i>
+                <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
-            <div class="row">
-                <div class="col-md-1 col-lg-1 check_integridad">
-                    <a class="">
-                        <label class="fs-6" >
-                            <i class="fa fa-check-circle fa-lg check_integ_dark" ></i>
-                            <i class="far fa-check-circle fa-lg check_integ" ></i>
-                            
-                        </label>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <p class="opcionCheck">
-                    No recibimos, ni emitimos facturas en papel, tampoco imprimimos, ni presentamos documentación en formato físico.
-                    </p>
-                </div>
+            <div class="opcion_inte">
+                Somos una gestoría de la nueva era y nuestro impacto medioambiental es muy bajo. 
             </div>
 
-            <div class="row">
-                <div class="col-md-1 col-lg-1 check_integridad">
-                    <a class="">
-                        <label class="fs-6" >
-                            <i class="fa fa-check-circle fa-lg check_integ_dark" ></i>
-                            <i class="far fa-check-circle fa-lg check_integ" ></i>
-                            
-                        </label>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <p class="opcionCheck">
-                    Nos enorgullecemos de ser 100% digitales y aún así estar 100% para ti.
-                    </p>
-                </div>
+            <div class="check_inte">
+                <i class="far fa-check-circle fa-lg checkClear"></i>
+                <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
-            <div class="row">
-                <div class="col-md-7 col-lg-7 mt-2">
-                    <button type="button" class="btn btn-primary rounded-pill mt-2 integridadBoton" >
-                        <label class="texto-boton-integridad">¿Te llamamos?</label>
-                    </button>
-                </div>
-                
+            <div class="opcion_inte">
+                No recibimos, ni emitimos facturas en papel, tampoco imprimimos, ni presentamos documentación en formato físico.
             </div>
+            
+            <div class="check_inte">
+                <i class="far fa-check-circle fa-lg checkClear"></i>
+                <i class="fa fa-check-circle fa-lg checkDark"></i>
+            </div>
+            <div class="opcion_inte">
+                Nos enorgullecemos de ser 100% digitales y aún así estar 100% para ti.
+            </div>
+
+            <div class="tit_comprobar">
+                ¿Quieres Comprobarlo? 
+            </div> 
+            <button type="button" class="boton_llamada_inte" >
+                    <label class="texto-boton-llamada">¿Te llamamos?</label>
+            </button>
 
         </div>
-
     </div>
-    <hr class="divisor2 center-content-justify">   
 </section>

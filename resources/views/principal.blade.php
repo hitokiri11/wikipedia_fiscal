@@ -12,7 +12,7 @@
 
     @include('template.home.section5')
 
-    @include('template.home.section6') 
+    @include('template.home.section6')
 
     @include('template.home.section7')
 

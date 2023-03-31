@@ -1,52 +1,71 @@
-<!-- About Section-->
-<section class="page-section seccion320" id="negocios"> 
-    
-    <div class="container">
-        <hr class="divisor center-content-justify">    
-        <!-- About Section Heading-->
-        <p class="tituloNegocios">¿Para quién es Liberfy?</p>
-        <div class="row"> 
-            <div class="col-md-12 col-lg-12 mb- mb-md-0">
-                <p class="titulo2Negocios mt-1">
-                Para ti que necesitas un experto en fiscalidad que entienda los nuevos modelos de negocio
-                </p>
-            </div>
+<section >
+
+    <div class="section2_responsive"> 
+        <div class="divisor_section2">
+            <hr class="divisor">    
+        </div>
+        <div class="titulo_section2">
+            ¿Para quién es Liberfy?
+        </div>
+        <div class="sub_titulo_sction2">
+            Para ti que necesitas un experto en fiscalidad que entienda los nuevos modelos de negocio.
         </div>
 
-        <div class="row mt-4 separacion_imagenes_negocio" >
-            <div class="col-md-6 col-lg-6 mb- mb-md-0" >
-                <div style="position: relative; left: 0; top: 0;">
+        <div style="position: relative; left: 0; top: 0;">
+                <img src="assets/img/home/img_1.png" class='eye' />
+                <img src="assets/img/home/img_3.png" class="heaven" />
+        </div>
+        <div class="titulo_negocio_resp">
+            Negocios digitales
+        </div>
+        <div class="parr_negocio_resp">
+            Infoproductores, dueños de Ecommerce, Influencer, eGamers y creadores de contenido de todos los estilos.
+        </div> 
+
+        <div style="margin-top:12%;">
+            <img src="assets/img/home/img_2.png" class='eye'   />
+            <img src="assets/img/home/img_3.png" class="heaven" />
+        </div>
+        <div class="titulo_negocio_resp">
+            Negocios imobiliarios
+        </div>
+        <div class="parr_negocio_resp">
+            Inmobiliarias, inversores tradicionales, emprendedores especializados en alquiler turístico o residencial, Rent to Rent y Flipping House.
+        </div>
+    </div>
+
+    <div class="section2_desktop"> 
+
+        <div class="titulo_section2">
+            ¿Para quién es Liberfy?
+        </div>
+        <div class="sub_titulo_sction2">
+            Para ti que necesitas un experto en fiscalidad que entienda los nuevos modelos de negocio.
+        </div>
+
+        <div class="parte_izquierda_section2">
+            <div style="position: relative; left: 0; top: 0;">
                     <img src="assets/img/home/img_1.png" class='eye' />
-                    <img src="assets/img/home/img_3.png" class="heaven1" />
                     <img src="assets/img/home/img_3.png" class="heaven" />
-                </div>
             </div>
-
-            <div class="col-md-6 col-lg-6 mb- mb-md-0 section_img2" >
-                <div style="position: relative; left: 0; top: 0;">
-                    <img src="assets/img/home/img_2.png" class='eye'   />
-                    <img src="assets/img/home/img_3.png" class="heaven2" />
-                    <img src="assets/img/home/img_3.png" class="heaven" />
-                </div>
+            <div class="titulo_negocio_resp">
+                Negocios digitales
             </div>
-        </div>
-        <div class="row  mt-5">
-            <div class="col-md-6 col-lg-6 mb- mb-md-0" >
-                <p class="tituloImagen1" > 
-                    Negocios digitales
-                </p>
-                <p class="parrNegocios1">
+            <div class="parr_negocio_resp">
                 Infoproductores, dueños de Ecommerce, Influencer, eGamers y creadores de contenido de todos los estilos.
-                </p>
+            </div> 
+        </div>
+
+        <div class="parte_derecha_section2">
+            <div style="position: relative; left: 0; top: 0;" >
+                <img src="assets/img/home/img_2.png" class='eye'   />
+                <img src="assets/img/home/img_3.png" class="heaven" />
             </div>
-      
-            <div class="col-md-6 col-lg-6 mb- mb-md-0" >
-                <p class="tituloImagen2" > 
-                    Negocios inmobiliarios
-                </p> 
-                <p class="parrNegocios2">
+            <div class="titulo_negocio_resp">
+                Negocios imobiliarios
+            </div>
+            <div class="parr_negocio_resp">
                 Inmobiliarias, inversores tradicionales, emprendedores especializados en alquiler turístico o residencial, Rent to Rent y Flipping House.
-                </p>
             </div>
         </div>
     </div>
