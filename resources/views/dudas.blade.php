@@ -1,167 +1,172 @@
 @extends('template.main')
 @section('content')
-    <section class="page-section"  id="dudas">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 mb- mb-md-0 ml-5">
-                    <p class="tituloDudas">
-                        Preguntas Frecuentes
-                    </p>
-                    <p class="parrafoDudas">
-                        Si tienes alguna otra duda, escribenos 
-                        en <b>nuestro chat o por Whatsapp</b> y la 
-                        resolveremos en seguida
-                    </p>
-                </div>
-                <div class="col-md-6 col-lg-6 mb- mb-md-0">
-                    <div class="preguntas">
-                        <p>
-                            <a class="btn btn-primary rounded-circle " data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">
-                                <i class="fa-sharp fa-solid fa-arrow-right" ></i>
-                            </a>
-                            ¿Por qué elegir Liberfy?
-                        </p>
-                        <hr>
-                        <div class="collapse mb-2" id="collapse4"> <!--class=" texto-card-dudas"--> 
-                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
+    <section >
+    
+        <div class="titulo_dudas">
+            Preguntas Frecuentes
+        </div>
+        <div class="parrafoDudas">
+            Si tienes alguna otra duda, escribenos 
+            en <b>nuestro chat o por Whatsapp</b> y la 
+            resolveremos en seguida
+        </div>        
+
+        <div class="acordeon_dudas">
+            <details open>
+                <summary class="summary">
+                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    <label class="item_acordeon">
+                        ¿Por qué elegir Liberfy?
+                    </label>
+                </summary>
+                <div class="content_acordeon">
+                            <hr style="float: left" heigth="auto"/>
                               <p>
                               No creamos liberfy para vender servicios. Creamos Liberfy por la cantidad de problemas que nuestros negocios vivieron a causa de las gestorías.
                               </p>
+                              <br>
                               <p>
                               Aunque su misión era protegernos, lo que hacían era causarnos molestias por tener un total desconocimiento de cómo funcionaban nuestros negocios.
                               </p>
+                              <br>
                               <p>
                               Por eso decimos que Liberfy nace de emprendedores para emprendedores. 
                               </p>
+                              <br>
                               <p>
                               Como empresarios y emprendedores digitales atravesamos por muchas dificultades y problemas que nos hacen perder dinero y tiempo.
-
                               </p>
+                              <br>
                               <p>
                               Y para ello decidimos crear un grupo de especialistas en este tipo de negocios del siglo XXI para poder atender a nuestras empresas. 
                               </p>
+                              <br>
                               <p>
                               Traducimos el lenguaje fiscal y contable de forma transparente y simple a pequeñas empresas y jóvenes emprendedores modernos.
                               </p>
+                              <br>
                               <p>
                               Por lo que va a ser muy fácil entendernos. Conocemos las preocupaciones del emprendedor. 
                               </p>
+                              <br>
                               <p>
                               Nuestra misión es ayudarte a buscar soluciones y ofrecerte la tranquilidad de estar cumpliendo con tus obligaciones fiscales para centrarte en hacer crecer tu negocio.
                               </p>
-                            </div>
-                        </div>
-
-                        <p>
-                            <a class="btn btn-primary rounded-circle " data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapse5">
-                                <i class="fa-sharp fa-solid fa-arrow-right" ></i>
-                            </a>
-                            ¿Para quién es Liberfy?
-                        </p>
-                        <hr>
-                        <div class="collapse mb-2" id="collapse5">
-                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
-                              <p>
-                              Somos el aliado del emprendedor joven.
-                              </p>
-                              <p>
-                              Nos especializamos en 2 modelos de negocios disruptivos que las gestorías tradicionales no pueden atender por falta de conocimiento de cómo funcionan estos negocios del siglo XXl.
-                              </p>
-                              <p>
-                                Estos modelos son:
-                              </p>
-                              <p>
-                                <strong>Negocios digitales:</strong> Infoproductos, E-commerce, Amazon, Shopify, todos los negocios que se desarrollan de forma online, incluso a influencers o eGamers.
-                              </p>
-                              <p>
-                                <strong>Negocios inmobiliarios:</strong> inmobiliarias, inversores, emprendedores especializados en alquiler turístico, Rent to Rent, Flipping houses e inversiones tradicionales.
-
-                              </p>
-                            </div>
-                        </div>
-
-                        <p>
-                            <a class="btn btn-primary rounded-circle " data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                                <i class="fa-sharp fa-solid fa-arrow-right" ></i>
-                            </a>
-                            ¿Es posible llevar mi gestión contable y fiscal online?
-                        </p>
-                        <hr>
-                        <div class="collapse mb-2" id="collapse1">
-                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
+                </div>
+            </details>  
+            <details >
+                <summary class="summary">
+                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    <label class="item_acordeon">
+                        ¿Para quién es Liberfy?
+                    </label>
+                </summary>
+                <div class="content_acordeon">
                             
-                                <p>
+                            <p>
+                            Somos el aliado del emprendedor joven.
+                            </p>
+                            <br>
+                            <p>
+                            Nos especializamos en 2 modelos de negocios disruptivos que las gestorías tradicionales no pueden atender por falta de conocimiento de cómo funcionan estos negocios del siglo XXl.
+                            </p>
+                            <br>
+                            <p>
+                            Estos modelos son:
+                            </p>
+                            <br>
+                            <p>
+                            <strong>Negocios digitales:</strong> Infoproductos, E-commerce, Amazon, Shopify, todos los negocios que se desarrollan de forma online, incluso a influencers o eGamers.
+                            </p>
+                            <br>
+                            <p>
+                            <strong>Negocios inmobiliarios:</strong> inmobiliarias, inversores, emprendedores especializados en alquiler turístico, Rent to Rent, Flipping houses e inversiones tradicionales.
+                            </p>
+                </div>
+            </details>  
+
+            <details >
+                <summary class="summary">
+                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    <label class="item_acordeon">
+                        ¿Es posible llevar mi gestión contable y fiscal online?
+                    </label>
+                </summary>
+                <div class="content_acordeon">
+                              <p>
                                 No solo es posible. Sino que es REAL.
                               </p>
+                              <br>
                               <p>
                               Tendrás todo al alcance de un clic y el resto corre por nuestra cuenta.
                               </p>
+                              <br>
                               <p>
                               Y tendrás a disposición todo el control de tu negocio en un solo lugar, para que cuando quieras acceder a ello, tengas todo de forma clara y transparente
                               </p>
+                              <br>
                               <p>
                               Además dispones de nuestro equipo de expertos asesores para resolver cualquier consulta vía whatsapp o a través de correo electrónico. 
                               </p>
+                              <br>
                               <p>
                               Tu documentación estará segura y todos tus datos al alcance de un clic.
                               </p>
-                            </div>
-                        </div>
-                        <p>
-                            <a class="btn btn-primary rounded-circle " data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                                <i class="fa-sharp fa-solid fa-arrow-right" ></i>
-                            </a>
-                            ¿Como me comunico con mi asesor fiscal?
-                        </p>
-                        <hr>
-                        <div class="collapse mb-2" id="collapse2">
-                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
+                </div>
+            </details>
+
+            <details >
+                <summary class="summary">
+                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    <label class="item_acordeon">
+                    ¿Como me comunico con mi asesor fiscal?
+                    </label>
+                </summary>
+                <div class="content_acordeon">
                             <p>
                             Tú eliges la vía que mejor se adapte a tus necesidades, tanto por whatsapp como por correo electrónico. 
-                              </p>
-                              <p>
-                              Te atenderá siempre tu gestor experto en negocios digitales y emprendedores del siglo XXI, podrás confiar en él ya que conocerá tu negocio y lo que haces… y nadie mejor que un gestor que sepa a lo que te enfrentas día a día.
-                              </p>
-                              <p>
-                              Nos obsesiona atenderte rápido a través de nuestros sistemas digitales y que no pierdas el tiempo con desplazamientos innecesarios.
-                              </p>
-                              <p>
-                              Por eso, estaremos en contacto constantemente y nos encargaremos de que encuentres una solución viable a tus problemas.
-                              </p>
-                            </div>
-                        </div>
-
-                        <p>
-                            <a class="btn btn-primary rounded-circle " data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
-                                <i class="fa-sharp fa-solid fa-arrow-right" ></i>
-                            </a>
-                            ¿Existe compromiso de permanencia?
-                        </p>
-                        <hr>
-                        <div class="collapse mb-2" id="collapse3">
-                            <div style="border-left: 1px solid black;padding-left: 5%;padding-right: 5%;">
+                            </p>
+                            <br>
                             <p>
-                            El único compromiso que existe es el nuestro para darte la solución a cualquier problema contable y fiscal que surja. 
+                            Te atenderá siempre tu gestor experto en negocios digitales y emprendedores del siglo XXI, podrás confiar en él ya que conocerá tu negocio y lo que haces… y nadie mejor que un gestor que sepa a lo que te enfrentas día a día.
+                            </p>
+                            <br>
+                            <p>
+                            Nos obsesiona atenderte rápido a través de nuestros sistemas digitales y que no pierdas el tiempo con desplazamientos innecesarios.
+                            </p
+                            <br>
+                            <p>
+                            Por eso, estaremos en contacto constantemente y nos encargaremos de que encuentres una solución viable a tus problemas.
+                            </p>
+                </div>
+            </details>
+
+            <details >
+                <summary class="summary">
+                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    <label class="item_acordeon">
+                    ¿Existe compromiso de permanencia?
+                    </label>
+                </summary>
+                <div class="content_acordeon">
+                              <p>
+                                El único compromiso que existe es el nuestro para darte la solución a cualquier problema contable y fiscal que surja. 
                               </p>
+                              <br>
                               <p>
                               Con respecto al contrato, puedes darte de baja en cualquier momento.
                               </p>
+                              <br>
                               <p>
                               Si tramitamos tu alta como autónomo tendrás una permanencia de 3 meses dentro de nuestros servicios de asesoría para aprovechar al máximo las ventajas de un asesoramiento personalizado para tu negocio.
                               </p>
+                              <br>
                               <p>
                               IMPORTANTE: Sujeto a promociones y comunicaciones especiales. Consultar condiciones.
                               </p>
-                            </div>
-                        </div>
-
-                        
-
-                        
-
-                    </div>  
                 </div>
-            </div>
+            </details>
+
         </div>
     </section>
 @endsection
