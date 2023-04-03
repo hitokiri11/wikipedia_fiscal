@@ -6,20 +6,22 @@
 
 @endpush
 <section >
-      <div class="titulo_team">
+      
+        <div class="titulo_team">
             <b class="negritas">Liberfy</b>, una gestoría
             que <b class="negritas">sí te entiende</b>
-      </div>
-      <div class="parrafo_team_titulo">
+        </div>
+
+        <div class="parrafo_team_titulo">
           <i class="negritas2">Nuestro equipo</i> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
             <br><br>
             Fusionamos tecnología y atención personalizada, para que tengas el control de los números de manera simple y en tiempo real.
             <br><br>
             <b style="font-style: italic,font-weight:bold;">Con nuestra aplicación podrás ver en un mismo tablero:</b><br>
             <i style="font-weight: 600;">tus ingresos, egresos e impuestos</i>
-      </div>
+        </div>
 
-      <div class="carrusel_responsive">
+        <div class="carrusel_responsive">
                     <div class="slide">
                           <div class="slide-inner">
                               <input class="slide-open" type="radio" id="slide-1" 
@@ -57,13 +59,14 @@
                               </ol>
                           </div>
                       </div>
-      </div>
+            </div>
 
-      <div class="carrusel_desktop">
-      <div class="contenedor-principal">
-				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
 
-                  <div class="contenedor-carousel">
+            <div class="carrusel_desktop">
+                <div class="contenedor-principal">
+				          <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                        <div class="contenedor-carousel">
                           <div class="carousel">
                                 <div class="pelicula">
                                     <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
@@ -98,18 +101,17 @@
 
 
                           </div>
-                  </div>
+                        </div>
 
-				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
-			</div>
-                
-      </div>
+				          <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			    </div>
+            </div>
 
-      <div class="parrafoEquipo">
-        <b class="negritas2">Nuestro equipo es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
-      </div>
+            <div class="parrafoEquipo">
+                <b class="negritas2">Nuestro equipo</b> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
+            </div>
 
-      <div class="img_team">
+            <div class="img_team">
           <div class="img_team_1">
               <img src="assets/img/team/card3.png" class="dimension_img" >
               <div class="name_team_1">José Llanos</div>
@@ -154,6 +156,7 @@
             formación impartidas.
       </div>
     </div>
+
 
 </section>
 

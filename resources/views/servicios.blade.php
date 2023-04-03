@@ -262,7 +262,6 @@
         </div>
 
     </div>
-   <!--  <hr class="divisor-team" > -->
 </section>
 
 <script>

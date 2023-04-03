@@ -3,7 +3,7 @@
         <hr class="div_footer">
 
         <div class="footer_responsive">
-            <a href="/"><img src="{{asset('assets/img/LOGO2.svg')}}"  /> 
+            <img src="{{asset('assets/img/LOGO2.svg')}}"  class="img_foot_resp"/> 
 
             <div class="sociales">
                 <a href="/"><img src="{{asset('assets/img/home/facebook.png')}}"  />
