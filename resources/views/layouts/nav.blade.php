@@ -18,7 +18,7 @@
                 <label class="texto-boton-llamada_menu" >Agenda una llamada</label>
             </button>
         </li>
-            {{--@if(Auth::guard('cliente')->check())--}}
+        @if(Auth::guard('cliente')->check())
             <li>
                 <button type="button" class="close_sesion" >
                     <a href="/logout" title="Cerrar Sesión">
@@ -26,7 +26,7 @@
                     </a>
                 </button>
             </li>
-    {{--@endif--}}
+        @endif
        
     </ul>
 </nav>

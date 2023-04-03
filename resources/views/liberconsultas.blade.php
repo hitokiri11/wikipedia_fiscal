@@ -1,5 +1,6 @@
 @extends('template.main')
 @section('content')
+
 <section class="page-section"  id="liberconsultas" >
     <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 conten_liberconsultas"  >
         <p class="titulo_libercosultas">
