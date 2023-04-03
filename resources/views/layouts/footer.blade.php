@@ -26,7 +26,7 @@
                         <p class="item_contacto">794 Mcallister St</p>
                 </div>
                 <div class="liberfy_2023">
-                   <p class="tit_liberfy">&nbsp;&nbsp;2023 Liberfy</p>
+                   <p class="tit_liberfy_footer">&nbsp;&nbsp;2023 Liberfy</p>
                    <p class="item_liberfy"><a href="#" style="color: #000;" >Todos los derechos reservados.</a></p>
                    <p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Cookies</a></p>
                    <p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Privacidad</a></p>
