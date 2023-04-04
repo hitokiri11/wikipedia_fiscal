@@ -1,174 +1,143 @@
 @extends('template.main')
 @section('content')
 
-<section class="page-section"  id="liberconsultas" >
-    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 conten_liberconsultas"  >
-        <p class="titulo_libercosultas">
-            Wiki Fiscal
-        </p>
-        <form method="get" action="{{route('liberconsultas')}}"> 
-            <input type="hidden" name="search" id="search" value="true" />
-            <div class="form-outline mb-3 ">
-                <div class="input-group caja_busqueda ">
-                        <input type="text" id="consulta" name="consulta" class="form-control  fondo_button redondeo_izq justify-content-center" style="padding-left: 4%;"/>
+<section  >
+    <div class="titulo_libercosultas">
+        Consultify
+    </div>
+    <form method="get" action="{{route('liberconsultas')}}"> 
+        <input type="hidden" name="search" id="search" value="true" />
+        <div class="caja_texto">
+            <input type="text" id="consulta" name="consulta" class="fondo_button redondeo_izq redondeo_der" style="padding-left: 4%;"/> 
+            <button id="search" class="redondeo_izq redondeo_der boton_buscar" type="submit" > 
+                Buscar
+            </button>
+        </div>
+    </form>
 
-                        <button id="search" class="btn btn-primary redondeo_izq redondeo_der" type="submit" > 
-                            Buscar
-                        </button>
-                </div>
-            </div>
-        </form>
+    <div class="resultado_consulta"></div>
+        @if($flag == true)
+            @if(count($res) > 0) 
+                <table class="panel_video" > 
+                    @foreach($res as $k => $v)
+                        <tr>
+                            <td>
+                                <div class="tarjeta_video">
+                                    <div class="content_video">
+                                        <video class="video_res" src="{{asset('upload')}}/{{$v->video}}" type="video/webm"></video>
+                                    </div>
 
+                                    <div class="content_text_video" id="myBtn">
+                                            <a onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" class="titulo_video">
+                                                   {{$v->titulo}}
+                                            </a>
 
-            <div id="res" class="d-flex  col-md-12 col-lg-12 mb- mb-md-0 mt-5 ">
-            @if($flag == true)
-                @if(count($res) > 0) 
-                        <table class="col-md-9 col-lg-9 panel_video" >
-                            @foreach($res as $k => $v)
-                                <tr>
-                                    <td >
-                                        <div class="row  mt-2 col-md-10 col-lg-10">
-                                                <div class="card " >
-                                                    <div class="row ">
-                                                        <div class="col-md-4 col-lg-4">  
-                                                             <iframe class="prop_video" src="{{asset('upload')}}/{{$v->video}}" allowfullscreen >
-                                                            </iframe>         
-                                                           <!--  <video  class="prop_video" src="{{asset('upload')}}/{{$v->video}}"   controls>
-                                                            </video > -->
-                                                            
-                                                        </div>
-                                                        <div class="col-md-8 col-lg-8 ">
-                                                            <div class="p-1">
-                                                                <div class="row float-start">
-                                                                        <a 
-                                                                        class="btn btn-link text-decoration-none" 
-                                                                        data-bs-toggle="modal" 
-                                                                        data-bs-target="#modal_video" 
-                                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
-                                                                            <h5 >{{$v->titulo}}</h5>
-                                                                        </a>
-                                                                </div>
-                                                                <br>
-                                                                <div class="row float-start">
-                                                                    <p class="text-justify ">
-                                                                        {{ substr($v->descripcion,0,185) }}
-                                                                        <a 
-                                                                            class="btn btn-link " 
-                                                                            data-bs-toggle="modal" 
-                                                                            data-bs-target="#modal_video" 
-                                                                            onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
-                                                                            ...
-                                                                        </a>
-                                                                    </p>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                    </td>
-                                </tr>
-                            @endforeach
-                        </table>
-                        
-                @else
-                    
-                   
-                        <div class="row col-12 text-center">
-                            <p class="no_result_search" >
-                                <strong>:( No encontramos resultados de tu búsqueda</strong>
-                                <br>
-                                <button class="btn btn-primary btn-xs" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                                    <i class="fas fa-comment fa-xs"></i> 
-                                    &nbsp; 
-                                    Hacer Sugerencia
-                                </button>
-                            </p>
-                        </div>
-                    
-            
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
-                            <form method="post" action="{{route('sugerencia')}}">
-                            @csrf 
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Agregue su Sugerencia</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="justify-content-center mt-3 col-12">
-                                                <label for="sugerencia" class="form-label"><strong>Sugerencia:</strong></label>
-                                                <input type="text" class="form-control" id="sugerencia" name="sugerencia" placeholder="Sugerencia" value="{{ old('sugerencia') }}" >
-                                                
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"  >Cerrar</button>
-                                           <!--  <button type="button" class="btn btn-primary">Save changes</button> -->
-                                            <button type="submit" class="btn btn-primary btn-block" >
-                                                <i  class="fas fa-pencil" ></i>
-                                                Sugerir
-                                            </button>
-                                        </div>
+                                            <p class="parraf_video" id="myBtn">
+                                                    {{ substr($v->descripcion,0,185) }}
+                                                    <a 
+                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
+                                                        ...
+                                                    </a>
+                                            </p>
                                     </div>
                                 </div>
-                             </form>
-                        </div>   
-                @endif
-            @endif
-        </div>
-
-
-        <div class="modal fade" id="modal_video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="justify-content-center mt-3 col-12">
-                                <div id="ver_video" class="col-md-12 col-lg-12 justify-content-center"></div>
-                            </div>
+                            </td>
+                        </tr>
+                    @endforeach
+                </table>
+            @else
+                    <div class="no_resultado">
+                        <div class="notif_no_result">:( No encontramos resultados de tu búsqueda</div>
+                        <br>
+                        <div id="myBtn">
+                            <button id="myBtn"  type="button" class="boton_sugerencia" onclick="modal_video2()">
+                                <i class="fas fa-comment fa-xs" style="color: #fff;"></i> 
+                                &nbsp;
+                                <label class="texto-boton-llamada">
+                                    Hacer Sugerencia
+                                </label>
+                            </button> 
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="pauseVid()" >Cerrar</button>
-                        </div>
+
                     </div>
-                </div>
+            @endif
+        @endif
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="body_video"></div>
+            </div>
         </div>
-        
-    </div>
-    <div class="row  justify-content-center mt-5">
+
+
+        <div class="row  justify-content-center mt-5">
             @error('sugerencia')
-                <div class="alert alert-danger alert-dismissible fade show col-5 text-center" role="alert">
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div class="alert_sugeencia_error" >
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
                         {{ $message }}
                 </div>
-                    <!-- <p class="error-message" style="color:red;font-size:1.2rem;">{{ $message }}</p> -->
             @enderror 
-    </div>
+        </div>
 
-    <div class="row justify-content-center">
+        <div class="row justify-content-center">
         @if(Session::has('error'))
-                <div class="alert alert-danger alert-dismissible fade show col-5 text-center" role="alert">
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div class="alert_sugeencia_error" >
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
                     {{Session::get('error')}}
                 </div>
         @endif 
 
         @if(Session::has('success'))
-                <div class="alert alert-success alert-dismissible fade show col-5 text-center" role="alert">
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div class="alert_sugerencia_save" >
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
                     {{Session::get('success')}}
                 </div>
         @endif
     </div>
+
 </section>
 
 <script type="text/javascript"> 
-    const modal_video = (video,id,titulo, descripcion) => { 
-        
+
+   /*  window.onload = pauseVid() */
+
+   function modal_video2() { 
+
+        let html = `
+            <form method="post" action="{{route('sugerencia')}}">
+                @csrf 
+                <div class="titulo_sugerencia">
+                    Agregue su Sugerencia
+                </div>
+                <div class="cuerpo_sugerencia">
+                    <label for="sugerencia" class="form-label"><strong>Sugerencia:</strong></label>
+                </div>
+                <div class="input_sugerencia"> 
+                    <textarea  rows="6" id="sugerencia" name="sugerencia" placeholder="Sugerencia" value="{{ old('sugerencia') }}" class="input_log" ></textarea>
+                </div>
+
+                <div class="footer_sugerencia">
+                        <button  type="submit" class="boton_sugerencia">
+                            <i class="fas fa-pencil" style="color: #fff;"></i> 
+                            &nbsp;
+                            <label class="texto-boton-llamada">
+                                Sugerir
+                            </label>
+                        </button> 
+                </div>
+                
+            </form>
+        `
+        document.getElementById('body_video').innerHTML = html;
+    }
+   
+
+    const modal_video = (video,id,titulo, descripcion) => {     
+
         let html = `
             <div class="ratio ratio-16x9">
                 <label style="font-size:16px;font-weight: bold; margin-bottom: 5%;">${titulo}</label>
@@ -183,7 +152,7 @@
         
         fetch('/liberconsultas/acum_view/'+id)
         .then(function(response) { 
-            document.getElementById('ver_video').innerHTML = html;
+            document.getElementById('body_video').innerHTML = html;
         })
         .then(function(json) {
             console.log(json)
@@ -191,9 +160,33 @@
 
     }
 
-    function pauseVid() { 
-        video.pause(); 
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+    modal.style.display = "block";
     }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+    
 
 </script>
 

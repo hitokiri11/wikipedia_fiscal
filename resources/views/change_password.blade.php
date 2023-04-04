@@ -1,72 +1,47 @@
 @extends('template.main')
 @section('content')
-<section class="page-section" >
-    <div class="col-md-12 col-lg-12 mb- mb-md-0 mt-5 " > 
+<section class="log_cliente" >
+
+        <div id="password_requerido" class="password_requerido" style="display:none;" >
+            Los campos contraseña y confirmación de contraseña son requeridos
+        </div>
+
+        <div id="password_diferente" class="password_diferente" style="display:none;" >
+            La contraseña debe coincidir con la confirmación de la contraseña
+        </div>
+
+        <div class="text-center">
+            Cambio de Password
+        </div>
+
         <form method="post" action="{{route('change_password')}}" name="form_change_password">
-                @csrf 
-                <input type="hidden" name="id" id="id" value="{{$id}}" />
-                <div class="container_password"> 
-                    <div class="card mb-3 p-2 prop_card tarjetas_blog" > 
+            @csrf
+            <input type="hidden" name="id" id="id" value="{{$id}}" />
+            <div class="prop_card">
 
-                        <div class="col-md-12 col-lg-12 justify-content-center">
-                            <div class="alert alert-danger " role="alert" id="password_requerido" style="display:none;">
-                                Los campos contraseña y confirmación de contraseña son requeridos
-                            </div>
-                            <div class="alert alert-danger " role="alert" id="password_diferente" style="display:none;">
-                                La contraseña debe coincidir con la confirmación de la contraseña
-                            </div>
-                        </div>
-
-                        <div class=" text-center">
-                            <h5>Cambio de Password</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Contraseña</label>
-                                <input 
-                                    type="password" 
-                                    class="form-control rounded-pill fondo_button" 
-                                    id="password" 
-                                    name="password" 
-                                    placeholder="Contraseña" 
-                                    value="{{ old('password') }}" 
-                                />
-                                @error('password')
-                                    <p class="error-message">{{ $message }}</p>
-                                @enderror
-                            </div>
-                            <div class="mb-3">
-                                <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
-                                <input 
-                                    type="password" 
-                                    class="form-control rounded-pill fondo_button" 
-                                    id="confirm-password" 
-                                    name="confirm-password" 
-                                    placeholder="Confirmar Contraseña" 
-                                    value="{{ old('confirm-password') }}" 
-                                />
-                                @error('confirm-password')
-                                    <p class="error-message">{{ $message }}</p>
-                                @enderror
-                            </div>
-                        </div>
-                      <!--   <div class="card-footer"> -->
-                            <div class="row float-right">
-                                <button type="button" class="btn btn-primary btn-block rounded-pill" onclick="changePassword()">
-                                    <i  class="fas fa-save" ></i>
-                                    Guardar
-                                </button>
-                                &nbsp;
-                                <button type="button" class="btn btn-danger btn-block rounded-pill" onclick="cancelar()">
-                                    <i  class="fas fa-xmark" ></i>
-                                    Cancelar
-                                </button>
-                            </div>
-                       <!--  </div> -->
+                    <div class="label_log">
+                        <label class="label_input" for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" class="input_log" />
                     </div>
-                </div>
+
+                    <div class="label_log">
+                        <label class="label_input" for="confirm-password">Confirmar Contraseña</label>
+                        <input type="password" id="confirm-password" name="confirm-password" class="input_log" />
+                    </div>
+
+                    <button  type="button" class="boton_log" onclick="changePassword()">
+                        <label class="texto-boton-llamada">
+                            Guardar
+                        </label>
+                    </button>
+
+                    <button  type="button" class="boton_log" style="background-color: red;" onclick="cancelar()">
+                        <label class="texto-boton-llamada">
+                            Cancelar
+                        </label>
+                    </button>
+            </div>
         </form>
-    </div>
 </section>
 <script>
     const cancelar = () => { 
@@ -78,10 +53,19 @@
 
         if(!password || !re_password) {
             document.getElementById('password_requerido').style.display = 'block'
+
+            setTimeout(() => {
+                document.getElementById('password_requerido').style.display = 'none'
+            }, 2000);
             return
         }
         if(password != re_password) { 
             document.getElementById('password_diferente').style.display = 'block'
+
+            setTimeout(() => {
+                document.getElementById('password_diferente').style.display = 'none'
+            }, 2000);
+
             return
         }
 
