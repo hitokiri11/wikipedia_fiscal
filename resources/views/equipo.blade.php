@@ -155,7 +155,64 @@
             inmobiliario más grande de habla hispana, con 11.000 alumnos, en 21 países y más de 80.000 horas de 
             formación impartidas.
       </div>
-    </div>
+    
+      <div class="nuestro_equipo">
+            Conocé nuestro equipo
+      </div>
+
+
+      <div class="carrusel_desktop2">
+            <div class="contenedor-principal2">
+                        <button role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-angle-left"></i></button>
+
+                    <div class="contenedor-carousel2">
+                        <div class="carousel2">
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
+                            </div>
+
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
+                            </div>
+
+
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante7.png" class="width_img">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante8.png" class="width_img">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante9.png" class="width_img">
+                            </div>
+
+
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante10.png" class="width_img">
+                            </div>
+                            <div class="pelicula2">
+                                <img src="assets/img/team/integrantes/integrante11.png" class="width_img">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                        <button role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
 
 
 </section>
@@ -190,7 +247,7 @@ flechaIzquierda.addEventListener('click', () => {
 }); 
 
 // ? ----- ----- Paginacion ----- -----
-const numeroPaginas = Math.ceil(peliculas.length / 3);
+/* const numeroPaginas = Math.ceil(peliculas.length / 3);
 for(let i = 0; i < numeroPaginas; i++){
 	const indicador = document.createElement('button');
 
@@ -205,7 +262,7 @@ for(let i = 0; i < numeroPaginas; i++){
 		document.querySelector('.indicadores .activo').classList.remove('activo');
 		e.target.classList.add('activo');
 	});
-}
+} */
 
 // ? ----- ----- Hover ----- -----
 peliculas.forEach((pelicula) => {
@@ -221,6 +278,75 @@ peliculas.forEach((pelicula) => {
 fila.addEventListener('mouseleave', () => {
 	peliculas.forEach(pelicula => pelicula.classList.remove('hover'));
 });
+
+
+
+
+
+const fila2 = document.querySelector('.contenedor-carousel2');
+const peliculas2 = document.querySelectorAll('.pelicula2');
+
+const flechaIzquierda2 = document.getElementById('flecha-izquierda2');
+const flechaDerecha2 = document.getElementById('flecha-derecha2');
+
+// ? ----- ----- Event Listener para la flecha derecha. ----- -----
+flechaDerecha2.addEventListener('click', () => {
+	fila2.scrollLeft += fila2.offsetWidth;
+
+	const indicadorActivo2 = document.querySelector('.indicadores .activo');
+	if(indicadorActivo2.nextSibling){
+		indicadorActivo2.nextSibling.classList.add('activo');
+		indicadorActivo2.classList.remove('activo');
+	}
+});
+
+// ? ----- ----- Event Listener para la flecha izquierda. ----- -----
+flechaIzquierda2.addEventListener('click', () => {
+	fila2.scrollLeft -= fila2.offsetWidth;
+
+	const indicadorActivo2 = document.querySelector('.indicadores .activo');
+	if(indicadorActivo2.previousSibling){
+		indicadorActivo2.previousSibling.classList.add('activo');
+		indicadorActivo2.classList.remove('activo');
+	}
+}); 
+
+// ? ----- ----- Paginacion ----- -----
+/* const numeroPaginas2 = Math.ceil(peliculas2.length / 3);
+for(let i = 0; i < numeroPaginas2; i++){
+	const indicador2 = document.createElement('button');
+
+	if(i === 0){
+		indicador2.classList.add('activo');
+	}
+
+	document.querySelector('.indicadores').appendChild(indicador2);
+	indicador2.addEventListener('click', (e) => {
+		fila2.scrollLeft = i * fila2.offsetWidth;
+
+		document.querySelector('.indicadores .activo').classList.remove('activo');
+		e.target.classList.add('activo');
+	});
+} */
+
+// ? ----- ----- Hover ----- -----
+peliculas2.forEach((pelicula2) => {
+	pelicula2.addEventListener('mouseenter', (e) => {
+		const elemento = e.currentTarget;
+		setTimeout(() => {
+			peliculas2.forEach(pelicula2 => pelicula2.classList.remove('hover'));
+			elemento.classList.add('hover');
+		}, 300);
+	});
+});
+
+fila2.addEventListener('mouseleave', () => {
+	peliculas2.forEach(pelicula2 => pelicula2.classList.remove('hover'));
+});
+
+
+
+
 
 </script>
 

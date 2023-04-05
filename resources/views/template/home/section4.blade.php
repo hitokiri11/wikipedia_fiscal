@@ -33,14 +33,20 @@
                 Nuestros Clientes
             </div> 
             <div class="stack_clientes">
-                <div class="parte_sup">
-
-                </div>
-
-                <div class="parte_inf">
-
-                </div>
-
+                    <img src="assets/img/home/clientes/rentaya.png" class="img_clientes" />
+                    <img src="assets/img/home/clientes/voflip.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/escribelo.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/inteligentes.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/fba.jpg" class="img_clientes" /> 
+                    <img src="assets/img/home/clientes/arrendamos.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/antidoto.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/esic.png" class="img_clientes" />
+                    <img src="assets/img/home/clientes/lvlty.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/heroes.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/automatizature.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/esencia.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/fbaacademy.jpg" class="img_clientes" />
+                    <img src="assets/img/home/clientes/desanpedro.jpg" class="img_clientes" />
             </div>
     </div>
 </sectio>
