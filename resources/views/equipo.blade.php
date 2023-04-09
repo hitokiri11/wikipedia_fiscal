@@ -64,7 +64,7 @@
 
             <div class="carrusel_desktop">
                 <div class="contenedor-principal">
-				          <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+				          
 
                         <div class="contenedor-carousel">
                           <div class="carousel">
@@ -103,8 +103,14 @@
                           </div>
                         </div>
 
-				          <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+				          
 			    </div>
+                <div style="float: right; margin-right: 10%">
+                    <a role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-arrow-circle-left fa-xl " style="color: #17BA9C;"></i></a>
+                    <a role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-arrow-circle-right fa-xl "  style="color: #17BA9C;"></i></a>
+
+                </div>
+                
             </div>
 
             <div class="parrafoEquipo">
@@ -163,7 +169,6 @@
 
       <div class="carrusel_desktop2">
             <div class="contenedor-principal2">
-                        <button role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-angle-left"></i></button>
 
                     <div class="contenedor-carousel2">
                         <div class="carousel2">
@@ -209,8 +214,10 @@
 
                         </div>
                     </div>
-
-                        <button role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-angle-right"></i></button>
+            </div>
+            <div style="float: right; margin-right: 10%">
+                <a role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-arrow-circle-left fa-xl" style="color: #17BA9C;"></i></a>
+                <a role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-arrow-circle-right fa-xl" style="color: #17BA9C;"></i></a>
             </div>
         </div>
 

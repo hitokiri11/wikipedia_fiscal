@@ -67,6 +67,15 @@
       </div>
       
 </section>
+<script>
+      function verificarCheck() {
+        if(document.getElementById('check').checked) {
+            document.getElementById('nuestras_oficinas').style.display = 'none'
+        } else {
+            document.getElementById('nuestras_oficinas').style.display = 'block'
+        }
+    }
+</script>
 @push('script')
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 @endpush

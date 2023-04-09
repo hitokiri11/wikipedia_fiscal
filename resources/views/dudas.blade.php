@@ -12,9 +12,11 @@
         </div>        
 
         <div class="acordeon_dudas">
-            <details open>
+            <details >
                 <summary class="summary">
-                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}
+                    <i class="fas fa-arrow-circle-right fa-2x img_arrow" style="color: #17BA9C;" id="img_arrow_1" onclick="despliegue(1)"></i>
+                    <i class="fas fa-arrow-circle-down fa-2x img_arrow_down" style="color: #17BA9C;display:none;" id="img_arrow_down_1" onclick="despliegue(11)"></i>
                     <label class="item_acordeon">
                         ¿Por qué elegir Liberfy?
                     </label>
@@ -56,7 +58,9 @@
             </details>  
             <details >
                 <summary class="summary">
-                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}
+                    <i class="fas fa-arrow-circle-right fa-2x img_arrow" style="color: #17BA9C;" id="img_arrow_2" onclick="despliegue(2)"></i>
+                    <i class="fas fa-arrow-circle-down fa-2x img_arrow_down" style="color: #17BA9C;display:none;" id="img_arrow_down_2" onclick="despliegue(22)"></i>
                     <label class="item_acordeon">
                         ¿Para quién es Liberfy?
                     </label>
@@ -87,7 +91,9 @@
 
             <details >
                 <summary class="summary">
-                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}
+                    <i class="fas fa-arrow-circle-right fa-2x img_arrow" style="color: #17BA9C;" id="img_arrow_3" onclick="despliegue(3)"></i>
+                    <i class="fas fa-arrow-circle-down fa-2x img_arrow_down" style="color: #17BA9C;display:none;" id="img_arrow_down_3" onclick="despliegue(33)"></i>
                     <label class="item_acordeon">
                         ¿Es posible llevar mi gestión contable y fiscal online?
                     </label>
@@ -117,7 +123,9 @@
 
             <details >
                 <summary class="summary">
-                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}
+                    <i class="fas fa-arrow-circle-right fa-2x img_arrow" style="color: #17BA9C;" id="img_arrow_4" onclick="despliegue(4)"></i>
+                    <i class="fas fa-arrow-circle-down fa-2x img_arrow_down" style="color: #17BA9C;display:none;" id="img_arrow_down_4" onclick="despliegue(44)"></i>
                     <label class="item_acordeon">
                     ¿Como me comunico con mi asesor fiscal?
                     </label>
@@ -143,7 +151,9 @@
 
             <details >
                 <summary class="summary">
-                    <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/>
+                    {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}
+                    <i class="fas fa-arrow-circle-right fa-2x img_arrow" style="color: #17BA9C;" id="img_arrow_5" onclick="despliegue(5)"></i>
+                    <i class="fas fa-arrow-circle-down fa-2x img_arrow_down" style="color: #17BA9C;display:none;" id="img_arrow_down_5" onclick="despliegue(55)"></i>
                     <label class="item_acordeon">
                     ¿Existe compromiso de permanencia?
                     </label>
@@ -169,4 +179,54 @@
 
         </div>
     </section>
+    <script>
+        function despliegue(id) {
+            
+            if(id == 1) {
+                document.getElementById('img_arrow_1').style.display = 'none'
+                document.getElementById('img_arrow_down_1').style.display = 'block'
+            }
+            if(id == 11) {
+                document.getElementById('img_arrow_1').style.display = 'block'
+                document.getElementById('img_arrow_down_1').style.display = 'none'
+            }
+
+            if(id == 2) {
+                document.getElementById('img_arrow_2').style.display = 'none'
+                document.getElementById('img_arrow_down_2').style.display = 'block'
+            }
+            if(id == 22) {
+                document.getElementById('img_arrow_2').style.display = 'block'
+                document.getElementById('img_arrow_down_2').style.display = 'none'
+            }
+
+            if(id == 3) {
+                document.getElementById('img_arrow_3').style.display = 'none'
+                document.getElementById('img_arrow_down_3').style.display = 'block'
+            }
+            if(id == 33) {
+                document.getElementById('img_arrow_3').style.display = 'block'
+                document.getElementById('img_arrow_down_3').style.display = 'none'
+            }
+
+            if(id == 4) {
+                document.getElementById('img_arrow_4').style.display = 'none'
+                document.getElementById('img_arrow_down_4').style.display = 'block'
+            }
+            if(id == 44) {
+                document.getElementById('img_arrow_4').style.display = 'block'
+                document.getElementById('img_arrow_down_4').style.display = 'none'
+            }
+
+            if(id == 5) {
+                document.getElementById('img_arrow_5').style.display = 'none'
+                document.getElementById('img_arrow_down_5').style.display = 'block'
+            }
+            if(id == 55) {
+                document.getElementById('img_arrow_5').style.display = 'block'
+                document.getElementById('img_arrow_down_5').style.display = 'none'
+            }
+
+        }
+    </script>
 @endsection

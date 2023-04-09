@@ -5,21 +5,23 @@
     <img src="{{asset('assets/img/servicios/responsive_servicios.png')}}"   class="responsive_servicio" alt="..."> 
 
     <div class="fondo_tab">
-                <div class="titulo_banner">
+                <div class="titulo_banner" id="titulo_banner">
                     Autónomos y pymes
                 </div>
-                <div class="titulo_banner_green">
+                <div class="titulo_banner_green" id="titulo_banner_green">
                     100% protegidos
                 </div>
 
                 <div class="tab">
                     <button class="tablinks" onclick="openCity(event, '1')">
-                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_1"  class="tab_img" alt="...">
+                        <img src="{{asset('assets/img/servicios/email_opa.png')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
                         <div class="titulo_tab_tab">Área Contable</div>
                     </button>
 
                     <button class="tablinks" onclick="openCity(event, '2')">
-                        <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab_img_opa_2"  class="tab_img" alt="..."> 
                         <div class="titulo_tab_tab">Área Fiscal</div>
                     </button>
                 </div> 
@@ -107,6 +109,8 @@
                     </div>
                 </div>  
 
+
+
                 
      </div>
      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -171,22 +175,26 @@
 
         <div class="tab2">
             <button class="tablinks2 active" onclick="openCity2(event, 'tab1')">
-                <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab1_img"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="..."> 
                 <div class="titulo_tab_tab2">Área Laboral</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab2')">
-                <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab2_opa"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.png')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Área Legal</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab3')">
-                <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab3_opa"   class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Propiedad Intelectual</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab4')">
-                <img src="{{asset('assets/img/servicios/email.png')}}"   class="img-fluid d-block tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab4_opa"   class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.png')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Desarrollo Contractual</div>
             </button>
         </div> 
@@ -270,8 +278,10 @@
 
 
     function openCity(evt, cityName) {
+               
                 var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
+                tabcontent  = document.getElementsByClassName("tabcontent");
+                
                 for (i = 0; i < tabcontent.length; i++) {
                     tabcontent[i].style.display = "none";
                 }
@@ -280,9 +290,23 @@
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
                 document.getElementById(cityName).style.display = "block";
-                console.log(evt.currentTarget.className)
-                evt.currentTarget.className += " active";
+                evt.currentTarget.className += " active"; 
                 
+                if(cityName == 1) {
+                    document.getElementById("tab_img_1").style.display = "block";
+                    document.getElementById("tab_img_opa_1").style.display = "none";
+                    document.getElementById("tab_img_2").style.display = "none";
+                    document.getElementById("tab_img_opa_2").style.display = "block";
+                } 
+
+                if(cityName == 2) {
+                    document.getElementById("tab_img_2").style.display = "block";
+                    document.getElementById("tab_img_opa_2").style.display = "none";
+                    document.getElementById("tab_img_1").style.display = "none";
+                    document.getElementById("tab_img_opa_1").style.display = "block";
+                }
+
+               
     }
 
     function openCity2(evt, cityName) {
@@ -296,9 +320,77 @@
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
                 document.getElementById(cityName).style.display = "block";
-                console.log(evt.currentTarget.className)
                 evt.currentTarget.className += " active";
+
+                if(cityName == "tab1") {
+                    document.getElementById("tab1_img").style.display = "block";
+                    document.getElementById("tab1_opa").style.display = "none";
+
+                    document.getElementById("tab2_opa").style.display = "block";
+                    document.getElementById("tab2_img").style.display = "none";
+
+                    document.getElementById("tab3_opa").style.display = "block";
+                    document.getElementById("tab3_img").style.display = "none";
+
+                    document.getElementById("tab4_opa").style.display = "block";
+                    document.getElementById("tab4_img").style.display = "none";
+                }
+
+                if(cityName == "tab2") { 
+                    document.getElementById("tab1_opa").style.display = "block";
+                    document.getElementById("tab1_img").style.display = "none";
+
+                    document.getElementById("tab2_img").style.display = "block";
+                    document.getElementById("tab2_opa").style.display = "none";
+
+                    document.getElementById("tab3_opa").style.display = "block";
+                    document.getElementById("tab3_img").style.display = "none";
+
+                    document.getElementById("tab4_opa").style.display = "block";
+                    document.getElementById("tab4_img").style.display = "none";
+                    
+                    
+                }
+
+                if(cityName == "tab3") {
+                    document.getElementById("tab1_opa").style.display = "block";
+                    document.getElementById("tab1_img").style.display = "none"; 
+
+                    document.getElementById("tab2_opa").style.display = "block";
+                    document.getElementById("tab2_img").style.display = "none"; 
+
+                    document.getElementById("tab3_img").style.display = "block";
+                    document.getElementById("tab3_opa").style.display = "none";
+
+                    document.getElementById("tab4_opa").style.display = "block";
+                    document.getElementById("tab4_img").style.display = "none";
+                }
+
+                if(cityName == "tab4") {
+                    document.getElementById("tab1_opa").style.display = "block";
+                    document.getElementById("tab1_img").style.display = "none"; 
+
+                    document.getElementById("tab2_opa").style.display = "block";
+                    document.getElementById("tab2_img").style.display = "none";  
+                    
+                    document.getElementById("tab3_opa").style.display = "block";
+                    document.getElementById("tab3_img").style.display = "none"; 
+
+                    document.getElementById("tab4_img").style.display = "block";
+                    document.getElementById("tab4_opa").style.display = "none";
+
+                }
                 
+    } 
+
+    function verificarCheck() {
+        if(document.getElementById('check').checked) {
+            document.getElementById('titulo_banner').style.display = 'none'
+            document.getElementById('titulo_banner_green').style.display = 'none'
+        } else {
+            document.getElementById('titulo_banner').style.display = 'block'
+            document.getElementById('titulo_banner_green').style.display = 'block'
+        }
     }
 
 </script>

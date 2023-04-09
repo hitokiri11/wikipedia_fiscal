@@ -31,14 +31,16 @@
 
                 <div class="label_log">
                         <label class="label_input" for="password">Contraseña</label>
-                        <input type="password" id="password" name="password" class="input_log" />
+                        <div class="input-wrapper">
+                            <input type="password" id="password" name="password" class="input_log" > 
+                            <button id="show_password" class="btn_icon icon" type="button" onclick="mostrarPass();" > 
+                                <i id="iconfa" class="fa fa-eye-slash" style="color:#17BA9C;"></i> 
+                                <i id="iconfa2" class="fa fa-eye" style="display: none;color:#17BA9C;"></i>
+                            </button>
+                            
+                        </div>
 
                         <div class="redondeo_der altura_input">
-                            <button id="show_password" class="btn_icon" type="button" onclick="mostrarPass();" > 
-                                <span id="iconfa" class="fa fa-eye-slash icon"></span> 
-                                <span id="iconfa2" class="fa fa-eye icon" style="display: none;"></span>
-                            </button>
-
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox"  id="recordar" />
                                 <label class="form-check-label" for="recordar"> Recordarme </label>

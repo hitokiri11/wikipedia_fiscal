@@ -42,31 +42,34 @@
         <div class="sub_titulo_sction2">
             Para ti que necesitas un experto en fiscalidad que entienda los nuevos modelos de negocio.
         </div>
+                <div class="cont_eyes">
+                    <div class="parte_izquierda_section2">
+                        <div style="position: relative; left: 0; top: 0;">
+                                <img src="assets/img/home/img_1.png" class='eye' />
+                                <img src="assets/img/home/img_3.png" class="heaven" />
+                        </div>
+                        <div class="titulo_negocio_resp">
+                            Negocios digitales
+                        </div>
+                        <div class="parr_negocio_resp">
+                            Infoproductores, dueños de Ecommerce, Influencer, eGamers y creadores de contenido de todos los estilos.
+                        </div> 
+                    </div>
 
-        <div class="parte_izquierda_section2">
-            <div style="position: relative; left: 0; top: 0;">
-                    <img src="assets/img/home/img_1.png" class='eye' />
-                    <img src="assets/img/home/img_3.png" class="heaven" />
-            </div>
-            <div class="titulo_negocio_resp">
-                Negocios digitales
-            </div>
-            <div class="parr_negocio_resp">
-                Infoproductores, dueños de Ecommerce, Influencer, eGamers y creadores de contenido de todos los estilos.
-            </div> 
-        </div>
+                    <div class="parte_derecha_section2">
+                        <div style="position: relative; left: 0; top: 0;" >
+                            <img src="assets/img/home/img_2.png" class='eye'   />
+                            <img src="assets/img/home/img_3.png" class="heaven" />
+                        </div>
+                        <div class="titulo_negocio_resp">
+                            Negocios imobiliarios
+                        </div>
+                        <div class="parr_negocio_resp">
+                            Inmobiliarias, inversores tradicionales, emprendedores especializados en alquiler turístico o residencial, Rent to Rent y Flipping House.
+                        </div>
+                    </div>
+            
+                </div>
 
-        <div class="parte_derecha_section2">
-            <div style="position: relative; left: 0; top: 0;" >
-                <img src="assets/img/home/img_2.png" class='eye'   />
-                <img src="assets/img/home/img_3.png" class="heaven" />
-            </div>
-            <div class="titulo_negocio_resp">
-                Negocios imobiliarios
-            </div>
-            <div class="parr_negocio_resp">
-                Inmobiliarias, inversores tradicionales, emprendedores especializados en alquiler turístico o residencial, Rent to Rent y Flipping House.
-            </div>
-        </div>
     </div>
 </section>

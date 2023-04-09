@@ -5,7 +5,7 @@
             <img src="assets/img/blog/banner_responsive_blog.png"  class="banner_responsive_blog" alt="..."> 
             <img src="assets/img/blog/banner_blog.png"  class="banner_blog" alt="..."> 
             
-            <div class="titulo_blog">
+            <div class="titulo_blog_t">
                 Blog
             </div>
             <div class="titulo_noticia">
@@ -87,6 +87,17 @@
                 </div>
             @endforelse
             {{ $blogs->links() }}
+
+            
         </div>
 </section>
+<script>
+    function verificarCheck() {
+        if(document.getElementById('check').checked) {
+            document.getElementById('titulo_blog_t').style.display = 'none'
+        } else {
+            document.getElementById('titulo_blog_t').style.display = 'block'
+        }
+    }
+</script>
 @endsection

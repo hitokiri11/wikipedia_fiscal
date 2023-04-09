@@ -1,5 +1,5 @@
 <nav class="navbar ">
-    <input type="checkbox" id="check" />
+    <input type="checkbox" id="check" onclick="verificarCheck()"/>
     <label for="check" class="checkbtn">
         <i class="fa-solid fa-bars"></i>
     </label>
