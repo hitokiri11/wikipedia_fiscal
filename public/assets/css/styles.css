@@ -179,6 +179,8 @@ html {
         text-align: left;
         text-transform: uppercase;
         color: #17BA9C;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
     .titulo_section1 {
         width: 82%;
@@ -1452,10 +1454,9 @@ html {
         .nuestro_equipo {
             display: none;
         }
-        .carrusel_desktop2 {
-            display: none;
-        }
-        .carrusel_responsive {
+       
+        .carrusel_responsive { 
+            display: block;
             width: 90%;
             height: 296px;
             margin-left: auto;
@@ -1463,6 +1464,7 @@ html {
             margin-top: 10%;
             margin-bottom: 5%;
         } 
+
         .slide {
             position: relative;
             box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -1475,21 +1477,25 @@ html {
             height: 100%;
            /*  height: calc( 300px + 3em); */
         }
+
         .slide-open:checked + .slide-item {
             position: static;
             opacity: 100;
         }
+
         .slide-item {
             position: absolute;
             opacity: 0;
             -webkit-transition: opacity 0.6s ease-out;
             transition: opacity 0.6s ease-out;
         }
+
         .slide-item img {
             display: block;
             height: 100%;
             width: 100%;
         }
+
         .slide-control {
             background: rgba(0, 0, 0, 0.28);
             border-radius: 50%;
@@ -1509,21 +1515,26 @@ html {
             width: 40px;
             z-index: 10;
         }
+
         .slide-control.prev {
             left: 2%;
         }
+
         .slide-control.next {
             right: 2%;
         }
+
         .slide-control:hover {
             background: rgba(0, 0, 0, 0.8);
             color: #aaaaaa;
         }
+
         #slide-1:checked ~ .control-1,
         #slide-2:checked ~ .control-2,
         #slide-3:checked ~ .control-3 {
             display: block;
         }
+
         .slide-indicador {
             list-style: none;
             margin: 0;
@@ -1535,19 +1546,23 @@ html {
             text-align: center;
             z-index: 10;
         }
+
         .slide-indicador li {
             display: inline-block;
             margin: 0 5px;
         }
+
         .slide-circulo {
             color: #828282;
             cursor: pointer;
             display: block;
             font-size: 35px;
         }
+
         .slide-circulo:hover {
             color: #aaaaaa;
         }
+
         #slide-1:checked ~ .control-1 ~ .slide-indicador 
             li:nth-child(1) .slide-circulo,
         #slide-2:checked ~ .control-2 ~ .slide-indicador 
@@ -1556,6 +1571,7 @@ html {
             li:nth-child(3) .slide-circulo {
             color: #428bca;
         }
+
         #titulo {
             width: 100%;
             position: absolute;
@@ -2077,6 +2093,105 @@ html {
         margin-left: 10%;
         font-style: italic;
     }
+    .opcion1_section1 {
+        text-align: left;
+        width: 95%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #232323;
+        float: right;
+        padding-left: 12%;
+    }
+    .opciones_section2{
+        width: 82%;
+        margin-left: 5%;
+        margin-top: 5%;
+        float: left;
+    }
+    .boton_section1 {
+        margin-top: 56%;
+    } 
+
+
+
+    /* c2 */
+    .carrusel_desktop2 {
+        display: block;
+        margin-top: 8%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor-principal2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .contenedor-principal2 .flecha-izquierda2,
+     .contenedor-principal2 .flecha-derecha2 {
+        position: absolute;
+        border: none;
+        background: rgba(0,0,0,0.3);
+        font-size: 40px;
+        height: 50%;
+        top: calc(50% - 25%);
+        line-height: 40px;
+        width: 50px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 500;
+        transition: .2s ease all;
+    }
+
+    .contenedor-principal2 .flecha-izquierda2:hover,
+     .contenedor-principal2 .flecha-derecha2:hover {
+        background: rgba(0,0,0, .9);
+    }
+
+    .contenedor-principal2 .flecha-izquierda2 {
+        left: 0;
+    }
+
+     .contenedor-principal2 .flecha-derecha2 {
+        right: 0;
+    }
+
+    /* ---- ----- ----- Carousel ----- ----- ----- */
+    .contenedor-carousel2 {
+        width: 100%;
+        padding: 20px 0;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+     .contenedor-carousel2 .carousel2 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .contenedor-carousel2 .carousel2 .pelicula2 {
+        min-width: 100%;
+        padding-left: 1%;
+        transition: .3s ease all;
+        box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+    }
+
+    .contenedor-carousel2 .carousel2 .pelicula2.hover {
+        transform: scale(1.2);
+        transform-origin: center;
+    }
+
+   .contenedor-carousel2 .carousel2 .pelicula2 img {
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+    }
+    
 }
 
 @media (min-width: 364px) {
@@ -2100,12 +2215,60 @@ html {
     }
 }
 
+@media (min-width: 414px) {
+    .opcion1_section1 {
+        text-align: left;
+        width: 95%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #232323;
+        float: right;
+        padding-left: 12%;
+    }
+    .opciones_section2{
+        width: 82%;
+        margin-left: 5%;
+        margin-top: 1%;
+        float: left;
+    }
+    .boton_section1 {
+        margin-top: 45%;
+    }
+}
+
+
 @media(min-width: 600px) {
     .icon {
         position: absolute;
         margin-top: 5%;
         margin-left: -14%;
     }
+
+    .opcion1_section1 {
+        text-align: left;
+        width: 95%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #232323;
+        float: right;
+        padding-left: 8%;
+    }
+    .opciones_section2{
+        width: 82%;
+        margin-left: 5%;
+        margin-top: -4%;
+        float: left;
+    }
+    .boton_section1 {
+        margin-top: 30%;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -2131,7 +2294,6 @@ html {
         margin-left: 10%;
         font-style: italic;
     }
-
     
 }
 

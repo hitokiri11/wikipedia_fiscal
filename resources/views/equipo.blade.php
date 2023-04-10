@@ -21,7 +21,7 @@
             <i style="font-weight: 600;">tus ingresos, egresos e impuestos</i>
         </div>
 
-        <div class="carrusel_responsive">
+            <div class="carrusel_responsive">
                     <div class="slide">
                           <div class="slide-inner">
                               <input class="slide-open" type="radio" id="slide-1" 
@@ -59,8 +59,7 @@
                               </ol>
                           </div>
                       </div>
-            </div>
-
+            </div> 
 
             <div class="carrusel_desktop">
                 <div class="contenedor-principal">
@@ -165,7 +164,6 @@
       <div class="nuestro_equipo">
             Conocé nuestro equipo
       </div>
-
 
       <div class="carrusel_desktop2">
             <div class="contenedor-principal2">
