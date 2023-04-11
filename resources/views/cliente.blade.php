@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="prop_card"> 
+        <div class="prop_card" id="prop_card"> 
             <form method="POST" action="{{ route('cliente') }}" id="form_cliente" name="form_cliente">
        
                 @csrf 
@@ -112,6 +112,16 @@
 
 
         document.form_cliente.submit();
+    }
+
+    function verificarCheck() {
+        if(document.getElementById('check').checked) {
+            document.getElementById('prop_card').style.display = 'none'
+        } else {
+            setTimeout(() => {
+                document.getElementById('prop_card').style.display = 'block'
+            }, 200);
+        }
     }
 
 </script>

@@ -14,6 +14,7 @@
       <div class="fondoBlacContacto">
             <div class="mapouter1">
                   <div class="gmap_canvas" >
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" class="map280" width="240"  height="228"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" class="mapa_responsive"   height="248"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
             </div>
@@ -59,7 +60,7 @@
                   <div class="mapouter2">
                         <div class="gmap_canvas" >
                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" class="map414"   width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" class="map1200"   width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.2211463821272!2d-3.858778684670374!3d40.337439979374345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f9d72caa959%3A0x584d528e711e14f!2sLiberfy.es!5e0!3m2!1ses-419!2sus!4v1679331424415!5m2!1ses-419!2sus" class="map1200"   width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                   </div>
             </div>

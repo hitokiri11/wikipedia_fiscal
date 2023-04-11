@@ -918,6 +918,9 @@ html {
     .mapa_responsive {
         display: block;
     }
+    .map280 {
+        display: none;
+    }
     .info_contacto {
         margin-top: 20%;
         width: 80%;
@@ -2086,7 +2089,28 @@ html {
         "footer" 300px;   
 }
 
-@media (min-width: 280px) {
+@media (min-width: 280px) {   
+    .mapa_responsive {
+        display: none;
+    }
+    .map280 {
+        display: block;
+    }
+    .banner_responsive_blog {
+        margin-top: -1%;
+        position: static;
+    }
+    .nuestras_oficinas {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin-left: 10%;
+        margin-top: -30%;
+        position: static;
+    }
     .titulo_banner {
         font-family: 'Poppins';
         font-style: normal;
@@ -2212,7 +2236,7 @@ html {
         position: absolute;
         margin-top: 12%;
         margin-left: -14%;
-    }
+    } 
     
 }
 
@@ -2222,6 +2246,13 @@ html {
         margin-top: 10%;
         margin-left: -14%;
     }
+    .mapa_responsive {
+        display: block;
+    }
+    .map280 {
+        display: none;
+    }
+
 }
 
 @media (min-width: 364px) {
