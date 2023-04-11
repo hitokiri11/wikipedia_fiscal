@@ -1385,18 +1385,18 @@ html {
         color: #000000;
     }
 
-    .tab2 {
+    .tabb2 {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
         background-color: #fff;
         margin-top: 7%;
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
   
     /* Style the buttons inside the tab */
-    .tab2 button {
+    .tabb2 button {
         background-color: inherit;
         float: unset;
         border: none;
@@ -1409,12 +1409,12 @@ html {
     }
   
     /* Change background color of buttons on hover */
-    .tab2 button:hover {
+    .tabb2 button:hover {
         background-color: #fff;
     }
     
     /* Create an active/current tablink class */
-    .tab2 button.active {
+    .tabb2 button.active {
         background-color: #fff;
         border-bottom: 3px solid #17BA9C;
     }
@@ -2038,6 +2038,22 @@ html {
       .pagination li {
         float: left;
         margin-left: 8%;
+      } 
+
+      .titulo_tab_tab2_resp {
+        display: block;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        margin-left: 5%; 
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height:20px;
+      }
+      .titulo_tab_tab2 {
+        display: none;
       }
 
 }
@@ -2191,7 +2207,21 @@ html {
         height: 100%;
         vertical-align: top;
     }
+
+    .icon {
+        position: absolute;
+        margin-top: 12%;
+        margin-left: -14%;
+    }
     
+}
+
+@media (min-width: 360px) {
+    .icon {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: -14%;
+    }
 }
 
 @media (min-width: 364px) {
@@ -2212,6 +2242,14 @@ html {
         color: #000;
         width: 100%;
        /*  color: rgba(0, 0, 0, 0.26); */
+    }
+}
+
+@media (min-width: 412px) {
+    .icon {
+        position: absolute;
+        margin-top: 8%;
+        margin-left: -14%;
     }
 }
 
@@ -2236,6 +2274,15 @@ html {
     }
     .boton_section1 {
         margin-top: 45%;
+    }
+
+}
+
+@media (min-width: 540px) {
+    .icon {
+        position: absolute;
+        margin-top: 6%;
+        margin-left: -14%;
     }
 }
 
@@ -2293,6 +2340,12 @@ html {
         margin-top: -19%;
         margin-left: 10%;
         font-style: italic;
+    }
+
+    .icon {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: -12%;
     }
     
 }
@@ -2679,28 +2732,35 @@ html {
     } 
     .stack_botones {
         align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1%;
     }
     .botonAsesoria {
         background: #FFFFFF;
         border: 2px dashed #000000;
         border-radius: 39.5px;
-        height: 55px;
+        height: 50px;
         width: 94%;
         text-align: center;
         margin-top: 5%;
         width: 16%;
         padding-left: 1%;
         padding-right: 1%;
-      
     }
     .tit_boton {
-        line-height: 12px;
+        line-height: 14px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 10px;
-        height: 40%;
+        height: 35%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+
     .botonAsesoria:hover {
         border-style: dashed;
         border-color: #fff;
@@ -3690,7 +3750,7 @@ html {
         display: block;
     }
 
-    .tab2 {
+    .tabb2 {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
         background-color: #fff;
@@ -3702,7 +3762,7 @@ html {
     }
   
     /* Style the buttons inside the tab */
-    .tab2 button {
+    .tabb2 button {
         background-color: inherit;
         float: unset;
         border: none;
@@ -3715,12 +3775,12 @@ html {
     }
   
     /* Change background color of buttons on hover */
-    .tab2 button:hover {
+    .tabb2 button:hover {
         background-color: #fff;
     }
     
     /* Create an active/current tablink class */
-    .tab2 button.active {
+    .tabb2 button.active {
         background-color: #fff;
         border-bottom: 3px solid #17BA9C;
         color: #000;
@@ -3751,7 +3811,8 @@ html {
         height: auto;
     }
 
-    .titulo_tab_tab2 {
+    .titulo_tab_tab2 { 
+        display: block;
         margin-top: 1%;
         font-family: 'Poppins';
         font-style: normal;
@@ -4710,7 +4771,19 @@ html {
             margin-left: 8%;
           }
 
-
+          .titulo_tab_tab2_resp {
+            display: block;
+            text-align: left;
+            margin-top: 5%;
+            margin-bottom: 3%;
+            margin-left: 5%; 
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height:20px;
+          }
+      
 }
 
 @media (min-width: 896px) {
@@ -5592,7 +5665,7 @@ html {
         display: block;
     }
 
-    .tab2 {
+    .tabb2 {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
         background-color: #fff;
@@ -5604,7 +5677,7 @@ html {
     }
   
     /* Style the buttons inside the tab */
-    .tab2 button {
+    .tabb2 button {
         background-color: inherit;
         float: unset;
         border: none;
@@ -5617,12 +5690,12 @@ html {
     }
   
     /* Change background color of buttons on hover */
-    .tab2 button:hover {
+    .tabb2 button:hover {
         background-color: #fff;
     }
     
     /* Create an active/current tablink class */
-    .tab2 button.active {
+    .tabb2 button.active {
         background-color: #fff;
         border-bottom: 3px solid #17BA9C;
         color: #000;
@@ -6459,12 +6532,12 @@ html {
         margin-right: 1%;
     }
     .tit_boton {
-        line-height: 12px;
+        line-height: 14px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        height: 40%;
+        height: 35%;
     }
     .botonAsesoria:hover {
         border-style: dashed;
@@ -7283,7 +7356,7 @@ html {
         display: block;
     }
 
-    .tab2 {
+    .tabb2 {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
         background-color: #fff;
@@ -7295,7 +7368,7 @@ html {
     }
   
     /* Style the buttons inside the tab */
-    .tab2 button {
+    .tabb2 button {
         background-color: inherit;
         float: unset;
         border: none;
@@ -7308,12 +7381,12 @@ html {
     }
   
     /* Change background color of buttons on hover */
-    .tab2 button:hover {
+    .tabb2 button:hover {
         background-color: #fff;
     }
     
     /* Create an active/current tablink class */
-    .tab2 button.active {
+    .tabb2 button.active {
         background-color: #fff;
         border-bottom: 3px solid #17BA9C;
         color: #000;
@@ -8016,12 +8089,12 @@ html {
             margin-right: 1%;
         }
         .tit_boton {
-            line-height: 18px;
+            line-height: 16px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
             font-size: 14px;
-            height: 60%;
+            height: 40%;
         }
         .botonAsesoria:hover {
             border-style: dashed;
@@ -8788,7 +8861,7 @@ html {
         display: block;
     }
 
-    .tab2 {
+    .tabb2 {
         overflow: hidden;
         border-bottom: 1px solid #ccc;
         background-color: #fff;
@@ -8800,7 +8873,7 @@ html {
     }
   
     /* Style the buttons inside the tab */
-    .tab2 button {
+    .tabb2 button {
         background-color: inherit;
         float: unset;
         border: none;
@@ -8813,12 +8886,12 @@ html {
     }
   
     /* Change background color of buttons on hover */
-    .tab2 button:hover {
+    .tabb2 button:hover {
         background-color: #fff;
     }
     
     /* Create an active/current tablink class */
-    .tab2 button.active {
+    .tabb2 button.active {
         background-color: #fff;
         border-bottom: 3px solid #17BA9C;
         color: #000;
@@ -9144,8 +9217,14 @@ html {
             margin-left: auto;
             margin-right: auto;
         }
-        /* liberfy video */
+        /* liberfy video */ 
 
+        .icon {
+            position: absolute;
+            margin-top: 0.7%;
+            margin-left: -3%;
+        }
+        
     }
 
    
@@ -9296,7 +9375,14 @@ html {
             padding-top: 1.5%;
         }
         /* servicios */ 
-
+        .tit_boton {
+            line-height: 16px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            height: 40%;
+        }
     }
 
 

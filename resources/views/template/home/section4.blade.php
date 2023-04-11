@@ -5,22 +5,22 @@
             </div>
             <div class="stack_botones">
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Inscribete</p>
+                    <div class="tit_boton" >Inscribete</div>
                 </button>
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Conoce a tu gestor</p>
+                    <div class="tit_boton" >Conoce a tu gestor</div>
                 </button> 
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Sube tus facturas en la App</p>
+                    <div class="tit_boton" >Sube tus facturas en la App</div>
                 </button>
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Completa la información</p>
+                    <div class="tit_boton" >Completa la información</div>
                 </button>
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Gestión Liberfy</p>
+                    <div class="tit_boton" >Gestión Liberfy</div>
                 </button>
                 <button type="button" class="botonAsesoria" >
-                    <p class="tit_boton" >Encuentra tus resultados</p>
+                    <div class="tit_boton" >Encuentra tus resultados</div>
                 </button>
             </div>
             <div class="boton_sectioon">

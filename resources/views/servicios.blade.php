@@ -12,7 +12,7 @@
                     100% protegidos
                 </div>
 
-                <div class="tab">
+                <div class="tab" >
                     <button class="tablinks" onclick="openCity(event, '1')">
                         <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_1"  class="tab_img" alt="...">
                         <img src="{{asset('assets/img/servicios/email_opa.png')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
@@ -173,7 +173,7 @@
             Adicionalmente podrás ir sumando servicios de forma puntual
         </div>
 
-        <div class="tab2">
+        <div class="tabb2" >
             <button class="tablinks2 active" onclick="openCity2(event, 'tab1')">
                 <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab1_img"  class="tab_img2" alt="..."> 
                 <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="..."> 
@@ -200,7 +200,10 @@
         </div> 
  
         <div id="tab1" class="tabcontent2" style="display: block;" >
-                <div class="lista_tab2">
+                <div class="lista_tab2"> 
+                        <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp1">
+                            Área Laboral
+                        </div>
                         <div class="punto2"></div>
                         <div class="punto_content2">
                             Altas y bajas en la Seguridad Social.
@@ -223,7 +226,10 @@
                 </div>
         </div>
 
-        <div id="tab2" class="tabcontent2">
+        <div id="tab2" class="tabcontent2" > 
+                        <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp2">
+                            Área Legal
+                        </div>
                         <div class="punto2"></div>
                         <div class="punto_content2">
                             Nos encargamos de que tu negocio cumpla hasta la última coma de la legalidad.
@@ -246,6 +252,9 @@
         </div>
 
         <div id="tab3" class="tabcontent2">
+                        <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp3">
+                            Propiedad Intelectual
+                        </div>
                         <div class="punto2"></div>
                         <div class="punto_content2">
                             Ponemos a salvo el corazón de tu empresa (tu marca) para que nadie robe lo que es tuyo.
@@ -258,6 +267,9 @@
         </div>
 
         <div id="tab4" class="tabcontent2">
+                        <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp4">
+                            Desarrollo Contractual
+                        </div>
                         <div class="punto2"></div>
                         <div class="punto_content2">
                             Área Mercantil: te ayudamos con todos los contratos que necesites.  
@@ -276,9 +288,13 @@
 
     window.onclick=openCity(event,'1');
 
+    function openCity(evt, cityName) { 
 
-    function openCity(evt, cityName) {
-               
+                document.getElementById("titulo_tab_tab2_resp1").style.display = "block";
+                document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
+                document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
+                document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
+
                 var i, tabcontent, tablinks;
                 tabcontent  = document.getElementsByClassName("tabcontent");
                 
@@ -309,7 +325,8 @@
                
     }
 
-    function openCity2(evt, cityName) {
+    function openCity2(evt, cityName) { 
+
                 var i, tabcontent, tablinks;
                 tabcontent = document.getElementsByClassName("tabcontent2");
                 for (i = 0; i < tabcontent.length; i++) {
@@ -322,7 +339,13 @@
                 document.getElementById(cityName).style.display = "block";
                 evt.currentTarget.className += " active";
 
-                if(cityName == "tab1") {
+                if(cityName == "tab1") { 
+
+                    document.getElementById("titulo_tab_tab2_resp1").style.display = "block";
+                    document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
+
                     document.getElementById("tab1_img").style.display = "block";
                     document.getElementById("tab1_opa").style.display = "none";
 
@@ -337,6 +360,12 @@
                 }
 
                 if(cityName == "tab2") { 
+
+                    document.getElementById("titulo_tab_tab2_resp1").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp2").style.display = "block";
+                    document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
+
                     document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none";
 
@@ -352,7 +381,13 @@
                     
                 }
 
-                if(cityName == "tab3") {
+                if(cityName == "tab3") { 
+
+                    document.getElementById("titulo_tab_tab2_resp1").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp3").style.display = "block";
+                    document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
+
                     document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none"; 
 
@@ -366,7 +401,13 @@
                     document.getElementById("tab4_img").style.display = "none";
                 }
 
-                if(cityName == "tab4") {
+                if(cityName == "tab4") { 
+
+                    document.getElementById("titulo_tab_tab2_resp1").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
+                    document.getElementById("titulo_tab_tab2_resp4").style.display = "block";
+
                     document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none"; 
 
