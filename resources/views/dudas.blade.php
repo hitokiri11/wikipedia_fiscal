@@ -22,7 +22,7 @@
                     </label>
                 </summary>
                 <div class="content_acordeon">
-                            <hr style="float: left" heigth="auto"/>
+                            
                               <p>
                               No creamos liberfy para vender servicios. Creamos Liberfy por la cantidad de problemas que nuestros negocios vivieron a causa de las gestorías.
                               </p>

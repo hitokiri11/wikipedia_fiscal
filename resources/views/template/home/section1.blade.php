@@ -1,7 +1,7 @@
 <section>
     <div class="parte_izquierda" id="parte_izquierda">
         {{-- <img src="assets/img/home/rectangle4791.png" class="video" alt="..." > --}}
-        <video class="video" id="video" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls></video>
+        <video class="video" id="video" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls poster="{{asset('assets/img/servicios/responsive_contacto.png')}}" autoplay muted ></video>
 
         <div class="titulo_verde">
             LA MANO DERECHA DEL EMPRENDEDOR DEL SIGLO XXI
@@ -39,7 +39,7 @@
     </div>
     
     <div class="parte_derecha">
-        <video class="video_lg" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls></video>
+        <video class="video_lg" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls  poster="{{asset('assets/img/servicios/responsive_contacto.png')}}" autoplay muted ></video>
         {{-- <img src="assets/img/home/rectangle4791.png" class="video_lg" alt="..." > --}}
     </div>
 

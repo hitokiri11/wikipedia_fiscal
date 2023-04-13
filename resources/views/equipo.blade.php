@@ -205,9 +205,9 @@
                             <div class="pelicula2">
                                 <img src="assets/img/team/integrantes/integrante10.png" class="width_img">
                             </div>
-                            <div class="pelicula2">
+                            {{-- <div class="pelicula2">
                                 <img src="assets/img/team/integrantes/integrante11.png" class="width_img">
-                            </div>
+                            </div> --}}
 
 
                         </div>
