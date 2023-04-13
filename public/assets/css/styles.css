@@ -533,7 +533,8 @@ html {
     }
     .tarjeta_black {
         margin-top: 5%;
-        width: 80%;
+        width: 336px;
+        height: 253px;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid #EFF0F7;
@@ -542,26 +543,28 @@ html {
     }
     .tarjeta_black2 {
         margin-top: 5%;
-        width: 80%;
+        width: 336px;
+        height: 253px;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid #EFF0F7;
         filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
         border-radius: 20px;
     }
+    
     .icon_email {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
     }
     .titulo_tarjeta {
-        margin-top: 2%;
+        margin-top: 4%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 22px;
         line-height: 28px;
         text-align: center;
         color: #FFFFFF;
@@ -570,7 +573,7 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 30px;
         text-align: center;
         color: #FFFFFF;
@@ -580,7 +583,8 @@ html {
         margin-bottom: 8%;
     }
     .parraf_tarjeta{
-        width: 75%;
+        width: 372px;
+        height: 190px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
@@ -596,7 +600,7 @@ html {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 6%;
+        margin-top: -10%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -2393,7 +2397,85 @@ html {
     .boton_section1 {
         margin-top: 45%;
     }
+    .tarjeta_black {
+        margin-top: 5%;
+        width: 336px;
+        height: 253px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EFF0F7;
+        filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
+        border-radius: 20px;
+    }
+    .tarjeta_black2 {
+        margin-top: 5%;
+        width: 336px;
+        height: 253px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EFF0F7;
+        filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
+        border-radius: 20px;
+    }
 
+    .icon_email {
+        width: 80px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    .titulo_tarjeta {
+        margin-top: 4%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .parra_titulo{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8%;
+    } 
+    .parraf_tarjeta{
+        width: 372px;
+        height: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    } 
+
+    .text_rev {
+        width: 372px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -12%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #17BA9C;
+    }
 }
 
 @media (min-width: 540px) {
@@ -3049,7 +3131,7 @@ html {
         height: 60px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%;
+        margin-top: 4%;
     }
     .icon {
         position: absolute;
@@ -4912,7 +4994,10 @@ html {
             font-size: 18px;
             line-height:20px;
           }
-      
+          .cont_tarjetas{
+            margin-left: auto;
+            margin-right: auto;
+          }
 }
 
 @media (min-width: 896px) { 
@@ -6112,7 +6197,108 @@ html {
     margin-bottom: 3%;
 }
 
- /* cambio de password */
+ /* cambio de password */ 
+
+
+ .tarjeta_black {
+    margin-top: 5%;
+    width: 394px;
+    height: 287px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EFF0F7;
+    filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
+    border-radius: 20px;
+    /* float: left; */
+    margin-left: 4%;
+}
+.tarjeta_black2 {
+    margin-top: 5%;
+    width: 394px;
+    height: 287px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EFF0F7;
+    filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
+    border-radius: 20px;
+   /*  float: left; */
+   
+}
+.icon_email {
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.icon {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: -14%;
+}
+.titulo_tarjeta {
+    margin-top: 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.parra_titulo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+.parraf_tarjeta{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text_rev {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #17BA9C;
+}
+.cont_tarjetas{
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
 }
 
 @media (min-width: 1017px) {  
@@ -6362,7 +6548,7 @@ html {
         color: #232323;
         text-align: center;
         margin-top: 8%;
-        width: 30%;
+        width: 923px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -6899,7 +7085,7 @@ html {
         width: 96%;
         margin-left: auto;
         margin-right: auto;
-        height: 70vh;
+        height: 50vh;
     }
     .card {
         width: 30%;
@@ -6963,42 +7149,42 @@ html {
         margin-right: auto;
     }
     .tarjeta_black {
-        margin-top: 3%;
-        width: 25%;
+        margin-top: 5%;
+        width: 394px;
+        height: 287px;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid #EFF0F7;
         filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
         border-radius: 20px;
-        float: left;
-        height: 40vh;
-        margin-left: 23%;
+        /* float: left; */
+        margin-left: 4%;
     }
     .tarjeta_black2 {
-        margin-top: 3%;
-        width: 25%;
+        margin-top: 5%;
+        width: 394px;
+        height: 287px;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid #EFF0F7;
         filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
         border-radius: 20px;
-        float: center;
-        height: 40vh;
-        margin-left: 2%;
+       /*  float: left; */
+       
     }
     .icon_email {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .titulo_tarjeta {
-        margin-top: 2%;
+        margin-top: 4%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 22px;
         line-height: 28px;
         text-align: center;
         color: #FFFFFF;
@@ -7007,20 +7193,21 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 19px;
+        line-height: 30px;
         text-align: center;
         color: #FFFFFF;
-        width: 85%;
+        width: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 8%;
+        margin-top: 2%;
     }
     .parraf_tarjeta{
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 23%;
+        margin-top: 2%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -7033,7 +7220,7 @@ html {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 4%;
+        margin-top: -10%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -7042,6 +7229,18 @@ html {
         text-align: center;
         color: #17BA9C;
     }
+    .cont_tarjetas{
+        width: 890px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: auto;
+        padding-right: auto;
+      }
      /* section 6 */ 
 
 
@@ -8508,7 +8707,8 @@ html {
             width: 96%;
             margin-left: auto;
             margin-right: auto;
-            height: 45vh;
+            height: 50vh;
+            padding-bottom: 10px;
         }
         .card {
             width: 30%;
@@ -8572,42 +8772,42 @@ html {
             margin-right: auto;
         }
         .tarjeta_black {
-            margin-top: 3%;
-            width: 28%;
+            margin-top: 5%;
+            width: 394px;
+            height: 287px;
             margin-left: auto;
             margin-right: auto;
             border: 1px solid #EFF0F7;
             filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
             border-radius: 20px;
-            float: left;
-            height: 38vh;
-            margin-left: 21%;
+            /* float: left; */
+            margin-left: 4%;
         }
         .tarjeta_black2 {
-            margin-top: 3%;
-            width: 28%;
+            margin-top: 5%;
+            width: 394px;
+            height: 287px;
             margin-left: auto;
             margin-right: auto;
             border: 1px solid #EFF0F7;
             filter: drop-shadow(0px 5px 14px rgba(8, 15, 52, 0.04));
             border-radius: 20px;
-            float: center;
-            height: 38vh;
-            margin-left: 2%;
+           /*  float: left; */
+           
         }
         .icon_email {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 10%;
         }
         .titulo_tarjeta {
-            margin-top: 2%;
+            margin-top: 4%;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 700;
-            font-size: 18px;
+            font-size: 22px;
             line-height: 28px;
             text-align: center;
             color: #FFFFFF;
@@ -8616,20 +8816,21 @@ html {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
-            line-height: 22px;
+            font-size: 19px;
+            line-height: 30px;
             text-align: center;
             color: #FFFFFF;
-            width: 80%;
+            width: 300px;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 8%;
+            margin-top: 2%;
         }
         .parraf_tarjeta{
-            width: 40%;
+            width: 600px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 24%;
+            margin-top: 2%;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -8642,7 +8843,7 @@ html {
             width: 75%;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 3%;
+            margin-top: -100px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -8651,6 +8852,18 @@ html {
             text-align: center;
             color: #17BA9C;
         }
+        .cont_tarjetas{
+            width: 890px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-left: auto;
+            padding-right: auto;
+          }
         /* section 6 */
 
 
@@ -9773,7 +9986,8 @@ html {
             padding-bottom: 8%;
         }
         .tarjetas {
-            padding-bottom: 3%;
+            height: 34vh;
+            padding-bottom: 50px;
         }
         .map414 {
             display: none;
@@ -9864,6 +10078,13 @@ html {
         .mapouter2 { 
             margin-top: 28%;
             position: static;
+        } 
+        .item_vertical {
+            display: block;
+            padding-left: 45%;
+            padding-top: 5%;
+            padding-right: 2%;
+
         }
     }
     /* contacto */

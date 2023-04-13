@@ -8,17 +8,17 @@
 <section >
       
         <div class="titulo_team">
-            <b class="negritas">Liberfy</b>, una gestoría
-            que <b class="negritas">sí te entiende</b>
+            Liberfy, una gestoría
+            que <b >sí te entiende</b>
         </div>
 
         <div class="parrafo_team_titulo">
-          <i class="negritas2">Nuestro equipo</i> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
+            <label style="font-weight: 600;">Nuestro equipo</label> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
             <br><br>
             Fusionamos tecnología y atención personalizada, para que tengas el control de los números de manera simple y en tiempo real.
             <br><br>
-            <b style="font-style: italic,font-weight:bold;">Con nuestra aplicación podrás ver en un mismo tablero:</b><br>
-            <i style="font-weight: 600;">tus ingresos, egresos e impuestos</i>
+            Con nuestra aplicación podrás ver en un mismo tablero:<br>
+            <i style="font-weight: 510;">tus ingresos, egresos e impuestos</i>
         </div>
 
             <div class="carrusel_responsive">
