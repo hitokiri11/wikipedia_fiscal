@@ -165,8 +165,288 @@
             Conocé nuestro equipo
       </div>
 
+
+      <div class="carrusel_desktop2_responsive">
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Miriam Sánchez
+                    </p>
+                    <p class="cargo_integrante">
+                        Dir. Departamento Fiscal
+                    </p>
+                </div> 
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Sara Marina
+                    </p>
+                    <p class="cargo_integrante">
+                        Contable
+                    </p>
+                </div> 
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Laura Martin
+                    </p>
+                    <p class="cargo_integrante">
+                        Gestora Mercantil
+                    </p>
+                </div> 
+            </div>
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Alberto López
+                    </p>
+                    <p class="cargo_integrante">
+                        Contable
+                    </p>
+                </div> 
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
+                <div class="desc_nombre"> 
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Joan Rodriguez
+                    </p>
+                    <p class="cargo_integrante">
+                        Att Cliente
+                    </p>
+                </div> 
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Adrian Arquelladas
+                    </p>
+                    <p class="cargo_integrante">
+                        Att Cliente
+                    </p>
+                </div>
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante7.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Juan José
+                    </p>
+                    <p class="cargo_integrante">
+                        Contable
+                    </p>
+                </div> 
+            </div> 
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante8.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        María Teresa
+                    </p>
+                    <p class="cargo_integrante">
+                        Gestora
+                    </p>
+                </div> 
+            </div>
+
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante9.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" ></hr>    
+                    <p class="nombre_integrante">
+                        Aleksandra IIieva
+                    </p>
+                    <p class="cargo_integrante">
+                        Administración
+                    </p>
+                </div>
+            </div>
+            
+            <div class="capa_tarjeta">
+                <img src="assets/img/team/integrantes/integrante10.png" class="width_img2">
+                <div class="desc_nombre">
+                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                    <p class="nombre_integrante">
+                        Vicky Gonzalez
+                    </p>
+                    <p class="cargo_integrante">
+                        Abogada Mercantil
+                    </p>
+                </div>
+            </div>
+
+      </div>
+
+
       <div class="carrusel_desktop2">
-            <div class="contenedor-principal2">
+
+            {{-- PRIMERA FILA --}}
+            <div class="row_img1">
+
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Laura Martin
+                        </p>
+                        <p class="cargo_integrante">
+                            Gestora Mercantil
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Miriam Sánchez
+                        </p>
+                        <p class="cargo_integrante">
+                            Dir. Departamento Fiscal
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Sara Marina
+                        </p>
+                        <p class="cargo_integrante">
+                            Contable
+                        </p>
+                    </div> 
+                </div>
+
+            </div>
+
+            {{-- SEGUNDA FILA --}}
+            <div class="row_img2">
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Alberto López
+                        </p>
+                        <p class="cargo_integrante">
+                            Contable
+                        </p>
+                    </div> 
+                </div>
+                
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
+                    <div class="desc_nombre"> 
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Joan Rodriguez
+                        </p>
+                        <p class="cargo_integrante">
+                            Att Cliente
+                        </p>
+                    </div> 
+                </div>
+                
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Adrian Arquelladas
+                        </p>
+                        <p class="cargo_integrante">
+                            Att Cliente
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- TERCERA FILA --}}
+            <div class="row_img3">
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante7.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Juan José
+                        </p>
+                        <p class="cargo_integrante">
+                            Contable
+                        </p>
+                    </div> 
+                </div> 
+                
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante8.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            María Teresa
+                        </p>
+                        <p class="cargo_integrante">
+                            Gestora
+                        </p>
+                    </div> 
+                </div>
+    
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante9.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" ></hr>    
+                        <p class="nombre_integrante">
+                            Aleksandra IIieva
+                        </p>
+                        <p class="cargo_integrante">
+                            Administración
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- CUARTA FILA --}}
+            <div class="row_img4">
+                <div class="capa_tarjeta">
+                    <img src="assets/img/team/integrantes/integrante10.png" class="width_img2">
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Vicky Gonzalez
+                        </p>
+                        <p class="cargo_integrante">
+                            Abogada Mercantil
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+           {{--  <div class="contenedor-principal2">
 
                     <div class="contenedor-carousel2">
                         <div class="carousel2">
@@ -205,18 +485,13 @@
                             <div class="pelicula2">
                                 <img src="assets/img/team/integrantes/integrante10.png" class="width_img">
                             </div>
-                            {{-- <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante11.png" class="width_img">
-                            </div> --}}
-
-
                         </div>
                     </div>
-            </div>
-            <div style="float: right; margin-right: 10%">
+            </div> --}}
+            {{-- <div style="float: right; margin-right: 10%">
                 <a role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-arrow-circle-left fa-xl" style="color: #17BA9C;"></i></a>
                 <a role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-arrow-circle-right fa-xl" style="color: #17BA9C;"></i></a>
-            </div>
+            </div> --}}
         </div>
 
 

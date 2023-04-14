@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  />
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  /> --}}
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
     <title>Liberfy</title>
     <link rel="icon" type="image/x-icon" href="{{asset('assets/favicon.ico')}}" />
 

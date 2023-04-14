@@ -2105,6 +2105,72 @@ html {
 }
 
 @media (min-width: 280px) {  
+    .carrusel_desktop2 {
+        display: none;
+    }
+    .carrusel_desktop2_responsive {
+        margin-top: 5%;
+        width: 90%;
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .capa_tarjeta {
+        position: relative;
+        height: auto;
+        margin-bottom: 20%;
+    }
+    .width_img2 {
+        width: 220px;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    
+    .desc_nombre {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 85%;
+        left: 10.5%;
+    }
+
+    .nombre_integrante{
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+
+    .nuestro_equipo {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 5%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 118.2%;
+        color: #000000;
+    }
     .boton_llamada {
         width: 90%;
         height: 38px;
@@ -2294,8 +2360,63 @@ html {
     
 }
 
-@media (min-width: 360px) {
-   
+@media (min-width: 300px) {
+    .width_img2 {
+        width: 260px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    .desc_nombre {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 85%;
+        left: 12.5%;
+    }
+}
+
+@media (min-width: 360px) { 
+    .capa_tarjeta {
+        margin-bottom: 10%;
+    }
+    .width_img2 {
+        width: 280px;
+        height: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    .desc_nombre {
+        width: 220px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 85%;
+        left: 15.5%;
+    }
+
+    .nombre_integrante{
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
     .icon {
         position: absolute;
         margin-top: 10%;
@@ -2337,6 +2458,41 @@ html {
         margin-top: 8%;
         margin-left: -14%;
     }
+    .width_img2 {
+        width: 340px;
+        height: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    .desc_nombre {
+        width: 280px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 85%;
+        left: 12%;
+    }
+    
+    .nombre_integrante{
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
 }
 
 @media (min-width: 414px) { 
@@ -2478,16 +2634,59 @@ html {
     }
 }
 
+@media (min-width: 460px) {
+    .width_img2 {
+        width: 381px;
+        height: 439px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    .desc_nombre {
+        width: 306px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 88%;
+        left: 13.5%;
+    }
+
+    .nombre_integrante{
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
 @media (min-width: 540px) {
     .icon {
         position: absolute;
         margin-top: 6%;
         margin-left: -14%;
     }
+    .desc_nombre {
+        left: 18%;
+    }
 }
 
 
-@media(min-width: 600px) {
+@media(min-width: 600px) { 
+    .desc_nombre {
+        left: 22%;
+    }
     .icon {
         position: absolute;
         margin-top: 5%;
@@ -2516,6 +2715,18 @@ html {
         margin-top: 30%;
     }
 
+}
+
+@media(min-width: 660px) {
+    .desc_nombre {
+        left: 24%;
+    }
+}
+
+@media(min-width: 720px) {
+    .desc_nombre {
+        left: 26.3%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -2554,7 +2765,96 @@ html {
 /* ****************************************************  768     ********************************************************** */
 
 
-@media (min-width: 769px) {
+@media (min-width: 769px) { 
+    .carrusel_desktop2_responsive{
+        display: none;
+    }
+    .carrusel_desktop2 {
+        display: block;
+        width: 90%;   
+    }
+
+    .row_img1 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1%;
+    }
+
+    .row_img2 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1%;
+        margin-top: -12%;
+    }
+
+    .row_img3 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1%;
+        margin-top: -12%;
+    }
+
+    .row_img4 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1%;
+        margin-top: -12%;
+    }
+    
+    .capa_tarjeta {
+        position: relative;
+        height: auto;
+        margin-bottom: 20%;
+    }
+    .width_img2 {
+        width: 220px;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    
+    .desc_nombre {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        background-color: #fff;
+        top: 85%;
+        left: 9%;
+    }
+
+    .nombre_integrante{
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+
+
     .grid-container {
         grid-template: 
            /*  "header header" 100px */
@@ -2938,7 +3238,7 @@ html {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 1%;
+        gap: 0.1%;
     }
     .botonAsesoria {
         background: #FFFFFF;
@@ -3038,7 +3338,7 @@ html {
         width: 96%;
         margin-left: auto;
         margin-right: auto;
-        height: 110vh;
+        height: 500px;
     }
     .card {
         width: 30%;
@@ -4816,6 +5116,7 @@ html {
             width: 96%;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: -10%;
         }
 
         .pelicula-principal2 {
@@ -6298,10 +6599,20 @@ html {
     padding-left: auto;
     padding-right: auto;
   }
+  .tarjetas {
+    margin-top: 3%;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 460px;
+  }
 
 }
 
 @media (min-width: 1017px) {  
+    .carrusel_desktop2 {
+        margin-bottom: -10%;
+    }
     .fondoReviews {
         padding-bottom: 10%;
     }
@@ -6495,6 +6806,9 @@ html {
 
 
 @media (min-width: 1149px) { 
+    .carrusel_desktop2 {
+        margin-bottom: -15%;
+    }
     .liberfy_2023 {
         float: right;
         width: 30%;
@@ -7003,12 +7317,14 @@ html {
     .titulo_asesoria {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 22px;
         line-height: 132.5%;
         align-items: center;
         text-align: center;
         color: #000000;
+        margin-top: -5%;
+        width: 500px;
     } 
     .stack_botones {
         align-items: center;
@@ -7017,8 +7333,8 @@ html {
         background: #FFFFFF;
         border: 2px dashed #000000;
         border-radius: 39.5px;
-        height: 55px;
-        width: 94%;
+        height: 61px;
+        width: 188px;
         text-align: center;
         margin-top: 5%;
         width: 14%;
@@ -7028,11 +7344,11 @@ html {
         margin-right: 1%;
     }
     .tit_boton {
-        line-height: 14px;
+        line-height: 15px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 15px;
         height: 35%;
     }
     .botonAsesoria:hover {
@@ -7085,7 +7401,7 @@ html {
         width: 96%;
         margin-left: auto;
         margin-right: auto;
-        height: 50vh;
+        height: 330px;
     }
     .card {
         width: 30%;
@@ -8143,11 +8459,105 @@ html {
 
 }
 
-/* liberfy video */
+/* liberfy video */ 
+
+
+        .carrusel_desktop2 {
+            display: block;
+            width: 90%;  
+            margin-bottom: -15%; 
+        }
+
+        .row_img1 {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1%;
+        }
+
+        .row_img2 {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1%;
+            margin-top: -14%;
+        }
+
+        .row_img3 {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1%;
+            margin-top: -14%;
+        }
+
+        .row_img4 {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1%;
+            margin-top: -14%;
+            
+        }
+
+        .capa_tarjeta {
+            position: relative;
+            height: auto;
+            margin-bottom: 20%;
+        }
+        .width_img2 {
+            width: 382px;
+            height: 436px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+        }
+
+        .desc_nombre {
+            width: 306px;
+            height: 60px;
+            position: absolute;
+            background-color: #fff;
+            top: 88%;
+            left: 9%;
+        }
+        .nombre_integrante{
+            margin-top: 2%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
 
 }
 
 @media (min-width: 1328px) {   
+    .tarjetas {
+        margin-top: 1%;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 320px;
+        padding-bottom: 10px;
+    }
     .boton_section1 {
         margin-top: 30%;
         margin-left: -40%;
@@ -8179,6 +8589,7 @@ html {
 
 
 @media (min-width: 1352px) {
+    
     .titulo_cliente {
         display: block; 
         font-family: 'Poppins';
@@ -8576,14 +8987,14 @@ html {
 
         /* section 4 */
         .asesoria {
-            margin-top: 5%;
+            margin-top: 8%;
             padding-left: 2%;
             padding-right: 2%;
         }
         .titulo_asesoria {
             font-family: 'Poppins';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 22px;
             line-height: 132.5%;
             align-items: center;
@@ -8597,22 +9008,21 @@ html {
             background: #FFFFFF;
             border: 2px dashed #000000;
             border-radius: 39.5px;
-            height: 55px;
-            width: 94%;
+            height: 61px;
+            width: 188px;
             text-align: center;
             margin-top: 5%;
-            width: 14%;
             padding-left: 1%;
             padding-right: 1%;
             margin-left: 1%;
             margin-right: 1%;
         }
         .tit_boton {
-            line-height: 16px;
+            line-height: 15px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 15px;
             height: 40%;
         }
         .botonAsesoria:hover {
@@ -8631,16 +9041,7 @@ html {
             border-radius: 30px;
             border: 0px;
         }
-        .titulo_cliente {
-            display: none; 
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 32px;
-            line-height: 53px;
-            color: #232323;
-            margin-top: 8%;
-        }
+        
         .stack_clientes {
             display: none;
         } 
@@ -8654,7 +9055,7 @@ html {
             font-size: 32px;
             line-height: 53px;
             color: #232323;
-            margin-top: 1%;
+            margin-top: 8%;
         }
         .stack_clientes {
             margin-top: 3%;
@@ -8707,7 +9108,7 @@ html {
             width: 96%;
             margin-left: auto;
             margin-right: auto;
-            height: 50vh;
+            height: 60vh;
             padding-bottom: 10px;
         }
         .card {
@@ -9775,6 +10176,7 @@ html {
     }
 
     @media (min-width: 1676px) {  
+        
         .contacto_footer {
             margin-top: 10%;
             float: left;
@@ -9885,7 +10287,7 @@ html {
             font-size: 32px;
             line-height: 53px;
             color: #232323;
-            margin-top: 1%;
+            margin-top: 6%;
         }
         .stack_clientes {
             margin-top: 3%;
@@ -9977,6 +10379,14 @@ html {
         .der_contacto {
            padding-top: 6%;
         }
+        .tarjetas {
+            margin-top: 1%;
+            width: 96%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 280px;
+            padding-bottom: 10px;
+        }
     }
 
     
@@ -9986,8 +10396,8 @@ html {
             padding-bottom: 8%;
         }
         .tarjetas {
-            height: 34vh;
-            padding-bottom: 50px;
+            height: 280px;
+           /*  padding-bottom: 0px; */
         }
         .map414 {
             display: none;
