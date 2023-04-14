@@ -443,6 +443,32 @@
                         </p>
                     </div>
                 </div>
+
+                <div class="capa_tarjeta">
+                    <img  class="width_img2_vacio">
+                    {{-- <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Vicky Gonzalez
+                        </p>
+                        <p class="cargo_integrante">
+                            Abogada Mercantil
+                        </p>
+                    </div> --}}
+                </div>
+
+                <div class="capa_tarjeta">
+                    <img  class="width_img2_vacio">
+                    {{-- <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Vicky Gonzalez
+                        </p>
+                        <p class="cargo_integrante">
+                            Abogada Mercantil
+                        </p>
+                    </div>
+                </div> --}}
             </div>
 
 
