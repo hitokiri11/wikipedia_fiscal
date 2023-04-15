@@ -2358,6 +2358,17 @@ html {
         border: 0px;
     }
     
+    .boton_log {
+        margin-top: 3%;
+        width: 180px;
+        height: 42px;
+        background: #17BA9C;
+        border-radius: 30px;
+        border: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
 }
 
 @media (min-width: 300px) {
@@ -2429,6 +2440,18 @@ html {
         display: none;
     }
 
+    .boton_log {
+        margin-top: 3%;
+        width: 200px;
+        height: 42px;
+        background: #17BA9C;
+        border-radius: 30px;
+        border: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+
 }
 
 @media (min-width: 364px) {
@@ -2492,6 +2515,7 @@ html {
         text-align: center;
         color: #000000;
     }
+    
 
 }
 
@@ -2631,6 +2655,18 @@ html {
         line-height: 27px;
         text-align: center;
         color: #17BA9C;
+    } 
+
+    .boton_log {
+        margin-top: 3%;
+        width: 250px;
+        height: 42px;
+        background: #17BA9C;
+        border-radius: 30px;
+        border: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      
     }
 }
 
@@ -2668,6 +2704,18 @@ html {
         line-height: 20px;
         text-align: center;
         color: #000000;
+    }
+
+    .boton_log {
+        margin-top: 3%;
+        width: 303px;
+        height: 42px;
+        background: #17BA9C;
+        border-radius: 30px;
+        border: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      
     }
 }
 
@@ -2714,6 +2762,8 @@ html {
     .boton_section1 {
         margin-top: 30%;
     }
+
+    
 
 }
 
@@ -3022,7 +3072,7 @@ html {
         margin-top: 3%;
     }
     .boton_section1 {
-        margin-top: 20vh;
+        margin-top: 35vh;
         margin-bottom: 7vh;
         margin-left: -10%;
     }
@@ -5705,7 +5755,7 @@ html {
         }
 
         .boton_section1 {
-            margin-top: 22vh;
+            margin-top: 37vh;
             margin-bottom: 1vh;
             margin-left: -25%;
         }
@@ -6664,12 +6714,6 @@ html {
         padding-left: 10%;
     }
 
-
-    .boton_section1 {
-        margin-top: 35vh;
-        margin-bottom: 7vh;
-        margin-left: -32%;
-    }
     .parte_derecha {
         float: right;
         width: 48%;
@@ -6712,7 +6756,7 @@ html {
      /* section 4 */
 
      .boton_section1 {
-        margin-top: 24vh;
+        margin-top: 40vh;
         margin-bottom: 1vh;
         margin-left: -30%;
     }
@@ -6768,8 +6812,8 @@ html {
      
     }
     .boton_section1 {
-        margin-top: 37vh;
-        margin-bottom: 7vh;
+        margin-top: 42vh;
+        margin-bottom: 1vh;
         margin-left: -35%;
     }
     .icon {
@@ -6862,11 +6906,6 @@ html {
         margin-left: 0%;
         margin-top: -1%;
     }
-    .boton_section1 {
-        margin-top: 37vh;
-        margin-bottom: 7vh;
-        margin-left: -38%;
-    }
     /* team */ 
     .titulo_team {
         font-family: 'Poppins';
@@ -6919,7 +6958,7 @@ html {
      /* team */
 
      .boton_section1 {
-        margin-top: 24vh;
+        margin-top: 40vh;
         margin-bottom: 1vh;
         margin-left: -40%;
     }
@@ -10498,6 +10537,7 @@ html {
         
         .boton_section1 {
             margin-top: 28%;
+            margin-left: -12%;
         } 
         .opciones_section2{
             width: 82%;
