@@ -105,9 +105,10 @@
 				          
 			    </div>
                 <div style="float: right; margin-right: 10%">
-                    <a role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-arrow-circle-left fa-xl " style="color: #17BA9C;"></i></a>
-                    <a role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-arrow-circle-right fa-xl "  style="color: #17BA9C;"></i></a>
-
+                    {{-- <a role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-arrow-circle-left fa-xl " style="color: #17BA9C;"></i></a>
+                    <a role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-arrow-circle-right fa-xl "  style="color: #17BA9C;"></i></a> --}}
+                    <img src="assets/img/team/Group_39574_left.png" id="flecha-izquierda" />
+                    <img src="assets/img/team/Group_39574_right.png" id="flecha-derecha" />
                 </div>
                 
             </div>
@@ -445,7 +446,7 @@
                 </div>
 
                 <div class="capa_tarjeta">
-                    <img  class="width_img2_vacio">
+                    <div  class="width_img2_vacio" ></div>
                     {{-- <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -458,7 +459,7 @@
                 </div>
 
                 <div class="capa_tarjeta">
-                    <img  class="width_img2_vacio">
+                    <div  class="width_img2_vacio" ></div>
                     {{-- <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">

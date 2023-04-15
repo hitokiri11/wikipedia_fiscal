@@ -2824,6 +2824,13 @@ html {
         margin-right: auto;
         margin-top: 3%;
     }
+    .width_img2_vacio { 
+        width: 220px;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%; 
+    }
     
     .desc_nombre {
         width: 180px;
@@ -3553,13 +3560,13 @@ html {
         color: #232323;
     }
     .boton_llamada_inte {
-        margin-top: 5%;
-        width: 60%;
-        height: 42px;
+        margin-top: 4%;
+        width: 279px;
+        height: 48px;
         background: #17BA9C;
         border-radius: 30px;
         border: 0px;
-        margin-left: -40%;
+        margin-left: -30%;
         
     }
      /* section 7 */ 
@@ -4700,6 +4707,7 @@ html {
                 margin-top: 10%;
                 float: left;
                 width: 30%;
+                padding-left: 10%;
             
             }
             .div_footer {
@@ -4724,9 +4732,10 @@ html {
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 18px;
                 line-height: 22px;
                 color: #232323;
+                text-align: left;
                 margin-left: 0%;
                 margin-bottom: 5%;
                 width: 100%;
@@ -4735,11 +4744,11 @@ html {
                 font-family: 'DM Sans';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 14px;
                 line-height: 20px;
                 text-align: left;
                 color: #232323;
-                margin-left: 30%;
+                margin-left: 0%;
                 width: 100%;
                 margin-top: 4%;
             }
@@ -4758,7 +4767,7 @@ html {
                 font-size: 18px;
                 line-height: 40px;
                 color: #232323;
-                margin-left: -5%;
+                
             }   
             .item_liberfy {
                 margin-top: 2%;
@@ -4766,8 +4775,8 @@ html {
                 font-family: 'DM Sans';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
-                line-height: 30px;
+                font-size: 14px;
+                line-height: 20px;
                 color: #232323;
                 text-decoration: underline;
              
@@ -4779,7 +4788,7 @@ html {
                 width: 96%;
                 margin-left: auto;
                 margin-right: auto;
-
+                color: #232323;
             }
             .foot_copy {
                 float: left;
@@ -5686,8 +5695,8 @@ html {
         }
         .boton_llamada_inte {
             margin-top: 1%;
-            width: 60%;
-            height: 42px;
+            width: 279px;
+            height: 48px;
             background: #17BA9C;
             border-radius: 30px;
             border: 0px;
@@ -6382,9 +6391,10 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 22px;
         color: #232323;
+        text-align: left;
         margin-left: 0%;
         margin-bottom: 5%;
         width: 100%;
@@ -6393,11 +6403,11 @@ html {
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
         text-align: left;
         color: #232323;
-        margin-left: 30%;
+        margin-left: 0%;
         width: 100%;
         margin-top: 4%;
     }
@@ -6415,7 +6425,7 @@ html {
         font-size: 18px;
         line-height: 40px;
         color: #232323;
-        margin-left: -5%;
+
     }   
     .item_liberfy {
         margin-top: 2%;
@@ -6423,7 +6433,7 @@ html {
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 30px;
         color: #232323;
         text-decoration: underline;
@@ -6643,58 +6653,15 @@ html {
         float: right;
         width: 30%;
         margin-top: 9%;
-        padding-left: 5%;
+        padding-left: 1%;
     }
-    .tit_liberfy_footer {
-        text-align: left;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 40px;
-        color: #232323;
-        /* margin-left: -5%; */
-    }   
-    .item_liberfy {
-        margin-top: 2%;
-        text-align: left;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        color: #232323;
-        text-decoration: underline;
-     
-    }
-    .titulo_contacto {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 22px;
-        color: #232323;
-        margin-left: 0%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-    .item_contacto {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: left;
-        color: #232323;
-        /* margin-left: 30%; */
-        width: 100%;
-        margin-top: 4%;
-    }
+  
+    
     .contacto_footer {
         margin-top: 10%;
         float: left;
         width: 30%;
-        padding-left: 8%;
+        padding-left: 10%;
     }
 
 
@@ -6777,7 +6744,6 @@ html {
         float: right;
         width: 30%;
         margin-top: 9%;
-        padding-left: 5%;
     }
     .tit_liberfy_footer {
         text-align: left;
@@ -6863,7 +6829,6 @@ html {
         float: right;
         width: 30%;
         margin-top: 9%;
-        padding-left: 5%;
     }
     .tit_liberfy_footer {
         text-align: left;
@@ -7699,13 +7664,13 @@ html {
         color: #232323;
     }
     .boton_llamada_inte {
-        margin-top: 3%;
-        width: 60%;
-        height: 42px;
+        margin-top: 2%;
+        width: 279px;
+        height: 48px;
         background: #17BA9C;
         border-radius: 30px;
         border: 0px;
-        margin-left: -40%;
+        margin-left: -55%;
         
     }
      /* section 7 */ 
@@ -8379,7 +8344,7 @@ html {
         margin-top: 10%;
         float: left;
         width: 30%;
-    
+        padding-left: 12%;
     }
     .div_footer {
         display: none;
@@ -8406,6 +8371,7 @@ html {
         font-size: 20px;
         line-height: 22px;
         color: #232323;
+        text-align: left;
         margin-left: 0%;
         margin-bottom: 5%;
         width: 100%;
@@ -8418,7 +8384,7 @@ html {
         line-height: 20px;
         text-align: left;
         color: #232323;
-        margin-left: 30%;
+        margin-left: 0%;
         width: 100%;
         margin-top: 4%;
     }
@@ -8436,8 +8402,7 @@ html {
         font-size: 18px;
         line-height: 40px;
         color: #232323;
-        margin-left: -5%;
-    }   
+    }  
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
@@ -8589,6 +8554,7 @@ html {
             position: relative;
             height: auto;
             margin-bottom: 20%;
+            border: none;
         }
         .width_img2 {
             width: 382px;
@@ -8597,14 +8563,14 @@ html {
             margin-right: auto;
             margin-top: 3%;
         }
-        .width_img2_vacio {
-            border: 1px #FFF;
+        .width_img2_vacio { 
             width: 382px;
             height: 436px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 3%;
+            margin-top: 3%; 
         }
+
         .desc_nombre {
             width: 306px;
             height: 60px;
@@ -9415,13 +9381,13 @@ html {
             margin-left: 5%;
         }
         .boton_llamada_inte {
-            margin-top: 5%;
-            width: 40%;
+            margin-top: 3%;
+            width: 279px;
             height: 48px;
             background: #17BA9C;
             border-radius: 30px;
             border: 0px;
-            margin-left: -60%;
+            margin-left: -65%;
             
         }
      /* section 7 */ 
@@ -10076,8 +10042,7 @@ html {
         margin-top: 10%;
         float: left;
         width: 30%;
-        padding-left: 12%;
-    
+        padding-left: 16%;
     }
     .div_footer {
         display: none;
@@ -10104,6 +10069,7 @@ html {
         font-size: 20px;
         line-height: 22px;
         color: #232323;
+        text-align: left;
         margin-left: 0%;
         margin-bottom: 5%;
         width: 100%;
@@ -10116,7 +10082,7 @@ html {
         line-height: 20px;
         text-align: left;
         color: #232323;
-        margin-left: 30%;
+        margin-left: 0%;
         width: 100%;
         margin-top: 4%;
     }
@@ -10134,7 +10100,6 @@ html {
         font-size: 18px;
         line-height: 40px;
         color: #232323;
-        margin-left: -5%;
     }   
     .item_liberfy {
         margin-top: 2%;
@@ -10155,7 +10120,7 @@ html {
         width: 96%;
         margin-left: auto;
         margin-right: auto;
-
+        border: 1px solid #232323;
     }
     .foot_copy {
         float: left;
@@ -10266,14 +10231,14 @@ html {
             margin-top: 10%;
             float: left;
             width: 30%;
-            padding-left: 14%;
+            padding-left: 18%;
         
         }
         .liberfy_2023 {
             float: right;
             width: 40%;
             margin-top: 9%;
-            padding-left: 1%;
+            padding-left: 10%;
         }
         .tit_liberfy_footer {
             text-align: left;
@@ -10457,6 +10422,16 @@ html {
             font-size: 14px;
             height: 40%;
         }
+        .boton_llamada_inte {
+            margin-top: 3%;
+            width: 279px;
+            height: 48px;
+            background: #17BA9C;
+            border-radius: 30px;
+            border: 0px;
+            margin-left: -70%;
+            
+        }
     }
 
 
@@ -10501,13 +10476,13 @@ html {
             width: 30%;
             margin-top: 9%;
             padding-left: 1%;
-            margin-left: 10%;
+            margin-left: 15%;
         }
         .contacto_footer {
             margin-top: 10%;
             float: left;
             width: 30%;
-            margin-left: -4%;
+            margin-left: 2%;
         }
         .titulo_contacto {
             font-family: 'Poppins';
@@ -10520,6 +10495,7 @@ html {
             margin-bottom: 5%;
             width: 100%;
         }
+        
         .boton_section1 {
             margin-top: 28%;
         } 
