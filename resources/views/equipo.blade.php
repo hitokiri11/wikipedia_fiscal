@@ -27,17 +27,17 @@
                               <input class="slide-open" type="radio" id="slide-1" 
                                     name="slide" aria-hidden="true" hidden="" checked="checked">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img1.png" height="296" >
+                                    <img src="assets/img/team/img1.svg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-2" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img2.png" height="296" >
+                                    <img src="assets/img/team/img2.svg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-3" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img3.png"  height="296" >
+                                    <img src="assets/img/team/img3.svg"  height="296" >
                               </div>
 
                               <label for="slide-3" class="slide-control prev control-1">‹</label>
@@ -68,34 +68,34 @@
                         <div class="contenedor-carousel">
                           <div class="carousel">
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
-                                </div>
-
-                                <div class="pelicula">
-                                    <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
-                                </div>
-                                <div class="pelicula">
-                                    <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
-                                </div>
-                                <div class="pelicula">
-                                    <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
+                                <div class="pelicula">
+                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                </div>
+                                <div class="pelicula">
+                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                </div>
+                                <div class="pelicula">
+                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                </div>
+
 
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.png" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
 
@@ -119,17 +119,17 @@
 
             <div class="img_team">
           <div class="img_team_1">
-              <img src="assets/img/team/card3.png" class="dimension_img" >
+              <img src="assets/img/team/card3.svg" class="dimension_img" >
               <div class="name_team_1">José Llanos</div>
           </div>
 
           <div class="img_team_1">
-              <img src="assets/img/team/card1.png" class="dimension_img" >
+              <img src="assets/img/team/card1.svg" class="dimension_img" >
               <div class="name_team_1">Miguel Sierra</div>
           </div> 
 
           <div class="img_team_1">
-              <img src="assets/img/team/card2.png" class="dimension_img" >
+              <img src="assets/img/team/card2.svg" class="dimension_img" >
               <div class="name_team_1">César Rivero</div>
           </div>
       </div>
@@ -169,7 +169,7 @@
 
       <div class="carrusel_desktop2_responsive">
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante1.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -182,7 +182,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante2.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -195,7 +195,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante3.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -207,7 +207,7 @@
                 </div> 
             </div>
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante4.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -220,7 +220,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante5.svg" class="width_img2">
                 <div class="desc_nombre"> 
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -233,7 +233,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante6.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -246,7 +246,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante7.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante7.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -259,7 +259,7 @@
             </div> 
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante8.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante8.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -272,7 +272,7 @@
             </div>
 
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante9.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante9.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" ></hr>    
                     <p class="nombre_integrante">
@@ -285,7 +285,7 @@
             </div>
             
             <div class="capa_tarjeta">
-                <img src="assets/img/team/integrantes/integrante10.png" class="width_img2">
+                <img src="assets/img/team/integrantes/integrante10.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
                     <p class="nombre_integrante">
@@ -306,7 +306,7 @@
             <div class="row_img1">
 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante3.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -319,7 +319,7 @@
                 </div>
 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante1.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -332,7 +332,7 @@
                 </div>
 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante2.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -349,7 +349,7 @@
             {{-- SEGUNDA FILA --}}
             <div class="row_img2">
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante4.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -362,7 +362,7 @@
                 </div>
                 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante5.svg" class="width_img2">
                     <div class="desc_nombre"> 
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -375,7 +375,7 @@
                 </div>
                 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante6.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -391,7 +391,7 @@
             {{-- TERCERA FILA --}}
             <div class="row_img3">
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante7.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante7.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -404,7 +404,7 @@
                 </div> 
                 
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante8.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante8.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
@@ -417,7 +417,7 @@
                 </div>
     
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante9.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante9.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" ></hr>    
                         <p class="nombre_integrante">
@@ -433,7 +433,7 @@
             {{-- CUARTA FILA --}}
             <div class="row_img4">
                 <div class="capa_tarjeta">
-                    <img src="assets/img/team/integrantes/integrante10.png" class="width_img2">
+                    <img src="assets/img/team/integrantes/integrante10.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">

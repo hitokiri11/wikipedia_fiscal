@@ -24,16 +24,13 @@
                                 <td><p class="titulo_contacto">Contacto</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;contacto@liberfy.com</p></td>
+                                <td><p class="item_contacto"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;Info@liberfy.es</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;(414) 867 - 5892</p></td>
+                                <td><p class="item_contacto"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;627 32 25 41</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;794 Mcallister St</p></td>
-                            </tr>
-                            <tr>
-                                <td><p class="item_contacto">794 Mcallister St</p></td>
+                                <td><p class="item_contacto"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;C. Fuente Cisneros, 37, 28922 Alcorcón, Madrid </p></td>
                             </tr>
                         </table>
                 </div>
@@ -49,10 +46,10 @@
                             <td><p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Cookies</a></p></td>
                         </tr>
                         <tr>
-                            <td><p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Privacidad</a></p></td>
+                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/pol%C3%ADticas-de-privacidad" style="color: #000;" >Políticas de Privacidad</a></p></td>
                         </tr>
                         <tr>
-                            <td><p class="item_liberfy"><a href="#" style="color: #000;" >Aviso Legal</a></p></td>
+                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/consentimiento-de-comunicaciones" style="color: #000;" >Aviso Legal</a></p></td>
                         </tr>
                     </table>
                 </div>

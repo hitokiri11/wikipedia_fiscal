@@ -1,9 +1,9 @@
 <section>
     <div class="fondoReview2">
-        <img  src="assets/img/home/integridad2.png"   class="imagenIntegridad"/>
+        <img  src="assets/img/home/integridad2.svg"   class="imagenIntegridad"/>
 
         <div class="contenedor_img7">
-            <img  src="assets/img/home/integridad.png"   class="imagenIntegridad2"/> 
+            <img  src="assets/img/home/integridad.svg"   class="imagenIntegridad2"/> 
         </div>
             
         <div class="item_vertical">

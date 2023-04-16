@@ -19,41 +19,70 @@
                   </div>
             </div>
 
-            <div class="info_contacto">
+            {{-- <div class="info_contacto">
                   En Liberfy tenemos las soluciones que estás buscando
-            </div>
-            <button  type="button" class="boton_log" onclick="enviar()">
+            </div> --}}
+            {{-- <button  type="button" class="boton_log" onclick="enviar()">
                     <label class="texto-boton-llamada">
                         Agenda una llamada
                     </label>
-            </button>
+            </button> --}}
             <br>
-            <div class="lista_contatos">
-                  *&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong><br>
-                  *&nbsp;&nbsp;Llámanos: <strong style="color:#17BA9C;">+34 627 32 25 41</strong><br>
-                  *&nbsp;&nbsp;Síguenos &nbsp;<a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-sm" style="color: #17BA9C"></i></a> &nbsp;&nbsp;<a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-sm " style="color: #17BA9C"></i></a> &nbsp;&nbsp;con uno de nuestros asesores especializados
+            <div class="lista_contatos"> 
+                 
+                  <table>
+                        <tr>
+                              <td>
+                                    *&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
+                              </td>
+                        </tr>
+                        <tr>
+                              <td><br>*&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <br>
+                                    *&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;nuestros asesores especializados
+                              </td>
+                        </tr>
+                  </table>
                   
             </div>
       </div>
 
       <div class="fondoBlacContacto2">
             <div class="izq_contacto">
-                  <div class="info_contacto">
+                  {{-- <div class="info_contacto">
                         En Liberfy tenemos las soluciones que estás buscando
-                  </div>      
-                        
-                  <div class="lista_contatos">
-                        *&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong><br>
-                        *&nbsp;&nbsp;Llámanos: <strong style="color:#17BA9C;">+34 627 32 25 41</strong><br>
-                        *&nbsp;&nbsp;Síguenos &nbsp;<a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-sm" style="color: #17BA9C"></i></a> &nbsp;&nbsp;<a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-sm " style="color: #17BA9C"></i></a> &nbsp;&nbsp;con uno de nuestros asesores especializados
-                  
+                  </div>  --}}           
+                  <div class="lista_contatos"> 
+                        <table>
+                              <tr>
+                                    <td>
+                                          *&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td><br>*&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
+                              </tr>
+                              <tr>
+                                    <td>
+                                          <br>
+                                          *&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de<br>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;nuestros asesores especializados
+                                    </td>
+                              </tr>
+                        </table>
                   </div>
                   
-                  <button  type="button" class="boton_log" onclick="enviar()">
+                 {{--  <button  type="button" class="boton_log" onclick="enviar()">
                         <label class="texto-boton-llamada">
                               Agenda una llamada
                         </label>
-                  </button>    
+                  </button>   --}}  
             </div>
 
             <div class="der_contacto">

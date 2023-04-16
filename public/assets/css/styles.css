@@ -813,7 +813,7 @@ html {
         border-bottom: 1px solid #414141; 
         text-align: left;
         padding-top: 4%;
-        padding-bottom: 8%;
+        padding-bottom: 4%;
     }
     .details {
         height: 100%;
@@ -845,7 +845,6 @@ html {
         font-size: 17px;
         line-height: 138.2%;
         color: #000000;
-      
     }
     .img_arrow {
         width: 7%;
@@ -951,7 +950,7 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 27px;
     }
     .fondoBlacContacto2 {
@@ -2105,6 +2104,18 @@ html {
 }
 
 @media (min-width: 280px) {  
+    .lista_contatos {
+        margin-top: 5%;
+        width: 100%;
+        margin-left: 3%;
+        margin-right: auto;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 27px;
+    }
     .carrusel_desktop2 {
         display: none;
     }
@@ -2270,13 +2281,13 @@ html {
 
 
     /* c2 */
-    .carrusel_desktop2 {
+    /* .carrusel_desktop2 {
         display: block;
         margin-top: 8%;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     .contenedor-principal2 {
         display: flex;
@@ -2390,6 +2401,9 @@ html {
 }
 
 @media (min-width: 360px) { 
+    .lista_contatos {
+        margin-top: 15%;
+    }
     .capa_tarjeta {
         margin-bottom: 10%;
     }
@@ -2520,6 +2534,18 @@ html {
 }
 
 @media (min-width: 414px) { 
+    .lista_contatos {
+        margin-top: 15%;
+        width: 100%;
+        margin-left: 4%;
+        margin-right: auto;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
     .boton_llamada_inte {
         margin-top: 10%;
         width: 341px;
@@ -3761,7 +3787,7 @@ html {
         border-bottom: 1px solid #414141; 
         text-align: left;
         padding-top: 4%;
-        padding-bottom: 8%;
+        padding-bottom: 4%;
     }
     .details {
         height: 100%;
@@ -3870,7 +3896,7 @@ html {
         width: 50%;
         float: left;
         margin-left: 50%;
-        margin-top: -48%; 
+        margin-top: -22%; 
         overflow: hidden;
     }
     .mapouter1 {
@@ -3897,15 +3923,15 @@ html {
     }
     .lista_contatos {
         margin-top: 5%;
-        width: 80%;
-        margin-left: 15%;
+        width: 100%;
+        margin-left: 2%;
         margin-right: auto;
         text-align: left;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
+        font-size: 13px;
+        line-height: 20px;
     }
     .map414 {
         display: block;
@@ -4458,7 +4484,11 @@ html {
         
     }
 
-        /* carrusel */
+        /* carrusel */ 
+        .img_slide {
+            width: 588px;
+            height: 392px;
+        }
         .carrusel_responsive {
             display: none;
         }
@@ -4679,23 +4709,24 @@ html {
             width: 25%;
             text-align: right;
             margin-right: auto;
-            margin-left: 3%;
+            margin-left: -92%;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
             font-size: 27px;
-            line-height: 38px;
+            line-height: 30px;
             letter-spacing: -0.04em;
             color: #FFFFFF;
             mix-blend-mode: luminosity;
             float: left;
+            margin-top: 3%;
         }
         .parrafo_team {
-            margin-top: 0%;
+            margin-top: 3%;
             width: 30%;
             text-align: left;
             margin-right: auto;
-            margin-left: 3%;
+            margin-left: -64%;
             color: #FFFFFF;
             font-family: 'Poppins';
             font-style: normal;
@@ -4707,11 +4738,11 @@ html {
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
         .parrafo_team_2 {
-            margin-top: 0%;
+            margin-top: 2.7%;
             width: 30%;
             text-align: left;
             margin-right: auto;
-            margin-left: 3%;
+            margin-left: -2%;
             color: #FFFFFF;
             font-family: 'Poppins';
             font-style: normal;
@@ -5363,6 +5394,12 @@ html {
           }
 }
 
+@media (min-width: 800px) {
+    .der_contacto {
+        margin-top: -20%;
+    }
+}
+
 @media (min-width: 896px) { 
     .lista_tab_sus {
         margin-top: 4%;
@@ -5801,7 +5838,7 @@ html {
             border-bottom: 1px solid #414141; 
             text-align: left;
             padding-top: 4%;
-            padding-bottom: 8%;
+            padding-bottom: 4%;
         }
         .details {
             height: 100%;
@@ -5902,7 +5939,7 @@ html {
         width: 50%;
         float: left;
         margin-left: 50%;
-        margin-top: -35%; 
+        margin-top: -28%; 
         overflow: hidden;
     }
     .mapouter1 {
@@ -5936,7 +5973,7 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 27px;
     }
  
@@ -6782,6 +6819,16 @@ html {
         color: #FFF;
     }
 }
+
+@media (min-width:1080px) {
+    .der_contacto {
+        width: 50%;
+        float: left;
+        margin-left: 50%;
+        margin-top: -24%; 
+        overflow: hidden;
+    }
+} 
 
 @media (min-width: 1097px) {  
     .liberfy_2023 {
@@ -7856,7 +7903,7 @@ html {
             border-bottom: 1px solid #000; 
             text-align: left;
             padding-top: 4%;
-            padding-bottom: 8%;
+            padding-bottom: 4%;
         }
         .details {
             height: 100%;
@@ -7957,7 +8004,7 @@ html {
         width: 50%;
         float: left;
         margin-left: 45%;
-        margin-top: -28%; 
+        margin-top: -25%; 
         overflow: hidden;
     }
     .mapouter1 {
@@ -7978,16 +8025,16 @@ html {
         margin-bottom: 5%;
     }
     .lista_contatos {
-        margin-top: 5%;
-        width: 90%;
-        margin-left: 5%;
+        margin-top: 8%;
+        width: 100%;
+        margin-left: 2%;
         margin-right: auto;
         text-align: left;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        line-height: 27px;
+        line-height: 25px;
     }
     .map414 {
         display: none;
@@ -8639,6 +8686,17 @@ html {
 
 }
 
+@media (min-width: 1210px) { 
+    .der_contacto {
+        margin-top: -24%;
+    }
+}
+@media (min-width: 1280px) { 
+    .der_contacto {
+        margin-top: -23%;
+    }
+}
+
 @media (min-width: 1328px) {   
     .tarjetas {
         margin-top: 1%;
@@ -8679,7 +8737,9 @@ html {
 
 
 @media (min-width: 1352px) {
-    
+    .der_contacto {
+        margin-top: -22%;
+    }
     .titulo_cliente {
         display: block; 
         font-family: 'Poppins';
@@ -8709,9 +8769,110 @@ html {
     }
 }
 
+@media (min-width: 1367px) {
+    .titulo_fundadores {
+        width: 25%;
+        text-align: right;
+        margin-right: auto;
+        margin-left: -62%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        mix-blend-mode: luminosity;
+        float: left;
+        margin-top: 3%;
+    }
+    .parrafo_team {
+        margin-top: 3%;
+        width: 30%;
+        text-align: left;
+        margin-right: auto;
+        margin-left: -34%;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 31px;
+        mix-blend-mode: luminosity;
+        float: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .parrafo_team_2 {
+        margin-top: 2.7%;
+        width: 30%;
+        text-align: left;
+        margin-right: auto;
+        margin-left: -2%;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 31px;
+        mix-blend-mode: luminosity;
+        float: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
     /* ****************************************************  1440     ********************************************************** */
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1440px) { 
+
+        .titulo_fundadores {
+            width: 25%;
+            text-align: right;
+            margin-right: auto;
+            margin-left: -92%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 30px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            mix-blend-mode: luminosity;
+            float: left;
+            margin-top: 3%;
+        }
+        .parrafo_team {
+            margin-top: 3%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -64%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .parrafo_team_2 {
+            margin-top: 2.7%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -2%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
         .grid-container {
             grid-template: 
                 "navbar navbar navbar"  72px
@@ -9474,7 +9635,7 @@ html {
             border-bottom: 1px solid #000; 
             text-align: left;
             padding-top: 4%;
-            padding-bottom: 8%;
+            padding-bottom: 4%;
         }
         .details {
             height: 100%;
@@ -9577,7 +9738,7 @@ html {
         width: 50%;
         float: left;
         margin-left: 50%;
-        margin-top: -27%; 
+        margin-top: -23%; 
         overflow: hidden;
     }
     .mapouter1 {
@@ -9599,7 +9760,7 @@ html {
         margin-bottom: 5%;
     }
     .lista_contatos {
-        margin-top: 5%;
+        margin-top: 15%;
         width: 90%;
         margin-left: 5%;
         margin-right: auto;
@@ -9607,7 +9768,7 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         line-height: 27px;
     }
     .map414 {
@@ -10260,7 +10421,10 @@ html {
             margin-top: -4%;
         }
         .der_contacto {
-           padding-top: 5%;
+           padding-top: 2%;
+        }
+        .lista_contatos {
+            margin-top: 25%;
         }
     }
 
@@ -10476,7 +10640,7 @@ html {
 
     @media (min-width: 1700px) {
         .der_contacto {
-           padding-top: 6%;
+           padding-top: 3%;
         }
         .tarjetas {
             margin-top: 1%;
@@ -10508,7 +10672,7 @@ html {
             display: block;
         }
         .der_contacto {
-            padding-top: 0%;
+            margin-top: -31%;
         }
         .liberfy_2023 {
             float: right;
@@ -10530,7 +10694,7 @@ html {
             font-size: 20px;
             line-height: 22px;
             color: #232323;
-            margin-left: -4%;
+            margin-left: 0%;
             margin-bottom: 5%;
             width: 100%;
         }
@@ -10616,6 +10780,57 @@ html {
         }
     }
 
+    @media (min-width: 1876px) {
+        .titulo_fundadores {
+            width: 25%;
+            text-align: right;
+            margin-right: auto;
+            margin-left: -62%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 30px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            mix-blend-mode: luminosity;
+            float: left;
+            margin-top: 3%;
+        }
+        .parrafo_team {
+            margin-top: 3%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -34%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .parrafo_team_2 {
+            margin-top: 2.7%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -2%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+
     @media (min-width: 1900px) {
          /* section 4 */
          .titulo_cliente {
@@ -10689,7 +10904,10 @@ html {
         }
     }
 
-    @media (min-width: 2200px) {
+    @media (min-width: 2200px) { 
+        .der_contacto {
+            margin-top: -28%;
+        }
         .titulo_blog_t { 
             display: block;;
             font-family: 'Poppins';
@@ -10731,6 +10949,58 @@ html {
         }
 
         /* section 4 */
+    } 
+
+
+    @media (min-width: 2300px) {
+        .titulo_fundadores {
+            width: 25%;
+            text-align: right;
+            margin-right: auto;
+            margin-left: 4%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 30px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            mix-blend-mode: luminosity;
+            float: left;
+            margin-top: 3%;
+        }
+        .parrafo_team {
+            margin-top: 3%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: 4%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .parrafo_team_2 {
+            margin-top: 2.7%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: 1%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
     }
 
     @media (min-width: 2500px) { 
@@ -10846,6 +11116,8 @@ html {
             margin-top: -13%;
         }
     }
+
+    
 
 
     

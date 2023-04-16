@@ -12,7 +12,7 @@
         </div>
 
         <div style="position: relative; left: 0; top: 0;">
-                <img src="assets/img/home/img_1.png" class='eye' />
+                <img src="assets/img/home/img_1.svg" class='eye' />
                 <img src="assets/img/home/img_3.png" class="heaven" />
         </div>
         <div class="titulo_negocio_resp">
@@ -23,7 +23,7 @@
         </div> 
 
         <div style="margin-top:12%;">
-            <img src="assets/img/home/img_2.png" class='eye'   />
+            <img src="assets/img/home/img_2.svg" class='eye'   />
             <img src="assets/img/home/img_3.png" class="heaven" />
         </div>
         <div class="titulo_negocio_resp">
@@ -45,7 +45,7 @@
                 <div class="cont_eyes">
                     <div class="parte_izquierda_section2">
                         <div style="position: relative; left: 0; top: 0;">
-                                <img src="assets/img/home/img_1.png" class='eye' />
+                                <img src="assets/img/home/img_1.svg" class='eye' />
                                 <img src="assets/img/home/img_3.png" class="heaven" />
                         </div>
                         <div class="titulo_negocio_resp">
@@ -58,7 +58,7 @@
 
                     <div class="parte_derecha_section2">
                         <div style="position: relative; left: 0; top: 0;" >
-                            <img src="assets/img/home/img_2.png" class='eye'   />
+                            <img src="assets/img/home/img_2.svg" class='eye'   />
                             <img src="assets/img/home/img_3.png" class="heaven" />
                         </div>
                         <div class="titulo_negocio_resp">
