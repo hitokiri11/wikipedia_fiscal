@@ -32,7 +32,7 @@
                               <input class="slide-open" type="radio" id="slide-2" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img2.svg" height="296" >
+                                    <img src="assets/img/team/img2.jpg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-3" 
                                     name="slide" aria-hidden="true" hidden="">
@@ -71,7 +71,7 @@
                                     <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
@@ -81,7 +81,7 @@
                                     <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
@@ -92,7 +92,7 @@
                                     <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.ipg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
