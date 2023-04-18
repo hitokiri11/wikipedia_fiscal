@@ -1647,6 +1647,9 @@ html {
             padding-top: 75%;
             padding-bottom: 13%;
         }
+        .black_team_desktop {
+            display: none;
+        }
         .titulo_fundadores {
             width: 90%;
             text-align: left;
@@ -2104,6 +2107,9 @@ html {
 }
 
 @media (min-width: 280px) {  
+    .black_team_desktop {
+        display: none;
+    }
     .lista_contatos {
         margin-top: 5%;
         width: 100%;
@@ -4697,68 +4703,79 @@ html {
             margin-top: -11%;
         }
 
-        .black_team {
+        .black_team { 
+            display: none;
+        }
+        .black_team_desktop {
+            display: block;
             width: 100%;
             background: #232323;
             height: auto;
             margin-top: 10%;
             padding-top: 20%;
-            padding-bottom: 45%;
+            padding-bottom: 5%;
         }
-        .titulo_fundadores {
-            width: 25%;
-            text-align: right;
+        .table_fundadores {
+            margin-left:auto;
             margin-right: auto;
-            margin-left: -92%;
+            margin-top: 5%;
+            width: 90%;
+        }
+
+        .titulo_fundadores_td {
+            width: 18%;
+            text-align: right;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
-            font-size: 27px;
+            font-size: 20px;
             line-height: 30px;
             letter-spacing: -0.04em;
             color: #FFFFFF;
             mix-blend-mode: luminosity;
-            float: left;
-            margin-top: 3%;
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
+
         }
-        .parrafo_team {
-            margin-top: 3%;
-            width: 30%;
+       
+        .parrafo_team_td {
+            width: 20%;
             text-align: left;
-            margin-right: auto;
-            margin-left: -64%;
             color: #FFFFFF;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 300;
-            font-size: 16px;
-            line-height: 31px;
+            font-size: 12px;
+            line-height: 20px;
             mix-blend-mode: luminosity;
-            float: left;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
         }
-        .parrafo_team_2 {
-            margin-top: 2.7%;
-            width: 30%;
+        .parrafo_team_2_td {
+            width: 20%;
             text-align: left;
-            margin-right: auto;
-            margin-left: -2%;
             color: #FFFFFF;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 300;
-            font-size: 16px;
-            line-height: 31px;
+            font-size: 12px;
+            line-height: 20px;
             mix-blend-mode: luminosity;
-            float: left;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
         }
+
         .titulo_empresarial {
             margin-top: 5%;
-            width: 90%;
+            width: 70%;
             text-align: left;
             margin-right: auto;
-            margin-left: 5%;
+            margin-left: auto;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -4770,10 +4787,10 @@ html {
         }
         .parrafo_empresarial {
             margin-top: 3%;
-            width: 90%;
-            text-align: left;
+            width: 70%;
+            text-align: justify;
             margin-right: auto;
-            margin-left: 5%;
+            margin-left: auto;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -6439,13 +6456,71 @@ html {
         margin-top: -9%;
     }
 
-    .black_team {
+    .black_team { 
+        display: none;
+    }
+    .black_team_desktop {
+        display: block;
         width: 100%;
         background: #232323;
         height: auto;
         margin-top: 10%;
         padding-top: 20%;
-        padding-bottom: 35%;
+        padding-bottom: 5%;
+    }
+    .table_fundadores {
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 90%;
+    }
+    
+    .titulo_fundadores_td {
+        width: 18%;
+        text-align: right;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        mix-blend-mode: luminosity;
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
+    
+    }
+    
+    .parrafo_team_td {
+        width: 20%;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        mix-blend-mode: luminosity;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
+    }
+    .parrafo_team_2_td {
+        width: 20%;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        mix-blend-mode: luminosity;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
     }
      /* team */
 
@@ -6995,12 +7070,70 @@ html {
         margin-top: -8%;
     }
     .black_team {
+        display: none;
+    }
+    .black_team_desktop {
+        display: block;
         width: 100%;
         background: #232323;
         height: auto;
         margin-top: 10%;
         padding-top: 20%;
-        padding-bottom: 24%;
+        padding-bottom: 5%;
+    }
+    .table_fundadores {
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 90%;
+    }
+    
+    .titulo_fundadores_td {
+        width: 18%;
+        text-align: right;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        mix-blend-mode: luminosity;
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
+    
+    }
+    
+    .parrafo_team_td {
+        width: 20%;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        mix-blend-mode: luminosity;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
+    }
+    .parrafo_team_2_td {
+        width: 20%;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        mix-blend-mode: luminosity;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-top: 0%;
+        vertical-align: top;
+        padding-right: 3%;
     }
      /* team */
 
@@ -10199,20 +10332,80 @@ html {
             margin-top: -6%;
         }
         .black_team {
+            display: none;
+        }
+
+        .black_team_desktop {
+            display: block;
             width: 100%;
             background: #232323;
             height: auto;
             margin-top: 10%;
             padding-top: 20%;
-            padding-bottom: 18%;
+            padding-bottom: 5%;
         }
+        .table_fundadores {
+            margin-left:auto;
+            margin-right: auto;
+            margin-top: 5%;
+            width: 90%;
+        }
+        
+        .titulo_fundadores_td {
+            width: 18%;
+            text-align: right;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 38px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            mix-blend-mode: luminosity;
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
+        
+        }
+        
+        .parrafo_team_td {
+            width: 20%;
+            text-align: left;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
+        }
+        .parrafo_team_2_td {
+            width: 20%;
+            text-align: left;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding-top: 0%;
+            vertical-align: top;
+            padding-right: 3%;
+        }
+
 
         .titulo_empresarial {
             margin-top: 5%;
-            width: 60%;
+            width: 70%;
             text-align: left;
             margin-right: auto;
-            margin-left: 17%;
+            margin-left: auto;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -10225,9 +10418,9 @@ html {
         .parrafo_empresarial {
             margin-top: 3%;
             width: 70%;
-            text-align: left;
+            text-align: justify;
             margin-right: auto;
-            margin-left: 17%;
+            margin-left: auto;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -10235,6 +10428,7 @@ html {
             line-height: 30px;
             color: #232323;
         }
+
         /* team */
 
         /* footer */
@@ -10861,6 +11055,57 @@ html {
         }
 
         /* section 4 */
+    }
+
+    @media(min-width: 1920px) { 
+    
+        .titulo_fundadores {
+            width: 25%;
+            margin-right: auto;
+            margin-left: -20%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 30px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            mix-blend-mode: luminosity;
+            float: left;
+            margin-top: 3%;
+        }
+        .parrafo_team {
+            margin-top: 3%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -84%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .parrafo_team_2 {
+            margin-top: 2.7%;
+            width: 30%;
+            text-align: left;
+            margin-right: auto;
+            margin-left: -2%;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 31px;
+            mix-blend-mode: luminosity;
+            float: left;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
     }
 
     @media (min-width: 2098px) { 

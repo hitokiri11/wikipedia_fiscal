@@ -144,6 +144,23 @@
           <div class="parrafo_team_2">
                   Liberfy es una empresa creada para liberar a los emprendedores disruptivos de las gestiones fiscales, contables o laborales, pero sobre todo para optimizar las cargas tributarias, resguardando la rentabilidad y legitimidad de las operaciones.
           </div>
+
+      </div>
+
+      <div class="black_team_desktop">
+            <table class="table_fundadores">
+                <tr>
+                    <td class="titulo_fundadores_td">Fundadores</td>
+
+                    <td class="parrafo_team_td">
+                        Miguel Sierra, César Rivero y José Llanos conforman un tridente empresarial que comparten una visión similar sobre los negocios, así como una facilidad innata para crear soluciones comerciales estratégicas.
+                    </td>
+
+                    <td class="parrafo_team_2_td">
+                        Liberfy es una empresa creada para liberar a los emprendedores disruptivos de las gestiones fiscales, contables o laborales, pero sobre todo para optimizar las cargas tributarias, resguardando la rentabilidad y legitimidad de las operaciones.
+                    </td>
+                </tr>
+            </table>
       </div>
 
       <div class="titulo_empresarial">
