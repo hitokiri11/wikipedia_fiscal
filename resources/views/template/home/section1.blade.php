@@ -4,13 +4,13 @@
         <video class="video" id="video" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls poster="{{asset('assets/img/servicios/responsive_contacto.png')}}" autoplay ></video>
 
         <div class="titulo_verde">
-            LA MANO DERECHA DEL EMPRENDEDOR DEL SIGLO XXI
+        SOMOS LA MANO DERECHA DEL EMPRENDEDOR DEL SIGLO XXI
         </div>
         <div class="titulo_section1">
-            Libérate de la gestión fiscal, laboral y contable con un solo clic
+            ¿Te imaginas liberarte de la gestión fiscal, laboral y contable con un solo CLIC?
         </div>
         <div class="titulo_negro">
-            Somos la mano derecha del emprendedor del siglo XXI
+        Somos la mano derecha del emprendedor del siglo XXI
         </div>
         <div class="opciones_section1">
             <div class="check_seccion1">
@@ -18,7 +18,7 @@
                 <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
             <div class="opcion1_section1"> 
-                Tenemos la fusión perfecta entre tecnología y atención personalizada
+            Tenemos la fusión perfecta entre tecnología y atención personalizada
             </div>
         </div>
         <div class="espacio_section1"></div>
@@ -28,7 +28,7 @@
                 <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
             <div class="opcion1_section1">
-                Conocemos la solución a cada uno de tus problemas fiscales, contables y laborales
+            Conocemos la solución a cada uno de tus problemas fiscales, contables y laborales
             </div>
         </div>
         <div class="boton_section1">

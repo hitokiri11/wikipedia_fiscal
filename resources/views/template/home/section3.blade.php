@@ -1,14 +1,14 @@
 <section >
     <div class="fondoBlack estadisticas_resposive">
         <div class="titulo_section3">
-            Conoce LIBERFY de un vistazo
+            Conoce LIBERFY
         </div>
         
         <div class="numEstadisticas">
             +25
         </div>
         <div class="parrrafoEstadistica">
-            profesionales en el equipo
+            profesionales
         </div>
         <hr class="hrEstadisticas">
 
@@ -37,7 +37,7 @@
         <hr class="hrEstadisticas">
 
         <div class="numEstadisticas">
-            +5.000.000€
+            +5M €
         </div>
         <div class="parrrafoEstadistica">
             ahorrados en impuestos
@@ -49,7 +49,7 @@
     <div class="fondoBlack estadisticas_desktop">
         <div class="parte_izq_section3">
             <div class="titulo_section3">
-                Conoce LIBERFY de un vistazo
+                Conoce LIBERFY
             </div>
         </div>
 
@@ -71,7 +71,7 @@
                                 <hr class="hrEstadisticas">
                             </p>
                             <div class="numEstadisticas">
-                                +5.000.000€
+                                +5M €
                             </div>
                             <p class="parrrafoEstadistica">
                                 ahorrados en impuestos
@@ -84,7 +84,7 @@
                                 +25
                             </div>
                             <p class="parrrafoEstadistica">
-                                profesionales en el equipo
+                                profesionales
                                 <hr class="hrEstadisticas">
                             </p>
                             <div class="numEstadisticas">

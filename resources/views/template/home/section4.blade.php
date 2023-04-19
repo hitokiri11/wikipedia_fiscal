@@ -1,7 +1,7 @@
 <sectio>
     <div class="asesoria">
             <div class="titulo_asesoria">
-                La tecnología te hace más eficiente y con nuestra asesoría lo entiendes todo
+            Mira... ¡así de fácil!
             </div>
             <div class="stack_botones">
                 <button type="button" class="botonAsesoria" >
