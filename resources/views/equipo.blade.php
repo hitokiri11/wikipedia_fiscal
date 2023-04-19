@@ -114,21 +114,21 @@
             </div>
 
             <div class="img_team">
-          <div class="img_team_1">
-              <img src="assets/img/team/card3.svg" class="dimension_img" >
-              <div class="name_team_1">José Llanos</div>
-          </div>
+                <div class="img_team_1">
+                    <img src="assets/img/team/card1.svg" class="dimension_img" >
+                    <div class="name_team_1">Miguel Sierra</div>
+                </div> 
 
-          <div class="img_team_1">
-              <img src="assets/img/team/card1.svg" class="dimension_img" >
-              <div class="name_team_1">Miguel Sierra</div>
-          </div> 
-
-          <div class="img_team_1">
-              <img src="assets/img/team/card2.svg" class="dimension_img" >
-              <div class="name_team_1">César Rivero</div>
-          </div>
-      </div>
+                <div class="img_team_1">
+                    <img src="assets/img/team/card2.svg" class="dimension_img" >
+                    <div class="name_team_1">César Rivero</div>
+                </div>
+                
+                <div class="img_team_1">
+                    <img src="assets/img/team/card3.svg" class="dimension_img" >
+                    <div class="name_team_1">José Llanos</div>
+                </div>
+            </div>
 
       <div class="black_team">
           <div class="titulo_fundadores">
