@@ -1,14 +1,14 @@
 <section>
     <div class="parte_izquierda" id="parte_izquierda">
-        {{-- <img src="assets/img/home/rectangle4791.png" class="video" alt="..." > --}}
-        <video class="video" id="video" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls poster="{{asset('assets/img/servicios/responsive_contacto.png')}}" autoplay ></video>
-
         <div class="titulo_verde">
             LA MANO DERECHA DEL EMPRENDEDOR DEL SIGLO XXI
-        </div>
+        </div> 
         <div class="titulo_section1">
             Libérate de la gestión fiscal, laboral y contable con un solo clic
         </div>
+        {{-- <img src="assets/img/home/rectangle4791.png" class="video" alt="..." > --}}
+        <video class="video" id="video" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls poster="{{asset('assets/img/servicios/responsive_contacto.png')}}"   muted  ></video>
+    
         <div class="titulo_negro">
             Somos la mano derecha del emprendedor del siglo XXI
         </div>
@@ -39,19 +39,22 @@
     </div>
     
     <div class="parte_derecha">
-        <video class="video_lg" id="video_lg" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls  poster="{{asset('assets/img/servicios/responsive_contacto.png')}}" autoplay  ></video>
+        <video class="video_lg" id="video_lg" src="{{asset('assets/video/WebLiberfy.mp4')}}" type="video/webm" controls  poster="{{asset('assets/img/servicios/responsive_contacto.png')}}"  muted    ></video>
         {{-- <img src="assets/img/home/rectangle4791.png" class="video_lg" alt="..." > --}}
     </div>
 
 </section>
 
 <script> 
-    console.log(screen.width) 
+    
     if(screen.width >= 769) { 
         document.getElementById("video").autoplay=false
-    } else {
+        document.getElementById("video_lg").autoplay=true 
+    } else { 
         document.getElementById("video_lg").autoplay=false
+        document.getElementById("video").autoplay=true 
     }
+
 
     function verificarCheck() {
         if(screen.width < 769) {

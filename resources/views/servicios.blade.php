@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="tab" >
-                    <button class="tablinks" onclick="openCity(event, '1')">
+                    <button class="tablinks" onclick="openCity(event, '1')" id="boton1">
                         <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_1"  class="tab_img" alt="...">
                         <img src="{{asset('assets/img/servicios/email_opa.png')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
                         <div class="titulo_tab_tab">Área Contable</div>
@@ -286,10 +286,13 @@
 
 <script>
 
-    window.onclick=openCity(event,'1');
+    window.addEventListener("load", function() {
+        document.getElementById('boton1').click();
+    });
+
+    window.onclick=openCity(event,'1'); 
 
     function openCity(evt, cityName) { 
-
                 document.getElementById("titulo_tab_tab2_resp1").style.display = "block";
                 document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
                 document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
@@ -307,7 +310,8 @@
                 }
                 document.getElementById(cityName).style.display = "block";
                 evt.currentTarget.className += " active"; 
-                
+               
+
                 if(cityName == 1) {
                     document.getElementById("tab_img_1").style.display = "block";
                     document.getElementById("tab_img_opa_1").style.display = "none";
