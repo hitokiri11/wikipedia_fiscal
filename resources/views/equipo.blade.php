@@ -92,7 +92,7 @@
                                     <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img2.ipg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
@@ -113,30 +113,26 @@
                 
             </div>
 
-            <div class="parrafoEquipo">
-                <b class="negritas2">Nuestro equipo</b> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
-            </div>
-
             <div class="img_team">
-          <div class="img_team_1">
-              <img src="assets/img/team/card3.svg" class="dimension_img" >
-              <div class="name_team_1">José Llanos</div>
-          </div>
+                <div class="img_team_1">
+                    <img src="assets/img/team/card1.svg" class="dimension_img" >
+                    <div class="name_team_1">Miguel Sierra</div>
+                </div> 
 
-          <div class="img_team_1">
-              <img src="assets/img/team/card1.svg" class="dimension_img" >
-              <div class="name_team_1">Miguel Sierra</div>
-          </div> 
-
-          <div class="img_team_1">
-              <img src="assets/img/team/card2.svg" class="dimension_img" >
-              <div class="name_team_1">César Rivero</div>
-          </div>
-      </div>
+                <div class="img_team_1">
+                    <img src="assets/img/team/card2.svg" class="dimension_img" >
+                    <div class="name_team_1">César Rivero</div>
+                </div>
+                
+                <div class="img_team_1">
+                    <img src="assets/img/team/card3.svg" class="dimension_img" >
+                    <div class="name_team_1">José Llanos</div>
+                </div>
+            </div>
 
       <div class="black_team">
           <div class="titulo_fundadores">
-            Fundadores
+          Los fundadores
           </div>
           <div class="parrafo_team">
                   Miguel Sierra, César Rivero y José Llanos conforman un tridente empresarial que comparten una visión similar sobre los negocios, así como una facilidad innata para crear soluciones comerciales estratégicas.

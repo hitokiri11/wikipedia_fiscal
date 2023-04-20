@@ -36,7 +36,7 @@
                     </div> 
                     
                     <div class="parrafoReviews"> 
-                        "Liberfy no es solo una gestoría, es el sitio donde cuidan al emprendedor porque saben perfectamente lo que necesita. Te ayudan no solo con cuentas de tu empresa si no también con los márgenes y cómo poder mejorarlos."
+                    “Liberfy no es solo una gestoría, es el sitio donde cuidan al emprendedor porque saben perfectamente lo que necesita. Te ayudan no solo con cuentas de tu empresa si no también con los márgenes y cómo poder mejorarlos.”
                     </div>
 
                     <div class="clienteReviews">
@@ -55,7 +55,7 @@
                     </div> 
                     
                     <div class="parrafoReviews"> 
-                    "Soy vendedor de Amazon y bendito el día en el que decidí dar el paso de cambiarme de mi gestoría tradicional a Liberfy. Lo único “malo” de cambiarme fue darme cuenta de la cantidad de dinero que perdí por culpa de mis antiguos gestores."
+                    “Soy vendedor de Amazon y bendito el día en el que decidí dar el paso de cambiarme de mi gestoría tradicional a Liberfy. Lo único “malo” de cambiarme fue darme cuenta de la cantidad de dinero que perdí por culpa de mis antiguos gestores.”
                     </div>
 
                     <div class="clienteReviews">

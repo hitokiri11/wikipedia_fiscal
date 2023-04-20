@@ -3,7 +3,7 @@
 
 <section  >
     <div class="titulo_libercosultas">
-        Consultify
+        WikiFiscal
     </div>
     <form method="get" action="{{route('liberconsultas')}}"> 
         <input type="hidden" name="search" id="search" value="true" />

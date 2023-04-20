@@ -8,7 +8,9 @@
             
         <div class="item_vertical">
             <div class="titulo_integridad">
-                La integridad y el compromiso definen nuestra manera de trabajar.
+                
+La integridad y el compromiso 
+definen nuestra manera de trabajar
             </div> 
             <div class="check_inte">
                 <i class="far fa-check-circle fa-lg checkClear"></i>
@@ -23,7 +25,7 @@
                 <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
             <div class="opcion_inte">
-                No recibimos, ni emitimos facturas en papel, tampoco imprimimos, ni presentamos documentación en formato físico.
+            No recibimos, ni emitimos facturas en papel, tampoco imprimimos, ni presentamos documentación en formato físico.
             </div>
             
             <div class="check_inte">
@@ -31,14 +33,14 @@
                 <i class="fa fa-check-circle fa-lg checkDark"></i>
             </div>
             <div class="opcion_inte">
-                Nos enorgullecemos de ser 100% digitales y aún así estar 100% para ti.
+Nos enorgullecemos de ser 100% digitales y aún así estar 100% para ti.
             </div>
 
             <div class="tit_comprobar">
-                ¿Quieres Comprobarlo? 
+¿Quieres comprobarlo?
             </div> 
             <button type="button" class="boton_llamada_inte" >
-                    <label class="texto-boton-llamada">¿Te llamamos?</label>
+                    <label class="texto-boton-llamada">Agenda una llamada</label>
             </button>
 
         </div>
