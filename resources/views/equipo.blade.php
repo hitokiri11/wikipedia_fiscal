@@ -113,10 +113,6 @@
                 
             </div>
 
-            <div class="parrafoEquipo">
-                <b class="negritas2">Nuestro equipo</b> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
-            </div>
-
             <div class="img_team">
         
                     <div class="img_team_1"> 
@@ -173,7 +169,7 @@
 
       <div class="black_team">
           <div class="titulo_fundadores">
-            Fundadores
+          Los fundadores
           </div>
           <div class="parrafo_team">
                   Miguel Sierra, César Rivero y José Llanos conforman un tridente empresarial que comparten una visión similar sobre los negocios, así como una facilidad innata para crear soluciones comerciales estratégicas.

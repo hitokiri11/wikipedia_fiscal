@@ -1,19 +1,19 @@
 <section >
     <div class="fondoBlack estadisticas_resposive">
         <div class="titulo_section3">
-            Conoce LIBERFY de un vistazo
+            Conoce LIBERFY
         </div>
         
         <div class="numEstadisticas" id="prof_equipo_resp">
-            +25
+            0
         </div>
         <div class="parrrafoEstadistica">
-            profesionales en el equipo
+            profesionales
         </div>
         <hr class="hrEstadisticas">
 
         <div class="numEstadisticas" id="seguidores_resp">
-            +10 K
+            0
         </div>
         <div class="parrrafoEstadistica">
             seguidores
@@ -21,7 +21,7 @@
         <hr class="hrEstadisticas">
 
         <div class="numEstadisticas" id="cant_clientes_resp">
-            +900
+            0
         </div>
         <div class="parrrafoEstadistica">
             clientes
@@ -29,7 +29,7 @@
         <hr class="hrEstadisticas">
 
         <div class="numEstadisticas" id="ctas_impactadas_resp">
-            +200 K
+            0
         </div>
         <div class="parrrafoEstadistica">
             cuentas impactadas
@@ -37,7 +37,7 @@
         <hr class="hrEstadisticas">
 
         <div class="numEstadisticas" id="ahorros_impuestos_resp">
-            +5M €
+            0
         </div>
         <div class="parrrafoEstadistica">
             ahorrados en impuestos
@@ -49,7 +49,7 @@
     <div class="fondoBlack estadisticas_desktop">
         <div class="parte_izq_section3">
             <div class="titulo_section3">
-                Conoce LIBERFY de un vistazo
+                Conoce LIBERFY
             </div>
         </div>
 
@@ -84,7 +84,7 @@
                                 0
                             </div>
                             <p class="parrrafoEstadistica">
-                                profesionales en el equipo
+                                profesionales
                                 <hr class="hrEstadisticas">
                             </p>
                             <div class="numEstadisticas" id="seguidores">

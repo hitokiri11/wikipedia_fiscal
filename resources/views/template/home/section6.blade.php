@@ -26,11 +26,11 @@
             </div>
         </div>
         <div class="parraf_tarjeta">
-            El 90% del tiempo ahorrado gracias a la automatización, 
-            lo dedicamos a asesorar a nuestros clientes.
+        El 90% del tiempo ahorrado, gracias a la automatización, 
+lo dedicamos a asesorar a nuestros clientes.
         </div> 
         <div class="text_rev">
-            <strong> ¡Bienvenido a la 3ª Revolución Contable!  </strong>
+            <strong> Empieza tu revolución ahora</strong>
         </div>
     </div>
 </section>
