@@ -14,37 +14,37 @@ html {
 .barra-equipo {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 .barra-servicios {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 .barra-blog {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 .barra-contacto {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 .barra-dudas {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 .barra-cliente {
     background-color: #17BA9C;
     width: 100%;
-    height: 10px;
+    height: 5px;
 }
 
 
@@ -2252,7 +2252,9 @@ html {
         margin-left: 0%;
         display: block;
         float: left;
-        position: absolute;
+        top: 60px;
+        position: absolute; 
+        height: 450px;
     }  
     .menu_descktop {
         display: none;
@@ -4714,7 +4716,7 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -20%;
+        margin-top: 450px;
     }
     .area_suscripcion {
         width: 90%;
@@ -5644,7 +5646,7 @@ html {
             margin-left: auto;
             margin-right: auto;
             text-align: center;
-            margin-top: 3%;
+            margin-top: 30px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -5656,7 +5658,7 @@ html {
 
         .carrusel_desktop2 {
             display: block;
-            margin-top: 6%;
+            margin-top: 30px;
             width: 96%;
             margin-left: auto;
             margin-right: auto;
@@ -6740,7 +6742,7 @@ html {
         width: 700px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -10%;
+        margin-top: 500px;
     }
     .area_suscripcion {
         width: 90%;
@@ -8984,7 +8986,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -25%;
+        margin-top: 280px;
     }
     .area_suscripcion {
         width: 90%;
@@ -9488,7 +9490,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -23%;
+        margin-top: 280px;
     } 
 
     .desc_nombre_fund {
@@ -10783,7 +10785,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -25%;
+        margin-top: 270px;
     }
     .area_suscripcion {
         width: 90%;
@@ -11748,7 +11750,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -23%;
+            margin-top: 270px;
         }
     }
 
@@ -11923,7 +11925,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -18%;
+            margin-top: 270px;
         } 
 
         .desc_nombre_fund {
@@ -12197,7 +12199,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -13%;
+            margin-top: 270px;
         } 
 
         .desc_nombre_fund {

@@ -1,4 +1,4 @@
-<section >
+<section name="seccion3" >
     <div class="fondoBlack estadisticas_resposive">
         <div class="titulo_section3">
             Conoce LIBERFY
@@ -105,7 +105,23 @@
     let ctas_impactadas = 0 
     let ahorros_imp     = 0
     let pro_team        = 0 
-    let seguidores      = 0 
+    let seguidores      = 0  
+
+    let sections = document.querySelectorAll('seccion3');
+    window.addEventListener('scroll', onScroll);
+
+    function onScroll() {  
+        console.log(sections.length)
+        for (let i = 0; i < sections.length; i++) { 
+            console.log(sections[i])
+            let section = sections[i];
+        
+            if (isSectionVisible(section)) {
+                console.log('La sección ' + section.id + ' está visible');
+            }
+        }
+    }
+   
 
     let interval_cliente = setInterval(() => {
             cant_clientes++ 

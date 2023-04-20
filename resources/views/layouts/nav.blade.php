@@ -53,7 +53,7 @@
 <script>
     let URLactual = window.location;
     URLactual = URLactual.toString()
-    URLactual = URLactual.split('/')
+    URLactual = URLactual.split('/') 
 
     if(URLactual[3] == '') {
         document.getElementById('barra-equipo').style.display = 'none';

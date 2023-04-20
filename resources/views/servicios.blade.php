@@ -113,7 +113,7 @@
 
                 
      </div>
-     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     {{-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> --}}
      <div class="titulo_supervisar">
         Tu trabajo será supervisar y dar el consentimiento.
     </div>
