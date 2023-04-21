@@ -68,34 +68,34 @@
                         <div class="contenedor-carousel">
                           <div class="carousel">
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
 
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
 

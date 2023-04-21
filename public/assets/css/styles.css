@@ -2481,6 +2481,31 @@ html {
     .pag {
         width: 230px;
         margin-left: -20%;
+    } 
+
+    .tarjeta_botones {
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding-bottom: 36px;
+        height: 196px;
+    } 
+    .tarjeta_botones img{
+        margin-top: 43px;
+    }
+    .texto_botones {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 28px;
     }
 }
 
@@ -2647,6 +2672,30 @@ html {
     }
     .pag {
         width: 280px;
+    } 
+    .tarjeta_botones {
+        margin-top: 30px;
+        width: 277px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding-bottom: 36px;
+        height: 196px;
+    } 
+    .tarjeta_botones img{
+        margin-top: 43px;
+    }
+    .texto_botones {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 28px;
     }
 }
 
@@ -3745,12 +3794,26 @@ html {
         margin-right: auto;
     } 
     .stack_botones {
-        align-items: center;
+       /*  align-items: center;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 0.1%;
+        gap: 0.1%; */ 
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 30% 30% 30%; 
+        grid-template-rows: auto;
+        gap: 23px;
+        padding-left: 5%;
+        padding-right: 5%;
+       
+    }
+    .tarjeta_botones {
+        margin-top: 8px;
+        width: 200px;
     }
     .botonAsesoria {
         background: #FFFFFF;
@@ -7298,6 +7361,14 @@ html {
 .pag {
     width: 750px;
 }
+    .stack_botones {
+        gap: 14px;
+    }
+
+    .tarjeta_botones {
+        margin-top: 10px;
+        width: 218px;
+    }
 
 }
 
@@ -9443,6 +9514,16 @@ html {
             width: 950px;
         }
 
+        .stack_botones {
+            gap: 16px;
+            padding-left: 10%;
+            padding-right: 4%;
+        }
+        
+        .tarjeta_botones {
+            width: 277px;
+        }
+
 }
 
 @media (min-width: 1210px) { 
@@ -9521,6 +9602,12 @@ html {
     }
     .pag {
         width: 1100px;
+    }
+
+    .stack_botones {
+        gap: 8px;
+        padding-left: 12%;
+        padding-right: 6%;
     }
 }
 
@@ -11300,6 +11387,12 @@ html {
             text-align: center;
             color: #000000;
         }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 16%;
+            padding-right: 10%;
+        }
         
     }
 
@@ -11578,6 +11671,12 @@ html {
             line-height: 20px;
             text-align: center;
             color: #000000;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 20%;
+            padding-right: 14%;
         }
     }
 
@@ -11734,6 +11833,12 @@ html {
         } 
         .pag {
             width: 1500px;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 22%;
+            padding-right: 16%;
         }
     }
     /* contacto */
@@ -11886,6 +11991,12 @@ html {
             float: left;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 24%;
+            padding-right: 18%;
+        }
     }
 
     @media (min-width: 2098px) { 
@@ -12003,7 +12114,13 @@ html {
             height: 109px;
         }
 
-        /* section 4 */
+        /* section 4 */ 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 26%;
+            padding-right: 22%;
+        }
     } 
 
 
@@ -12122,6 +12239,12 @@ html {
         .pag {
             width: 2000px;
         }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 28%;
+            padding-right: 24%;
+        }
     }
 
     @media (min-width: 2551px) {  
@@ -12230,6 +12353,12 @@ html {
         } 
         .pag {
             width: 2150px;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 30%;
+            padding-right: 28%;
         }
     }
 

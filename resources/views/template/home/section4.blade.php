@@ -4,7 +4,45 @@
             Mira... ¡así de fácil!
             </div>
             <div class="stack_botones">
-                <button type="button" class="botonAsesoria" >
+                
+                <div class="tarjeta_botones">
+                        <img src="assets/img/home/Group30.png" />
+                        <div class="texto_botones">
+                            Inscribite
+                        </div>
+                </div>
+                <div class="tarjeta_botones">
+                    <img src="assets/img/home/Group30.png" />
+                    <div class="texto_botones">
+                        Conoce a tu gestor
+                    </div>
+                </div>
+                <div class="tarjeta_botones">
+                    <img src="assets/img/home/Group30.png" />
+                    <div class="texto_botones">
+                       Sub facturas en la App
+                    </div>
+                </div>
+                <div class="tarjeta_botones">
+                    <img src="assets/img/home/Group30.png" />
+                    <div class="texto_botones">
+                       Completa la información
+                    </div>
+                </div> 
+
+                <div class="tarjeta_botones">
+                    <img src="assets/img/home/Group30.png" />
+                    <div class="texto_botones">
+                      Gestión Liberfy
+                    </div>
+                </div> 
+                <div class="tarjeta_botones">
+                    <img src="assets/img/home/Group30.png" />
+                    <div class="texto_botones">
+                      Encuentra tus resultados
+                    </div>
+                </div>
+                {{-- <button type="button" class="botonAsesoria" >
                     <div class="tit_boton" >Inscribete</div>
                 </button>
                 <button type="button" class="botonAsesoria" >
@@ -21,7 +59,7 @@
                 </button>
                 <button type="button" class="botonAsesoria" >
                     <div class="tit_boton" >Encuentra tus resultados</div>
-                </button>
+                </button> --}}
             </div>
             <div class="boton_sectioon">
                 <button type="button" class="boton_llamada_asesoria" >

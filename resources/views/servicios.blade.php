@@ -14,14 +14,14 @@
 
                 <div class="tab" >
                     <button class="tablinks" onclick="openCity(event, '1')" id="boton1">
-                        <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_1"  class="tab_img" alt="...">
-                        <img src="{{asset('assets/img/servicios/email_opa.png')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
+                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_1"  class="tab_img" alt="...">
+                        <img src="{{asset('assets/img/servicios/email_opa.svg')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
                         <div class="titulo_tab_tab">Área Contable</div>
                     </button>
 
                     <button class="tablinks" onclick="openCity(event, '2')">
-                        <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..."> 
-                        <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab_img_opa_2"  class="tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab_img_opa_2"  class="tab_img" alt="..."> 
                         <div class="titulo_tab_tab">Área Fiscal</div>
                     </button>
                 </div> 
@@ -175,26 +175,26 @@
 
         <div class="tabb2" >
             <button class="tablinks2 active" onclick="openCity2(event, 'tab1')">
-                <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab1_img"  class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab1_img"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="..."> 
                 <div class="titulo_tab_tab2">Área Laboral</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab2')">
-                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab2_opa"  class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.png')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab2_opa"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Área Legal</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab3')">
-                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab3_opa"   class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.png')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab3_opa"   class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Propiedad Intelectual</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab4')">
-                <img src="{{asset('assets/img/servicios/email_opa.png')}}" id="tab4_opa"   class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.png')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab4_opa"   class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..."> 
                 <div class="titulo_tab_tab2">Desarrollo Contractual</div>
             </button>
         </div> 

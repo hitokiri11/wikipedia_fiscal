@@ -101,80 +101,82 @@
 </section> 
 
 <script>
-    let cant_clientes   = 0
-    let ctas_impactadas = 0 
-    let ahorros_imp     = 0
-    let pro_team        = 0 
-    let seguidores      = 0  
 
-    let sections = document.querySelectorAll('seccion3');
-    window.addEventListener('scroll', onScroll);
+    window.onscroll = function() {
+        console.log("Vertical: " + window.scrollY);
+        if(window.scrollY == 1400) { 
+         
+                    let cant_clientes   = 0
+                    let ctas_impactadas = 0 
+                    let ahorros_imp     = 0
+                    let pro_team        = 0 
+                    let seguidores      = 0  
 
-    function onScroll() {  
-        console.log(sections.length)
-        for (let i = 0; i < sections.length; i++) { 
-            console.log(sections[i])
-            let section = sections[i];
-        
-            if (isSectionVisible(section)) {
-                console.log('La sección ' + section.id + ' está visible');
-            }
+                    
+                    let interval_cliente = setInterval(() => { 
+                            cant_clientes++ 
+                            document.getElementById("cant_clientes").innerHTML = '+'+cant_clientes 
+                            document.getElementById("cant_clientes_resp").innerHTML = '+'+cant_clientes
+                        
+                            if(cant_clientes == 900) {
+                                clearInterval(interval_cliente)
+                            }
+                    }, 0010); 
+
+
+                    let interval_ctas_impactadas = setInterval(() => {
+                            ctas_impactadas++ 
+
+                            document.getElementById("ctas_impactadas").innerHTML = '+'+ctas_impactadas+' K' 
+                            document.getElementById("ctas_impactadas_resp").innerHTML = '+'+ctas_impactadas+' K'
+                        
+                            if(ctas_impactadas == 200) {
+                                clearInterval(interval_ctas_impactadas)
+                            }
+                    }, 0040)
+
+                    let interval_ahorros_imp = setInterval(() => {
+                            ahorros_imp++ 
+
+                            document.getElementById("ahorros_impuestos").innerHTML = '+'+ahorros_imp+'M €' 
+                            document.getElementById("ahorros_impuestos_resp").innerHTML = '+'+ahorros_imp+'M €'
+                        
+                            if(ahorros_imp == 5) {
+                                clearInterval(interval_ahorros_imp)
+                            }
+                    }, 1000) 
+
+                    let interval_prof_team = setInterval(() => {
+                            pro_team++ 
+
+                            document.getElementById("prof_equipo").innerHTML = '+'+pro_team
+                            document.getElementById("prof_equipo_resp").innerHTML = '+'+pro_team
+                        
+                            if(pro_team == 25) {
+                                clearInterval(interval_prof_team)
+                            }
+                    }, 0500)  
+
+                    let interval_seguidores = setInterval(() => {
+                            seguidores++ 
+
+                            document.getElementById("seguidores").innerHTML = '+'+seguidores+' K'
+                            document.getElementById("seguidores_resp").innerHTML = '+'+seguidores+' K'
+                        
+                            if(seguidores == 10) {
+                                clearInterval(interval_seguidores)
+                            }
+                    }, 0700) 
+
+
         }
-    }
+    };
    
+    
 
-    let interval_cliente = setInterval(() => {
-            cant_clientes++ 
-            document.getElementById("cant_clientes").innerHTML = '+'+cant_clientes 
-            document.getElementById("cant_clientes_resp").innerHTML = '+'+cant_clientes
-        
-            if(cant_clientes == 900) {
-                clearInterval(interval_cliente)
-            }
-    }, 0010);
+    
+    
 
-    let interval_ctas_impactadas = setInterval(() => {
-            ctas_impactadas++ 
-
-            document.getElementById("ctas_impactadas").innerHTML = '+'+ctas_impactadas+' K' 
-            document.getElementById("ctas_impactadas_resp").innerHTML = '+'+ctas_impactadas+' K'
-        
-            if(ctas_impactadas == 200) {
-                clearInterval(interval_ctas_impactadas)
-            }
-    }, 0040)
-
-    let interval_ahorros_imp = setInterval(() => {
-            ahorros_imp++ 
-
-            document.getElementById("ahorros_impuestos").innerHTML = '+'+ahorros_imp+'M €' 
-            document.getElementById("ahorros_impuestos_resp").innerHTML = '+'+ahorros_imp+'M €'
-        
-            if(ahorros_imp == 5) {
-                clearInterval(interval_ahorros_imp)
-            }
-    }, 1000) 
-
-    let interval_prof_team = setInterval(() => {
-            pro_team++ 
-
-            document.getElementById("prof_equipo").innerHTML = '+'+pro_team
-            document.getElementById("prof_equipo_resp").innerHTML = '+'+pro_team
-        
-            if(pro_team == 25) {
-                clearInterval(interval_prof_team)
-            }
-    }, 0500)  
-
-    let interval_seguidores = setInterval(() => {
-            seguidores++ 
-
-            document.getElementById("seguidores").innerHTML = '+'+seguidores+' K'
-            document.getElementById("seguidores_resp").innerHTML = '+'+seguidores+' K'
-        
-            if(seguidores == 10) {
-                clearInterval(interval_seguidores)
-            }
-    }, 0700) 
+    
 
 </script>
