@@ -11,7 +11,41 @@ html {
     
 }
 
+.barra-equipo {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
 
+.barra-servicios {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
+
+.barra-blog {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
+
+.barra-contacto {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
+
+.barra-dudas {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
+
+.barra-cliente {
+    background-color: #17BA9C;
+    width: 100%;
+    height: 5px;
+}
 
 
 .grid-container > * {
@@ -167,7 +201,7 @@ html {
         margin-top: 8%;
     }
     .titulo_verde {
-        width: 82%;
+        width: 60%;
         margin-left: 9%;
         font-family: 'Poppins';
         font-style: normal;
@@ -181,6 +215,7 @@ html {
         color: #17BA9C;
         margin-top: 3%;
         margin-bottom: 3%;
+        height: 48px;
     }
     .titulo_section1 {
         width: 82%;
@@ -1190,10 +1225,9 @@ html {
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 14px 16px;
+        padding: 14px 0px 14px 20px;
         transition: 0.3s;
         font-size: 17px;
-        
     }
   
     /* Change background color of buttons on hover */
@@ -1204,7 +1238,7 @@ html {
     /* Create an active/current tablink class */
     .tab button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
   
     /* Style the tab content */
@@ -1262,7 +1296,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
     }
     .titulo_supervisar {
@@ -1398,7 +1432,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
     }
 
@@ -1433,7 +1467,7 @@ html {
     /* Create an active/current tablink class */
     .tabb2 button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
     /* servicios */
 
@@ -2218,7 +2252,13 @@ html {
         margin-left: 0%;
         display: block;
         float: left;
+        top: 60px;
+        position: absolute; 
+        height: 450px;
     }  
+    .menu_descktop {
+        display: none;
+    }
     .mapa_responsive {
         display: none;
     }
@@ -2385,6 +2425,87 @@ html {
         margin-left: auto;
         margin-right: auto;
       
+    } 
+
+    .desc_nombre_fund {
+        width: 180px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 82%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    } 
+
+    .titulo_blog_t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        position: static;
+        margin-top: -27%;
+        margin-left: -60%;
+    } 
+    .titulo_noticia {
+        width: 90%;
+        margin-left: 7%;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        margin-top: 20%;
+        position: static;
+        
+    }
+    .pag {
+        width: 230px;
+        margin-left: -20%;
+    } 
+
+    .tarjeta_botones {
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding-bottom: 36px;
+        height: 196px;
+    } 
+    .tarjeta_botones img{
+        margin-top: 43px;
+    }
+    .texto_botones {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 28px;
     }
 }
 
@@ -2403,6 +2524,32 @@ html {
         background-color: #fff;
         top: 85%;
         left: 12.5%;
+    } 
+    .desc_nombre_fund {
+        width: 190px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 82%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
     }
 }
 
@@ -2470,8 +2617,86 @@ html {
         margin-left: auto;
         margin-right: auto;
       
-    }
+    } 
 
+    .desc_nombre_fund {
+        width: 230px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 84%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    } 
+
+    .titulo_blog_t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        position: static;
+        margin-top: -27%;
+        margin-left: -65%;
+    } 
+    .titulo_noticia {
+        width: 90%;
+        margin-left: 7%;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        margin-top: 20%;
+        position: static;
+        
+    }
+    .pag {
+        width: 280px;
+    } 
+    .tarjeta_botones {
+        margin-top: 30px;
+        width: 277px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding-bottom: 36px;
+        height: 196px;
+    } 
+    .tarjeta_botones img{
+        margin-top: 43px;
+    }
+    .texto_botones {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 28px;
+    }
 }
 
 @media (min-width: 364px) {
@@ -2536,6 +2761,35 @@ html {
         color: #000000;
     }
     
+    .desc_nombre_fund {
+        width: 260px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 86%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    .pag {
+        width: 340px;
+    }
 
 }
 
@@ -2587,6 +2841,20 @@ html {
         color: #FFF;
         
     }
+    .menu { 
+        font-family: 'Poppins';
+        width:80%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #8C8C8C;
+        margin-left: 0%;
+        display: block;
+        float: left;
+        position: absolute;
+        top: 60px;
+    } 
 
     .opcion1_section1 {
         text-align: left;
@@ -2748,6 +3016,62 @@ html {
         margin-left: auto;
         margin-right: auto;
       
+    } 
+
+    .desc_nombre_fund {
+        width: 290px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 88%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .titulo_blog_t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        position: static;
+        margin-top: -27%;
+        margin-left: -74%;
+    } 
+    .titulo_noticia {
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        margin-top: 20%;
+        position: static;
+        
+    }
+
+    .pag {
+        width: 380px;
     }
 }
 
@@ -2759,6 +3083,61 @@ html {
     }
     .desc_nombre {
         left: 18%;
+    } 
+
+    .desc_nombre_fund {
+        width: 336px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 90%;
+        left: 14%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    } 
+
+    .titulo_blog_t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        position: static;
+        margin-top: -27%;
+        margin-left: -76%;
+    } 
+    .titulo_noticia {
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        margin-top: 20%;
+        position: static;
+        
+    }
+    .pag {
+        width: 440px;
     }
 }
 
@@ -2795,19 +3174,79 @@ html {
         margin-top: 30%;
     }
 
-    
-
+    .desc_nombre_fund {
+        width: 336px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 90%;
+        left: 18%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    .pag {
+        width: 490px;
+    }
 }
 
 @media(min-width: 660px) {
     .desc_nombre {
         left: 24%;
     }
+    .pag {
+        width: 550px;
+    }
 }
 
 @media(min-width: 720px) {
     .desc_nombre {
         left: 26.3%;
+    }
+
+    .desc_nombre_fund {
+        width: 336px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 92%;
+        left: 26%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    } 
+    .pag {
+        width: 600px;
     }
 }
 
@@ -2841,6 +3280,32 @@ html {
         margin-left: -12%;
     }
     
+    .titulo_blog_t {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        position: static;
+        margin-top: -13%;
+        margin-left: -80%;
+    } 
+    .titulo_noticia {
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 130%;
+        margin-top: 14%;
+        position: static;
+        
+    } 
+    
+
 }
 
 
@@ -2982,7 +3447,11 @@ html {
         margin-left: 4%;
         display: block;
         float: left;
+        position: unset;
     } 
+    .menu active {
+        background-color:  #17BA9C;
+    }
     ul {
         display: none;
     }
@@ -3325,12 +3794,26 @@ html {
         margin-right: auto;
     } 
     .stack_botones {
-        align-items: center;
+       /*  align-items: center;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 0.1%;
+        gap: 0.1%; */ 
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 30% 30% 30%; 
+        grid-template-rows: auto;
+        gap: 23px;
+        padding-left: 5%;
+        padding-right: 5%;
+       
+    }
+    .tarjeta_botones {
+        margin-top: 8px;
+        width: 200px;
     }
     .botonAsesoria {
         background: #FFFFFF;
@@ -3876,7 +4359,7 @@ html {
         font-size: 32px;
         line-height: 48px;
         color: #FFFFFF;
-        margin-left: 10%;
+        margin-left: 7%;
         margin-top: -10%;
         position: absolute;
     }
@@ -3930,7 +4413,7 @@ html {
     .lista_contatos {
         margin-top: 5%;
         width: 100%;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-right: auto;
         text-align: left;
         font-family: 'Poppins';
@@ -4001,7 +4484,7 @@ html {
         color: #FFFFFF;
         position: absolute;
         margin-top: -12%;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .titulo_noticia {
         width: 90%;
@@ -4020,7 +4503,7 @@ html {
     }
     .tarjeta_blog2 {
         display: block;
-        width: 86%;
+        width: 85%;
         height:auto;
         border-radius: 10px;
         padding: 2%;
@@ -4046,18 +4529,19 @@ html {
         color: #475467;
         margin-top: 2%;
         text-align: left;
+        margin-left: 2%;
     }
     .post_blog a{ 
-        width: 90%;
+        width: 60%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 130%;
         color: #1D2939;
-        margin-top: 3%;
+        margin-top: 1%;
         text-align: left;
-        margin-left: -29%;
+        margin-left: -27%;
     }
     .parr_blog {
         font-family: 'Poppins';
@@ -4066,10 +4550,10 @@ html {
         font-size: 16px;
         line-height: 150%;
         color: #475467;
-        margin-top: 13%;
+        margin-top: 10%;
         text-align: justify;
         width: 90%;
-        margin-left: 0%;
+        margin-left: 2%;
     }
     .alert_blog {
         font-family: 'Poppins';
@@ -4215,7 +4699,7 @@ html {
     /* Create an active/current tablink class */
     .tab button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
   
     /* Style the tab content */
@@ -4252,7 +4736,7 @@ html {
         font-size: 17px;
         line-height: 118.2%;
         text-align: center;
-        color: #000;
+        color: rgba(0, 0, 0, 0.26);
     }
     .lista_tab {
         margin-top: 3%;
@@ -4281,7 +4765,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 195.7%;
         color: #000000;
     }
     .titulo_supervisar {
@@ -4292,10 +4776,10 @@ html {
         line-height: 118.2%;
         text-align: center;
         color: #000000;
-        width: 80%;
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -20%;
+        margin-top: 450px;
     }
     .area_suscripcion {
         width: 90%;
@@ -4385,7 +4869,7 @@ html {
     /* Create an active/current tablink class */
     .tabb2 button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
         color: #000;
     }
   
@@ -4416,7 +4900,7 @@ html {
 
     .titulo_tab_tab2 { 
         display: block;
-        margin-top: 1%;
+        margin-top: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -4443,7 +4927,7 @@ html {
         background: #000;
         float: left;
         margin-left: 5%;
-        margin-top: 5%;
+        margin-top: 2%;
     }
     .punto_content2 {
         margin-left: 8%;
@@ -4455,7 +4939,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
     }
 
@@ -4475,17 +4959,32 @@ html {
         margin-left: auto;
         margin-right: auto;
     }
+    .bold_titulo_team {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 42px;
+        color: #232323;
+    }
     .parrafo_team_titulo {
-        margin-top: 5%;
-        width: 90%;
+        margin-top: 12px;
+        width: 620px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 18px;
         line-height: 30px;
+        color: #232323;
+        
+    }
+
+    .parrafo_team_italic {
+        font-weight: 400;
+        font-style: italic;
         color: #232323;
         
     }
@@ -4719,12 +5218,12 @@ html {
             margin-left:auto;
             margin-right: auto;
             margin-top: 5%;
-            width: 90%;
+            width: 72%;
         }
 
         .titulo_fundadores_td {
             width: 18%;
-            text-align: right;
+            text-align: left;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -5210,7 +5709,7 @@ html {
             margin-left: auto;
             margin-right: auto;
             text-align: center;
-            margin-top: 3%;
+            margin-top: 30px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -5222,7 +5721,7 @@ html {
 
         .carrusel_desktop2 {
             display: block;
-            margin-top: 6%;
+            margin-top: 30px;
             width: 96%;
             margin-left: auto;
             margin-right: auto;
@@ -5409,6 +5908,36 @@ html {
             margin-left: auto;
             margin-right: auto;
           }
+
+        .desc_nombre_fund {
+            width: 180px;
+            height: 76px;
+            position: absolute;
+            background-color: #fff;
+            top: 80%;
+            left: 10%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+        .pag {
+            width: 650px;
+        }
 }
 
 @media (min-width: 800px) {
@@ -5932,7 +6461,7 @@ html {
         font-size: 32px;
         line-height: 48px;
         color: #FFFFFF;
-        margin-left: 10%;
+        margin-left: 7%;
     }
     .fondoBlacContacto {
         display: none;
@@ -6054,7 +6583,7 @@ html {
     }
     .tarjeta_blog2 {
         display: block;
-        width: 86%;
+        width: 85%;
         height:auto;
         border-radius: 10px;
         padding: 2%;
@@ -6082,16 +6611,16 @@ html {
         text-align: left;
     }
     .post_blog a{ 
-        width: 90%;
+        width: 60%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 26px;
         line-height: 130%;
         color: #1D2939;
-        margin-top: 3%;
+        margin-top: 1%;
         text-align: left;
-        margin-left: -29%;
+        margin-left: -27.3%;
     }
     .parr_blog {
         font-family: 'Poppins';
@@ -6100,10 +6629,10 @@ html {
         font-size: 18px;
         line-height: 150%;
         color: #475467;
-        margin-top: 13%;
+        margin-top: 8%;
         text-align: justify;
         width: 90%;
-        margin-left: 0%;
+        margin-left: 2%;
     }
     .alert_blog {
         font-family: 'Poppins';
@@ -6197,7 +6726,7 @@ html {
     /* Create an active/current tablink class */
     .tab button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
   
     /* Style the tab content */
@@ -6232,7 +6761,7 @@ html {
         font-size: 17px;
         line-height: 118.2%;
         text-align: center;
-        color: #000;
+        color: rgba(0, 0, 0, 0.26);
     }
     .lista_tab {
         margin-top: 3%;
@@ -6261,7 +6790,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
     }
@@ -6273,10 +6802,10 @@ html {
         line-height: 118.2%;
         text-align: center;
         color: #000000;
-        width: 80%;
+        width: 700px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -15%;
+        margin-top: 500px;
     }
     .area_suscripcion {
         width: 90%;
@@ -6366,7 +6895,7 @@ html {
     /* Create an active/current tablink class */
     .tabb2 button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
         color: #000;
     }
   
@@ -6396,11 +6925,11 @@ html {
     }
 
     .titulo_tab_tab2 {
-        margin-top: 1%;
+        margin-top: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 11px;
+        font-size: 13px;
         line-height: 118.2%;
         text-align: center;
         color: #000;
@@ -6423,7 +6952,7 @@ html {
         background: #000;
         float: left;
         margin-left: 5%;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     .punto_content2 {
         margin-left: 8%;
@@ -6435,7 +6964,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
     }
@@ -6472,12 +7001,12 @@ html {
         margin-left:auto;
         margin-right: auto;
         margin-top: 5%;
-        width: 90%;
+        width: 72%;
     }
     
     .titulo_fundadores_td {
         width: 18%;
-        text-align: right;
+        text-align: left;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -6802,6 +7331,45 @@ html {
     color: #FFF;
 }
 
+.desc_nombre_fund {
+    width: 200px;
+    height: 76px;
+    position: absolute;
+    background-color: #fff;
+    top: 80%;
+    left: 10%;
+}
+.nombre_integrante_fund{
+    margin-top: 6%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.cargo_integrante_fund{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+} 
+
+.pag {
+    width: 750px;
+}
+    .stack_botones {
+        gap: 14px;
+    }
+
+    .tarjeta_botones {
+        margin-top: 10px;
+        width: 218px;
+    }
+
 }
 
 @media (min-width: 1017px) {  
@@ -6892,6 +7460,33 @@ html {
         font-size: 19px;
         line-height: 28px;
         color: #FFF;
+    } 
+
+    .desc_nombre_fund {
+        width: 234px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 80%;
+        left: 10%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
     }
 }
 
@@ -6902,6 +7497,9 @@ html {
         margin-left: 50%;
         margin-top: -24%; 
         overflow: hidden;
+    }
+    .pag {
+        width: 890px;
     }
 } 
 
@@ -6982,7 +7580,34 @@ html {
         margin: auto;
         margin-left: 20%;
         
-     }
+     } 
+
+     .desc_nombre_fund {
+        width: 246px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 84%;
+        left: 10%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
 }
 
 
@@ -7038,25 +7663,31 @@ html {
         color: #232323;
         text-align: center;
         margin-top: 8%;
-        width: 923px;
+        width: 36   0px;
         margin-left: auto;
         margin-right: auto;
     }
     .parrafo_team_titulo {
-        margin-top: 5%;
-        width: 50%;
+        margin-top: 12px;
+        width: 620px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 18px;
         line-height: 30px;
         color: #232323;
         
     }
 
+    .parrafo_team_italic {
+        font-weight: 400;
+        font-style: italic;
+        color: #232323;
+        
+    }
      .name_team_1 {
         background: rgba(255, 255, 255, 0.85);
         font-family: 'Poppins';
@@ -7085,12 +7716,12 @@ html {
         margin-left:auto;
         margin-right: auto;
         margin-top: 5%;
-        width: 90%;
+        width: 70%;
     }
     
     .titulo_fundadores_td {
-        width: 18%;
-        text-align: right;
+        width: 14%;
+        text-align: left;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -7106,7 +7737,7 @@ html {
     }
     
     .parrafo_team_td {
-        width: 20%;
+        width: 30%;
         text-align: left;
         color: #FFFFFF;
         font-family: 'Poppins';
@@ -7118,10 +7749,10 @@ html {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         padding-top: 0%;
         vertical-align: top;
-        padding-right: 3%;
+        padding-right: 2%;
     }
     .parrafo_team_2_td {
-        width: 20%;
+        width: 30%;
         text-align: left;
         color: #FFFFFF;
         font-family: 'Poppins';
@@ -7133,7 +7764,7 @@ html {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding-top: 0%;
         vertical-align: top;
-        padding-right: 3%;
+        padding-right: 2%;
     }
      /* team */
 
@@ -7162,6 +7793,37 @@ html {
         font-size: 19px;
         line-height: 28px;
         color: #FFF;
+    } 
+
+    .desc_nombre_fund {
+        width: 258px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 88%;
+        left: 10%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .pag {
+        width: 900px;
     }
 }
 
@@ -7180,8 +7842,13 @@ html {
         color: #FFFFFF;
         position: absolute;
         margin-top: -8%;
-        margin-left: 10%;
+        margin-left: 8%;
+    } 
+
+    .titulo_noticia {
+        margin-left: 8%;
     }
+
     .grid-container {
         grid-template: 
             "navbar navbar navbar"  72px
@@ -7226,8 +7893,8 @@ html {
         margin-left: 1%;
         display: block;
         float: left;
-    } 
-    
+    }
+
     ul {
         display: none;
     }
@@ -8113,7 +8780,7 @@ html {
         font-size: 32px;
         line-height: 48px;
         color: #FFFFFF;
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .fondoBlacContacto {
         display: none;
@@ -8160,7 +8827,7 @@ html {
     .lista_contatos {
         margin-top: 8%;
         width: 100%;
-        margin-left: 2%;
+        margin-left: 5%;
         margin-right: auto;
         text-align: left;
         font-family: 'Poppins';
@@ -8310,7 +8977,7 @@ html {
     /* Create an active/current tablink class */
     .tab button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
   
     /* Style the tab content */
@@ -8346,7 +9013,7 @@ html {
         font-size: 17px;
         line-height: 118.2%;
         text-align: center;
-        color: #000;
+        color: rgba(0, 0, 0, 0.26);
     }
     .lista_tab {
         margin-top: 3%;
@@ -8375,7 +9042,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
     }
@@ -8387,10 +9054,10 @@ html {
         line-height: 118.2%;
         text-align: center;
         color: #000000;
-        width: 80%;
+        width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -30%;
+        margin-top: 280px;
     }
     .area_suscripcion {
         width: 90%;
@@ -8480,7 +9147,7 @@ html {
     /* Create an active/current tablink class */
     .tabb2 button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
         color: #000;
     }
   
@@ -8511,11 +9178,11 @@ html {
     }
 
     .titulo_tab_tab2 {
-        margin-top: 1%;
+        margin-top: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 11px;
+        font-size: 15px;
         line-height: 118.2%;
         text-align: center;
         color: #000;
@@ -8537,7 +9204,7 @@ html {
         background: #000;
         float: left;
         margin-left: 5%;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     .punto_content2 {
         margin-left: 8%;
@@ -8549,7 +9216,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
     }
@@ -8798,6 +9465,32 @@ html {
             top: 88%;
             left: 9%;
         }
+        .desc_nombre_fund {
+            width: 270px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 84%;
+            left: 10%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
         .nombre_integrante{
             margin-top: 2%;
             font-family: 'Poppins';
@@ -8815,6 +9508,20 @@ html {
             line-height: 20px;
             text-align: center;
             color: #000000;
+        }
+        
+        .pag {
+            width: 950px;
+        }
+
+        .stack_botones {
+            gap: 16px;
+            padding-left: 10%;
+            padding-right: 4%;
+        }
+        
+        .tarjeta_botones {
+            width: 277px;
         }
 
 }
@@ -8861,10 +9568,46 @@ html {
         line-height: 118.2%;
         text-align: center;
         color: #000000;
-        width: 80%;
+        width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -23%;
+        margin-top: 280px;
+    } 
+
+    .desc_nombre_fund {
+        width: 300px;
+        height: 96px;
+        position: absolute;
+        background-color: #fff;
+        top: 84%;
+        left: 10%;
+    }
+    .nombre_integrante_fund{
+        margin-top: 6%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+    .cargo_integrante_fund{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    .pag {
+        width: 1100px;
+    }
+
+    .stack_botones {
+        gap: 8px;
+        padding-left: 12%;
+        padding-right: 6%;
     }
 }
 
@@ -8950,6 +9693,10 @@ html {
         mix-blend-mode: luminosity;
         float: left;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    } 
+
+    .pag {
+        width: 1140px;
     }
 }
 
@@ -9041,7 +9788,7 @@ html {
             display: block;
             float: left;
         } 
-        
+       
         ul {
             display: none;
         }
@@ -9129,6 +9876,7 @@ html {
             line-height: 28px;
             color: #232323;
             text-align: left;
+            margin-top: 10px;
         }
         .check_seccion1 {
             float: left;
@@ -9138,7 +9886,7 @@ html {
         .opciones_section1{
             width: 100%;
             margin-left: 0%;
-            margin-top: 3%;
+            margin-top: 4%;
         }
         .checkClear {
             display: none;
@@ -9845,7 +10593,7 @@ html {
         font-size: 32px;
         line-height: 48px;
         color: #FFFFFF;
-        margin-left: 10%;
+        margin-left: 12%;
         margin-top: -5%;
         position: absolute;
     }
@@ -10044,7 +10792,7 @@ html {
     /* Create an active/current tablink class */
     .tab button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
     }
   
     /* Style the tab content */
@@ -10080,7 +10828,7 @@ html {
         font-size: 17px;
         line-height: 118.2%;
         text-align: center;
-        color: #000;
+        color: rgba(0, 0, 0, 0.26);
     }
     .lista_tab {
         margin-top: 3%;
@@ -10109,7 +10857,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
     }
@@ -10121,10 +10869,10 @@ html {
         line-height: 118.2%;
         text-align: center;
         color: #000000;
-        width: 80%;
+        width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -25%;
+        margin-top: 270px;
     }
     .area_suscripcion {
         width: 90%;
@@ -10214,7 +10962,7 @@ html {
     /* Create an active/current tablink class */
     .tabb2 button.active {
         background-color: #fff;
-        border-bottom: 3px solid #17BA9C;
+        border-bottom: 6px solid #17BA9C;
         color: #000;
     }
   
@@ -10245,11 +10993,11 @@ html {
     }
 
     .titulo_tab_tab2 {
-        margin-top: 1%;
+        margin-top: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 118.2%;
         text-align: center;
         color: #000;
@@ -10271,7 +11019,7 @@ html {
         background: #000;
         float: left;
         margin-left: 5%;
-        margin-top: 3%;
+        margin-top: 1%;
     }
     .punto_content2 {
         margin-left: 8%;
@@ -10283,7 +11031,7 @@ html {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 176.7%;
+        line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
     }
@@ -10305,20 +11053,26 @@ html {
             margin-right: auto;
         }
         .parrafo_team_titulo {
-            margin-top: 3%;
-            width: 40%;
+            margin-top: 12px;
+            width: 620px;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
             font-family: 'Poppins';
             font-style: normal;
-            font-weight: 700;
+            font-weight: 400;
             font-size: 18px;
             line-height: 30px;
             color: #232323;
             
         }
-
+    
+        .parrafo_team_italic {
+            font-weight: 400;
+            font-style: italic;
+            color: #232323;
+            
+        }
         .name_team_1 {
             background: rgba(255, 255, 255, 0.85);
             font-family: 'Poppins';
@@ -10348,12 +11102,12 @@ html {
             margin-left:auto;
             margin-right: auto;
             margin-top: 5%;
-            width: 90%;
+            width: 70%;
         }
         
         .titulo_fundadores_td {
-            width: 18%;
-            text-align: right;
+            width: 22%;
+            text-align: left;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -10369,7 +11123,7 @@ html {
         }
         
         .parrafo_team_td {
-            width: 20%;
+            width: 43%;
             text-align: left;
             color: #FFFFFF;
             font-family: 'Poppins';
@@ -10384,7 +11138,7 @@ html {
             padding-right: 3%;
         }
         .parrafo_team_2_td {
-            width: 20%;
+            width: 43%;
             text-align: left;
             color: #FFFFFF;
             font-family: 'Poppins';
@@ -10605,6 +11359,39 @@ html {
             position: absolute;
             margin-top: 0.7%;
             margin-left: -3%;
+        } 
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 84%;
+            left: 10%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 16%;
+            padding-right: 10%;
         }
         
     }
@@ -10619,6 +11406,35 @@ html {
         }
         .lista_contatos {
             margin-top: 25%;
+        }
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 88%;
+            left: 12%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+        .pag {
+            width: 1250px;
         }
     }
 
@@ -10675,7 +11491,7 @@ html {
             color: #FFFFFF;
             position: absolute;
             margin-top: -6%;
-            margin-left: 10%;
+            margin-left: 8%;
         }
         .icon {
             position: absolute;
@@ -10828,6 +11644,39 @@ html {
             border: 0px;
             margin-left: -70%;
             
+        } 
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 88%;
+            left: 14%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 20%;
+            padding-right: 14%;
         }
     }
 
@@ -10954,6 +11803,42 @@ html {
             padding-top: 5%;
             padding-right: 2%;
 
+        } 
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 90%;
+            left: 18%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+        .pag {
+            width: 1500px;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 22%;
+            padding-right: 16%;
         }
     }
     /* contacto */
@@ -10967,10 +11852,10 @@ html {
             line-height: 118.2%;
             text-align: center;
             color: #000000;
-            width: 80%;
+            width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -23%;
+            margin-top: 270px;
         }
     }
 
@@ -11106,6 +11991,12 @@ html {
             float: left;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 24%;
+            padding-right: 18%;
+        }
     }
 
     @media (min-width: 2098px) { 
@@ -11142,10 +12033,40 @@ html {
             line-height: 118.2%;
             text-align: center;
             color: #000000;
-            width: 80%;
+            width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -18%;
+            margin-top: 270px;
+        } 
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 92%;
+            left: 22%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+        .pag {
+            width: 1700px;
         }
     }
 
@@ -11163,7 +12084,7 @@ html {
             color: #FFFFFF;
             position: absolute;
             margin-top: -4%;
-            margin-left: 10%;
+            margin-left: 8%;
         }
          /* section 4 */
          .titulo_cliente {
@@ -11193,7 +12114,13 @@ html {
             height: 109px;
         }
 
-        /* section 4 */
+        /* section 4 */ 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 26%;
+            padding-right: 22%;
+        }
     } 
 
 
@@ -11281,6 +12208,43 @@ html {
             width: 167px;
             height: 109px;
         }
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 92%;
+            left: 28%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+
+        .pag {
+            width: 2000px;
+        }
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 28%;
+            padding-right: 24%;
+        }
     }
 
     @media (min-width: 2551px) {  
@@ -11355,10 +12319,46 @@ html {
             line-height: 118.2%;
             text-align: center;
             color: #000000;
-            width: 80%;
+            width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: -13%;
+            margin-top: 270px;
+        } 
+
+        .desc_nombre_fund {
+            width: 336px;
+            height: 96px;
+            position: absolute;
+            background-color: #fff;
+            top: 92%;
+            left: 28%;
+        }
+        .nombre_integrante_fund{
+            margin-top: 6%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        .cargo_integrante_fund{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        } 
+        .pag {
+            width: 2150px;
+        } 
+
+        .stack_botones {
+            gap: 8px;
+            padding-left: 30%;
+            padding-right: 28%;
         }
     }
 

@@ -24,13 +24,13 @@
                                 <td><p class="titulo_contacto">Contacto</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="far fa-envelope fa-xs"></i>&nbsp;&nbsp;Info@liberfy.es</p></td>
+                                <td><p class="item_contacto">{{-- <i class="far fa-envelope fa-xs"></i> --}}<img src="{{asset('assets/img/home/Email.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;Info@liberfy.es</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="fa fa-phone fa-xs" ></i>&nbsp;&nbsp;627 32 25 41</p></td>
+                                <td><p class="item_contacto">{{-- <i class="fa fa-phone fa-xs" ></i> --}}<img src="{{asset('assets/img/home/Phone.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;627 32 25 41</p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_contacto"><i class="fa fa-map-marker-alt fa-xs"></i>&nbsp;&nbsp;C. Fuente Cisneros, 37, 28922 Alcorcón, Madrid </p></td>
+                                <td><p class="item_contacto">{{-- <i class="fa fa-map-marker-alt fa-xs"></i> --}}<img src="{{asset('assets/img/home/Mark.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;C. Fuente Cisneros, 37, 28922 Alcorcón, Madrid </p></td>
                             </tr>
                         </table>
                 </div>

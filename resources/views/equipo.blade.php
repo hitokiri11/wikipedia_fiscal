@@ -9,7 +9,7 @@
       
         <div class="titulo_team">
             Liberfy, una gestoría
-            que <b >sí te entiende</b>
+            que <label class="bold_titulo_team">sí te entiende</label>
         </div>
 
         <div class="parrafo_team_titulo">
@@ -17,8 +17,8 @@
             <br><br>
             Fusionamos tecnología y atención personalizada, para que tengas el control de los números de manera simple y en tiempo real.
             <br><br>
-            Con nuestra aplicación podrás ver en un mismo tablero:<br>
-            <i style="font-weight: 510;">tus ingresos, egresos e impuestos</i>
+            <i style="font-weight: 510;">En nuestra aplicación podrás ver en un mismo tablero:</i><br>
+            <label class="parrafo_team_italic">tus ingresos, egresos e impuestos</label>
         </div>
 
             <div class="carrusel_responsive">
@@ -68,34 +68,34 @@
                         <div class="contenedor-carousel">
                           <div class="carousel">
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
 
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img1.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img1.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
                                     <img src="assets/img/team/img2.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
                                 <div class="pelicula">
-                                    <img src="assets/img/team/img3.svg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
+                                    <img src="assets/img/team/img3.jpg" class="img-fluid col-md-4 col-lg-4 col-xl-4 width_img">
                                 </div>
 
 
@@ -114,6 +114,7 @@
             </div>
 
             <div class="img_team">
+<<<<<<< HEAD
                 <div class="img_team_1">
                     <img src="assets/img/team/card1.svg" class="dimension_img" >
                     <div class="name_team_1">Miguel Sierra</div>
@@ -129,6 +130,60 @@
                     <div class="name_team_1">José Llanos</div>
                 </div>
             </div>
+=======
+        
+                    <div class="img_team_1"> 
+                            <div class="capa_tarjeta">
+                                <img src="assets/img/team/card1.svg" class="dimension_img">
+                                <div class="desc_nombre_fund">
+                                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                                    <p class="nombre_integrante_fund">
+                                        Miguel Sierra
+                                    </p>
+                                    <p class="cargo_integrante_fund">
+                                        CEO y Economista
+                                    </p>
+                                </div> 
+                            </div>
+                        {{-- <img src="assets/img/team/card1.svg" class="dimension_img" >
+                        <div class="name_team_1">Miguel Sierra</div> --}}
+                    </div> 
+
+                    <div class="img_team_1">
+                            <div class="capa_tarjeta">
+                                <img src="assets/img/team/card2.svg" class="dimension_img">
+                                <div class="desc_nombre_fund">
+                                    <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                                    <p class="nombre_integrante_fund">
+                                        César Rivero
+                                    </p>
+                                    <p class="cargo_integrante_fund">
+                                        Fundador
+                                    </p>
+                                </div> 
+                            </div>
+                        {{-- <img src="assets/img/team/card2.svg" class="dimension_img" >
+                        <div class="name_team_1">César Rivero</div> --}}
+                    </div> 
+
+                    <div class="img_team_1">
+                        <div class="capa_tarjeta">
+                            <img src="assets/img/team/card3.svg" class="dimension_img">
+                            <div class="desc_nombre_fund">
+                                <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                                <p class="nombre_integrante_fund">
+                                    José Llanos
+                                </p>
+                                <p class="cargo_integrante_fund">
+                                    Fundador
+                                </p>
+                            </div> 
+                        </div>
+                      {{-- <img src="assets/img/team/card3.svg" class="dimension_img" >
+                      <div class="name_team_1">José Llanos</div> --}}
+                  </div>
+      </div>
+>>>>>>> dc078a6772687fbd89b3ab3828811d3dfd8df6d8
 
       <div class="black_team">
           <div class="titulo_fundadores">

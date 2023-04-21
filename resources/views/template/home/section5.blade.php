@@ -10,11 +10,16 @@
         <div class="tarjetas">
             <div class="card">
                     <div class="calificacionesReviews">
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        {{-- <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
+                        <i class="fa-sharp fa-solid fa-star fa-lg"></i> --}}
                     </div> 
                     
                     <div class="parrafoReviews"> 
@@ -28,11 +33,16 @@
 
             <div class="card">
                     <div class="calificacionesReviews">
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        {{-- <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
+                        <i class="fa-sharp fa-solid fa-star fa-lg"></i> --}}
                     </div> 
                     
                     <div class="parrafoReviews"> 
@@ -46,12 +56,17 @@
 
 
             <div class="card">
-                    <div class="calificacionesReviews">
+                    <div class="calificacionesReviews"> 
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
+                        {{-- <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
                         <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
-                        <i class="fa-sharp fa-solid fa-star fa-lg"></i>
+                        <i class="fa-sharp fa-solid fa-star fa-lg"></i> --}}
                     </div> 
                     
                     <div class="parrafoReviews"> 

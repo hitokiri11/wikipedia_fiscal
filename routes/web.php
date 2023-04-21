@@ -21,9 +21,10 @@ use App\Http\Controllers\Auth\LoginController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function () { 
     return view('principal');
 });
+
 Route::get('/dudas', function () {
     return view('dudas');
 }); 

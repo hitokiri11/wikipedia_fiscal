@@ -33,18 +33,18 @@
                   <table>
                         <tr>
                               <td>
-                                    *&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
+                                    <label style="font-size:50px">.</label>&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
                                     &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
                               </td>
                         </tr>
                         <tr>
-                              <td><br>*&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
+                              <td><br><label style="font-size:50px">.</label>&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
                         </tr>
                         <tr>
                               <td>
                                     <br>
-                                    *&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de<br>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;nuestros asesores especializados
+                                    <label style="font-size:50px">.</label>&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno 
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;de nuestros asesores especializados
                               </td>
                         </tr>
                   </table>
@@ -61,18 +61,19 @@
                         <table>
                               <tr>
                                     <td>
-                                          *&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
+                                          <label style="font-size:50px">.</label>&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
                                           &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
                                     </td>
                               </tr>
                               <tr>
-                                    <td><br>*&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
+                                    <td><br><label style="font-size:50px">.</label>&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
                               </tr>
                               <tr>
                                     <td>
                                           <br>
-                                          *&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de<br>
-                                          &nbsp;&nbsp;&nbsp;&nbsp;nuestros asesores especializados
+                                          <label style="font-size:50px">.</label>&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno 
+                                          <br>&nbsp;&nbsp;&nbsp;&nbsp;de nuestros asesores especializados
+                                          
                                     </td>
                               </tr>
                         </table>

@@ -39,7 +39,12 @@
                                             $contenido =    substr($contenido,0,99);
                                         @endphp
                                         {{  $contenido  }}&nbsp;&nbsp;...
-                                        <br>
+                                        <br><br>
+                                        <a href="/blog/show/{{$v->id}}"
+                                            type="button" 
+                                            style=" border-radius: 30px; background: #17BA9C;
+                                                    color:white;border: 0px;padding-left:10px;
+                                                    padding-right: 10px;padding-top: 3px;padding-bottom: 3px;"  >Ver más</a>
                             </small></p>
                     </div>
                 </div>
@@ -47,7 +52,7 @@
                 <div class="tarjeta_blog2">
                     <div class="blog_izq">
                         <div class="fecha_blog">
-                            <small class="text-muted">
+                            <small class="text-muted" style="text-transform: uppercase">
                                 {{ $cur_date2 = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $v->created_at)->translatedFormat('d F Y'); }} 
                             </small>
                         </div>
@@ -70,6 +75,12 @@
                                         @endphp
                                         {{  $contenido  }}&nbsp;&nbsp;...
                                         <br>
+                                        <br>
+                                        <a href="/blog/show/{{$v->id}}"
+                                            type="button" 
+                                            style=" border-radius: 30px; background: #17BA9C;
+                                                    color:white;border: 0px;padding-left:10px;
+                                                    padding-right: 10px;padding-top: 3px;padding-bottom: 3px;"  >Ver más</a>
                             </small></p>
                         </div>
 
@@ -86,7 +97,12 @@
                     En estos momentos no hay blogs para mostrar
                 </div>
             @endforelse
-            {{ $blogs->links() }}
+            <div style="align-items: left;display: flex;flex-direction: row;align-items: left;justify-content: left;margin-top:20px;">
+                <div class="pag" >
+                    {{ $blogs->links() }}
+                </div>
+                
+            </div>
 
             
         </div>
