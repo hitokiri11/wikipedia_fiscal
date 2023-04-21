@@ -40,6 +40,7 @@ que entienda los nuevos modelos de negocio.
         <div class="titulo_section2">
             ¿Para quién es Liberfy?
         </div>
+        <br>
         <div class="sub_titulo_sction2">
         Para ti que necesitas un experto en fiscalidad 
 que entienda los nuevos modelos de negocio.

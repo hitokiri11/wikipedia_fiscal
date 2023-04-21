@@ -104,7 +104,7 @@
 
     window.onscroll = function() {
         console.log("Vertical: " + window.scrollY);
-        if(window.scrollY == 1400) { 
+        if(window.scrollY >= 1400 && window.scrollY <= 1500) { 
          
                     let cant_clientes   = 0
                     let ctas_impactadas = 0 
@@ -112,7 +112,6 @@
                     let pro_team        = 0 
                     let seguidores      = 0  
 
-                    
                     let interval_cliente = setInterval(() => { 
                             cant_clientes++ 
                             document.getElementById("cant_clientes").innerHTML = '+'+cant_clientes 
