@@ -46,7 +46,7 @@
 </section>
 
 <script> 
-    
+
     if(screen.width >= 769) { 
         document.getElementById("video").autoplay=false
         document.getElementById("video_lg").autoplay=true 
