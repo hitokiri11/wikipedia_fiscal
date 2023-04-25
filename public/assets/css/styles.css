@@ -1481,20 +1481,28 @@ html {
         line-height: 36px;
         color: #232323;
         text-align: left;
-        margin-top: 7%;
-        width: 90%;
-        margin-left: auto;
+        margin-top: 8%;
+        width: 95%;
+        margin-left: 23px;
         margin-right: auto;
+    } 
+    .bold_titulo_team {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 42px;
+        color: #232323;
     }
     .parrafo_team_titulo {
-        margin-top: 10%;
-        width: 90%;
-        text-align: left;
-        margin-left: auto;
+        margin-top: 50px;
+        width: 95%;
+        text-align:  left;
+        margin-left: 23px;
         margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 18px;
         line-height: 30px;
         color: #232323;
@@ -1711,6 +1719,11 @@ html {
             font-size: 18px;
             line-height: 31px;
             mix-blend-mode: luminosity;
+        } 
+        .parrafo_team_italic {
+            font-weight: 400;
+            font-style: italic;
+            color: #232323;
         }
         .parrafo_team_2 {
             margin-top: 5%;
@@ -2751,7 +2764,7 @@ html {
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
-    }
+    } 
 
 }
 

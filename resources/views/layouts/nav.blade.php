@@ -117,13 +117,99 @@
                         document.getElementById('barra-cliente').style.display = 'block';
                     }
 
-    } else {
+    } else { 
+
+
+
+                    if(URLactual[3] == '') {
                         document.getElementById('barra-equipo').style.display = 'none';
                         document.getElementById('barra-servicios').style.display = 'none';
                         document.getElementById('barra-blog').style.display = 'none';
                         document.getElementById('barra-contacto').style.display = 'none';
                         document.getElementById('barra-dudas').style.display = 'none';
                         document.getElementById('barra-cliente').style.display = 'none';
+                    }
+                    
+                    if(URLactual[3] == 'equipo') {
+                        document.getElementById('barra-equipo').style.display = 'block';
+                        document.getElementById('barra-equipo').style.width = '24%';
+                        document.getElementById('barra-equipo').style.marginLeft = 'auto';
+                        document.getElementById('barra-equipo').style.marginRight = 'auto';
+
+                        document.getElementById('barra-servicios').style.display = 'none';
+                        document.getElementById('barra-blog').style.display = 'none';
+                        document.getElementById('barra-contacto').style.display = 'none';
+                        document.getElementById('barra-dudas').style.display = 'none';
+                        document.getElementById('barra-cliente').style.display = 'none';
+
+                    } 
+                    if(URLactual[3] === 'servicios') {
+                        document.getElementById('barra-equipo').style.display = 'none';
+                        document.getElementById('barra-servicios').style.display = 'block';
+                        document.getElementById('barra-servicios').style.width = '26%';
+                        document.getElementById('barra-servicios').style.marginLeft = 'auto';
+                        document.getElementById('barra-servicios').style.marginRight = 'auto';
+
+                        document.getElementById('barra-blog').style.display = 'none';
+                        document.getElementById('barra-contacto').style.display = 'none';
+                        document.getElementById('barra-dudas').style.display = 'none';
+                        document.getElementById('barra-cliente').style.display = 'none';
+                    }
+                    if(URLactual[3] === 'blog') {
+                        document.getElementById('barra-equipo').style.display = 'none';
+                        document.getElementById('barra-servicios').style.display = 'none';
+                        document.getElementById('barra-blog').style.display = 'block';
+                        document.getElementById('barra-blog').style.width = '18%';
+                        document.getElementById('barra-blog').style.marginLeft = 'auto';
+                        document.getElementById('barra-blog').style.marginRight = 'auto';
+
+
+                        document.getElementById('barra-contacto').style.display = 'none';
+                        document.getElementById('barra-dudas').style.display = 'none';
+                        document.getElementById('barra-cliente').style.display = 'none';
+                    }
+                    if(URLactual[3] === 'contacto') {
+                        document.getElementById('barra-equipo').style.display = 'none';
+                        document.getElementById('barra-servicios').style.display = 'none';
+                        document.getElementById('barra-blog').style.display = 'none';
+                        document.getElementById('barra-contacto').style.display = 'block';
+                        document.getElementById('barra-contacto').style.width = '30%';
+                        document.getElementById('barra-contacto').style.marginLeft = 'auto';
+                        document.getElementById('barra-contacto').style.marginRight = 'auto';
+
+
+
+                        document.getElementById('barra-dudas').style.display = 'none';
+                        document.getElementById('barra-cliente').style.display = 'none';
+                    }
+                    if(URLactual[3] === 'dudas') {
+                        document.getElementById('barra-equipo').style.display = 'none';
+                        document.getElementById('barra-servicios').style.display = 'none';
+                        document.getElementById('barra-blog').style.display = 'none';
+                        document.getElementById('barra-contacto').style.display = 'none';
+                        document.getElementById('barra-dudas').style.display = 'block'; 
+                        document.getElementById('barra-dudas').style.width = '26%';
+                        document.getElementById('barra-dudas').style.marginLeft = 'auto';
+                        document.getElementById('barra-dudas').style.marginRight = 'auto';
+
+
+                        document.getElementById('barra-cliente').style.display = 'none';
+                    }
+                    if(URLactual[3] === 'cliente') {
+                        document.getElementById('barra-equipo').style.display = 'none';
+                        document.getElementById('barra-servicios').style.display = 'none';
+                        document.getElementById('barra-blog').style.display = 'none';
+                        document.getElementById('barra-contacto').style.display = 'none';
+                        document.getElementById('barra-dudas').style.display = 'none';
+                        document.getElementById('barra-cliente').style.display = 'block';
+                        document.getElementById('barra-cliente').style.width = '40%';
+                        document.getElementById('barra-cliente').style.marginLeft = 'auto';
+                        document.getElementById('barra-cliente').style.marginRight = 'auto';
+
+                    } 
+
+
+
     }
 
 </script>
