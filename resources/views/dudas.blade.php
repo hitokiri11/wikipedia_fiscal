@@ -2,16 +2,16 @@
 @section('content')
     <section >
     
-        <div class="titulo_dudas">
+        <div class="titulo_dudas" data-aos="fade-down-right" >
             Preguntas Frecuentes
         </div>
-        <div class="parrafoDudas">
+        <div class="parrafoDudas" data-aos="fade-down-right">
             Si tienes alguna otra duda, escribenos 
             en <b>nuestro chat o por Whatsapp</b> y la 
             resolveremos en seguida
         </div>        
 
-        <div class="acordeon_dudas">
+        <div class="acordeon_dudas" data-aos="fade-down-left">
             <details >
                 <summary class="summary">
                     {{-- <img src="{{asset('assets/img/dudas/arrow.png')}}" class="img_arrow"/> --}}

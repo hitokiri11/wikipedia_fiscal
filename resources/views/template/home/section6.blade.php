@@ -3,7 +3,7 @@
         <div class="tit_liberfy">
             ¿Cómo te ahorra tiempo Liberfy?
         </div>
-        <div class="cont_tarjetas">
+        <div class="cont_tarjetas" data-aos="zoom-out" >
             <div class="tarjeta_black">
                     <img src="assets/img/home/email_.png" class='icon_email'/> 
                     <div class="titulo_tarjeta">
@@ -14,7 +14,7 @@
                     </div>
             </div>
 
-            <div class="tarjeta_black2">
+            <div class="tarjeta_black2" data-aos="zoom-out"  >
                     <img src="assets/img/home/email_.png" class='icon_email'/> 
                     <div class="titulo_tarjeta">
                         Con Liberfy

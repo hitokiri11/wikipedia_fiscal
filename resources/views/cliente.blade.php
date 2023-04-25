@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="prop_card" id="prop_card"> 
+        <div class="prop_card" id="prop_card" data-aos="fade-down" > 
             <form method="POST" action="{{ route('cliente') }}" id="form_cliente" name="form_cliente">
        
                 @csrf 

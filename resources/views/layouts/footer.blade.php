@@ -1,4 +1,5 @@
-<footer class="footer">
+<footer class="footer" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" >
     <div class="cont_footer"> 
         <hr class="div_footer">
 

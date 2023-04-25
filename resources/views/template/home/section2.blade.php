@@ -12,7 +12,7 @@
 que entienda los nuevos modelos de negocio.
         </div>
 
-        <div style="position: relative; left: 0; top: 0;">
+        <div style="position: relative; left: 0; top: 0; margin-top:12px">
                 <img src="assets/img/home/img_1.svg" class='eye' />
                 <img src="assets/img/home/img_3.png" class="heaven" />
         </div>
@@ -23,7 +23,7 @@ que entienda los nuevos modelos de negocio.
         Infoproductores, dueños de E-commerce, Influencer, eGamers y creadores de contenido de todos los estilos.
         </div> 
 
-        <div style="margin-top:12%;">
+        <div style="margin-top:50px;">
             <img src="assets/img/home/img_2.svg" class='eye'   />
             <img src="assets/img/home/img_3.png" class="heaven" />
         </div>
@@ -46,7 +46,7 @@ que entienda los nuevos modelos de negocio.
 que entienda los nuevos modelos de negocio.
         </div>
                 <div class="cont_eyes">
-                    <div class="parte_izquierda_section2">
+                    <div class="parte_izquierda_section2"   data-aos="fade-right">
                         <div style="position: relative; left: 0; top: 0;">
                                 <img src="assets/img/home/img_1.svg" class='eye' />
                                 <img src="assets/img/home/img_3.png" class="heaven" />
@@ -59,7 +59,7 @@ que entienda los nuevos modelos de negocio.
                         </div> 
                     </div>
 
-                    <div class="parte_derecha_section2">
+                    <div class="parte_derecha_section2"  data-aos="fade-left">
                         <div style="position: relative; left: 0; top: 0;" >
                             <img src="assets/img/home/img_2.svg" class='eye'   />
                             <img src="assets/img/home/img_3.png" class="heaven" />

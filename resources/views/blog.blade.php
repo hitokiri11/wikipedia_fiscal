@@ -1,18 +1,20 @@
 @extends('template.main')
 @section('content')
-<section>
-    <div class="fondo_blog">
+<section class="fondo_tab2" >
+    <div class="fondo_blog" >
             <img src="assets/img/blog/banner_responsive_blog.png"  class="banner_responsive_blog" alt="..."> 
             <img src="assets/img/blog/banner_blog.png"  class="banner_blog" alt="..."> 
             
-            <div class="titulo_blog_t">
+            <div class="titulo_blog_t" data-aos="fade-up"
+     data-aos-duration="3000">
                 Blog
             </div>
-            <div class="titulo_noticia">
+            <div class="titulo_noticia" data-aos="fade-up"
+     data-aos-duration="3000">
                 Noticias
             </div>
             @forelse($blogs as $k => $v) 
-                <div class="tarjeta_blog">
+                <div class="tarjeta_blog"  >
                     <div class="img_tarjeta">
                             <img src="{{asset('upload_img_blog/'.$v->img)}}" class="img_tarjeta" alt="...">
                     </div>
@@ -49,7 +51,7 @@
                     </div>
                 </div>
 
-                <div class="tarjeta_blog2">
+                <div class="tarjeta_blog2" data-aos="fade-right">
                     <div class="blog_izq">
                         <div class="fecha_blog">
                             <small class="text-muted" style="text-transform: uppercase">

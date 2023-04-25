@@ -12,7 +12,7 @@
             que <label class="bold_titulo_team">sí te entiende</label>
         </div>
 
-        <div class="parrafo_team_titulo">
+        <div class="parrafo_team_titulo" data-aos="fade-up">
             <label style="font-weight: 600;">Nuestro equipo</label> es el aliado que necesitas para delegar los trámites contables y la fiscalidad de tu empresa.
             <br><br>
             Fusionamos tecnología y atención personalizada, para que tengas el control de los números de manera simple y en tiempo real.
@@ -21,7 +21,7 @@
             <label class="parrafo_team_italic">tus ingresos, egresos e impuestos</label>
         </div>
 
-            <div class="carrusel_responsive">
+            <div class="carrusel_responsive"  >
                     <div class="slide">
                           <div class="slide-inner">
                               <input class="slide-open" type="radio" id="slide-1" 
@@ -61,7 +61,7 @@
                       </div>
             </div> 
 
-            <div class="carrusel_desktop">
+            <div class="carrusel_desktop" data-aos="fade-left"  >
                 <div class="contenedor-principal">
 				          
 
@@ -115,7 +115,7 @@
 
             <div class="img_team">
         
-                    <div class="img_team_1"> 
+                    <div class="img_team_1" data-aos="flip-left"> 
                             <div class="capa_tarjeta">
                                 <img src="assets/img/team/card1.svg" class="dimension_img">
                                 <div class="desc_nombre_fund">
@@ -132,7 +132,7 @@
                         <div class="name_team_1">Miguel Sierra</div> --}}
                     </div> 
 
-                    <div class="img_team_1">
+                    <div class="img_team_1" data-aos="flip-up">
                             <div class="capa_tarjeta">
                                 <img src="assets/img/team/card2.svg" class="dimension_img">
                                 <div class="desc_nombre_fund">
@@ -149,7 +149,7 @@
                         <div class="name_team_1">César Rivero</div> --}}
                     </div> 
 
-                    <div class="img_team_1">
+                    <div class="img_team_1" data-aos="flip-right">
                         <div class="capa_tarjeta">
                             <img src="assets/img/team/card3.svg" class="dimension_img">
                             <div class="desc_nombre_fund">
@@ -196,10 +196,11 @@
             </table>
       </div>
 
-      <div class="titulo_empresarial">
+      <div class="titulo_empresarial" >
           El grupo Empresarial
       </div>
-      <div class="parrafo_empresarial">
+      <div class="parrafo_empresarial" data-aos="fade-up"
+     data-aos-duration="3000" >
             Liberfy forma parte de un grupo compuesto por cuatro empresas y cada una de ellas desarrolla con 
             éxito uno o varios de los modelos de negocio para los que fueron creados nuestros servicios.
             <br><br>
@@ -353,7 +354,8 @@
       <div class="carrusel_desktop2">
 
             {{-- PRIMERA FILA --}}
-            <div class="row_img1">
+            <div class="row_img1" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" >
 
                 <div class="capa_tarjeta">
                     <img src="assets/img/team/integrantes/integrante3.svg" class="width_img2">
@@ -368,7 +370,7 @@
                     </div> 
                 </div>
 
-                <div class="capa_tarjeta">
+                <div class="capa_tarjeta"  >
                     <img src="assets/img/team/integrantes/integrante1.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
@@ -381,7 +383,7 @@
                     </div> 
                 </div>
 
-                <div class="capa_tarjeta">
+                <div class="capa_tarjeta"  >
                     <img src="assets/img/team/integrantes/integrante2.svg" class="width_img2">
                     <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
@@ -397,7 +399,8 @@
             </div>
 
             {{-- SEGUNDA FILA --}}
-            <div class="row_img2">
+            <div class="row_img2" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" >
                 <div class="capa_tarjeta">
                     <img src="assets/img/team/integrantes/integrante4.svg" class="width_img2">
                     <div class="desc_nombre">
@@ -439,7 +442,8 @@
             </div>
 
             {{-- TERCERA FILA --}}
-            <div class="row_img3">
+            <div class="row_img3" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
                 <div class="capa_tarjeta">
                     <img src="assets/img/team/integrantes/integrante7.svg" class="width_img2">
                     <div class="desc_nombre">
@@ -481,7 +485,8 @@
             </div>
 
             {{-- CUARTA FILA --}}
-            <div class="row_img4">
+            <div class="row_img4" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
                 <div class="capa_tarjeta">
                     <img src="assets/img/team/integrantes/integrante10.svg" class="width_img2">
                     <div class="desc_nombre">

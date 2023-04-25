@@ -5,14 +5,14 @@
     <img src="{{asset('assets/img/servicios/responsive_servicios.png')}}"   class="responsive_servicio" alt="..."> 
 
     <div class="fondo_tab">
-                <div class="titulo_banner" id="titulo_banner">
+                <div class="titulo_banner" id="titulo_banner" data-aos="fade-up">
                     Autónomos y pymes
                 </div>
-                <div class="titulo_banner_green" id="titulo_banner_green">
+                <div class="titulo_banner_green" id="titulo_banner_green" data-aos="fade-up">
                     100% protegidos
                 </div>
 
-                <div class="tab" >
+                <div class="tab" data-aos="fade-down">
                     <button class="tablinks" onclick="openCity(event, '1')" id="boton1">
                         <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_1"  class="tab_img" alt="...">
                         <img src="{{asset('assets/img/servicios/email_opa.svg')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
@@ -26,7 +26,7 @@
                     </button>
                 </div> 
 
-                <div id="1" class="tabcontent">
+                <div id="1" class="tabcontent" data-aos="fade-right">
                         <div class="titulo_tab">Área Contable</div>
 
                         <div class="lista_tab">
@@ -117,7 +117,7 @@
      <div class="titulo_supervisar">
         Tu trabajo será supervisar y dar el consentimiento.
     </div>
-    <div class="area_suscripcion">
+    <div class="area_suscripcion" data-aos="flip-left">
         <div class="titulo_suscripcion">
             Suscripción Mensual  <small class="small_sucripcion">a Liberfy:</small>
         </div>
@@ -168,7 +168,8 @@
     </div>
 
 
-    <div class="fondo_tab2">
+        <div class="fondo_tab2" data-aos="fade-up"
+        data-aos-duration="3000">
         <div class="sumando_serv">
             Adicionalmente podrás ir sumando servicios de forma puntual
         </div>

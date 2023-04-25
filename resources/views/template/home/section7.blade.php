@@ -1,5 +1,5 @@
 <section>
-    <div class="fondoReview2">
+    <div class="fondoReview2" data-aos="zoom-in-right">
         <img  src="assets/img/home/integridad2.svg"   class="imagenIntegridad"/>
 
         <div class="contenedor_img7">

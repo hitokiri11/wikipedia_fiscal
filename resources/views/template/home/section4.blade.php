@@ -3,7 +3,7 @@
             <div class="titulo_asesoria">
             Mira... ¡así de fácil!
             </div>
-            <div class="stack_botones">
+            <div class="stack_botones" data-aos="fade-down" >
                 
                 <div class="tarjeta_botones">
                         <img src="assets/img/home/Group30.png" />
@@ -70,7 +70,7 @@
             <div class="titulo_cliente">
                 Nuestros Clientes
             </div> 
-            <div class="stack_clientes">
+            <div class="stack_clientes" data-aos="zoom-in">
                     <img src="assets/img/home/clientes/rentaya.png" class="img_clientes" />
                     <img src="assets/img/home/clientes/voflip.jpg" class="img_clientes" />
                     <img src="assets/img/home/clientes/escribelo.jpg" class="img_clientes" />

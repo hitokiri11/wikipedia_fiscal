@@ -8,8 +8,8 @@
         </div> 
 
         <div class="tarjetas">
-            <div class="card">
-                    <div class="calificacionesReviews">
+            <div class="card" data-aos="zoom-in-right">
+                    <div class="calificacionesReviews" >
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
@@ -31,7 +31,7 @@
                     </div>
             </div>
 
-            <div class="card">
+            <div class="card"  data-aos="zoom-in-down">
                     <div class="calificacionesReviews">
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
@@ -55,8 +55,8 @@
             </div> 
 
 
-            <div class="card">
-                    <div class="calificacionesReviews"> 
+            <div class="card" data-aos="zoom-in-left">
+                    <div class="calificacionesReviews"  > 
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
                         <img src="{{asset('assets/img/home/Frame.png')}}" width="33" style="margin-bottom: -2px;"/>
