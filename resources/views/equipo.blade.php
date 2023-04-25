@@ -63,8 +63,7 @@
 
             <div class="carrusel_desktop" data-aos="fade-left"  >
                 <div class="contenedor-principal">
-				          
-
+			
                         <div class="contenedor-carousel">
                           <div class="carousel">
                                 <div class="pelicula">
