@@ -2,7 +2,7 @@
 
     <div class="section2_responsive"> 
         <div class="divisor_section2">
-            <hr class="divisor">    
+            <div class="divisor">  </div>
         </div>
         <div class="titulo_section2">
         ¿Para quién es Liberfy?
@@ -12,7 +12,7 @@
 que entienda los nuevos modelos de negocio.
         </div>
 
-        <div style="position: relative; left: 0; top: 0; margin-top:12px">
+        <div style="position: relative; left: 0; top: 0; margin-top:12px" class="cont_liber">
                 <img src="assets/img/home/img_1.svg" class='eye' />
                 <img src="assets/img/home/img_3.png" class="heaven" />
         </div>
@@ -23,7 +23,7 @@ que entienda los nuevos modelos de negocio.
         Infoproductores, dueños de E-commerce, Influencer, eGamers y creadores de contenido de todos los estilos.
         </div> 
 
-        <div style="margin-top:50px;">
+        <div style="margin-top:50px;" class="cont_liber">
             <img src="assets/img/home/img_2.svg" class='eye'   />
             <img src="assets/img/home/img_3.png" class="heaven" />
         </div>

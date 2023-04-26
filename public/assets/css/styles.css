@@ -301,7 +301,7 @@ html {
      .section2_desktop {
         display: none;
      }
-     .divisor_section2{
+     .divisor_section2{ 
         margin-top: 10%;
         margin-bottom: 10%;
      }
@@ -2334,6 +2334,8 @@ html {
         float: left;
         padding-left: 10%;
     }
+
+
     .opciones_section2{
         width: 82%;
         margin-left: 5%;
@@ -2608,7 +2610,7 @@ html {
      } 
 
      .eye {
-        width: 65%;
+        width: 75%;
         margin-left: -26%;
         z-index: 1;
         border-radius: 21px;
@@ -2621,6 +2623,10 @@ html {
         margin-left: 2%;
         z-index: -1;
         position: relative;
+     } 
+     .cont_liber {
+        width: 270px;
+        margin-left: 8%;
      }
 
      .titulo_negocio_resp {
@@ -2631,8 +2637,11 @@ html {
         line-height: 46px;
         letter-spacing: 0.005em;
         color: #000000;
-        mix-blend-mode: luminosity; 
-        margin-left: -90px;
+        mix-blend-mode: luminosity;  
+        margin-top: 10px;
+        width:270px;
+        margin-left: 3%;
+   
      } 
 
      .parr_negocio_resp { 
@@ -2704,30 +2713,31 @@ html {
     } 
 
     .punto_content {
-        margin-left: 10%;
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -7%;
+        margin-top: 26px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 196.7%;
-        color: #000000;
+        line-height: 176.7%;
+        color: #000000; 
+        margin-left:  5px;
     } 
 
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+        /* margin-left: 10%; */
+        width: 90%;
         text-align: left;
-        margin-top: 2%;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
         line-height: 171.38%;
-        color: #232323;
+        color: #232323; 
+        margin-left: 8px;
     }
  
     .punto_sus {
@@ -2768,11 +2778,21 @@ html {
     } 
     .tit_ocult {
         display: none;
+    }  
+    .lista_tab_sus {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-left: 20px;
     }
 
 }
 
-@media (min-width: 300px) {
+@media (min-width: 300px) { 
+    .cont_liber {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .boton_sectioon {
         margin-top: 8%; 
         width: 280px;
@@ -2831,7 +2851,7 @@ html {
         line-height: 20px;
         color: #232323;
         float: left;
-        padding-left: 10%;
+        padding-left: 12%;
     }
     .hrEstadisticas {
         margin-top: 4%;
@@ -2871,13 +2891,13 @@ html {
         margin-top: 31px;
     }
     .video {
-        width: 90%;
+        width: 82%;
         margin-top: 8%;
         margin-left: 0px; 
         border-radius: 16px;
     } 
     .boton_section1 {
-        margin-top: 200px;
+        margin-top: 230px;
     } 
 
     .boton_llamada_ {
@@ -2890,13 +2910,13 @@ html {
     } 
 
     .divisor_section2{
-        margin-top: 10%;
+        margin-top: 60px;
         margin-bottom: 10%;
         margin-left: 0px;
      } 
 
      .sub_titulo_sction2 {
-        margin-top: 3%;
+        margin-top: 20px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -2919,7 +2939,9 @@ html {
         letter-spacing: 0.005em;
         color: #000000;
         mix-blend-mode: luminosity; 
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
      } 
 
      .eye {
@@ -2931,16 +2953,16 @@ html {
         margin-top: 20px;
      }
      .heaven {
-        width: 70%;
-        margin-top: -40%;
-        margin-left: 22%;
+        width: 80%;
+        margin-top: -60%;
+        margin-left: 12%;
         z-index: -1;
         position: relative;
      }
 
 
      .parr_negocio_resp { 
-        width: 90%;
+        width: 80%;
         margin: auto;
         font-family: 'Poppins';
         font-style: normal;
@@ -2950,7 +2972,6 @@ html {
         text-align: center;
         color: #000000;
         mix-blend-mode: luminosity;
-        margin-left: 10px;
      } 
 
      .numEstadisticas {
@@ -3110,8 +3131,69 @@ html {
         text-align: center;
         margin-left: 4%; 
         width: 100%;
+    }  
+    .opciones_section1{
+        width: 82%;
+        margin-left: 5%;
+        margin-top: 30px;
+        float: left;
+    }
+    .espacio_section1 {
+        margin-top: 40px;
+    }
+    .opciones_section2{
+        width: 82%;
+        margin-left: 5%;
+        margin-top: 20px;
+        float: left;
     } 
+
+    .titulo_team {
+        margin-left: 20px;
+        width: 280px;
+    } 
+    .parrafo_team_titulo {
+        margin-top: 50px;
+        width: 90%;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #232323;
+        
+    } 
+
+    .titulo_supervisar {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 118.2%;
+        text-align: center;
+        color: #000000;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    } 
+    .lista_tab {
+        margin-top: 3%;
+        margin-left: 12px;
+    }
 }
+
+@media (min-width: 338px) { 
+    .titulo_supervisar {
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+}
+
 
 @media (min-width: 360px) { 
     .lista_contatos {
@@ -3294,6 +3376,11 @@ html {
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
+    } 
+
+    .titulo_supervisar {
+        margin-top: 3px;
+        margin-bottom: 50px;
     }
     
 }
@@ -3318,30 +3405,31 @@ html {
        /*  color: rgba(0, 0, 0, 0.26); */
     } 
     .punto_content {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -6%;
+        margin-top: 8%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
-        line-height: 196.7%;
+        line-height: 136.7%;
         color: #000000;
     } 
 
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+       /*  margin-left: 10%; */
+        width: 98%;
         text-align: left;
-        margin-top: 2%;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
         line-height: 171.38%;
         color: #232323;
+        margin-left: 5px;
     }
  
     .punto_sus {
@@ -3356,6 +3444,21 @@ html {
         margin-top: 5%;
     }
 }
+
+@media (min-width: 370px) {
+    .titulo_supervisar {
+        margin-top: 2px;
+        margin-bottom: 50px;
+    }
+}
+ 
+@media (min-width: 385px) {
+    .titulo_supervisar {
+        margin-top: 2px;
+        margin-bottom: 50px;
+    }
+}
+
 
 @media (min-width: 412px) {
     .icon {
@@ -3430,7 +3533,11 @@ html {
 
 }
 
-@media (min-width: 414px) { 
+@media (min-width: 414px) {  
+    .lista_tab {
+        margin-top: 3%;
+        margin-left: 12px;
+    }
     .lista_contatos {
         margin-top: 15%;
         width: 100%;
@@ -3497,7 +3604,7 @@ html {
 
     .opcion1_section1 {
         text-align: left;
-        width: 95%;
+        width: 90%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -3505,16 +3612,22 @@ html {
         line-height: 20px;
         color: #232323;
         float: right;
-        padding-left: 30px;
+        padding-left: 15px;
+    } 
+    .opciones_section1{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+        float: left;
     }
     .opciones_section2{
-        width: 82%;
+        width: 90%;
         margin-left: 5%;
-        margin-top: 1%;
+        margin-top: 20px;
         float: left;
     }
     .boton_section1 {
-        margin-top: 45%;
+        margin-top: 170px;
     }
     .tarjeta_black {
         margin-top: 5%;
@@ -3608,17 +3721,32 @@ html {
       
     } 
 
-    .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+    .punto_content {
+        margin-left: 2px;
+        float: left;
+        width: 100%;
         text-align: left;
-        margin-top: 1%;
+        margin-top: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 176.7%;
+        color: #000000;
+    }
+
+    .punto_content_sus {
+       /*  margin-left: 10%; */
+        width: 98%;
+        text-align: left;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
         line-height: 171.38%;
         color: #232323;
+        margin-left: 5px;
     }
  
     .punto_sus {
@@ -3631,6 +3759,65 @@ html {
         float: left;
         margin-left: 5%;
         margin-top: 4%;
+    } 
+
+    .parr_negocio_resp { 
+        width: 354px;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+        mix-blend-mode: luminosity;
+     } 
+     .cont_liber {
+        width: 354px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    
+     .sub_titulo_sction2 {
+        margin-top: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 28px;
+        display: flex;
+        text-align: left;
+        color: #232323;
+        width: 354px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+     }  
+
+     .titulo_section2 { 
+        width: 86%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.3rem;
+        line-height: 122%;
+        color: #262626;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+     } 
+
+     .titulo_supervisar {
+        margin-top: 1px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 425px) {
+    .titulo_supervisar {
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
 }
 
@@ -3739,11 +3926,11 @@ html {
     } 
 
     .punto_content {
-        margin-left: 10%;
+       /*  margin-left: 10%; */
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -4%;
+        margin-top: 6%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -3775,8 +3962,18 @@ html {
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
+    } 
+    
+    
+} 
+
+@media (min-width: 497px) {
+    .titulo_supervisar {
+        margin-top: -10px;
+        margin-bottom: 50px;
     }
 }
+
 
 @media (min-width: 540px) {
     .icon {
@@ -3891,6 +4088,24 @@ html {
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
+    } 
+    .punto_content {
+        /*  margin-left: 10%; */
+         float: left;
+         width: 88%;
+         text-align: left;
+         margin-top:24px;
+         font-family: 'Poppins';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 18px;
+         line-height: 196.7%;
+         color: #000000;
+     } 
+
+     .lista_tab {
+        margin-top: 3%;
+        margin-left: 20px;
     }
 }
 
@@ -3920,11 +4135,11 @@ html {
     .opciones_section2{
         width: 82%;
         margin-left: 5%;
-        margin-top: -4%;
+        margin-top: 30px;
         float: left;
     }
     .boton_section1 {
-        margin-top: 30%;
+        margin-top: 180px;
     }
 
     .desc_nombre_fund {
@@ -3993,7 +4208,7 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 510px;
+        margin-top: -10px;
     }
 }
 
@@ -4016,7 +4231,7 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 470px;
+        margin-top: -10px;
     } 
 
     .punto2 {
@@ -4130,9 +4345,29 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 440px;
+        margin-top: -10px;
+    } 
+    
+    .punto_content {
+        /*  margin-left: 10%; */
+         float: left;
+         width: 88%;
+         text-align: left;
+         margin-top:24px;
+         font-family: 'Poppins';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 18px;
+         line-height: 196.7%;
+         color: #000000;
+     } 
+
+     .lista_tab {
+        margin-top: 3%;
+        margin-left: 30px;
     }
 }
+
 @media (min-width: 736px) {
     .titulo_supervisar {
         font-family: 'Poppins';
@@ -4145,7 +4380,7 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 410px;
+        margin-top: -10px;
     }
 }
 
@@ -5616,8 +5851,8 @@ html {
     }
    
     .tab_img {
-        width: 30%;
-        height: auto; 
+        width: 67px;
+        height: 67px; 
         margin-left: auto;
         margin-right: auto;
     }
@@ -5665,13 +5900,14 @@ html {
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 195.7%;
         color: #000000;
+        margin-left:  5px;
     }
     .titulo_supervisar {
         font-family: 'Poppins';
@@ -5684,7 +5920,7 @@ html {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 450px;
+        margin-top: -10px;
     }
     .area_suscripcion {
         width: 90%;
@@ -5799,8 +6035,8 @@ html {
         color: #000000;
     }
     .tab_img2 {
-        width: 50%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
 
     .titulo_tab_tab2 { 
@@ -7646,8 +7882,8 @@ html {
     }
    
     .tab_img {
-        width: 30%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
     .titulo_tab { 
         display: none;
@@ -7693,7 +7929,7 @@ html {
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 18px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -7701,6 +7937,7 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
+        margin-left: 5px;
     }
     .titulo_supervisar {
         font-family: 'Poppins';
@@ -7713,7 +7950,7 @@ html {
         width: 700px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 500px;
+        margin-top: -30px;
     }
     .area_suscripcion {
         width: 90%;
@@ -7828,8 +8065,8 @@ html {
         color: #000000;
     }
     .tab_img2 {
-        width: 50%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
 
     .titulo_tab_tab2 {
@@ -9929,8 +10166,8 @@ html {
     }
    
     .tab_img {
-        width: 20%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
     .titulo_tab { 
         display: none;
@@ -9956,6 +10193,7 @@ html {
     }
     .lista_tab {
         margin-top: 3%;
+        margin-left: 50px;
     }
     .item_tab {
         margin-top: 5%;
@@ -9976,7 +10214,7 @@ html {
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 12px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -9984,6 +10222,7 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
+        margin-left: 5px;
     }
     .titulo_supervisar {
         font-family: 'Poppins';
@@ -9996,7 +10235,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 280px;
+        margin-top: -70px;
     }
     .area_suscripcion {
         width: 90%;
@@ -10112,8 +10351,8 @@ html {
         color: #000000;
     }
     .tab_img2 {
-        width: 30%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
 
     .titulo_tab_tab2 {
@@ -10523,7 +10762,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 280px;
+        margin-top: -80px;
     } 
 
     .desc_nombre_fund {
@@ -11756,8 +11995,8 @@ html {
     }
    
     .tab_img {
-        width: 20%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
     .titulo_tab { 
         display: none;
@@ -11783,6 +12022,7 @@ html {
     }
     .lista_tab {
         margin-top: 3%;
+        margin-left: 50px;
     }
     .item_tab {
         margin-top: 5%;
@@ -11803,7 +12043,7 @@ html {
         float: left;
         width: 88%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 10px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -11811,6 +12051,7 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
+        margin-left: 5px;
     }
     .titulo_supervisar {
         font-family: 'Poppins';
@@ -11823,7 +12064,7 @@ html {
         width: 776px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 270px;
+        margin-top: -100px;
     }
     .area_suscripcion {
         width: 90%;
@@ -11939,8 +12180,8 @@ html {
         color: #000000;
     }
     .tab_img2 {
-        width: 30%;
-        height: auto;
+        width: 67px;
+        height: 67px;
     }
 
     .titulo_tab_tab2 {
@@ -12632,6 +12873,10 @@ html {
             gap: 8px;
             padding-left: 20%;
             padding-right: 14%;
+        } 
+        .lista_tab {
+            margin-top: 3%;
+            margin-left: 70px;
         }
     }
 
@@ -12825,7 +13070,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 270px;
+            margin-top: -100px;
         }
     }
 
@@ -13006,7 +13251,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 270px;
+            margin-top: -120px;
         } 
 
         .desc_nombre_fund {
@@ -13112,7 +13357,12 @@ html {
         .boton_section1 {
             margin-top: 155px;
             margin-left: -6%;
-        } 
+        }  
+
+        .lista_tab {
+            margin-top: 3%;
+            margin-left: 90px;
+        }
     } 
 
 
@@ -13314,7 +13564,7 @@ html {
             width: 776px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 270px;
+            margin-top: -150px;
         } 
 
         .desc_nombre_fund {

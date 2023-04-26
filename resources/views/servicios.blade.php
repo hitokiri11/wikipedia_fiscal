@@ -33,82 +33,138 @@
                 <div id="1" class="tabcontent" data-aos="fade-right">
                         <div class="titulo_tab">Área Contable</div>
 
-                        <div class="lista_tab">
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Nos encargamos de la contabilidad de autónomos y sociedades para que no pierdas tiempo y tengas las cuentas claras.
-                            </div>
-                            
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Elaboramos y legalizamos tus libros contables.
-                            </div>
-    
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Presentamos por ti las cuentas anuales de tu negocio en el Registro Mercantil.
-                            </div>
+                        <div class="lista_tab"> 
+                            <table> 
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px;">.</label></td>
+                                            <td >
+                                                <div class="punto_content">
+                                                Nos encargamos de la contabilidad de autónomos y sociedades para que no pierdas tiempo y tengas las cuentas claras.
+                                                </div>
+                                            </td>
+                                </tr>
+                                <tr>
 
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Emitimos los balances, los diarios y las cuentas de resultados.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Confeccionamos cuadros de amortización.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Hacemos un seguimiento trimestral de balances y cuentas contables. 
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Llevamos el libro registro de IVA soportado y repercutido y el libro de registro de bienes de inversión.  
-                            </div>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Elaboramos y legalizamos tus libros contables.
+                                                </div>
+                                            </td>
+                                           
+                                </tr>
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Presentamos por ti las cuentas anuales de tu negocio en el Registro Mercantil.
+                                                </div>
+                                            </td>
+                                            
+                                </tr>
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Emitimos los balances, los diarios y las cuentas de resultados.
+                                                </div>
+                                            </td>
+                                           
+                                </tr>
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Confeccionamos cuadros de amortización.
+                                                </div>
+                                            </td>
+                                           
+                                </tr>
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Hacemos un seguimiento trimestral de balances y cuentas contables. 
+                                                </div>
+                                            </td>
+                                           
+                                </tr>
+                                <tr>
+                                            <td style="vertical-align: top;">{{-- <div class="punto"></div> --}}<label style="font-size:50px">.</label></td>
+                                            <td>
+                                                <div class="punto_content">
+                                                    Llevamos el libro registro de IVA soportado y repercutido y el libro de registro de bienes de inversión.  
+                                                </div>
+                                            </td>
+                                            
+                                </tr>
+                            </table>
                         </div>
                 </div>
 
                 <div id="2" class="tabcontent">
                     <div class="titulo_tab">Área Fiscal</div>
 
-                    <div class="lista_tab">
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Realizamos la declaración de la renta y gestionamos las ayudas. 
-                            </div>
+                    <div class="lista_tab"> 
 
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                En tan solo 48 horas te damos de alta como autónomo.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Empleamos tecnología y profesionalismo para poner en orden tu facturación.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Presentamos y confeccionamos los modelos trimestrales y anuales más empleados.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Contestamos a requerimientos de la Agencia Tributaria.
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Gestionamos las variaciones censales 036/ 037. 
-                            </div>
-
-                            <div class="punto"></div>
-                            <div class="punto_content">
-                                Hacemos tus declaraciones mensuales trimestrales y anuales. 
-                            </div>
+                            <table>
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td> 
+                                        <div class="punto_content">
+                                            Realizamos la declaración de la renta y gestionamos las ayudas. 
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content">
+                                            En tan solo 48 horas te damos de alta como autónomo.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content">
+                                            Empleamos tecnología y profesionalismo para poner en orden tu facturación.
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content">
+                                            Presentamos y confeccionamos los modelos trimestrales y anuales más empleados.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content">
+                                            Contestamos a requerimientos de la Agencia Tributaria.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                        <div class="punto_content">
+                                            Gestionamos las variaciones censales 036/ 037. 
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>        
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content">
+                                            Hacemos tus declaraciones mensuales trimestrales y anuales. 
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
 
                     </div>
                 </div>  
@@ -127,45 +183,72 @@
         </div>
 
         <div class="lista_tab_sus">
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Consultorías estratégicas ilimitadas enfocadas en tu negocio.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Atención personalizada y directa con tu gestor.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Sistema prioritario de emergencias por teléfono.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Soluciones a tiempo para problemas de cualquier tipo.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Creación y presentación de modelos impositivos.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Contabilidad.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Control de ingresos y gastos.
-                </div>
-
-                <div class="punto_sus"></div>
-                <div class="punto_content_sus">
-                    Contestaciones y recursos de la Agencia Tributaria. 
-                </div>
+                <table>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Consultorías estratégicas ilimitadas enfocadas en tu negocio.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Atención personalizada y directa con tu gestor.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Sistema prioritario de emergencias por teléfono.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Soluciones a tiempo para problemas de cualquier tipo.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Creación y presentación de modelos impositivos.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                        <td>
+                            <div class="punto_content_sus">
+                                Contabilidad.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                        <td>
+                            <div class="punto_content_sus">
+                                Control de ingresos y gastos.
+                            </div>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                        <td>
+                            <div class="punto_content_sus">
+                                Contestaciones y recursos de la Agencia Tributaria. 
+                            </div>
+                        </td>
+                    </tr>
+                </table>
 
         </div>
 

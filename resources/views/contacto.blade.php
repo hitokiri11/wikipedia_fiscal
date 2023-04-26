@@ -32,7 +32,7 @@
                  
                   <table>
                         <tr>
-                              <td>
+                              <td >
                                     <label style="font-size:50px">.</label>&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
                                     &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
                               </td>
