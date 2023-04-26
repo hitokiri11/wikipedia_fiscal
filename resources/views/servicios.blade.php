@@ -14,13 +14,17 @@
 
                 <div class="tab" data-aos="fade-down">
                     <button class="tablinks" onclick="openCity(event, '1')" id="boton1">
-                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_1"  class="tab_img" alt="...">
+                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_1"  class="tab_img" alt="..." onmouseover="areacontable()" >
+                        <img src="{{asset('assets/img/servicios/areacontable.gif')}}"  id="areacontable_gif"  class="tab_img" alt="..."  onmouseout="areacontableOut()" style="display: none;">
+
                         <img src="{{asset('assets/img/servicios/email_opa.svg')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="...">
                         <div class="titulo_tab_tab">Área Contable</div>
                     </button>
 
                     <button class="tablinks" onclick="openCity(event, '2')">
-                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..."> 
+                        <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..." onmouseover="fiscal()" >  
+                        <img src="{{asset('assets/img/servicios/fiscal.gif')}}"  id="fiscal_gif"  class="tab_img" alt="..."  onmouseout="fiscalOut()" style="display: none;">
+
                         <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab_img_opa_2"  class="tab_img" alt="..."> 
                         <div class="titulo_tab_tab">Área Fiscal</div>
                     </button>
@@ -176,26 +180,34 @@
 
         <div class="tabb2" >
             <button class="tablinks2 active" onclick="openCity2(event, 'tab1')">
-                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab1_img"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab1_img"  class="tab_img2" alt="..."  onmouseover="laboral()">
+                <img src="{{asset('assets/img/servicios/laboral.gif')}}"  id="laboral_gif"  class="tab_img2" alt="..."  onmouseout="laboralOut()" style="display: none;">
+                
                 <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="..."> 
                 <div class="titulo_tab_tab2">Área Laboral</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab2')">
-                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab2_opa"  class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..."> 
+                <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab2_opa"  class="tab_img2" alt="..."  > 
+
+                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..." onmouseover="ley()"> 
+                <img src="{{asset('assets/img/servicios/ley.gif')}}"  id="ley_gif"  class="tab_img2" alt="..."  onmouseout="leyOut()" style="display: none;">
                 <div class="titulo_tab_tab2">Área Legal</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab3')">
                 <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab3_opa"   class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..."> 
+
+                <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..." onmouseover="intelectual()" >
+                <img src="{{asset('assets/img/servicios/intelectual.gif')}}"  id="intelectual_gif"  class="tab_img2" alt="..."  onmouseout="intelectualOut()" style="display: none;"> 
                 <div class="titulo_tab_tab2">Propiedad Intelectual</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab4')">
                 <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab4_opa"   class="tab_img2" alt="..."> 
-                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..."> 
+
+                <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..." onmouseover="contractual()" > 
+                <img src="{{asset('assets/img/servicios/contractual.gif')}}"  id="contractual_gif"  class="tab_img2" alt="..."  onmouseout="contractualOut()" style="display: none;"> 
                 <div class="titulo_tab_tab2">Desarrollo Contractual</div>
             </button>
         </div> 
@@ -345,6 +357,7 @@
                 evt.currentTarget.className += " active";
 
                 if(cityName == "tab1") { 
+                        
 
                     document.getElementById("titulo_tab_tab2_resp1").style.display = "block";
                     document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
@@ -437,6 +450,97 @@
             document.getElementById('titulo_banner').style.display = 'block'
             document.getElementById('titulo_banner_green').style.display = 'block'
         }
+    } 
+
+
+     /* área contable */
+     function areacontable() {
+        document.getElementById('tab_img_1').style.display="none";
+        document.getElementById('areacontable_gif').style.display="block"; 
+        document.getElementById('areacontable_gif').style.marginLeft="auto"
+        document.getElementById('areacontable_gif').style.marginRight="auto"
+    }
+
+    function areacontableOut() {
+        document.getElementById('areacontable_gif').style.display="none";
+        document.getElementById('tab_img_1').style.display="block"; 
+        document.getElementById('tab_img_1').style.marginLeft="auto"
+        document.getElementById('tab_img_1').style.marginRight="auto"
+    }
+
+    /* área fiscal */
+    function fiscal() {
+        document.getElementById('tab_img_2').style.display="none";
+        document.getElementById('fiscal_gif').style.display="block"; 
+        document.getElementById('fiscal_gif').style.marginLeft="auto"
+        document.getElementById('fiscal_gif').style.marginRight="auto"
+    }
+
+    function fiscalOut() {
+        document.getElementById('fiscal_gif').style.display="none";
+        document.getElementById('tab_img_2').style.display="block"; 
+        document.getElementById('tab_img_2').style.marginLeft="auto"
+        document.getElementById('tab_img_2').style.marginRight="auto"
+    }
+
+    /* área laboral */
+    function laboral() {
+        document.getElementById('tab1_img').style.display="none";
+        document.getElementById('laboral_gif').style.display="block"; 
+        document.getElementById('laboral_gif').style.marginLeft="auto"
+        document.getElementById('laboral_gif').style.marginRight="auto"
+    }
+
+    function laboralOut() {
+        document.getElementById('laboral_gif').style.display="none";
+        document.getElementById('tab1_img').style.display="block"; 
+        document.getElementById('tab1_img').style.marginLeft="auto"
+        document.getElementById('tab1_img').style.marginRight="auto"
+    }
+
+    /* área legal */
+    function ley() {
+        document.getElementById('tab2_img').style.display="none";
+        document.getElementById('ley_gif').style.display="block"; 
+        document.getElementById('ley_gif').style.marginLeft="auto"
+        document.getElementById('ley_gif').style.marginRight="auto"
+    }
+
+    function leyOut() {
+        document.getElementById('ley_gif').style.display="none";
+        document.getElementById('tab2_img').style.display="block"; 
+        document.getElementById('tab2_img').style.marginLeft="auto"
+        document.getElementById('tab2_img').style.marginRight="auto"
+    }
+
+    /* propiedad intelectuañ */
+    function intelectual() {
+        document.getElementById('tab3_img').style.display="none";
+        document.getElementById('intelectual_gif').style.display="block"; 
+        document.getElementById('intelectual_gif').style.marginLeft="auto"
+        document.getElementById('intelectual_gif').style.marginRight="auto"
+    }
+
+    function intelectualOut() {
+        document.getElementById('intelectual_gif').style.display="none";
+        document.getElementById('tab3_img').style.display="block"; 
+        document.getElementById('tab3_img').style.marginLeft="auto"
+        document.getElementById('tab3_img').style.marginRight="auto"
+    }
+
+    /* desarrollo contractual */
+    function contractual() {
+        document.getElementById('tab4_img').style.display="none";
+        document.getElementById('contractual_gif').style.display="block"; 
+        document.getElementById('contractual_gif').style.marginLeft="auto"
+        document.getElementById('contractual_gif').style.marginRight="auto"
+    }
+
+    function contractualOut() {
+        document.getElementById('contractual_gif').style.display="none";
+        document.getElementById('tab4_img').style.display="block"; 
+        document.getElementById('tab4_img').style.marginLeft="auto"
+        document.getElementById('tab4_img').style.marginRight="auto"
     }
 
 </script>
