@@ -21,7 +21,7 @@
                     </div> 
                     <div class="parra_titulo">
                         200 facturas en 15 minutos 
-                        El resto del tiempo te lo dedicamos a ti
+                        <label class="tit_ocult">El resto del tiempo te lo dedicamos a ti</label>
                     </div>
             </div>
         </div>

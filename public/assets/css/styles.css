@@ -2766,6 +2766,9 @@ html {
         line-height: 196.7%;
         color: #000000;
     } 
+    .tit_ocult {
+        display: none;
+    }
 
 }
 
@@ -4888,7 +4891,7 @@ html {
         border-radius: 20px;
         float: left;
         margin-left: 6%;
-        height: 40vh;
+        height: 45vh;
     }
     .tarjeta_black2 {
         margin-top: 5%;
@@ -4900,7 +4903,7 @@ html {
         border-radius: 20px;
         float: left;
         margin-left: 6%;
-        height: 40vh;
+        height: 45vh;
     }
     .icon_email {
         width: 60px;
@@ -6238,7 +6241,7 @@ html {
                 width: 100%;
             }
             .item_contacto {
-                font-family: 'DM Sans';
+                font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
@@ -6837,6 +6840,10 @@ html {
         }
         .pag {
             width: 650px;
+        } 
+
+        .tit_ocult {
+            display: block;
         }
 }
 
@@ -7990,7 +7997,7 @@ html {
         width: 100%;
     }
     .item_contacto {
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -10185,7 +10192,7 @@ html {
         width: 100%;
     }
     .item_contacto {
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -12145,7 +12152,7 @@ html {
         width: 100%;
     }
     .item_contacto {
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
