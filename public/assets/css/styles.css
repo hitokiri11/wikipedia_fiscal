@@ -113,6 +113,8 @@ html {
     .dimension_img {
         margin-top: 4%;
     }
+
+
 }
 
 @media (max-width: 768px) {  
@@ -4028,7 +4030,18 @@ html {
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
+    } 
+
+    .item_acordeon {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 138.2%;
+        color: #000000;
+        margin-left: -10px;
     }
+    
 } 
 @media(min-width: 674px) {
     .punto_content_sus {
@@ -7294,7 +7307,7 @@ html {
             font-size: 17px;
             line-height: 138.2%;
             color: #000000;
-            margin-left: 1%;
+            margin-left: -10px;
         }
         .img_arrow {
             width: 7%;
@@ -9432,7 +9445,7 @@ html {
     }
     .opcion_inte {
         text-align: left;
-        margin-left: 8%;
+        margin-left: 30px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -9635,7 +9648,7 @@ html {
             font-size: 17px;
             line-height: 138.2%;
             color: #000000;
-            margin-left: 1%;
+            margin-left: -10px;
         }
         .img_arrow {
             width: 7%;
@@ -11342,7 +11355,7 @@ html {
         }
         .opcion_inte {
             text-align: left;
-            margin-left: 6%;
+            margin-left: 30px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -11448,7 +11461,7 @@ html {
             font-size: 17px;
             line-height: 138.2%;
             color: #000000;
-            margin-left: 1%;
+            margin-left: -20px;
         }
         .img_arrow {
             width: 5%;
