@@ -2650,13 +2650,12 @@ html {
      } 
 
      .titulo_section3 {
-        width: auto;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
         font-size: 34px;
         line-height: 42px;
-        text-align: left;
+        text-align: center;
         margin-left: 4%; 
         width: 60%;
     } 
@@ -3099,6 +3098,16 @@ html {
         margin-left: 5%;
         margin-top: 5%;
     }
+    .titulo_section3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        margin-left: 4%; 
+        width: 100%;
+    } 
 }
 
 @media (min-width: 360px) { 
@@ -3256,7 +3265,7 @@ html {
         line-height: 20px;
         color: #232323;
         float: left;
-        padding-left: 20%;
+        padding-left: 30px;
     } 
 
     .punto2 {
@@ -3493,7 +3502,7 @@ html {
         line-height: 20px;
         color: #232323;
         float: right;
-        padding-left: 12%;
+        padding-left: 30px;
     }
     .opciones_section2{
         width: 82%;
@@ -3903,7 +3912,7 @@ html {
         line-height: 20px;
         color: #232323;
         float: right;
-        padding-left: 8%;
+        padding-left: 30px;
     }
     .opciones_section2{
         width: 82%;
