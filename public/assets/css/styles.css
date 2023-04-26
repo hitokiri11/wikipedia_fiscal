@@ -4850,7 +4850,7 @@ html {
         margin-right: auto;
     }
     .clienteReviews {
-        margin-top: 4%;
+        margin-top: 10px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -4858,6 +4858,8 @@ html {
         line-height: 27px;
         text-align: center;
         color: #766C6C;
+        margin-bottom: 8px;
+
     }
 
     /* section 5 */ 
@@ -5858,7 +5860,7 @@ html {
         color: #232323;
         text-align: center;
         margin-top: 8%;
-        width: 45%;
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -8599,7 +8601,7 @@ html {
         color: #232323;
         text-align: center;
         margin-top: 8%;
-        width: 36   0px;
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -11209,7 +11211,7 @@ html {
             margin-right: auto;
         }
         .parrafoReviews {
-            margin-top: 10%;
+            margin-top: 20px;
             font-family: 'Poppins';
             font-style: normal;
             text-align: center;
@@ -11997,7 +11999,7 @@ html {
             color: #232323;
             text-align: center;
             margin-top: 3%;
-            width: 25%;
+            width: 350px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -12645,6 +12647,20 @@ html {
             margin-right: auto;
             height: 280px;
             padding-bottom: 10px;
+        }
+
+        .parrafoReviews {
+            margin-top: 40px;
+            font-family: 'Poppins';
+            font-style: normal;
+            text-align: center;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 27px;
+            color: #766C6C;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
