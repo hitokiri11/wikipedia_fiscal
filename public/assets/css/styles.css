@@ -4809,15 +4809,15 @@ html {
         font-style: normal;
         text-align: center;
         font-size: 32px;
-        margin-bottom: 6%;
         font-weight: 700;
     }
     .tarjetas {
-        margin-top: 8%;
+        margin-top: 20px;
         width: 96%;
         margin-left: auto;
         margin-right: auto;
         height: 500px;
+        margin-bottom: 40px;
     }
     .card {
         width: 30%;
@@ -4944,7 +4944,7 @@ html {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 38%;
+        margin-top: 250px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -4957,7 +4957,7 @@ html {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 4%;
+        margin-top: -100px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -8175,7 +8175,7 @@ html {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 42%;
+    margin-top: 40px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -8406,7 +8406,15 @@ html {
         line-height: 20px;
         text-align: center;
         color: #000000;
-    }
+    } 
+    .tarjetas {
+        margin-top: 3%;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 460px;
+        margin-bottom: 100px;
+      }
 }
 
 @media (min-width:1080px) {
@@ -9246,17 +9254,17 @@ html {
         text-align: center;
         text-transform: capitalize;
         color: #232323;
+        margin-top: 20px;
     }
     .tit_google {
         font-family: 'Poppins';
         font-style: normal;
         text-align: center;
         font-size: 32px;
-        margin-bottom: 6%;
         font-weight: 700;
     }
     .tarjetas {
-        margin-top: 3%;
+        margin-top: 10px;
         width: 96%;
         margin-left: auto;
         margin-right: auto;
@@ -10464,6 +10472,19 @@ html {
     .der_contacto {
         margin-top: -23%;
     } 
+    .text_rev {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #17BA9C;
+    }
 }
 
 @media (min-width: 1328px) {   
@@ -11161,11 +11182,10 @@ html {
             font-style: normal;
             text-align: center;
             font-size: 32px;
-            margin-bottom: 4%;
             font-weight: 700;
         }
         .tarjetas {
-            margin-top: 1%;
+            margin-top:10px;
             width: 96%;
             margin-left: auto;
             margin-right: auto;
@@ -12636,6 +12656,7 @@ html {
         }
         .tarjetas {
             height: 280px;
+            margin-bottom: 200px;
            /*  padding-bottom: 0px; */
         }
         .map414 {
