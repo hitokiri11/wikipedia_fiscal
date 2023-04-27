@@ -27,12 +27,12 @@
                                         <video class="video_res" src="{{asset('upload')}}/{{$v->video}}" type="video/webm"></video>
                                     </div>
 
-                                    <div class="content_text_video" id="myBtn">
+                                    <div class="content_text_video" id="myBtn_{{$v->id}}">
                                             <a onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" class="titulo_video" style="cursor: pointer;">
                                                    {{$v->titulo}}
                                             </a>
 
-                                            <p class="parraf_video" id="myBtn">
+                                            <p class="parraf_video" id="myBtn_{{$v->id}}">
                                                     {{ substr($v->descripcion,0,185) }}
                                                     <a 
                                                         onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" style="cursor: pointer;">
@@ -41,7 +41,7 @@
                                             </p> 
 
                                             <br>
-                                        <a id="myBtn" onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" 
+                                        <a id="myBtn_{{$v->id}}" onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" 
                                             type="button" 
                                             style=" border-radius: 30px; background: #17BA9C;
                                                     color:white;border: 0px;padding-left:10px;
@@ -143,7 +143,12 @@
     }
    
 
-    const modal_video = (video,id,titulo, descripcion) => {     
+    const modal_video = (video,id,titulo, descripcion) => { 
+        
+        let modal2 = document.getElementById("myModal");
+        let btn2 = document.getElementById(`myBtn_${id}`);
+        let span2 = document.getElementsByClassName("close")[0];
+
         let html =''
         console.log(video,id,titulo, descripcion)
 
@@ -160,6 +165,14 @@
             
         `;
 
+
+        btn2.onclick = function() {
+                modal2.style.display = "block";
+        }
+
+        span2.onclick = function() {
+            modal2.style.display = "none";
+        } 
         /* <a style="width:14%;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
             padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
             margin-top:20px; margin-left:600px;" 
@@ -194,7 +207,6 @@
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
-        document.getElementById('body_video').innerHTML = ""
     } 
 
 
