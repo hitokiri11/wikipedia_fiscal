@@ -8,7 +8,7 @@
     <form method="get" action="{{route('liberconsultas')}}"> 
         <input type="hidden" name="search" id="search" value="true" />
         <div class="caja_texto">
-            <input type="text" id="consulta" name="consulta" class="fondo_button redondeo_izq redondeo_der" style="padding-left: 4%;"/> 
+            <input type="text" id="consulta" name="consulta" class="fondo_button redondeo_izq redondeo_der" style="padding-left: 4%;" placeholder="¿Qué es ser autonómo?" /> 
             <button id="search" class="redondeo_izq redondeo_der boton_buscar" type="submit" > 
                 Buscar
             </button>
@@ -28,14 +28,14 @@
                                     </div>
 
                                     <div class="content_text_video" id="myBtn">
-                                            <a onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" class="titulo_video">
+                                            <a onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" class="titulo_video" style="cursor: pointer;">
                                                    {{$v->titulo}}
                                             </a>
 
                                             <p class="parraf_video" id="myBtn">
                                                     {{ substr($v->descripcion,0,185) }}
                                                     <a 
-                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')">
+                                                        onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" style="cursor: pointer;">
                                                         ...
                                                     </a>
                                             </p>
@@ -140,12 +140,12 @@
 
         let html = `
             <div class="ratio ratio-16x9">
-                <label style="font-size:16px;font-weight: bold; margin-bottom: 5%;">${titulo}</label>
+                <label class="titulo_video" style=" margin-bottom: 5%;">${titulo}</label>
                 <video  class="prop_video" id="video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
                 </video >
                 
             </div>
-            <div style="text-align:justify;font-size:16px;margin-top:1%;font-weight: bold;">
+            <div class ="parraf_video" style="text-align:justify;font-size:16px;margin-top:1%;">
             ${descripcion}
             </div>
         `;

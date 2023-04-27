@@ -27,17 +27,17 @@
                               <input class="slide-open" type="radio" id="slide-1" 
                                     name="slide" aria-hidden="true" hidden="" checked="checked">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img1.svg" height="296" >
+                                    <img src="assets/img/team/img1.jpg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-2" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img2.svg" height="296" >
+                                    <img src="assets/img/team/img2.jpg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-3" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img3.svg"  height="296" >
+                                    <img src="assets/img/team/img3.jpg"  height="296" >
                               </div>
 
                               <label for="slide-3" class="slide-control prev control-1">‹</label>

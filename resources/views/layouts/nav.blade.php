@@ -9,27 +9,27 @@
     <ul class="menu">
         
         <li >
-            <a  href="/equipo" id="barra-equipo"  >Equipo</a>
+            <a  href="/equipo" id="barra-equipo" style="color: #8C8C8C" >Equipo</a>
            <!--  <div class="barra-equipo" id="barra-equipo"></div> -->
         </li>
         <li >
-            <a  href="/servicios" id="barra-servicios"  >Servicios</a>
+            <a  href="/servicios" id="barra-servicios" style="color: #8C8C8C" >Servicios</a>
            <!--  <div  class="barra-servicios" id="barra-servicios"></div> -->
         </li>
         <li >
-            <a  href="/blog"  id="barra-blog" >Blog</a>
+            <a  href="/blog"  id="barra-blog" style="color: #8C8C8C" >Blog</a>
             <!-- <div class="barra-blog" id="barra-blog"></div> -->
         </li>
         <li >
-            <a  href="/contacto"  id="barra-contacto" >Contacto</a>
+            <a  href="/contacto"  id="barra-contacto" style="color: #8C8C8C" >Contacto</a>
             <!-- <div class="barra-contacto" id="barra-contacto"></div> -->
         </li>
         <li >
-            <a  href="/dudas"  id="barra-dudas" >¿Dudas?</a>
+            <a  href="/dudas"  id="barra-dudas" style="color: #8C8C8C" >¿Dudas?</a>
             <!-- <div class="barra-dudas" id="barra-dudas"></div> -->
         </li>
         <li >
-            <a  href="/cliente" id="barra-cliente" >Área Cliente</a>
+            <a  href="/cliente" id="barra-cliente" style="color: #8C8C8C" >Área Cliente</a>
             <!-- <div class="barra-cliente" id="barra-cliente"></div> -->
         </li>
         <li>
@@ -115,6 +115,15 @@
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#17BA9C"
+                    } 
+
+                    if(URLactual[3] == 'liberconsultas') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
 
     } else { 
@@ -181,6 +190,22 @@
 
                     } 
 
+                    if(URLactual[3] == 'liberconsultas') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
+
+                    } else {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
+                    }
 
 
     }
