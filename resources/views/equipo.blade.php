@@ -32,7 +32,7 @@
                               <input class="slide-open" type="radio" id="slide-2" 
                                     name="slide" aria-hidden="true" hidden="">
                               <div class="slide-item">
-                                    <img src="assets/img/team/img2.jpg" height="296" >
+                                    <img src="assets/img/team/img2.svg" height="296" >
                               </div>
                               <input class="slide-open" type="radio" id="slide-3" 
                                     name="slide" aria-hidden="true" hidden="">

@@ -9,28 +9,28 @@
     <ul class="menu">
         
         <li >
-            <a  href="/equipo"  style="color: #8C8C8C;" >Equipo</a>
-            <div class="barra-equipo" id="barra-equipo"></div>
+            <a  href="/equipo" id="barra-equipo"  >Equipo</a>
+           <!--  <div class="barra-equipo" id="barra-equipo"></div> -->
         </li>
         <li >
-            <a  href="/servicios"  style="color: #8C8C8C;" >Servicios</a>
-            <div  class="barra-servicios" id="barra-servicios"></div>
+            <a  href="/servicios" id="barra-servicios"  >Servicios</a>
+           <!--  <div  class="barra-servicios" id="barra-servicios"></div> -->
         </li>
         <li >
-            <a  href="/blog"  style="color: #8C8C8C;" >Blog</a>
-            <div class="barra-blog" id="barra-blog"></div>
+            <a  href="/blog"  id="barra-blog" >Blog</a>
+            <!-- <div class="barra-blog" id="barra-blog"></div> -->
         </li>
         <li >
-            <a  href="/contacto"  style="color: #8C8C8C;" >Contacto</a>
-            <div class="barra-contacto" id="barra-contacto"></div>
+            <a  href="/contacto"  id="barra-contacto" >Contacto</a>
+            <!-- <div class="barra-contacto" id="barra-contacto"></div> -->
         </li>
         <li >
-            <a  href="/dudas"  style="color: #8C8C8C;" >¿Dudas?</a>
-            <div class="barra-dudas" id="barra-dudas"></div>
+            <a  href="/dudas"  id="barra-dudas" >¿Dudas?</a>
+            <!-- <div class="barra-dudas" id="barra-dudas"></div> -->
         </li>
         <li >
-            <a  href="/cliente" style="color: #8C8C8C;" >Área Cliente</a>
-            <div class="barra-cliente" id="barra-cliente"></div>
+            <a  href="/cliente" id="barra-cliente" >Área Cliente</a>
+            <!-- <div class="barra-cliente" id="barra-cliente"></div> -->
         </li>
         <li>
             <button type="button" class="boton_llamada" >
@@ -53,68 +53,68 @@
 <script>
     let URLactual = window.location;
     URLactual = URLactual.toString()
-    URLactual = URLactual.split('/') 
+    URLactual = URLactual.split('/')     
 
 
     if(screen.width >= 769) { 
-
+        
                     if(URLactual[3] == '') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     
                     if(URLactual[3] == 'equipo') {
-                        document.getElementById('barra-equipo').style.display = 'block';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#17BA9C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
 
                     } 
-                    if(URLactual[3] === 'servicios') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'block';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                    if(URLactual[3] == 'servicios') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#17BA9C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
-                    if(URLactual[3] === 'blog') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'block';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                    if(URLactual[3] == 'blog') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#17BA9C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
-                    if(URLactual[3] === 'contacto') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'block';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                    if(URLactual[3] == 'contacto') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#17BA9C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
-                    if(URLactual[3] === 'dudas') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'block';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                    if(URLactual[3] == 'dudas') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#17BA9C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
-                    if(URLactual[3] === 'cliente') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'block';
+                    if(URLactual[3] == 'cliente') {
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#17BA9C"
                     }
 
     } else { 
@@ -122,89 +122,62 @@
 
 
                     if(URLactual[3] == '') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     
                     if(URLactual[3] == 'equipo') {
-                        document.getElementById('barra-equipo').style.display = 'block';
-                        document.getElementById('barra-equipo').style.width = '24%';
-                        document.getElementById('barra-equipo').style.marginLeft = 'auto';
-                        document.getElementById('barra-equipo').style.marginRight = 'auto';
-
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#17BA9C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
 
                     } 
                     if(URLactual[3] === 'servicios') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'block';
-                        document.getElementById('barra-servicios').style.width = '26%';
-                        document.getElementById('barra-servicios').style.marginLeft = 'auto';
-                        document.getElementById('barra-servicios').style.marginRight = 'auto';
-
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#17BA9C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     if(URLactual[3] === 'blog') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'block';
-                        document.getElementById('barra-blog').style.width = '18%';
-                        document.getElementById('barra-blog').style.marginLeft = 'auto';
-                        document.getElementById('barra-blog').style.marginRight = 'auto';
-
-
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#17BA9C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     if(URLactual[3] === 'contacto') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'block';
-                        document.getElementById('barra-contacto').style.width = '30%';
-                        document.getElementById('barra-contacto').style.marginLeft = 'auto';
-                        document.getElementById('barra-contacto').style.marginRight = 'auto';
-
-
-
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#17BA9C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     if(URLactual[3] === 'dudas') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'block'; 
-                        document.getElementById('barra-dudas').style.width = '26%';
-                        document.getElementById('barra-dudas').style.marginLeft = 'auto';
-                        document.getElementById('barra-dudas').style.marginRight = 'auto';
-
-
-                        document.getElementById('barra-cliente').style.display = 'none';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#17BA9C"
+                        document.getElementById('barra-cliente').style.color ="#8C8C8C"
                     }
                     if(URLactual[3] === 'cliente') {
-                        document.getElementById('barra-equipo').style.display = 'none';
-                        document.getElementById('barra-servicios').style.display = 'none';
-                        document.getElementById('barra-blog').style.display = 'none';
-                        document.getElementById('barra-contacto').style.display = 'none';
-                        document.getElementById('barra-dudas').style.display = 'none';
-                        document.getElementById('barra-cliente').style.display = 'block';
-                        document.getElementById('barra-cliente').style.width = '40%';
-                        document.getElementById('barra-cliente').style.marginLeft = 'auto';
-                        document.getElementById('barra-cliente').style.marginRight = 'auto';
+                        document.getElementById('barra-equipo').style.color ="#8C8C8C"
+                        document.getElementById('barra-servicios').style.color ="#8C8C8C"
+                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        document.getElementById('barra-contacto').style.color ="#8C8C8C"
+                        document.getElementById('barra-dudas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#17BA9C"
 
                     } 
 

@@ -5107,7 +5107,7 @@ html {
         float: left;
         margin-left: 2.3%;
         /* height: 125vh; */
-        height: 112%;
+        height: 500px;
     }
     .calificacionesReviews {
         text-align: center;
@@ -5125,7 +5125,7 @@ html {
         font-size: 18px;
         line-height: 27px;
         color: #766C6C;
-        width: 80%;
+        width: 210px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -8434,8 +8434,8 @@ html {
 }
 .icon {
     position: absolute;
-    margin-top: 7%;
-    margin-left: -14%;
+    margin-top: 0.9%;
+    margin-left: -4.5%;
 }
 .titulo_tarjeta {
     margin-top: 4%;
@@ -8704,6 +8704,10 @@ html {
         margin-right: auto;
         height: 460px;
         margin-bottom: 100px;
+      } 
+
+      .card {
+        height: 530px;
       }
 }
 
@@ -9585,7 +9589,7 @@ html {
         font-size: 18px;
         line-height: 27px;
         color: #766C6C;
-        width: 80%;
+        width: 280px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -10854,6 +10858,10 @@ html {
         gap: 8px;
         padding-left: 12%;
         padding-right: 6%;
+    } 
+
+    .card {
+        height: 490px;
     }
 }
 
@@ -11513,7 +11521,7 @@ html {
             font-size: 15px;
             line-height: 27px;
             color: #766C6C;
-            width: 80%;
+            width: 329px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -12609,8 +12617,8 @@ html {
 
         .icon {
             position: absolute;
-            margin-top: 0.7%;
-            margin-left: -3%;
+            margin-top: 0.8%;
+            margin-left: -4%;
         } 
 
         .desc_nombre_fund {
@@ -12963,7 +12971,7 @@ html {
             font-size: 15px;
             line-height: 27px;
             color: #766C6C;
-            width: 80%;
+            width: 329px;
             margin-left: auto;
             margin-right: auto;
         }
