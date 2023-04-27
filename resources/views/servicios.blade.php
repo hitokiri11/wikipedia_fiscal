@@ -300,25 +300,42 @@
                         <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp1">
                             Área Laboral
                         </div>
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Altas y bajas en la Seguridad Social.
-                        </div>
 
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Contratos y nóminas.
-                        </div>
+                        <table class="tabla_list">
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                        <div class="punto_content2">
+                                            Altas y bajas en la Seguridad Social.
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                        <div class="punto_content2">
+                                                Contratos y nóminas.
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Prevención de Riesgos Laborales.
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            resentamos los Seguros Sociales.
+                                        </div>
+                                    </td>
+                            </tr>
+                        </table>
 
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Prevención de Riesgos Laborales.
-                        </div>
-
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            resentamos los Seguros Sociales.
-                        </div>
                 </div>
         </div>
 
@@ -326,55 +343,95 @@
                         <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp2">
                             Área Legal
                         </div>
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Nos encargamos de que tu negocio cumpla hasta la última coma de la legalidad.
-                        </div>
 
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Te asesoramos ante cualquier duda, problema o situación incierta. 
-                        </div>
-
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Somos expertos en la Ley de Protección de Datos y de Blanqueo de Capitales. 
-                        </div>
-
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Servicio de consultoría.
-                        </div>
+                        <table class="tabla_list">
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Nos encargamos de que tu negocio cumpla hasta la última coma de la legalidad.
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Te asesoramos ante cualquier duda, problema o situación incierta. 
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Somos expertos en la Ley de Protección de Datos y de Blanqueo de Capitales. 
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Servicio de consultoría.
+                                        </div>
+                                    </td>
+                            </tr>
+                        </table>
+   
+                        
         </div>
 
         <div id="tab3" class="tabcontent2">
                         <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp3">
                             Propiedad Intelectual
-                        </div>
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Ponemos a salvo el corazón de tu empresa (tu marca) para que nadie robe lo que es tuyo.
-                        </div>
+                        </div> 
 
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Registramos y aseguramos tus creaciones y marcas comerciales.
-                        </div>
+                        <table class="tabla_list">
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td>
+                                    <td>
+                                        <div class="punto_content2">
+                                            Ponemos a salvo el corazón de tu empresa (tu marca) para que nadie robe lo que es tuyo.
+                                        </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                        <div class="punto_content2">
+                                            Registramos y aseguramos tus creaciones y marcas comerciales.
+                                        </div>
+                                    </td>
+                            </tr>
+                        </table>
+   
         </div>
 
         <div id="tab4" class="tabcontent2">
                         <div class="titulo_tab_tab2_resp" id="titulo_tab_tab2_resp4">
                             Desarrollo Contractual
                         </div>
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Área Mercantil: te ayudamos con todos los contratos que necesites.  
-                        </div>
 
-                        <div class="punto2"></div>
-                        <div class="punto_content2">
-                            Constitución de sociedades: déjanos orientarte y llevar a cabo estos trámites por ti.
-                        </div>
+                        <table class="tabla_list">
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                            <div class="punto_content2">
+                                                Área Mercantil: te ayudamos con todos los contratos que necesites.  
+                                            </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td style="vertical-align: top;"><label style="font-size:50px">.</label></td> 
+                                    <td>
+                                            <div class="punto_content2">
+                                                Constitución de sociedades: déjanos orientarte y llevar a cabo estos trámites por ti.
+                                            </div>
+                                    </td>
+                            </tr>
+                        </table>
+
         </div>
 
     </div>

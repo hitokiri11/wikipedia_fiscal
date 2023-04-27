@@ -1,7 +1,7 @@
 <footer class="footer" data-aos="flip-left"
      data-aos-easing="ease-out-cubic" >
     <div class="cont_footer"> 
-        <hr class="div_footer">
+        <!-- <hr class="div_footer"> -->
 
         <div class="footer_responsive">
             <img src="{{asset('assets/img/LOGO2.svg')}}"  class="img_foot_resp"/> 

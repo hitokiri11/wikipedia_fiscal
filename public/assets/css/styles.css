@@ -847,7 +847,8 @@ html {
         border: 0px solid #000;
     }
     .summary {
-        border-bottom: 1px solid #414141; 
+       /*  border-bottom: 1px solid #414141;  */
+        border-top: 1px solid #d7c9c9; 
         text-align: left;
         padding-top: 4%;
         padding-bottom: 4%;
@@ -2160,7 +2161,7 @@ html {
         display: none;
     }
     .lista_contatos {
-        margin-top: 5%;
+        margin-top: 60px;
         width: 100%;
         margin-left: 3%;
         margin-right: auto;
@@ -2168,8 +2169,9 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         line-height: 27px;
+        margin-left: 5px;
     }
     .carrusel_desktop2 {
         display: none;
@@ -2296,8 +2298,8 @@ html {
         font-size: 26px;
         line-height: 48px;
         color: #FFFFFF;
-        margin-left: 10%;
-        margin-top: -30%;
+        margin-left: 2%;
+        margin-top: -28%;
         position: static;
     }
     .titulo_banner {
@@ -2764,17 +2766,18 @@ html {
         margin-top: 5%;
     }
     .punto_content2 {
-        margin-left: 8%;
+        /* margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 96%;
         text-align: left;
-        margin-top: -7%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 196.7%;
         color: #000000;
+        margin-left: 5px;
     } 
     .tit_ocult {
         display: none;
@@ -2783,6 +2786,13 @@ html {
         margin-top: 7%;
         margin-bottom: 7%;
         margin-left: 20px;
+    } 
+    .tabla_list {
+        margin-left: 14px;
+    } 
+
+    .tit_contacto {
+        margin-top: 16px;
     }
 
 }
@@ -3196,8 +3206,11 @@ html {
 
 
 @media (min-width: 360px) { 
+    .tit_contacto {
+        margin-left: 5px;
+    }
     .lista_contatos {
-        margin-top: 15%;
+        margin-top: 70px;
     }
     .capa_tarjeta {
         margin-bottom: 10%;
@@ -3365,11 +3378,11 @@ html {
         margin-top: 5%;
     }
     .punto_content2 {
-        margin-left: 8%;
+        /* margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 94%;
         text-align: left;
-        margin-top: -6%;
+        margin-top: 26px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -3539,8 +3552,8 @@ html {
         margin-left: 12px;
     }
     .lista_contatos {
-        margin-top: 15%;
-        width: 100%;
+        margin-top: 90px;
+        width: 86%;
         margin-left: 4%;
         margin-right: auto;
         text-align: left;
@@ -3811,6 +3824,14 @@ html {
      .titulo_supervisar {
         margin-top: 1px;
         margin-bottom: 50px;
+    } 
+    .nuestras_oficinas { 
+        margin-top: -90px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
     }
 }
 
@@ -3951,11 +3972,11 @@ html {
         margin-top: 5%;
     }
     .punto_content2 {
-        margin-left: 8%;
+        /* margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 96%;
         text-align: left;
-        margin-top: -5%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -4041,10 +4062,10 @@ html {
     } 
 
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+       /*  margin-left: 10%; */
+        width: 94%;
         text-align: left;
-        margin-top: 3%;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -4077,11 +4098,11 @@ html {
         margin-top: 5%;
     }
     .punto_content2 {
-        margin-left: 8%;
+        /* margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -4%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -4107,6 +4128,17 @@ html {
         margin-top: 3%;
         margin-left: 20px;
     }
+
+    .lista_tab_sus {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-left: 30px;
+    }
+
+    .tabla_list {
+        margin-left: 20px;
+    }
+
 }
 
 
@@ -4172,10 +4204,10 @@ html {
         width: 490px;
     } 
     .punto_content_sus {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         width: 88%;
         text-align: left;
-        margin-top: 2%;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -4183,7 +4215,13 @@ html {
         line-height: 171.38%;
         color: #232323;
     }
- 
+    
+    .lista_tab_sus {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-left: 36px;
+    }
+
     .punto_sus {
         width: 5px;
         height: 5px;
@@ -4246,11 +4284,11 @@ html {
         margin-top: 5%;
     }
     .punto_content2 {
-        margin-left: 8%;
+       /*  margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -4258,6 +4296,9 @@ html {
         line-height: 196.7%;
         color: #000000;
     } 
+    .tabla_list {
+        margin-left: 30px;
+    }
 
     .item_acordeon {
         font-family: 'Poppins';
@@ -4272,10 +4313,10 @@ html {
 } 
 @media(min-width: 674px) {
     .punto_content_sus {
-        margin-left: 10%;
+       /*  margin-left: 10%; */
         width: 88%;
         text-align: left;
-        margin-top: 2%;
+        margin-top: 28px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -4283,7 +4324,11 @@ html {
         line-height: 171.38%;
         color: #232323;
     }
-    
+    .lista_tab_sus {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-left: 40px;
+    }
     .punto_sus {
         width: 5px;
         height: 5px;
@@ -5414,7 +5459,8 @@ html {
         margin-top: -5%;
     }
     .summary {
-        border-bottom: 1px solid #414141; 
+        /* border-bottom: 1px solid #414141;  */
+        border-top: 1px solid #d7c9c9; 
         text-align: left;
         padding-top: 4%;
         padding-bottom: 4%;
@@ -5962,10 +6008,10 @@ html {
         margin-top: 2%;
     }
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+        /* margin-left: 10%; */
+        width: 100%;
         text-align: left;
-        margin-top: -1%;
+        margin-top: 30px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -6071,11 +6117,11 @@ html {
         margin-top: 2%;
     }
     .punto_content2 {
-        margin-left: 8%;
+       /*  margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -7109,10 +7155,10 @@ html {
         margin-top: 3%;
     }
     .punto_content_sus {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         width: 100%;
         text-align: left;
-        margin-top: 1%;
+        margin-top: 20px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -7526,7 +7572,8 @@ html {
             float: left;
         }
         .summary {
-            border-bottom: 1px solid #414141; 
+           /*  border-bottom: 1px solid #414141;  */
+            border-top: 1px solid #d7c9c9; 
             text-align: left;
             padding-top: 4%;
             padding-bottom: 4%;
@@ -7992,10 +8039,10 @@ html {
         margin-top: 2%;
     }
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+       /*  margin-left: 10%; */
+        width: 100%;
         text-align: left;
-        margin-top: -1%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -8100,11 +8147,11 @@ html {
         margin-top: 1%;
     }
     .punto_content2 {
-        margin-left: 8%;
+       /*  margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 20px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -8112,6 +8159,10 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
+    }
+
+    .tabla_list {
+        margin-left: 40px;
     }
 
     /* servicios */ 
@@ -9876,7 +9927,8 @@ html {
             float: left;
         }
         .summary {
-            border-bottom: 1px solid #000; 
+           /*  border-bottom: 1px solid #000;  */
+            border-top: 1px solid #d7c9c9; 
             text-align: left;
             padding-top: 4%;
             padding-bottom: 4%;
@@ -10277,10 +10329,10 @@ html {
         margin-top: 2%;
     }
     .punto_content_sus {
-        margin-left: 10%;
+        /* margin-left: 10%; */
         width: 88%;
         text-align: left;
-        margin-top: -1%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -10385,11 +10437,11 @@ html {
         margin-top: 1%;
     }
     .punto_content2 {
-        margin-left: 8%;
+       /*  margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 22px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -10397,6 +10449,9 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1%;
+    }
+    .tabla_list {
+        margin-left: 50px;
     }
 
     /* servicios */ 
@@ -11703,7 +11758,8 @@ html {
             margin-top: -4%;
         }
         .summary {
-            border-bottom: 1px solid #000; 
+           /*  border-bottom: 1px solid #000;   */
+            border-top: 1px solid #d7c9c9; 
             text-align: left;
             padding-top: 4%;
             padding-bottom: 4%;
@@ -12093,6 +12149,7 @@ html {
     .lista_tab_sus {
         margin-top: 3%;
         margin-bottom: 3%;
+        margin-left: 60px;
     }
     .punto_sus {
         width: 5px;
@@ -12106,10 +12163,10 @@ html {
         margin-top: 2%;
     }
     .punto_content_sus {
-        margin-left: 10%;
-        width: 88%;
+       /*  margin-left: 10%; */
+        width: 100%;
         text-align: left;
-        margin-top: -1%;
+        margin-top: 24px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -12214,11 +12271,11 @@ html {
         margin-top: 1%;
     }
     .punto_content2 {
-        margin-left: 8%;
+        /* margin-left: 8%; */
         float: left;
-        width: 88%;
+        width: 100%;
         text-align: left;
-        margin-top: -3%;
+        margin-top: 16px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 300;
@@ -12226,6 +12283,9 @@ html {
         line-height: 196.7%;
         color: #000000;
         padding-top: 1.5%;
+    }
+    .tabla_list {
+        margin-left: 60px;
     }
 
     /* ser  vicios */
@@ -12795,7 +12855,7 @@ html {
         .lista_tab_sus {
             margin-top: 3%;
             margin-bottom: 3%; 
-            width: 70%;
+            margin-left: 70px;
         }
 
         .punto_sus {
@@ -12810,10 +12870,10 @@ html {
             margin-top: 2%;
         }
         .punto_content_sus {
-            margin-left: 10%;
-            width: 88%;
+            /* margin-left: 10%; */
+            width: 100%;
             text-align: left;
-            margin-top: -1%;
+            margin-top: 22px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
@@ -13494,7 +13554,7 @@ html {
         .lista_tab_sus {
             margin-top: 3%;
             margin-bottom: 3%; 
-            width: 60%;
+            margin-left: 110px;
         }
 
         .punto_sus {
@@ -13509,10 +13569,10 @@ html {
             margin-top: 2%;
         }
         .punto_content_sus {
-            margin-left: 10%;
-            width: 88%;
+           /*  margin-left: 10%; */
+            width: 100%;
             text-align: left;
-            margin-top: -1%;
+            margin-top: 24px;
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;

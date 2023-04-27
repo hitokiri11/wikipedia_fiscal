@@ -32,19 +32,27 @@
                  
                   <table>
                         <tr>
-                              <td >
-                                    <label style="font-size:50px">.</label>&nbsp;&nbsp;C. Fuente Cisneros, 37,28922 <br>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;Alcorcón, Madrid
+                              <td style="vertical-align: top;">
+                                    <label style="font-size:50px">.</label>
+                              </td>
+                              <td>
+                                    <div class="tit_contacto">C. Fuente Cisneros, 37,28922 Alcorcón, Madrid</div>
                               </td>
                         </tr>
                         <tr>
-                              <td><br><label style="font-size:50px">.</label>&nbsp;&nbsp;Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></td>
+                              <td style="vertical-align: top;">
+                                    <label style="font-size:50px">.</label>
+                              </td>
+                              <td><div class="tit_contacto">Escribenos: <strong style="color:#17BA9C;">info@liberfy.es</strong></div></td>
                         </tr>
                         <tr>
+                              <td style="vertical-align: top;">
+                                    <label style="font-size:50px">.</label>
+                              </td>
                               <td>
-                                    <br>
-                                    <label style="font-size:50px">.</label>&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno 
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;de nuestros asesores especializados
+                                    <div class="tit_contacto">
+                                          Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de nuestros asesores especializados
+                                    </div>
                               </td>
                         </tr>
                   </table>
