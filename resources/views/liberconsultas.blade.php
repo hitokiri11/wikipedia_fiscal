@@ -144,8 +144,10 @@
    
 
     const modal_video = (video,id,titulo, descripcion) => {     
+        let html =''
+        console.log(video,id,titulo, descripcion)
 
-        let html = `
+        html = `
             <div class="ratio ratio-18x9" style="width:100%;">
                 <label class="titulo_video" style=" margin-bottom: 5%;">${titulo}</label>
                 <video  class="prop_video" id="video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
@@ -155,17 +157,21 @@
             <div class ="parraf_video" style="text-align:justify;font-size:16px;margin-top:1%;">
             ${descripcion}
             </div> 
-            <a style="width:14%;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
+            
+        `;
+
+        /* <a style="width:14%;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
             padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
             margin-top:20px; margin-left:600px;" 
-            type="button"  class="close2">Cerrar</a>
-        `;
+            type="button"  class="close2">Cerrar</a> */
         
         fetch('/liberconsultas/acum_view/'+id)
         .then(function(response) { 
+            document.getElementById('body_video').innerHTML = ""
             document.getElementById('body_video').innerHTML = html;
         })
         .then(function(json) {
+            console.log('error')
             console.log(json)
         });
 
@@ -188,6 +194,7 @@
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
+        document.getElementById('body_video').innerHTML = ""
     } 
 
 
