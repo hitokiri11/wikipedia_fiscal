@@ -6,44 +6,44 @@
             <div class="stack_botones" data-aos="fade-down" >
                 
                 <div class="tarjeta_botones">
-                        <img src="assets/img/home/Group30.png" id="inscribete"  onmouseover="inscribete()"/>
-                        <img src="assets/img/home/inscribite.gif"  id="inscribete_gif"  width="58" height="58"  style="display: none;"  onmouseout="inscribeteOut()"/>
+                        {{-- <img src="assets/img/home/Group30.png" id="inscribete"  onmouseover="inscribete()"/> --}}
+                        <img src="assets/img/home/inscribite.gif"  id="inscribete_gif"  width="58" height="58"    onmouseout="inscribeteOut()"/>
                         <div class="texto_botones">
                             Inscribite
                         </div>
                 </div>
                 <div class="tarjeta_botones">
-                    <img src="assets/img/home/Group30.png" id="gestor"  onmouseover="gestor()"/>
-                    <img src="assets/img/home/gestor.gif"  id="gestor_gif"  width="58" height="58"  style="display: none;"  onmouseout="gestorOut()"/>
+                    {{-- <img src="assets/img/home/Group30.png" id="gestor"  onmouseover="gestor()"/> --}}
+                    <img src="assets/img/home/gestor.gif"  id="gestor_gif"  width="58" height="58"   onmouseout="gestorOut()"/>
                     <div class="texto_botones">
                         Conoce a tu gestor
                     </div>
                 </div>
                 <div class="tarjeta_botones">
-                    <img src="assets/img/home/Group30.png" id="subefacturas"  onmouseover="subefacturas()"/>
-                    <img src="assets/img/home/subefacturas.gif"  id="subefacturas_gif"  width="58" height="58" style="display: none;"  onmouseout="subefacturasOut()"/>
+                    {{-- <img src="assets/img/home/Group30.png" id="subefacturas"  onmouseover="subefacturas()"/> --}}
+                    <img src="assets/img/home/subefacturas.gif"  id="subefacturas_gif"  width="58" height="58"   onmouseout="subefacturasOut()"/>
                     <div class="texto_botones">
                        Sub facturas en la App
                     </div>
                 </div>
                 <div class="tarjeta_botones">
-                    <img src="assets/img/home/Group30.png" id="completa" onmouseover="completa()" />
-                    <img src="assets/img/home/completa.gif"  id="completa_gif"  width="58" height="58"  style="display: none;"  onmouseout="completaOut()"/>
+                    {{-- <img src="assets/img/home/Group30.png" id="completa" onmouseover="completa()" /> --}}
+                    <img src="assets/img/home/completa.gif"  id="completa_gif"  width="58" height="58"   onmouseout="completaOut()"/>
                     <div class="texto_botones">
                        Completa la información
                     </div>
                 </div> 
 
                 <div class="tarjeta_botones">
-                    <img src="assets/img/home/Group30.png" id="liberfy" onmouseover="liberfy()" />
-                    <img src="assets/img/home/liberfy.gif"  id="liberfy_gif"  width="58" height="58"  style="display: none;"  onmouseout="liberfyOut()"/>
+                   {{--  <img src="assets/img/home/Group30.png" id="liberfy" onmouseover="liberfy()" /> --}}
+                    <img src="assets/img/home/liberfy.gif"  id="liberfy_gif"  width="58" height="58"   onmouseout="liberfyOut()"/>
                     <div class="texto_botones">
                       Gestión Liberfy
                     </div>
                 </div> 
                 <div class="tarjeta_botones">
-                    <img src="assets/img/home/Group30.png" id="resultados" onmouseover="resultados()" />
-                    <img src="assets/img/home/resultados.gif"  id="resultados_gif"  width="58" height="58"  style="display: none;"  onmouseout="resultadosOut()"/>
+                   {{--  <img src="assets/img/home/Group30.png" id="resultados" onmouseover="resultados()" /> --}}
+                    <img src="assets/img/home/resultados.gif"  id="resultados_gif"  width="58" height="58"   onmouseout="resultadosOut()"/>
                     <div class="texto_botones">
                       Encuentra tus resultados
                     </div>

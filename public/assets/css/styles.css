@@ -4660,27 +4660,30 @@ html {
         /* background-color: #afd6af; */
         background: #27282B;
         height: 72px;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
         padding-top: 17px;
     }
     .logo_head {
-        margin-left: 3%;
+        margin-left: 2%;
         float: left;
+        width: 8%;
+        margin-top: 1%;
     }
     .menu { 
         font-family: 'Poppins';
-        width:80%;
+        width:99%;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 7px;
         line-height: 18px;
         color: #8C8C8C;
-        margin-left: 4%;
+        margin-left: 2%;
         display: block;
         float: left;
         position: unset;
-        height: auto;
+        height: auto; 
+        margin-top: -3.8%;
     } 
     .menu active {
         background-color:  #17BA9C;
@@ -4695,18 +4698,18 @@ html {
     nav ul li {
         display: inline-block;
         line-height: 42px;
-        margin: 0 1%;
+        margin: 0 0.5%;
     }
     nav ul li a {
         font-size: 12px;
     }
     
     .boton_llamada {
-        width: 120px;
+        width: 110px;
         height: 28px;
         background: #17BA9C;
         border-radius: 30px;
-        margin-left: 6%;
+        margin-left: 1%;
         border: 0px;
     }
     .texto-boton-llamada_menu {
@@ -5039,16 +5042,18 @@ html {
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        grid-template-columns: 30% 30% 30%; 
+        grid-template-columns: 31% 31% 31%; 
         grid-template-rows: auto;
-        gap: 23px;
-        padding-left: 5%;
-        padding-right: 5%;
+        gap: 30px;
+        padding-left: 3%;
+        padding-right: 3%;
        
     }
     .tarjeta_botones {
         margin-top: 8px;
-        width: 200px;
+        width: 150px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .botonAsesoria {
         background: #FFFFFF;
@@ -8633,14 +8638,25 @@ html {
 .pag {
     width: 750px;
 }
-    .stack_botones {
-        gap: 14px;
+    .stack_botones { 
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 31% 31% 31%; 
+        grid-template-rows: auto;
+        gap: 70px;
+        padding-left: 3%;
+        padding-right: 3%;
+        gap: 30px;
     }
 
     .tarjeta_botones {
-        margin-top: 10px;
-        width: 218px;
-    } 
+        margin-top: 8px;
+        width: 180px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
 
     .opcion1_section1 {
         text-align: left;
@@ -9578,8 +9594,25 @@ html {
         width: 500px;
     } 
     .stack_botones {
-        align-items: center;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 31% 31% 31%; 
+        grid-template-rows: auto;
+        gap: 70px;
+        padding-left: 3%;
+        padding-right: 3%;
+        gap: 30px;
     }
+
+    .tarjeta_botones {
+        margin-top: 8px;
+        width: 240px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
     .botonAsesoria {
         background: #FFFFFF;
         border: 2px dashed #000000;
@@ -10849,10 +10882,7 @@ html {
             padding-left: 10%;
             padding-right: 4%;
         }
-        
-        .tarjeta_botones {
-            width: 277px;
-        }
+    
 
         .tarjeta_blog2 {
             display: block;
@@ -12779,6 +12809,13 @@ html {
 
         .titulo_blog_t { 
             margin-left: 7.5%;
+        } 
+
+        .tarjeta_botones {
+            margin-top: 8px;
+            width: 300px;
+            padding-left: 2px;
+            padding-right: 2px;
         }
         
     }
