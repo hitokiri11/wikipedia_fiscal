@@ -29,6 +29,7 @@
         El 90% del tiempo ahorrado, gracias a la automatización, 
 lo dedicamos a asesorar a nuestros clientes.
         </div> 
+        <br>
         <div class="text_rev">
             <strong> Empieza tu revolución ahora</strong>
         </div>
