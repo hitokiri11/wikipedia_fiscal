@@ -5330,6 +5330,7 @@ html {
         padding-top: 0%;
         padding-right: 2%;
       /*   padding-bottom: 2%; */
+      margin-bottom: -40px;
     }
     .titulo_integridad {
         font-family: 'Poppins';
@@ -5364,14 +5365,13 @@ html {
         color: #232323;
     }
     .boton_llamada_inte {
-        margin-top: 4%;
+        margin-top: 20px;
         width: 279px;
         height: 48px;
         background: #17BA9C;
         border-radius: 30px;
         border: 0px;
         margin-left: -30%;
-        
     }
      /* section 7 */ 
 
@@ -7594,7 +7594,7 @@ html {
             color: #232323;
         }
         .boton_llamada_inte {
-            margin-top: 1%;
+            margin-top: 5%;
             width: 279px;
             height: 48px;
             background: #17BA9C;
@@ -9871,7 +9871,7 @@ html {
         color: #232323;
     }
     .boton_llamada_inte {
-        margin-top: 2%;
+        margin-top: 6%;
         width: 279px;
         height: 48px;
         background: #17BA9C;
@@ -11838,7 +11838,7 @@ html {
             margin-left: 5%;
         }
         .boton_llamada_inte {
-            margin-top: 3%;
+            margin-top: 8%;
             width: 279px;
             height: 48px;
             background: #17BA9C;
@@ -13046,7 +13046,7 @@ html {
             height: 40%;
         }
         .boton_llamada_inte {
-            margin-top: 3%;
+            margin-top: 10%;
             width: 279px;
             height: 48px;
             background: #17BA9C;
