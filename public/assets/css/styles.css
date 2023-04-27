@@ -2814,6 +2814,10 @@ html {
     }
     .img_team {
         margin-top: -30px;  
+    } 
+
+    .stack_botones {
+        margin-left: -12%;
     }
 }
 
