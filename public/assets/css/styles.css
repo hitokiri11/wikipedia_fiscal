@@ -1378,15 +1378,16 @@ html {
 
     .sumando_serv {
         margin-top: 7%;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 118.2%;
+        text-align: center;
         color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tab_img2 {
         width: 30px;
@@ -4730,7 +4731,7 @@ html {
     .parte_derecha {
         float: right;
         width: 48%;
-        margin-top: 12%;
+        margin-top: 15.5%;
     }
      .video_lg {
         display: block;
@@ -5707,7 +5708,7 @@ html {
         color: #FFFFFF;
         position: absolute;
         margin-top: -13%;
-        margin-left: -210px;
+        margin-left: -27.5%;
     }
     .titulo_blog_t { 
         display: block;;
@@ -5719,11 +5720,11 @@ html {
         color: #FFFFFF;
         position: absolute;
         margin-top: -12%;
-        margin-left: 8%;
+        margin-left: 7.38%;
     }
     .titulo_noticia {
         width: 90%;
-        margin-left: 8%;
+        margin-left: 7.3%;
         text-align: left;
         font-family: 'Poppins';
         font-style: normal;
@@ -6118,15 +6119,16 @@ html {
 
     .sumando_serv {
         margin-top: 7%;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 118.2%;
+        text-align: center;
         color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tab_img2 {
         width: 67px;
@@ -6835,7 +6837,7 @@ html {
             display: none; /* Hidden by default */
             position: fixed; /* Stay in place */
             z-index: 1; /* Sit on top */
-            padding-top: 100px; /* Location of the box */
+            padding-top: 0px; /* Location of the box */
             left: 0;
             top: 0;
             width: 100%; /* Full width */
@@ -6851,7 +6853,7 @@ html {
             margin: auto;
             padding: 20px;
             border: 1px solid #888;
-            width: 80%;
+            width: 50%;
         }
         
         /* The Close Button */
@@ -7491,7 +7493,7 @@ html {
         .parte_derecha {
             float: right;
             width: 48%;
-            margin-top: 11%;
+            margin-top: 15%;
             padding-left: 1%;
         }
 
@@ -7826,7 +7828,7 @@ html {
         color: #FFFFFF;
         position: absolute;
         margin-top: -13%;
-        margin-left: -32%;
+        margin-left: -27.5%;
     }
     .titulo_noticia {
         width: 90%;
@@ -8168,18 +8170,18 @@ html {
         border: 0px solid #ccc;
         border-top: none;
     }
-
     .sumando_serv {
         margin-top: 7%;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 118.2%;
+        text-align: center;
         color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tab_img2 {
         width: 67px;
@@ -8681,7 +8683,7 @@ html {
     .parte_derecha {
         float: right;
         width: 48%;
-        margin-top: 11%;
+        margin-top: 14.5%;
         padding-left: 1%;
     }
 
@@ -8840,7 +8842,7 @@ html {
     .parte_derecha {
         float: right;
         width: 48%;
-        margin-top: 11%;
+        margin-top: 14%;
         padding-left: 1%;
     }
 
@@ -9164,7 +9166,7 @@ html {
     .parte_derecha {
         float: right;
         width: 48%;
-        margin-top: 7%;
+        margin-top: 10.5%;
         padding-right: 5%;
     }
     .video_lg {
@@ -10471,16 +10473,19 @@ html {
 
     .sumando_serv {
         margin-top: 7%;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 118.2%;
+        text-align: center;
         color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+
     .tab_img2 {
         width: 67px;
         height: 67px;
@@ -10878,7 +10883,7 @@ html {
     .parte_derecha {
         float: right;
         width: 48%;
-        margin-top: 7%;
+        margin-top: 10%;
         padding-right: 9%;
     }
     .video_lg {
@@ -11179,7 +11184,7 @@ html {
         .parte_derecha {
             float: right;
             width: 55%;
-            margin-top: 7%;
+            margin-top: 9.5%;
         }
         .video_lg {
             display: block;
@@ -12313,16 +12318,17 @@ html {
     }
 
     .sumando_serv {
-        margin-top: 4%;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 7%;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 30px;
         line-height: 118.2%;
+        text-align: center;
         color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tab_img2 {
         width: 67px;
@@ -12728,6 +12734,14 @@ html {
             padding-left: 16%;
             padding-right: 10%;
         }
+
+        .titulo_noticia {
+            margin-left: 7.5%;
+        }
+
+        .titulo_blog_t { 
+            margin-left: 7.5%;
+        }
         
     }
 
@@ -12891,7 +12905,7 @@ html {
         .parte_derecha {
             float: right;
             width: 55%;
-            margin-top: 7%;
+            margin-top: 9%;
         }
         .video_lg {
             display: block;
@@ -13163,7 +13177,7 @@ html {
         .parte_derecha {
             float: right;
             width: 55%;
-            margin-top: 7%;
+            margin-top: 9%;
         }
         .video_lg {
             display: block;

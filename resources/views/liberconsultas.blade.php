@@ -38,7 +38,14 @@
                                                         onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" style="cursor: pointer;">
                                                         ...
                                                     </a>
-                                            </p>
+                                            </p> 
+
+                                            <br>
+                                        <a id="myBtn" onclick="modal_video('{{$v->video}}','{{$v->id}}','{{$v->titulo}}','{{$v->descripcion}}')" 
+                                            type="button" 
+                                            style=" border-radius: 30px; background: #17BA9C;
+                                                    color:white;border: 0px;padding-left:10px;
+                                                    padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;" >Ver</a>
                                     </div>
                                 </div>
                             </td>
@@ -139,7 +146,7 @@
     const modal_video = (video,id,titulo, descripcion) => {     
 
         let html = `
-            <div class="ratio ratio-16x9">
+            <div class="ratio ratio-18x9" style="width:100%;">
                 <label class="titulo_video" style=" margin-bottom: 5%;">${titulo}</label>
                 <video  class="prop_video" id="video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
                 </video >
@@ -147,7 +154,11 @@
             </div>
             <div class ="parraf_video" style="text-align:justify;font-size:16px;margin-top:1%;">
             ${descripcion}
-            </div>
+            </div> 
+            <a style="width:14%;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
+            padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
+            margin-top:20px; margin-left:600px;" 
+            type="button"  class="close2">Cerrar</a>
         `;
         
         fetch('/liberconsultas/acum_view/'+id)
@@ -167,23 +178,25 @@
     var btn = document.getElementById("myBtn");
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
+  
 
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
-    modal.style.display = "block";
+        modal.style.display = "block";
     }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
-    modal.style.display = "none";
-    }
+        modal.style.display = "none";
+    } 
+
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+   /*  window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
+    } */
 
 
     
