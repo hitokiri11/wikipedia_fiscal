@@ -441,6 +441,13 @@
 
     window.addEventListener("load", function() {
         document.getElementById('boton1').click();
+        document.getElementById('tab1').click(); 
+        
+        document.getElementById("laboral_gif").style.opacity = "1";
+        document.getElementById("ley_gif").style.opacity = "0.5";
+        document.getElementById("intelectual_gif").style.opacity = "0.5";
+        document.getElementById("contractual_gif").style.opacity = "0.5";
+        
     });
 
     window.onclick=openCity(event,'1'); 
@@ -474,7 +481,11 @@
                     document.getElementById("tab_img_opa_2").style.display = "block";  */
 
                     document.getElementById("area_cont").style.color = "#232323"
-                    document.getElementById("area_fiscal").style.color = "#9A9EA6"
+                    document.getElementById("area_fiscal").style.color = "#9A9EA6" 
+                    document.getElementById("areacontable_gif").style.opacity = "1";
+
+                    document.getElementById("areacontable_gif").style.opacity = "1";
+                    document.getElementById("fiscal_gif").style.opacity = "0.5";
                 } 
 
                 if(cityName == 2) {
@@ -484,8 +495,10 @@
                     document.getElementById("tab_img_opa_1").style.display = "block";  */
 
                     document.getElementById("area_fiscal").style.color = "#232323"
-                    document.getElementById("area_cont").style.color = "#9A9EA6"
+                    document.getElementById("area_cont").style.color = "#9A9EA6" 
                     
+                    document.getElementById("areacontable_gif").style.opacity = "0.5";
+                    document.getElementById("fiscal_gif").style.opacity = "1";
                 }
 
                
@@ -530,7 +543,13 @@
                     document.getElementById("area_laboral").style.color = "#232323"
                     document.getElementById("area_legal").style.color = "#9A9EA6"
                     document.getElementById("prop_int").style.color = "#9A9EA6"
-                    document.getElementById("des_cont").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#9A9EA6" 
+
+
+                    document.getElementById("laboral_gif").style.opacity = "1";
+                    document.getElementById("ley_gif").style.opacity = "0.5";
+                    document.getElementById("intelectual_gif").style.opacity = "0.5";
+                    document.getElementById("contractual_gif").style.opacity = "0.5";
 
                 }
 
@@ -556,7 +575,15 @@
                     document.getElementById("area_laboral").style.color = "#9A9EA6"
                     document.getElementById("area_legal").style.color = "#232323"
                     document.getElementById("prop_int").style.color = "#9A9EA6"
-                    document.getElementById("des_cont").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#9A9EA6" 
+
+
+                   
+                    document.getElementById("laboral_gif").style.opacity = "0.5"; 
+                    document.getElementById("ley_gif").style.opacity = "1";
+                    document.getElementById("intelectual_gif").style.opacity = "0.5";
+                    document.getElementById("contractual_gif").style.opacity = "0.5";
+
                 }
 
                 if(cityName == "tab3") { 
@@ -581,7 +608,12 @@
                     document.getElementById("area_laboral").style.color = "#9A9EA6"
                     document.getElementById("area_legal").style.color = "#9A9EA6"
                     document.getElementById("prop_int").style.color = "#232323"
-                    document.getElementById("des_cont").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#9A9EA6" 
+
+                    document.getElementById("laboral_gif").style.opacity = "0.5"; 
+                    document.getElementById("ley_gif").style.opacity = "0.5";
+                    document.getElementById("intelectual_gif").style.opacity = "1";
+                    document.getElementById("contractual_gif").style.opacity = "0.5";
                 }
 
                 if(cityName == "tab4") { 
@@ -606,7 +638,13 @@
                     document.getElementById("area_laboral").style.color = "#9A9EA6"
                     document.getElementById("area_legal").style.color = "#9A9EA6"
                     document.getElementById("prop_int").style.color = "#9A9EA6"
-                    document.getElementById("des_cont").style.color = "#232323"
+                    document.getElementById("des_cont").style.color = "#232323" 
+
+
+                    document.getElementById("laboral_gif").style.opacity = "0.5"; 
+                    document.getElementById("ley_gif").style.opacity = "0.5";
+                    document.getElementById("intelectual_gif").style.opacity = "0.5";
+                    document.getElementById("contractual_gif").style.opacity = "1";
 
                 }
                 
