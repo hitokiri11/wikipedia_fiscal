@@ -19,8 +19,11 @@
             <a  href="/servicios" id="barra-servicios" style="color: #8C8C8C" >Servicios</a>
            <!--  <div  class="barra-servicios" id="barra-servicios"></div> -->
         </li>
-        <li >
-            <a  href="/blog"  id="barra-blog" style="color: #8C8C8C" >Blog</a>
+        <li > 
+            <!-- Temporalmente oculto --> 
+            
+            <!-- <a  href="/blog"  id="barra-blog" style="color: #8C8C8C" >Blog</a> -->
+
             <!-- <div class="barra-blog" id="barra-blog"></div> -->
         </li>
         <li >
@@ -36,10 +39,10 @@
             <!-- <div class="barra-cliente" id="barra-cliente"></div> -->
         </li>
         @if(Auth::guard('cliente')->check())
-        <li >
-            <a  href="/cliente" id="barra-libercosultas" style="color: #8C8C8C" >Consultas</a>
+        <!-- <li >
+            <a  href="/cliente" id="barra-libercosultas" style="color: #8C8C8C" >Consultas</a> -->
             <!-- <div class="barra-cliente" id="barra-cliente"></div> -->
-        </li>
+     <!--    </li> -->
         @endif
         <li>
             <button type="button" class="boton_llamada" >

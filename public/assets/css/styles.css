@@ -2008,6 +2008,7 @@ html {
                 padding: 20px;
                 border: 1px solid #888;
                 width: 80%;
+                padding-bottom: 36px;
             }
             
             /* The Close Button */
@@ -2429,7 +2430,7 @@ html {
         min-width: 100%;
         padding-left: 1%;
         transition: .3s ease all;
-        box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+        /* box-shadow: 5px 5px 10px rgba(0,0,0, .3); */
     }
 
     .contenedor-carousel2 .carousel2 .pelicula2.hover {
@@ -2527,7 +2528,7 @@ html {
 
     .tarjeta_botones {
         margin-top: 30px;
-        width: 70%;
+        width: 40%;
         margin-left: 10px;
         margin-right: auto;
         background: #fff;
@@ -2816,8 +2817,73 @@ html {
         margin-top: -30px;  
     } 
 
-    .stack_botones {
-        margin-left: -12%;
+
+
+    .contacto_footer_resp {
+        width: 60%;
+        margin-top: 9%;
+        text-align: left; 
+        margin-left:30px;
+    } 
+
+    .titulo_contacto {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #232323;
+        text-align: left;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .item_contacto {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        color: #232323;
+        margin-left: 0%;
+        width: 160px;
+        margin-top: 4%;
+    } 
+
+    .div_footer2 { 
+        margin-top: 50px;
+        display: block;
+        float: left;
+        width:250px;
+        margin-left: 30px;
+        margin-right: auto;
+        color: #000;
+    } 
+
+    .footer_responsive {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 2%;
+        margin-right: auto;
+        margin-bottom: 60px;
+        height: 400px;
+    } 
+
+    .foot_copy_resp {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #232323;
+        margin-top: 50px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .img_foot_resp {
+        margin-left:10px;
     }
 }
 
@@ -3039,8 +3105,8 @@ html {
     }   
     .tarjeta_botones {
         margin-top: 30px;
-        width: 296px;
-        margin-left: 0px;
+        width: 90%;
+        margin-left: auto;
         margin-right: auto;
         background: #fff;
         box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
@@ -3130,8 +3196,8 @@ html {
         color: #17BA9C;
         margin-bottom: 30px;
     }
-    .img_foot_resp {
-        margin-left: -55%;
+    .img_foot_resp { 
+        margin-left: -140px;
     }
     .sociales {
         margin-top: 7%;
@@ -3218,6 +3284,15 @@ html {
     .lista_tab {
         margin-top: 3%;
         margin-left: 12px;
+    } 
+
+    .desc_nombre_fund {
+        width: 220px;
+        height: 76px;
+        position: absolute;
+        background-color: #fff;
+        top: 84%;
+        left: 12%;
     }
 }
 
@@ -3225,6 +3300,9 @@ html {
     .titulo_supervisar {
         margin-top: 5px;
         margin-bottom: 50px;
+    } 
+    .img_foot_resp { 
+        margin-left: -150px;
     }
 }
 
@@ -3490,6 +3568,23 @@ html {
         margin-top: 2px;
         margin-bottom: 50px;
     }
+    .img_foot_resp { 
+        margin-left: -170px;
+    }
+} 
+
+@media (min-width: 381px) {
+    .foot_copy {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #232323;
+        margin-top: 16%;
+        text-align: left;
+        margin-left: 7%;
+    }
 }
  
 @media (min-width: 385px) {
@@ -3499,6 +3594,11 @@ html {
     }
 }
 
+@media (min-width: 389px) {
+    .foot_copy_resp {
+        margin-top: 60px;
+    }
+}
 
 @media (min-width: 412px) {
     .icon {
@@ -3863,7 +3963,12 @@ html {
 
     .img_team {
         margin-top: 30px;  
+    } 
+
+    .img_foot_resp { 
+        margin-left: -230px;
     }
+
 }
 
 @media (min-width: 425px) {
@@ -4018,6 +4123,10 @@ html {
     
     .img_team {
         margin-top: 60px;  
+    } 
+
+    .img_foot_resp { 
+        margin-left: -260px;
     }
 } 
 
@@ -4029,6 +4138,10 @@ html {
 
     .img_team {
         margin-top: 80px;  
+    } 
+
+    .img_foot_resp { 
+        margin-left: -290px;
     }
 }
 
@@ -4179,6 +4292,23 @@ html {
     .img_team {
         margin-top: 130px;  
     }
+
+    .img_foot_resp { 
+        margin-left: -320px;
+    }
+}
+
+@media (min-width: 555px) {
+    .img_foot_resp { 
+        margin-left: -350px;
+    }
+}
+
+
+@media (min-width: 591px) {
+    .img_foot_resp { 
+        margin-left: -380px;
+    }
 }
 
 
@@ -4296,6 +4426,12 @@ html {
 
     .img_team {
         margin-top: 170px;  
+    } 
+
+    @media (min-width: 555px) {
+        .img_foot_resp { 
+            margin-left: -410px;
+        }
     }
 }
 
@@ -4463,6 +4599,10 @@ html {
 
     .img_team {
         margin-top: 220px;  
+    } 
+
+    .img_foot_resp { 
+        margin-left: -490px;
     }
 }
 
@@ -4537,9 +4677,11 @@ html {
         
     } 
     
+    .img_foot_resp { 
+        margin-left: -530px;
+    }
 
 }
-
 
 /* ****************************************************  768     ********************************************************** */
 
@@ -4733,7 +4875,7 @@ html {
         float: left;
         width: 42%;
         margin-top: 10%;
-        margin-left: 4%;
+        margin-left: -1%;
     }
     .parte_derecha {
         float: right;
@@ -6390,7 +6532,7 @@ html {
             min-width: 33%;
             padding-left: 1%;
             transition: .3s ease all;
-            box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+           /*  box-shadow: 5px 5px 10px rgba(0,0,0, .3); */
         }
 
         .contenedor-carousel .carousel .pelicula.hover {
@@ -6604,7 +6746,7 @@ html {
             }
             .tit_liberfy_footer {
                 text-align: left;
-                font-family: 'DM Sans';
+                font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 18px;
@@ -6615,7 +6757,7 @@ html {
             .item_liberfy {
                 margin-top: 2%;
                 text-align: left;
-                font-family: 'DM Sans';
+                font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
@@ -6642,6 +6784,7 @@ html {
                 line-height: 30px;
                 color: #232323;
                 margin-top: 1%;
+                margin-left: 0%;
             }
             .foot_allright {
                 float: left;
@@ -6651,7 +6794,7 @@ html {
                 font-size: 18px;
                 line-height: 30px;
                 color: #232323;
-                margin-left: 18%;
+                margin-left: 20%;
                 margin-top: 1%;
             }
             
@@ -6863,6 +7006,7 @@ html {
             padding: 20px;
             border: 1px solid #888;
             width: 50%;
+            padding-bottom: 36px;
         }
         
         /* The Close Button */
@@ -7131,7 +7275,7 @@ html {
             min-width: 24%;
             padding-left: 1%;
             transition: .3s ease all;
-            box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+            /* box-shadow: 5px 5px 10px rgba(0,0,0, .3); */
         }
 
         .contenedor-carousel2 .carousel2 .pelicula2.hover {
@@ -7398,7 +7542,7 @@ html {
             min-width: 33%;
             padding-left: 1%;
             transition: .3s ease all;
-            box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+            /* box-shadow: 5px 5px 10px rgba(0,0,0, .3); */
         }
 
         .contenedor-carousel .carousel .pelicula.hover {
@@ -8387,7 +8531,7 @@ html {
     }
     .tit_liberfy_footer {
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -8398,7 +8542,7 @@ html {
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -8829,7 +8973,7 @@ html {
     }
     .tit_liberfy_footer {
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -8840,7 +8984,7 @@ html {
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -8872,7 +9016,7 @@ html {
     }
 
     .titulo_section2 { 
-        width: 55%;
+        width: 65%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
@@ -8947,7 +9091,7 @@ html {
     }
     .tit_liberfy_footer {
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -8958,7 +9102,7 @@ html {
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -9209,25 +9353,25 @@ html {
         /* background-color: #afd6af; */
         background: #27282B;
         height: 72px;
-        padding-left: 5%;
+        padding-left: 2%;
         padding-right: 1%;
-        padding-top: 13px;
+        padding-top: 8px;
     }
 
     .logo_head {
-        margin-left: 6%;
+        margin-left: 9%;
         float: left;
     }
 
     .menu { 
         font-family: 'Poppins';
-        width:80%;
+        width:100%;
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
         color: #8C8C8C;
-        margin-left: 1%;
+        margin-left: 8%;
         display: block;
         float: left;
     }
@@ -9259,7 +9403,7 @@ html {
         height: 48px;
         background: #17BA9C;
         border-radius: 30px;
-        margin-left: 14%;
+        margin-left: 1%;
         border: 0px;
     }
     .texto-boton-llamada_menu {
@@ -10645,7 +10789,7 @@ html {
     }
     .tit_liberfy_footer {
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -10655,7 +10799,7 @@ html {
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -11175,25 +11319,27 @@ html {
             height: 72px;
             padding-left: 5%;
             padding-right: 1%;
-            padding-top: 13px;
+            padding-top: 10px;
         }
     
         .logo_head {
             margin-left: 6%;
             float: left;
+            margin-top: 4px;
         }
     
         .menu { 
             font-family: 'Poppins';
-            width:80%;
+            width:100%;
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 18px;
             color: #8C8C8C;
-            margin-left: 3%;
+            margin-left: 1%;
             display: block;
-            float: left;
+            float: left; 
+            padding-top: 10px;
         } 
        
         ul {
@@ -11206,10 +11352,10 @@ html {
         nav ul li {
             display: inline-block;
             line-height: 42px;
-            margin: 0 2.5%;
+            margin: 0 1%;
         }
         nav ul li a {
-            font-size: 14px;
+            font-size: 14px; 
         }
     
         .checkbtn {
@@ -11240,6 +11386,7 @@ html {
             background: red;
             border-radius: 60px;
             border: 0px;
+            margin-left: 30px;
         }
 
         /* section 1 */
@@ -12656,7 +12803,7 @@ html {
     }
     .tit_liberfy_footer {
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -12666,7 +12813,7 @@ html {
     .item_liberfy {
         margin-top: 2%;
         text-align: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -12761,7 +12908,7 @@ html {
             margin-right: auto;
 
         }
-}
+
         /* liberfy video */ 
 
         .icon {
@@ -12901,7 +13048,7 @@ html {
         }
         .tit_liberfy_footer {
             text-align: left;
-            font-family: 'DM Sans';
+            font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;

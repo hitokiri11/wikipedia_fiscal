@@ -15,18 +15,18 @@
                 <div class="tab" data-aos="fade-down">
                     <button class="tablinks" onclick="openCity(event, '1')" id="boton1">
                         {{-- <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_1"  class="tab_img" alt="..." onmouseover="areacontable()" > --}}
-                        <img src="{{asset('assets/img/servicios/areacontable.gif')}}"  id="areacontable_gif"  class="tab_img" alt="..."  onmouseout="areacontableOut()" >
+                        <img src="{{asset('assets/img/servicios/areacontable.gif')}}"  id="areacontable_gif"  class="tab_img" alt="..."   >
 
                         {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}"  id="tab_img_opa_1" style="display: none;"  class="tab_img" alt="..."> --}}
-                        <div class="titulo_tab_tab">Área Contable</div>
+                        <div class="titulo_tab_tab" id="area_cont">Área Contable</div>
                     </button>
 
                     <button class="tablinks" onclick="openCity(event, '2')">
                         {{-- <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab_img_2" style="display: none;" class="tab_img" alt="..." onmouseover="fiscal()" >  --}} 
-                        <img src="{{asset('assets/img/servicios/fiscal.gif')}}"  id="fiscal_gif"  class="tab_img" alt="..."  onmouseout="fiscalOut()" >
+                        <img src="{{asset('assets/img/servicios/fiscal.gif')}}"  id="fiscal_gif"  class="tab_img" alt="..."   >
 
                         {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab_img_opa_2"  class="tab_img" alt="...">  --}}
-                        <div class="titulo_tab_tab">Área Fiscal</div>
+                        <div class="titulo_tab_tab" id="area_fiscal" >Área Fiscal</div>
                     </button>
                 </div> 
 
@@ -264,34 +264,34 @@
         <div class="tabb2" >
             <button class="tablinks2 active" onclick="openCity2(event, 'tab1')">
                 {{-- <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab1_img"  class="tab_img2" alt="..."  onmouseover="laboral()"> --}}
-                <img src="{{asset('assets/img/servicios/laboral.gif')}}"  id="laboral_gif"  class="tab_img2" alt="..."  onmouseout="laboralOut()" >
+                <img src="{{asset('assets/img/servicios/laboral.gif')}}"  id="laboral_gif"  class="tab_img2" alt="..."   >
                 
                 {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab1_opa"  class="tab_img2" style="display: none" alt="...">  --}}
-                <div class="titulo_tab_tab2">Área Laboral</div>
+                <div class="titulo_tab_tab2" id="area_laboral">Área Laboral</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab2')">
                 {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab2_opa"  class="tab_img2" alt="..."  >  --}}
 
               {{--   <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab2_img"  style="display: none"  class="tab_img2" alt="..." >  --}}
-                <img src="{{asset('assets/img/servicios/ley.gif')}}"  id="ley_gif"  class="tab_img2" alt="..."  onmouseout="leyOut()" >
-                <div class="titulo_tab_tab2">Área Legal</div>
+                <img src="{{asset('assets/img/servicios/ley.gif')}}"  id="ley_gif"  class="tab_img2" alt="..."   >
+                <div class="titulo_tab_tab2" id="area_legal" style="color: #9A9EA6" >Área Legal</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab3')">
                 {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab3_opa"   class="tab_img2" alt="...">  --}}
 
                 {{-- <img src="{{asset('assets/img/servicios/email.svg')}}"  id="tab3_img"  style="display: none"  class="tab_img2" alt="..." onmouseover="intelectual()" > --}}
-                <img src="{{asset('assets/img/servicios/intelectual.gif')}}"  id="intelectual_gif"  class="tab_img2" alt="..."  onmouseout="intelectualOut()" > 
-                <div class="titulo_tab_tab2">Propiedad Intelectual</div>
+                <img src="{{asset('assets/img/servicios/intelectual.gif')}}"  id="intelectual_gif"  class="tab_img2" alt="..."   > 
+                <div class="titulo_tab_tab2" id="prop_int" style="color: #9A9EA6" >Propiedad Intelectual</div>
             </button>
 
             <button class="tablinks2" onclick="openCity2(event, 'tab4')">
                 {{-- <img src="{{asset('assets/img/servicios/email_opa.svg')}}" id="tab4_opa"   class="tab_img2" alt="...">  --}}
 
                 {{-- <img src="{{asset('assets/img/servicios/email.svg')}}" id="tab4_img"   style="display: none"  class="tab_img2" alt="..." onmouseover="contractual()" >  --}}
-                <img src="{{asset('assets/img/servicios/contractual.gif')}}"  id="contractual_gif"  class="tab_img2" alt="..."  onmouseout="contractualOut()" > 
-                <div class="titulo_tab_tab2">Desarrollo Contractual</div>
+                <img src="{{asset('assets/img/servicios/contractual.gif')}}"  id="contractual_gif"  class="tab_img2" alt="..."   > 
+                <div class="titulo_tab_tab2" id="des_cont" style="color: #9A9EA6" >Desarrollo Contractual</div>
             </button>
         </div> 
  
@@ -445,7 +445,9 @@
 
     window.onclick=openCity(event,'1'); 
 
-    function openCity(evt, cityName) { 
+    function openCity(evt, cityName) {   
+
+
                 document.getElementById("titulo_tab_tab2_resp1").style.display = "block";
                 document.getElementById("titulo_tab_tab2_resp2").style.display = "none";
                 document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
@@ -466,24 +468,33 @@
                
 
                 if(cityName == 1) {
-                    document.getElementById("tab_img_1").style.display = "block";
+                   /*  document.getElementById("tab_img_1").style.display = "block";
                     document.getElementById("tab_img_opa_1").style.display = "none";
                     document.getElementById("tab_img_2").style.display = "none";
-                    document.getElementById("tab_img_opa_2").style.display = "block";
+                    document.getElementById("tab_img_opa_2").style.display = "block";  */
+
+                    document.getElementById("area_cont").style.color = "#232323"
+                    document.getElementById("area_fiscal").style.color = "#9A9EA6"
                 } 
 
                 if(cityName == 2) {
-                    document.getElementById("tab_img_2").style.display = "block";
+                    /* document.getElementById("tab_img_2").style.display = "block";
                     document.getElementById("tab_img_opa_2").style.display = "none";
                     document.getElementById("tab_img_1").style.display = "none";
-                    document.getElementById("tab_img_opa_1").style.display = "block";
+                    document.getElementById("tab_img_opa_1").style.display = "block";  */
+
+                    document.getElementById("area_fiscal").style.color = "#232323"
+                    document.getElementById("area_cont").style.color = "#9A9EA6"
+                    
                 }
 
                
     }
+ 
+
 
     function openCity2(evt, cityName) { 
-
+               
                 var i, tabcontent, tablinks;
                 tabcontent = document.getElementsByClassName("tabcontent2");
                 for (i = 0; i < tabcontent.length; i++) {
@@ -504,7 +515,7 @@
                     document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
                     document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
 
-                    document.getElementById("tab1_img").style.display = "block";
+                    /* document.getElementById("tab1_img").style.display = "block";
                     document.getElementById("tab1_opa").style.display = "none";
 
                     document.getElementById("tab2_opa").style.display = "block";
@@ -514,7 +525,13 @@
                     document.getElementById("tab3_img").style.display = "none";
 
                     document.getElementById("tab4_opa").style.display = "block";
-                    document.getElementById("tab4_img").style.display = "none";
+                    document.getElementById("tab4_img").style.display = "none"; */
+
+                    document.getElementById("area_laboral").style.color = "#232323"
+                    document.getElementById("area_legal").style.color = "#9A9EA6"
+                    document.getElementById("prop_int").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#9A9EA6"
+
                 }
 
                 if(cityName == "tab2") { 
@@ -524,7 +541,7 @@
                     document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
                     document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
 
-                    document.getElementById("tab1_opa").style.display = "block";
+                   /*  document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none";
 
                     document.getElementById("tab2_img").style.display = "block";
@@ -534,9 +551,12 @@
                     document.getElementById("tab3_img").style.display = "none";
 
                     document.getElementById("tab4_opa").style.display = "block";
-                    document.getElementById("tab4_img").style.display = "none";
+                    document.getElementById("tab4_img").style.display = "none"; */
                     
-                    
+                    document.getElementById("area_laboral").style.color = "#9A9EA6"
+                    document.getElementById("area_legal").style.color = "#232323"
+                    document.getElementById("prop_int").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#9A9EA6"
                 }
 
                 if(cityName == "tab3") { 
@@ -546,7 +566,7 @@
                     document.getElementById("titulo_tab_tab2_resp3").style.display = "block";
                     document.getElementById("titulo_tab_tab2_resp4").style.display = "none";
 
-                    document.getElementById("tab1_opa").style.display = "block";
+                  /*   document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none"; 
 
                     document.getElementById("tab2_opa").style.display = "block";
@@ -556,7 +576,12 @@
                     document.getElementById("tab3_opa").style.display = "none";
 
                     document.getElementById("tab4_opa").style.display = "block";
-                    document.getElementById("tab4_img").style.display = "none";
+                    document.getElementById("tab4_img").style.display = "none";  */
+
+                    document.getElementById("area_laboral").style.color = "#9A9EA6"
+                    document.getElementById("area_legal").style.color = "#9A9EA6"
+                    document.getElementById("prop_int").style.color = "#232323"
+                    document.getElementById("des_cont").style.color = "#9A9EA6"
                 }
 
                 if(cityName == "tab4") { 
@@ -566,7 +591,7 @@
                     document.getElementById("titulo_tab_tab2_resp3").style.display = "none";
                     document.getElementById("titulo_tab_tab2_resp4").style.display = "block";
 
-                    document.getElementById("tab1_opa").style.display = "block";
+                   /*  document.getElementById("tab1_opa").style.display = "block";
                     document.getElementById("tab1_img").style.display = "none"; 
 
                     document.getElementById("tab2_opa").style.display = "block";
@@ -576,7 +601,12 @@
                     document.getElementById("tab3_img").style.display = "none"; 
 
                     document.getElementById("tab4_img").style.display = "block";
-                    document.getElementById("tab4_opa").style.display = "none";
+                    document.getElementById("tab4_opa").style.display = "none"; */ 
+
+                    document.getElementById("area_laboral").style.color = "#9A9EA6"
+                    document.getElementById("area_legal").style.color = "#9A9EA6"
+                    document.getElementById("prop_int").style.color = "#9A9EA6"
+                    document.getElementById("des_cont").style.color = "#232323"
 
                 }
                 

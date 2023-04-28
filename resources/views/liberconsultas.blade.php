@@ -75,8 +75,10 @@
         <div id="myModal" class="modal">
             <!-- Modal content -->
             <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="body_video"></div>
+                
+                <div id="body_video"></div> 
+                
+                
             </div>
         </div>
 
@@ -155,24 +157,35 @@
         html = `
             <div class="ratio ratio-18x9" style="width:100%;">
                 <label class="titulo_video" style=" margin-bottom: 5%;">${titulo}</label>
-                <video  class="prop_video" id="video" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
+                <video  class="prop_video" id="video_${id}" src="{{asset('upload')}}/${video}"  style="width:100%;" controls>
                 </video >
                 
             </div>
             <div class ="parraf_video" style="text-align:justify;font-size:16px;margin-top:1%;">
             ${descripcion}
             </div> 
-            
+
+
+            <div style="margin-top:40px;margin-bottom:20px;">
+                                <a style="width:150px;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
+                            padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
+                            margin-top:0px; margin-left:600px; position:relative;font-size:12px;font-weight: 300;" 
+                            type="button" class="close" onClick="stopVideo(${id})" >Cerrar <span >&times;</span></a>
+            </div>
+
+
         `;
 
 
         btn2.onclick = function() {
                 modal2.style.display = "block";
-        }
-
-        span2.onclick = function() {
-            modal2.style.display = "none";
         } 
+
+
+    /*     span2.onclick = function() {
+            modal2.style.display = "none";
+        }  */
+
         /* <a style="width:14%;border-radius: 30px; background: #17BA9C;color:white;border: 0px;padding-left:10px;
             padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
             margin-top:20px; margin-left:600px;" 
@@ -203,11 +216,18 @@
     btn.onclick = function() {
         modal.style.display = "block";
     }
+ 
+    function stopVideo (val) {
+            console.log(val) 
+            modal.style.display = "none"; 
+            document.getElementById(`video_${val}`).pause();
+        }
+
 
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    } 
+    /*  span.onclick = function() {
+            modal.style.display = "none";
+        } */ 
 
 
     // When the user clicks anywhere outside of the modal, close it

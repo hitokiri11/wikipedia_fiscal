@@ -4,17 +4,37 @@
         <!-- <hr class="div_footer"> -->
 
         <div class="footer_responsive">
-            <img src="{{asset('assets/img/LOGO2.svg')}}"  class="img_foot_resp"/> 
+            <img src="{{asset('assets/img/LOGO2.svg')}}"  class="img_foot_resp"/>  
 
-            <div class="sociales">
+                    <div class="contacto_footer_resp">
+                        <table>
+                            <tr>
+                                <td><p class="titulo_contacto">Contacto</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="item_contacto">{{-- <i class="far fa-envelope fa-xs"></i> --}}<img src="{{asset('assets/img/home/Email.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;Info@liberfy.es</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="item_contacto">{{-- <i class="fa fa-phone fa-xs" ></i> --}}<img src="{{asset('assets/img/home/Phone.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;688 75 99 86</p></td>
+                            </tr>
+                            <tr>
+                                <td><p class="item_contacto">{{-- <i class="fa fa-map-marker-alt fa-xs"></i> --}}<img src="{{asset('assets/img/home/Mark.png')}}" width="16" style="margin-bottom: -2px;"/>&nbsp;&nbsp;C. Fuente Cisneros, 37, 28922 Alcorcón, Madrid </p></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <hr class="div_footer2" > 
+                    <div class="foot_copy_resp">
+                        Copyright &copy; 2023
+                    </div>
+            <!-- <div class="sociales">
                 <a href="/"><img src="{{asset('assets/img/home/facebook.png')}}"  />
                 <a href="/"><img src="{{asset('assets/img/home/youtube.png')}}"  />
                 <a href="/"><img src="{{asset('assets/img/home/whatsapp.png')}}"  />
-            </div>
+            </div> -->
 
-            <div class="todos_derechos">
+            <!-- <div class="todos_derechos">
                 &copy; 2000 - 2022, All Rigths Reserved
-            </div>
+            </div> -->
         </div>
 
         <div class="footer_desktop">
