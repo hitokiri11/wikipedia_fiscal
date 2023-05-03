@@ -69,15 +69,11 @@
     
 
     if(screen.width >= 769) { 
-<<<<<<< HEAD
+
                      
                      
-                     
-                    if(/* URLactual[3] */URLactual[1] == '') { 
-=======
-        
                     if(URLactual[3] /* URLactual[1] */ == '') {
->>>>>>> 230f6620e2a1a3e71b079a0a42ec5df3aff821eb
+
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
