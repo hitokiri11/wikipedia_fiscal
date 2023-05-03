@@ -74,7 +74,7 @@
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                       /*  document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
@@ -85,7 +85,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#17BA9C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                       /*  document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -96,7 +96,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#17BA9C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
@@ -106,7 +106,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#17BA9C"
+                        /* document.getElementById('barra-blog').style.color ="#17BA9C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -116,7 +116,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#17BA9C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
@@ -126,7 +126,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#17BA9C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -136,7 +136,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#17BA9C"
@@ -145,7 +145,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -160,7 +160,7 @@
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                       /*  document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
@@ -171,7 +171,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#17BA9C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -181,7 +181,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#17BA9C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
@@ -191,7 +191,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#17BA9C"
+                        /* document.getElementById('barra-blog').style.color ="#17BA9C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -201,7 +201,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#17BA9C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -211,7 +211,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#17BA9C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
@@ -221,7 +221,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#17BA9C" 
@@ -231,7 +231,7 @@
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
-                        document.getElementById('barra-blog').style.color ="#8C8C8C"
+                        /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
