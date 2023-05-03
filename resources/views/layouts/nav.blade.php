@@ -70,7 +70,7 @@
 
     if(screen.width >= 769) { 
         
-                    if(/* URLactual[3] */ URLactual[1] == '') {
+                    if(URLactual[3] /* URLactual[1] */ == '') {
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -81,7 +81,7 @@
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
                     
-                    if(/* URLactual[3] */ URLactual[1] == 'equipo') {
+                    if(URLactual[3] /* URLactual[1] */ == 'equipo') {
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#17BA9C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -92,7 +92,7 @@
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
 
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]== 'servicios') { 
+                    if(URLactual[3] /* URLactual[1] */== 'servicios') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#17BA9C"
@@ -102,7 +102,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1] == 'blog') { 
+                    if(URLactual[3] /* URLactual[1] */ == 'blog') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -112,7 +112,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]== 'contacto') { 
+                    if(URLactual[3]/*  URLactual[1] */== 'contacto') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -122,7 +122,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]== 'dudas') { 
+                    if(URLactual[3] /* URLactual[1] */== 'dudas') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -132,7 +132,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]== 'cliente') { 
+                    if(URLactual[3] /* URLactual[1] */== 'cliente') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -156,7 +156,7 @@
 
 
 
-                    if(/* URLactual[3] */ URLactual[1] == '') { 
+                    if(URLactual[3] /* URLactual[1] */ == '') { 
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -167,7 +167,7 @@
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
                     
-                    if(/* URLactual[3] */ URLactual[1] == 'equipo') { 
+                    if(URLactual[3] /* URLactual[1] */ == 'equipo') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#17BA9C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -177,7 +177,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1] === 'servicios') { 
+                    if(URLactual[3]/*  URLactual[1] */ == 'servicios') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#17BA9C"
@@ -187,7 +187,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C" 
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]=== 'blog') { 
+                    if(URLactual[3] /* URLactual[1] */== 'blog') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -197,7 +197,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1] === 'contacto') { 
+                    if(URLactual[3] /* URLactual[1] */ == 'contacto') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -207,7 +207,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1]=== 'dudas') { 
+                    if(URLactual[3] /* URLactual[1] */ == 'dudas') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
@@ -217,7 +217,7 @@
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
                         document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else 
-                    if(/* URLactual[3] */ URLactual[1] === 'cliente') { 
+                    if(URLactual[3] /* URLactual[1] */ == 'cliente') { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
