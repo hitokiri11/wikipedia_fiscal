@@ -68,8 +68,11 @@ class LoginController extends Controller
 
             if (\Auth::guard('cliente')->attempt($request->only(['email','password']), $request->get('remember'))) { 
                 return redirect()->intended('/liberconsultas');
+            } else { 
+                \Session::flash('error','Usuario y el password no son los correctos');
+                return redirect()->to('/cliente');
             }
-
+           
             return back()->withInput($request->only('email', 'remember'));
     }
 
