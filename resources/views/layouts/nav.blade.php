@@ -66,11 +66,14 @@
     let URLactual = window.location;
     URLactual = URLactual.toString()
     URLactual = URLactual.split('/')     
-
+    
 
     if(screen.width >= 769) { 
-        
+
+                     
+                     
                     if(URLactual[3] /* URLactual[1] */ == '') {
+
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
                         document.getElementById('barra-servicios').style.color ="#8C8C8C"
