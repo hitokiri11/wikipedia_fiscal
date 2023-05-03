@@ -142,8 +142,9 @@
                         /* document.getElementById('barra-blog').style.color ="#8C8C8C" */
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
-                        document.getElementById('barra-cliente').style.color ="#17BA9C"
-                        document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
+                        document.getElementById('barra-cliente').style.color ="#17BA9C" 
+                        if(document.getElementById('barra-libercosultas'))
+                                document.getElementById('barra-libercosultas').style.color ="#8C8C8C"
                     } else { 
                         document.getElementById('barra-inicio').style.color ="#8C8C8C"
                         document.getElementById('barra-equipo').style.color ="#8C8C8C"
