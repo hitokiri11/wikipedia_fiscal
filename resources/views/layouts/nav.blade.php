@@ -152,12 +152,11 @@
                         document.getElementById('barra-contacto').style.color ="#8C8C8C"
                         document.getElementById('barra-dudas').style.color ="#8C8C8C"
                         document.getElementById('barra-cliente').style.color ="#8C8C8C"
-                        document.getElementById('barra-libercosultas').style.color ="#17BA9C"
+                        if(document.getElementById('barra-libercosultas'))
+                                document.getElementById('barra-libercosultas').style.color ="#17BA9C"
                     }
 
     } else { 
-
-
 
                     if(URLactual[3] /* URLactual[1] */ == '') { 
                         document.getElementById('barra-inicio').style.color ="#17BA9C"
