@@ -137,6 +137,13 @@
                                 Sugerir
                             </label>
                         </button> 
+                </div> 
+
+                <div style="margin-top:40px;margin-bottom:20px;">
+                                <a style="width:150px;border-radius: 30px; background: red;color:white;border: 0px;padding-left:10px;
+                            padding-right: 10px;padding-top: 3px;padding-bottom: 3px;font-family: 'Poppins';font-style: normal;cursor: pointer;
+                            margin-top:0px; margin-left:600px; position:relative;font-size:12px;font-weight: 300;" 
+                            type="button" class="close" onClick="stopVideo2()" >Cerrar <span >&times;</span></a>
                 </div>
                 
             </form>
@@ -221,8 +228,11 @@
             console.log(val) 
             modal.style.display = "none"; 
             document.getElementById(`video_${val}`).pause();
-        }
+    }
 
+    function stopVideo2 () {
+        modal.style.display = "none"; 
+    }
 
     // When the user clicks on <span> (x), close the modal
     /*  span.onclick = function() {

@@ -19,13 +19,13 @@
             <a  href="/servicios" id="barra-servicios" style="color: #8C8C8C" >Servicios</a>
            <!--  <div  class="barra-servicios" id="barra-servicios"></div> -->
         </li>
-        <li > 
+    {{--     <li >  --}}
             <!-- Temporalmente oculto --> 
             
             <!-- <a  href="/blog"  id="barra-blog" style="color: #8C8C8C" >Blog</a> -->
 
             <!-- <div class="barra-blog" id="barra-blog"></div> -->
-        </li>
+       {{--  </li> --}}
         <li >
             <a  href="/contacto"  id="barra-contacto" style="color: #8C8C8C" >Contacto</a>
             <!-- <div class="barra-contacto" id="barra-contacto"></div> -->
