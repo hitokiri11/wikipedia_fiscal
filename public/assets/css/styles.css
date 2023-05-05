@@ -4806,7 +4806,15 @@ html {
 /* ****************************************************  768     ********************************************************** */
 
 
-@media (min-width: 769px) { 
+@media (min-width: 769px) {  
+    .input-wrapper {
+        margin-top: 5%;
+       /*  width: 751px; */
+        height: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
     .carrusel_desktop2_responsive{
         display: none;
     }
@@ -5383,7 +5391,8 @@ html {
         display: grid;
         grid-template-columns: 167px 167px 167px 167px ;
         grid-template-rows: 109px 109px 109px 109px;
-        gap: 1rem;
+        gap: 1rem; 
+        justify-content: center;
     }
     .img_clientes {
         width: 167px;
@@ -7811,7 +7820,8 @@ html {
             display: grid;
             grid-template-columns: 167px 167px 167px 167px ;
             grid-template-rows: 109px 109px 109px 109px;
-            gap: 2rem;
+            gap: 2rem; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
@@ -9020,7 +9030,8 @@ html {
         grid-template-columns: 167px 167px 167px 167px 167px;
         grid-template-rows: 109px 109px 109px 109px 109px;
         gap: 0.6rem;
-        margin-bottom: -25%;
+        margin-bottom: -25%; 
+        justify-content: center;
     }
     .img_clientes {
         width: 167px;
@@ -9856,7 +9867,8 @@ html {
         grid-template-columns: 167px 167px 167px 167px 167px 167px;
         grid-template-rows: 109px 109px 109px 109px 109px 109px;
         gap: 0.6rem;
-        margin-bottom: -35%;
+        margin-bottom: -35%; 
+        justify-content: center;
     }
     .img_clientes {
         width: 167px;
@@ -11345,7 +11357,8 @@ html {
         grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
         grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
         gap: 0.6rem;
-        margin-bottom: -50%;
+        margin-bottom: -50%; 
+        justify-content: center;
     }
     .img_clientes {
         width: 167px;
@@ -11911,7 +11924,8 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 2%;
-            margin-bottom: -30%;
+            margin-bottom: -30%; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
@@ -13335,7 +13349,9 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 2%;
-            margin-bottom: -25%;
+            margin-bottom: -25%; 
+            justify-content: center;
+            
         }
         .img_clientes {
             width: 167px;
@@ -13740,7 +13756,8 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 2%;
-            margin-bottom: -25%;
+            margin-bottom: -25%; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
@@ -13968,7 +13985,8 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 1.5%;
-            margin-bottom: -20%;
+            margin-bottom: -20%; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
@@ -14099,7 +14117,8 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 2%;
-            margin-bottom: -15%;
+            margin-bottom: -15%; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
@@ -14208,7 +14227,8 @@ html {
             grid-template-columns: 167px 167px 167px 167px 167px 167px 167px;
             grid-template-rows: 109px 109px 109px 109px 109px 109px 109px;
             gap: 2%;
-            margin-bottom: -15%;
+            margin-bottom: -15%; 
+            justify-content: center;
         }
         .img_clientes {
             width: 167px;
