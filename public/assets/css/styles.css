@@ -130,7 +130,13 @@ html {
         height: 72px;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 17px;
+        padding-top: 17px; 
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
     }
     .logo_head {
         float: left;
@@ -1252,11 +1258,17 @@ html {
         border-top: none;
     }
    
-    .tab_img {
+/*     .tab_img {
         width: 70%;
         height: auto;
+    } */
+    
+    .tab_img {
+        width: 67px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
-
     .titulo_tab {
         display: block;
         margin-top: 7%;
@@ -4804,7 +4816,13 @@ html {
         height: 72px;
         padding-left: 1%;
         padding-right: 1%;
-        padding-top: 17px;
+        padding-top: 17px; 
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
     }
     .logo_head {
         margin-left: 2%;
@@ -5249,7 +5267,7 @@ html {
         margin-top: 8%;
     }
     .stack_clientes {
-        margin-top: 3%;
+        margin-top: 70px;
         display: block; 
         width: 96%;
         margin-left: auto;
@@ -6777,25 +6795,25 @@ html {
             }
             .foot_copy {
                 float: left;
-                font-family: 'DM Sans';
+                font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 30px;
                 color: #232323;
-                margin-top: 1%;
+                margin-top: 10px;
                 margin-left: 0%;
             }
             .foot_allright {
                 float: left;
-                font-family: 'DM Sans';
+                font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 30px;
                 color: #232323;
-                margin-left: 20%;
-                margin-top: 1%;
+                margin-left: 25%;
+                margin-top: -30px;
             }
             
         /* footer */ 
@@ -7667,7 +7685,7 @@ html {
             margin-top: 8%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 70px;
             display: block; 
             width: 90%;
             margin-left: auto;
@@ -8562,7 +8580,7 @@ html {
     }
     .foot_copy {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -8572,14 +8590,14 @@ html {
     }
     .foot_allright {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
         color: #232323;
-        margin-left: 28%;
-        margin-top: 1%;
+        margin-left: 32%;
+        margin-top: -30px;
     }
     
 /* footer */ 
@@ -8868,7 +8886,7 @@ html {
         margin-top: 8%;
     }
     .stack_clientes {
-        margin-top: 3%;
+        margin-top: 80px;
         display: block; 
         width: 90%;
         margin-left: auto;
@@ -9365,7 +9383,7 @@ html {
 
     .menu { 
         font-family: 'Poppins';
-        width:100%;
+        width:92%;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -9704,7 +9722,7 @@ html {
         margin-top: 8%;
     }
     .stack_clientes {
-        margin-top: 3%;
+        margin-top: 90px;
         display: block; 
         width: 90%;
         margin-left: auto;
@@ -10819,7 +10837,7 @@ html {
     }
     .foot_copy {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -10829,14 +10847,14 @@ html {
     }
     .foot_allright {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
         color: #232323;
         margin-left: 46%;
-        margin-top: 1%;
+        margin-top: -30px;
     }
     
 /* footer */ 
@@ -11079,6 +11097,20 @@ html {
     }
 }
 
+@media (min-width: 1313px) {
+    .foot_allright {
+        float: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #232323;
+        margin-left: 54%;
+        margin-top: -30px;
+    }
+}
+
 @media (min-width: 1328px) {   
     .tarjetas {
         margin-top: 1%;
@@ -11174,7 +11206,7 @@ html {
         
     }
     .stack_clientes {
-        margin-top: 3%;
+        margin-top: 90px;
         display: block; 
         width: 94%;
         margin-left: auto;
@@ -11728,10 +11760,6 @@ html {
             border: 0px;
         }
         
-        .stack_clientes {
-            display: none;
-        } 
-
          /* section 4 */
         .titulo_cliente {
             display: block; 
@@ -11744,7 +11772,7 @@ html {
             margin-top: 8%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 100px;
             display: block; 
             width: 94%;
             margin-left: auto;
@@ -12833,7 +12861,7 @@ html {
     }
     .foot_copy {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -12843,14 +12871,14 @@ html {
     }
     .foot_allright {
         float: left;
-        font-family: 'DM Sans';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
         color: #232323;
         margin-left: 54%;
-        margin-top: 1%;
+        margin-top: -30px;
     }
     
     /* footer */ 
@@ -12981,6 +13009,20 @@ html {
             margin-top: 2.7%;
             margin-left: -8%;
         }       
+    }
+
+    @media (min-width: 1541px) {
+        .foot_allright {
+            float: left;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #232323;
+            margin-left: 50%;
+            margin-top: 15px;
+        }
     }
    
     @media (min-width: 1550px) {
@@ -13147,7 +13189,7 @@ html {
             margin-top: 6%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 100px;
             display: block; 
             width: 82%;
             margin-left: auto;
@@ -13536,7 +13578,7 @@ html {
             margin-top: 1%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 50px;
             display: block; 
             width: 74%;
             margin-left: auto;
@@ -13552,6 +13594,11 @@ html {
             height: 109px;
         }
 
+        .logo_head {
+            margin-left: 6%;
+            float: left;
+            margin-top: -2px;
+        }
         /* section 4 */
     }
 
@@ -13702,6 +13749,12 @@ html {
             padding-top: 2.5%;
         }
 
+        .logo_head {
+            margin-left: 6%;
+            float: left;
+            margin-top: -3px;
+        }
+
     }
 
     @media (min-width: 2200px) { 
@@ -13732,7 +13785,7 @@ html {
             margin-top: 1%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 50px;
             display: block; 
             width: 64%;
             margin-left: auto;
@@ -13764,6 +13817,16 @@ html {
         .lista_tab {
             margin-top: 3%;
             margin-left: 90px;
+        } 
+
+        .logo_head {
+            margin-left: 6%;
+            float: left;
+            margin-top: 4px;
+            height: 50px;
+        }
+        .menu {
+            margin-top: -60px;
         }
     } 
 
@@ -13837,7 +13900,7 @@ html {
             margin-top: 1%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 50px;
             display: block; 
             width:58%;
             margin-left: auto;
@@ -13939,7 +14002,7 @@ html {
             margin-top: 1%;
         }
         .stack_clientes {
-            margin-top: 3%;
+            margin-top: 50px;
             display: block; 
             width:52%;
             margin-left: auto;

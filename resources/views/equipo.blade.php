@@ -204,7 +204,7 @@
             éxito uno o varios de los modelos de negocio para los que fueron creados nuestros servicios.
             <br><br>
             En el sector del alquiler tenemos <b>RentaYa</b> que gestiona más de 300 inquilinos aplicando el Rent to Rent 
-            y el E-Rent, mmientras que si hablamos de Flipping House tenemos a <b>Viflip</b> una solución inmobiliaria 
+            y el E-Rent, mientras que si hablamos de Flipping House tenemos a <b>Viflip</b> una solución inmobiliaria 
             que se acerca a las 70 operaciones.
             <br><br>
             Otra de las empresas del grupo es <b>Inversores Inteligentes</b>, la Escuela de Negocios del sector 
