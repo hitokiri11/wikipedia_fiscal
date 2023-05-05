@@ -41,10 +41,10 @@
                                 <td><p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Cookies</a></p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_liberfy"><a href="https://info.liberfy.es/pol%C3%ADticas-de-privacidad" style="color: #000;" >Políticas de Privacidad</a></p></td>
+                                <td><p class="item_liberfy"><a href="https://info.liberfy.es/pol%C3%ADticas-de-privacidad" target="blank" style="color: #000;" >Políticas de Privacidad</a></p></td>
                             </tr>
                             <tr>
-                                <td><p class="item_liberfy"><a href="https://info.liberfy.es/consentimiento-de-comunicaciones" style="color: #000;" >Aviso Legal</a></p></td>
+                                <td><p class="item_liberfy"><a href="https://info.liberfy.es/consentimiento-de-comunicaciones"  target="blank" style="color: #000;" >Aviso Legal</a></p></td>
                             </tr>
                         </table>
                     </div>
@@ -101,10 +101,10 @@
                             <td><p class="item_liberfy"><a href="#" style="color: #000;" >Políticas de Cookies</a></p></td>
                         </tr>
                         <tr>
-                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/pol%C3%ADticas-de-privacidad" style="color: #000;" >Políticas de Privacidad</a></p></td>
+                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/pol%C3%ADticas-de-privacidad" target="blank"  style="color: #000;" >Políticas de Privacidad</a></p></td>
                         </tr>
                         <tr>
-                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/consentimiento-de-comunicaciones" style="color: #000;" >Aviso Legal</a></p></td>
+                            <td><p class="item_liberfy"><a href="https://info.liberfy.es/consentimiento-de-comunicaciones" target="blank"  style="color: #000;" >Aviso Legal</a></p></td>
                         </tr>
                     </table>
                 </div>
