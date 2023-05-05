@@ -31,9 +31,9 @@
 
                 <div class="label_log">
                         <label class="label_input" for="password">Contraseña</label>
-                        <div class="input-wrapper">
-                            <input type="password" id="password" name="password" class="input_log" > 
-                            <button id="show_password" class="btn_icon icon" type="button" onclick="mostrarPass();" > 
+                        <div class="input-wrapper ">
+                            <input type="password" id="password" name="password" class="input_log redondeo_izq redondeo_der" > 
+                            <button id="show_password" class="btn_icon icon redondeo_izq redondeo_der" type="button" onclick="mostrarPass();" > 
                                 <i id="iconfa" class="fa fa-eye-slash" style="color:#17BA9C;"></i> 
                                 <i id="iconfa2" class="fa fa-eye" style="display: none;color:#17BA9C;"></i>
                             </button>
