@@ -2857,7 +2857,7 @@ html {
         text-align: left;
         color: #232323;
         margin-left: 0%;
-        width: 160px;
+        width: 120%;
         margin-top: 4%;
     } 
 
@@ -3524,6 +3524,13 @@ html {
     
     .img_team {
         margin-top: -10px;  
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -30px;
     }
 }
 
@@ -3594,6 +3601,13 @@ html {
     }
     .img_foot_resp { 
         margin-left: -170px;
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -40px;
     }
 } 
 
@@ -3694,7 +3708,12 @@ html {
     .pag {
         width: 340px;
     }
-
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -40px;
+    }
 }
 
 @media (min-width: 414px) {  
@@ -3990,7 +4009,7 @@ html {
     } 
 
     .img_foot_resp { 
-        margin-left: -230px;
+        margin-left: -200px;
     }
 
     .sociales {
