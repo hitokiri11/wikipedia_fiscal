@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="boton_section1">
-            <button type="button" class="boton_llamada_" >
+            <button type="button" class="boton_llamada_"  onclick="agendaLlamada()">
                 <label class="texto-boton-llamada">Agenda una llamada</label>
             </button>
         </div>

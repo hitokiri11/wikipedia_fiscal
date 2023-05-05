@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 
     <title>Liberfy</title>
-    <link rel="icon" type="image/x-icon" href="{{asset('assets/favicon.ico')}}" />
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/img/favicon.svg')}}"  />
 
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">

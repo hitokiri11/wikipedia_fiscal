@@ -19,6 +19,11 @@
                     duration: 1000,
                     disable: 'mobile'
                 });
+
+                function agendaLlamada() {
+                    window.open("https://info.liberfy.es/emprendedores-del-siglo-xxi-0", "_blank");
+                }
+
         </script>
 
     </body>

@@ -45,7 +45,7 @@
      <!--    </li> -->
         @endif
         <li>
-            <button type="button" class="boton_llamada" >
+            <button type="button" class="boton_llamada" onclick="agendaLlamada()">
                 <label class="texto-boton-llamada_menu" >Agenda una llamada</label>
             </button>
         </li>

@@ -39,7 +39,7 @@ Nos enorgullecemos de ser 100% digitales y aún así estar 100% para ti.
             <div class="tit_comprobar">
 ¿Quieres comprobarlo?
             </div> 
-            <button type="button" class="boton_llamada_inte" >
+            <button type="button" class="boton_llamada_inte" onclick="agendaLlamada()">
                     <label class="texto-boton-llamada">Agenda una llamada</label>
             </button>
 

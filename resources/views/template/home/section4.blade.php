@@ -68,7 +68,7 @@
                 </button> --}}
             </div>
             <div class="boton_sectioon">
-                <button type="button" class="boton_llamada_asesoria" >
+                <button type="button" class="boton_llamada_asesoria" onclick="agendaLlamada()" >
                     <label class="texto-boton-llamada">Agenda una llamada</label>
                 </button>
             </div>

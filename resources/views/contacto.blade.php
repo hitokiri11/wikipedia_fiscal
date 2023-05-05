@@ -51,7 +51,7 @@
                               </td>
                               <td>
                                     <div class="tit_contacto">
-                                          Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de nuestros asesores especializados
+                                          Agenda <a href="#" onclick="agendaLlamada()"><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno de nuestros asesores especializados
                                     </div>
                               </td>
                         </tr>
@@ -79,7 +79,7 @@
                               <tr>
                                     <td>
                                           <br>
-                                          <label style="font-size:50px">.</label>&nbsp;&nbsp;Agenda <a href=""><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno 
+                                          <label style="font-size:50px">.</label>&nbsp;&nbsp;Agenda <a href="#" onclick="agendaLlamada()"><strong style="color:#17BA9C;">aquí una llamada</strong></a> con uno 
                                           <br>&nbsp;&nbsp;&nbsp;&nbsp;de nuestros asesores especializados
                                           
                                     </td>
