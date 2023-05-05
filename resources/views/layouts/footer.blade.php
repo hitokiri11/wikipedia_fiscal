@@ -6,6 +6,12 @@
         <div class="footer_responsive">
             <img src="{{asset('assets/img/LOGO2.svg')}}"  class="img_foot_resp"/>  
 
+            <div class="sociales">
+                <a href="/"><img src="{{asset('assets/img/home/facebook.png')}}"  />
+                <a href="/"><img src="{{asset('assets/img/home/youtube.png')}}"  />
+                <a href="/"><img src="{{asset('assets/img/home/whatsapp.png')}}"  />
+            </div> 
+
                     <div class="contacto_footer_resp">
                         <table>
                             <tr>
@@ -60,6 +66,13 @@
 
         <div class="footer_desktop">
                 <a href="/"><img src="{{asset('assets/img/LOGO2.svg')}}"  class="logo_footer" /> 
+
+                <div class="sociales">
+                    <a href="/"><img src="{{asset('assets/img/home/facebook.png')}}"  />
+                    <a href="/"><img src="{{asset('assets/img/home/youtube.png')}}"  />
+                    <a href="/"><img src="{{asset('assets/img/home/whatsapp.png')}}"  />
+                </div> 
+                
                 <div class="contacto_footer">
                         <table>
                             <tr>

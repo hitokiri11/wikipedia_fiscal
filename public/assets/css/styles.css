@@ -286,7 +286,6 @@ html {
         background: #17BA9C;
         border-radius: 30px;
         border: 0px;
-        
     }
     .texto-boton-llamada {
         width: 203px;
@@ -1812,8 +1811,7 @@ html {
     .sociales {
         margin-top: 7%;
         width: 90%;
-        margin-right: auto;
-        margin-left: -20%;
+        margin-left: 0px;
     }
 
     .todos_derechos {
@@ -2833,16 +2831,16 @@ html {
 
     .contacto_footer_resp {
         width: 60%;
-        margin-top: 20px;
+        margin-top: 40px;
         text-align: left; 
-        margin-left:30px;
+        margin-left:40px;
     } 
 
     .titulo_contacto {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 22px;
         color: #232323;
         text-align: left;
@@ -2854,7 +2852,7 @@ html {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
         text-align: left;
         color: #232323;
@@ -2885,13 +2883,13 @@ html {
     .liberfy_2023 {
         text-align: left;
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
         width: 90%;
         margin-right: auto;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
         color: #232323;
     }
@@ -3226,10 +3224,10 @@ html {
         margin-left: -140px;
     }
     .sociales {
-        margin-top: 7%;
+        margin-top:50px;
         width: 90%;
         margin-right: auto;
-        margin-left: -12%;
+        margin-left: -20px;
     }
 
     .titulo_section2 { 
@@ -3995,12 +3993,25 @@ html {
         margin-left: -230px;
     }
 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -50px;
+    }
+
 }
 
 @media (min-width: 425px) {
     .titulo_supervisar {
         margin-top: 0px;
         margin-bottom: 50px;
+    } 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -60px;
     }
 }
 
@@ -4153,6 +4164,12 @@ html {
 
     .img_foot_resp { 
         margin-left: -260px;
+    } 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -70px;
     }
 } 
 
@@ -4168,6 +4185,12 @@ html {
 
     .img_foot_resp { 
         margin-left: -290px;
+    } 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -90px;
     }
 }
 
@@ -4321,6 +4344,13 @@ html {
 
     .img_foot_resp { 
         margin-left: -320px;
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -110px;
     }
 }
 
@@ -4334,6 +4364,13 @@ html {
 @media (min-width: 591px) {
     .img_foot_resp { 
         margin-left: -380px;
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -120px;
     }
 }
 
@@ -4458,6 +4495,12 @@ html {
         .img_foot_resp { 
             margin-left: -410px;
         }
+    } 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -140px;
     }
 }
 
@@ -4519,6 +4562,13 @@ html {
         line-height: 138.2%;
         color: #000000;
         margin-left: -10px;
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -150px;
     }
     
 } 
@@ -4629,6 +4679,13 @@ html {
 
     .img_foot_resp { 
         margin-left: -490px;
+    } 
+
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -180px;
     }
 }
 
@@ -4705,6 +4762,12 @@ html {
     
     .img_foot_resp { 
         margin-left: -530px;
+    }
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -200px;
     }
 
 }
@@ -4883,7 +4946,7 @@ html {
         height: 28px;
         background: #17BA9C;
         border-radius: 30px;
-        margin-left: 1%;
+        margin-left: 55%;
         border: 0px;
     }
     .texto-boton-llamada_menu {
@@ -6744,7 +6807,15 @@ html {
                 margin-left: 2%;
                 margin-top: 10%;
                 margin-right: 7%;
+            } 
+
+            .sociales { 
+                float: left;
+                width: 24%;
+                margin-left: -20%;
+                margin-top: 20%;
             }
+            
             .titulo_contacto {
                 font-family: 'Poppins';
                 font-style: normal;
@@ -7385,7 +7456,9 @@ html {
 
         .tit_ocult {
             display: block;
-        }
+        } 
+
+      
 }
 
 @media (min-width: 800px) {
@@ -8852,6 +8925,13 @@ html {
         padding-top: 4.5%;
     }
 
+    .sociales { 
+        float: left;
+        width: 24%;
+        margin-left: -26%;
+        margin-top: 150px;
+    }
+
 }
 
 @media (min-width: 1017px) {  
@@ -9435,7 +9515,7 @@ html {
         height: 48px;
         background: #17BA9C;
         border-radius: 30px;
-        margin-left: 1%;
+        margin-left: 16%;
         border: 0px;
     }
     .texto-boton-llamada_menu {
@@ -11084,7 +11164,12 @@ html {
             margin-left: -24.9%;
         }
           
-
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 170px;
+        }
 }
 
 @media (min-width: 1210px) { 
@@ -11415,7 +11500,7 @@ html {
             height: 48px;
             background: #17BA9C;
             border-radius: 30px;
-            margin-left: 20%;
+            margin-left: 90%;
             border: 0px;
         }
         .texto-boton-llamada_menu {
@@ -13005,6 +13090,13 @@ html {
             width: 300px;
             padding-left: 2px;
             padding-right: 2px;
+        } 
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 200px;
         }
         
     }
@@ -13331,6 +13423,13 @@ html {
         .lista_tab {
             margin-top: 3%;
             margin-left: 70px;
+        } 
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 220px;
         }
     }
 
@@ -13360,6 +13459,15 @@ html {
             width: 329px;
             margin-left: auto;
             margin-right: auto;
+        } 
+
+        .boton_llamada {
+            width: 190px;
+            height: 48px;
+            background: #17BA9C;
+            border-radius: 30px;
+            margin-left: 100%;
+            border: 0px;
         }
     }
 
@@ -13613,6 +13721,13 @@ html {
             float: left;
             margin-top: -2px;
         }
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 240px;
+        }
         /* section 4 */
     }
 
@@ -13767,8 +13882,22 @@ html {
             margin-left: 6%;
             float: left;
             margin-top: -3px;
-        }
+        } 
 
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 260px;
+        }
+        .boton_llamada {
+            width: 190px;
+            height: 48px;
+            background: #17BA9C;
+            border-radius: 30px;
+            margin-left: 130%;
+            border: 0px;
+        }
     }
 
     @media (min-width: 2200px) { 
@@ -13893,6 +14022,22 @@ html {
             mix-blend-mode: luminosity;
             float: left;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        } 
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 280px;
+        } 
+
+        .boton_llamada {
+            width: 190px;
+            height: 48px;
+            background: #17BA9C;
+            border-radius: 30px;
+            margin-left: 160%;
+            border: 0px;
         }
     }
 
@@ -13965,6 +14110,13 @@ html {
             gap: 8px;
             padding-left: 28%;
             padding-right: 24%;
+        } 
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 300px;
         }
     }
 
@@ -14089,6 +14241,22 @@ html {
 
         .card {
             padding-top: 2%;
+        } 
+
+        .sociales { 
+            float: left;
+            width: 24%;
+            margin-left: -25%;
+            margin-top: 340px;
+        } 
+
+        .boton_llamada {
+            width: 190px;
+            height: 48px;
+            background: #17BA9C;
+            border-radius: 30px;
+            margin-left: 210%;
+            border: 0px;
         }
     }
 

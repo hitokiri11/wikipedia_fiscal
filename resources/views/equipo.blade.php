@@ -334,7 +334,7 @@
                 </div>
             </div>
             
-            <div class="capa_tarjeta">
+            {{-- <div class="capa_tarjeta">
                 <img src="assets/img/team/integrantes/integrante10.svg" class="width_img2">
                 <div class="desc_nombre">
                     <hr style="background-color: #17BA9C;height: 8.73px;" >    
@@ -345,7 +345,7 @@
                         Abogada Mercantil
                     </p>
                 </div>
-            </div>
+            </div> --}}
 
       </div>
 
@@ -484,7 +484,7 @@
             </div>
 
             {{-- CUARTA FILA --}}
-            <div class="row_img4" data-aos="fade-up"
+            {{-- <div class="row_img4" data-aos="fade-up"
      data-aos-anchor-placement="top-center">
                 <div class="capa_tarjeta">
                     <img src="assets/img/team/integrantes/integrante10.svg" class="width_img2">
@@ -497,24 +497,11 @@
                             Abogada Mercantil
                         </p>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="capa_tarjeta">
+                {{-- <div class="capa_tarjeta">
                     <div  class="width_img2_vacio" ></div>
-                    {{-- <div class="desc_nombre">
-                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
-                        <p class="nombre_integrante">
-                            Vicky Gonzalez
-                        </p>
-                        <p class="cargo_integrante">
-                            Abogada Mercantil
-                        </p>
-                    </div> --}}
-                </div>
-
-                <div class="capa_tarjeta">
-                    <div  class="width_img2_vacio" ></div>
-                    {{-- <div class="desc_nombre">
+                    <div class="desc_nombre">
                         <hr style="background-color: #17BA9C;height: 8.73px;" >    
                         <p class="nombre_integrante">
                             Vicky Gonzalez
@@ -524,55 +511,21 @@
                         </p>
                     </div>
                 </div> --}}
-            </div>
 
-
-           {{--  <div class="contenedor-principal2">
-
-                    <div class="contenedor-carousel2">
-                        <div class="carousel2">
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante1.png" class="width_img2">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante2.png" class="width_img2">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante3.png" class="width_img2">
-                            </div>
-
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante4.png" class="width_img2">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante5.png" class="width_img2">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante6.png" class="width_img2">
-                            </div>
-
-
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante7.png" class="width_img">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante8.png" class="width_img">
-                            </div>
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante9.png" class="width_img">
-                            </div>
-
-
-                            <div class="pelicula2">
-                                <img src="assets/img/team/integrantes/integrante10.png" class="width_img">
-                            </div>
-                        </div>
+               {{--  <div class="capa_tarjeta">
+                    <div  class="width_img2_vacio" ></div>
+                    <div class="desc_nombre">
+                        <hr style="background-color: #17BA9C;height: 8.73px;" >    
+                        <p class="nombre_integrante">
+                            Vicky Gonzalez
+                        </p>
+                        <p class="cargo_integrante">
+                            Abogada Mercantil
+                        </p>
                     </div>
+                </div>
             </div> --}}
-            {{-- <div style="float: right; margin-right: 10%">
-                <a role="button" id="flecha-izquierda2" class="flecha-izquierda2"><i class="fas fa-arrow-circle-left fa-xl" style="color: #17BA9C;"></i></a>
-                <a role="button" id="flecha-derecha2" class="flecha-derecha2"><i class="fas fa-arrow-circle-right fa-xl" style="color: #17BA9C;"></i></a>
-            </div> --}}
+            
         </div>
 
 
