@@ -3636,6 +3636,18 @@ html {
     .foot_copy_resp {
         margin-top: 60px;
     }
+} 
+
+@media (min-width: 405px) { 
+    .img_foot_resp { 
+        margin-left: -190px;
+    } 
+    .sociales {
+        margin-top:50px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: -50px;
+    }
 }
 
 @media (min-width: 412px) {
