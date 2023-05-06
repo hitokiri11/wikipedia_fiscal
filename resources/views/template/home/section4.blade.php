@@ -9,7 +9,7 @@
                         {{-- <img src="assets/img/home/Group30.png" id="inscribete"  onmouseover="inscribete()"/> --}}
                         <img src="assets/img/home/inscribite.gif"  id="inscribete_gif"  width="58" height="58"    />
                         <div class="texto_botones">
-                            Inscribite
+                            Inscríbite
                         </div>
                 </div>
                 <div class="tarjeta_botones">
