@@ -34,7 +34,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-    <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" /> 
+  <!--   <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" />  -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <script src="{{asset('assets/js/scripts.js')}}"></script> 
 

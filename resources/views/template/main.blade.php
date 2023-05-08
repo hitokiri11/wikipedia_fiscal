@@ -14,7 +14,22 @@
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
          
-        <script>
+        <script> 
+
+                var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);  
+
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                
+                if (isSafari) {
+                        link.href = 'assets/css/stylesSafari.css';
+                } else {
+                        link.href = 'assets/css/styles.css';
+                }    
+
+                document.getElementsByTagName('head')[0].appendChild(link);
+
                 AOS.init({
                     duration: 1000,
                     disable: 'mobile'
